@@ -40,7 +40,7 @@ curl https://install.meteor.com/ | sh
 ### Installation
 
 ```
-git clone git@github.com:amazingBastard/minimal-agency.git
+git clone git@github.com:withpulp/minimal-agency.git
 cd minimal-agency
 meteor
 ```

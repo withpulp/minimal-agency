@@ -1,0 +1,133 @@
+// Declare variables for use in all stylesheets
+
+// Monochrome
+
+@dark:         #000;
+@gray-darker:  lighten(#000, 13.5%); // #222
+@gray-dark:    lighten(#000, 20%);   // #333
+@gray:         lighten(#000, 33.5%); // #555
+@gray-light:   lighten(#000, 46.7%); // #777
+@gray-lighter: lighten(#000, 93.5%); // #eee
+@light:        #fff;
+
+// Brand
+
+@primary-color: #3546B0;
+@secondary-color: #0B0F27;
+
+// Global
+
+@font-color: @gray-dark;
+@link-color: @primary-color;
+@icon-color: @primary-color;
+@line-color: @gray-lighter;
+@background-color: @light;
+
+// Alerts
+
+@positive-color: #27AE60;
+@negative-color: #E74C3C;
+@caution-color: #F1C40F;
+@info-color: #00A2D3;
+
+// Animation Speed
+
+@fastest: 100ms;
+@faster: 150ms;
+@fast: 200ms;
+@slow: 250ms;
+@slower: 300ms;
+@slowest: 350ms;
+
+// Margin and Padding
+
+@space-micro: 0.05rem;
+@space-mini: 0.15rem;
+@space-tiny: 0.25rem;
+@space-smallest: 0.5rem;
+@space-smaller: 0.75rem;
+@space-small: 1rem;
+@space-base: 1.25rem;
+@space-normal: 1.5rem;
+@space-medium: 1.75rem;
+@space-large: 2rem;
+@space-larger: 2.5rem;
+@space-largest: 3rem;
+@space-huge: 3.5rem;
+@space-jumbo: 4rem;
+@space-massive: 5rem;
+@space-giant: 6rem;
+@space-collosal: 7rem;
+@space-titanic: 8rem;
+@space-galactic: 9rem;
+@space-god: 10rem;
+
+// Grid Widths
+
+@eighth: 12.5%;
+@quarter: 25%;
+@third: 33.333%;
+@half: 50%;
+@third: 66.666%;
+@three-quarters: 75%;
+@full: 100%;
+
+// Fluid Spaces
+
+@fluid-eighth: 12.5vh;
+@fluid-quarter: 25vh;
+@fluid-third: 33.333vh;
+@fluid-half: 50vh;
+@fluid-third: 66.666vh;
+@fluid-three-quarters: 75vh;
+@fluid-full: 100vh;
+
+// Typography
+
+@font-family-sans-serif: 'Open Sans', Helvetica, Arial, sans-serif;
+@font-family-serif: 'Lora', Georgia, 'Times New Roman', Times, serif;
+@font-family-monospace: 'Inconsolata', Menlo, Monaco, Consolas, 'Courier New', monospace;
+@font-family-base: @font-family-monospace;
+
+@font-size-adjuster: 0.90;
+
+@font-size-micro: 0.15rem;
+@font-size-mini: 0.25rem;
+@font-size-tiny: 0.5rem;
+@font-size-smallest: 0.75rem;
+@font-size-smaller: 1rem;
+@font-size-small: 1.25rem;
+@font-size-base: 1.5rem;
+@font-size-large: 1.75rem;
+@font-size-larger: 2rem;
+@font-size-largest: 2.5rem;
+@font-size-huge: 3rem;
+@font-size-jumbo: 4rem;
+@font-size-massive: 5rem;
+@font-size-giant: 6rem;
+@font-size-collosal: 7rem;
+@font-size-titanic: 8rem;
+@font-size-galactic: 9rem;
+@font-size-god: 10rem;
+
+@line-height-small: 0.5;
+@line-height-base: 1;
+@line-height-large: 1.5;
+@line-height-jumbo: 2;
+@line-height-computed: floor((@font-size-base * @line-height-base));
+
+@headings-font-family: inherit;
+@headings-font-weight: bold;
+@headings-line-height: @line-height-large;
+@headings-color: @secondary-color;
+
+// Media Queries
+
+@phone-width: 30em;
+@tablet-width: 48em;
+@desktop-width: 62em;
+@medium-desktop-width: 80em;
+@large-desktop-width: 90em;
+@larger-desktop-width: 120em;
+@largest-desktop-width: 160em;
+@huge-desktop-width: 190em;
