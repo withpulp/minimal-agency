@@ -5,6 +5,6 @@ if (Meteor.App) {
 }
 
 Meteor.App = {
-  NAME: '&micro;Tool | Tools for the Modern Man',
+  NAME: 'µTool | Tools for the Modern Man',
   DESCRIPTION: 'Tools for the Modern Man.'
 };
