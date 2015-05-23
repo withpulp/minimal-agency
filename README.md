@@ -1,6 +1,6 @@
 # Minimal Agency Webapp
 
-A website for an agency / startup.
+A website for an agency / startup built with Meteor.
 
 Demo here: [agency.meteor.com](http://agency.meteor.com).
 
