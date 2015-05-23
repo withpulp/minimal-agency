@@ -101,7 +101,7 @@ client/             # Client folder
   templates/          # Contains all templates
     layouts/            # Router layouts
     views/              # All the views
-    components/         # UI elements and components (i.e. forms, actions, etc...)
+    modules/         # UI elements and components (i.e. forms, actions, etc...)
 models/             # Model files, for each Meteor.Collection
 private/            # Private files
 public/             # Public files
