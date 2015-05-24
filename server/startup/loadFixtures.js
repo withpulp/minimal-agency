@@ -15,4 +15,8 @@ Meteor.startup(function () {
   if (Clients.find().count() === 0) {
     loadFixture(Fixtures['clients'], Clients);
   }
+
+  if (Clients.find().count() === 0) {
+    loadFixture(Fixtures['services'], Services);
+  }
 });
