@@ -3,6 +3,7 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.services = [
   {
-    service: 'Project X'
+    service: 'Service X',
+    description: 'Leveraging our minds, limbs and souls we design..'
   }
 ];
