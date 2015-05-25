@@ -15,4 +15,24 @@
   &:focus {
     background: darken(@gray-lighter, @eighth);
   }
+
+  &.primary {
+    background: @primary-color;
+    color: @light;
+
+    &:hover,
+    &:focus {
+      background: darken(@primary-color, @eighth);
+    }
+  }
+
+  &.secondary {
+    background: @secondary-color;
+    color: @light;
+
+    &:hover,
+    &:focus {
+      background: darken(@secondary-color, @eighth);
+    }
+  }
 }
