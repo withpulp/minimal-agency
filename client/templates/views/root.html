@@ -3,12 +3,12 @@
   <div class="root">
 
     <div class="mission">
-      <h1>Mission statement here</h1>
+      <h1 class="mission statement">Mission statement here</h1>
     </div><!--mission-->
 
     <div class="rtb benefits">
-      <h3>Benefits leading statement</h3>
-      <ul>
+      <h3 class="leading statement">Benefits leading statement</h3>
+      <ul class="unstyled list">
         <li>Benefit 1</li>
         <li>Benefit 2</li>
         <li>Beneift 3</li>
@@ -16,36 +16,34 @@
     </div><!--benefits-->
 
     <section class="rtb clients">
-      <h3>Clients leading statement</h3>
-        <img src="http://placehold.it/150x150" />
-        <img src="http://placehold.it/150x150" />
-        <img src="http://placehold.it/150x150" />
+      <h3 class="leading statement">Clients leading statement</h3>
+      <img src="http://placehold.it/150x150" />
+      <img src="http://placehold.it/150x150" />
+      <img src="http://placehold.it/150x150" />
     </section><!--clients-->
 
     <div class="rtb services">
-      <h3>Services leading statement</h3>
-        <ul>
+      <h3 class="leading statement">Services leading statement</h3>
+        <ul class="unstyled list">
           <li>Service 1</li>
           <li>Service 2</li>
           <li>Service 3</li>
         </ul>
-        <a href="/">View All</a>
+        <a class="route link" href="{{pathFor 'services'}}">View All</a>
     </div><!--services-->
 
     <div class="rtb tools">
-      <h3>Tools leading statement</h3>
-      <ul>
-        <section>
-          <img src="http://placehold.it/150x150" />
-          <img src="http://placehold.it/150x150" />
-          <img src="http://placehold.it/150x150" />
-        </section>
-        <a href="/">View All</a>
+      <h3 class="leading statement">Tools leading statement</h3>
+      <ul class="unstyled list">
+        <li class="list item"><img src="http://placehold.it/150x150" /></li>
+        <li class="list item"><img src="http://placehold.it/150x150" /></li>
+        <li class="list item"><img src="http://placehold.it/150x150" /></li>
+        <a class="route link" href="{{pathFor 'projects'}}">View All</a>
       </ul>
     </div><!--tools-->
 
-    <div class="CTA">
-      <button>Call to Action</button>
+    <div class="cta">
+      <button class="primary cta button">Call to Action</button>
     </div><!--CTA-->
 
   </div>
