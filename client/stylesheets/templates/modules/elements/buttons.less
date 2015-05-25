@@ -1,0 +1,18 @@
+@import '../../../variables';
+
+// button styles
+
+.button {
+  margin: @space-small auto;
+	padding: @space-smallest @space-small;
+  border: 0;
+  border-radius: @space-tiny;
+	background: @gray-lighter;
+	color: @font-color;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: darken(@gray-lighter, @eighth);
+  }
+}
