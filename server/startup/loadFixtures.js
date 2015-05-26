@@ -21,6 +21,6 @@ Meteor.startup(function () {
   }
 
   if (Clients.find().count() === 0) {
-    loadFixture(Fixtures['leadership'], Leadership);
+    loadFixture(Fixtures['members'], Members);
   }
 });
