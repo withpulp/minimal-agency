@@ -19,4 +19,8 @@ Meteor.startup(function () {
   if (Clients.find().count() === 0) {
     loadFixture(Fixtures['services'], Services);
   }
+
+  if (Clients.find().count() === 0) {
+    loadFixture(Fixtures['leadership'], Leadership);
+  }
 });
