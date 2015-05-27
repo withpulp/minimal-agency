@@ -3,18 +3,17 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.members = [
   {
-    name: 'Husam',
+    name: 'Husam Machlovi',
     title: 'Partner, Product Management',
-    descriptin: '',
-    email: '',
+    description: '',
     twitter: '',
     linkedin: '',
     github: ''
   },
   {
-    name: 'Damir',
+    name: 'Damir Vazgird',
     title: 'Partner, Technology',
-    descriptin: '',
+    description: '',
     email: '',
     twitter: '',
     linkedin: '',
