@@ -15,7 +15,7 @@ Fixtures.services = [
     description: 'We collaborate closely with our Clients throughout the entire process to maximize testing and get to market sooner.'
   },
   {
-    service: 'Small teams with Senior leaders',
-    description: 'Each client engagement is led by a small, dedicated team led by one partner.'
+    service: 'Small teams. Senior Leadership.',
+    description: 'Each client engagement is led by a partner and a small, dedicated team. In our experience, this maximizes effectiveness and efficiecny.'
   }
 ];
