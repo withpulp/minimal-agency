@@ -5,25 +5,81 @@ Router.route('/', {
 });
 
 Router.route('/about', {
-	name: 'about'
+	name: 'about',
+	data: function() {
+    return Members.find();
+  },
+  waitOn: function () {
+    return [
+      Meteor.subscribe('members')
+    ]
+  },
+  action: function () {
+    if (this.ready())
+      this.render('about');
+    else
+      this.render('loading');
+  }
 }, function () {
   SEO.set({ title: Meteor.App.NAME });
 });
 
 Router.route('/services', {
-	name: 'services'
+	name: 'services',
+	data: function() {
+    return Services.find();
+  },
+  waitOn: function () {
+    return [
+      Meteor.subscribe('services')
+    ]
+  },
+  action: function () {
+    if (this.ready())
+      this.render('services');
+    else
+      this.render('loading');
+  }
 }, function () {
   SEO.set({ title: Meteor.App.NAME });
 });
 
 Router.route('/tools', {
-	name: 'tools'
+	name: 'tools',
+	data: function() {
+    return Projects.find();
+  },
+  waitOn: function () {
+    return [
+      Meteor.subscribe('projects')
+    ]
+  },
+  action: function () {
+    if (this.ready())
+      this.render('tools');
+    else
+      this.render('loading');
+  }
 }, function () {
   SEO.set({ title: Meteor.App.NAME });
 });
 
 Router.route('/clients', {
-	name: 'clients'
+	name: 'clients',
+	data: function() {
+    return Clients.find();
+  },
+  waitOn: function () {
+    return [
+      Meteor.subscribe('clients')
+    ]
+  },
+  action: function () {
+    if (this.ready())
+      this.render('clients');
+    else
+      this.render('loading');
+  }
 }, function () {
   SEO.set({ title: Meteor.App.NAME });
 });
