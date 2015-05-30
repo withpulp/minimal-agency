@@ -4,7 +4,7 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.members = [
   {
     name: 'Husam Machlovi',
-    photo: 'http://placehold.it/200x200,'
+    photo: 'http://placehold.it/200x200',
     title: 'Partner, Product Management',
     description: 'Husam guides clients in their efforts to envision, plan, and roll out best-in-category experiences. Prior to uTool, Husam oversaw digital product strategy for multi-million dollar companies including Johnson & Johnson and Pfizer.',
     twitter: 'http://twitter.com/hmachlovi',
