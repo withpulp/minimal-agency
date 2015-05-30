@@ -7,12 +7,12 @@ Fixtures.services = [
     description: 'Product Strategy is our bread and Design & Development our butter. We have tools and resources that span Strategy, User Research, Design, Technology, Analytics & Optimization'
   },
   {
-    service: 'Prototypes > Presentations',
-    description: 'We take an iterative approach to design and development'
+    service: 'Prototypes over Presentations',
+    description: 'We take an iterative approach to design and development that embraces feedback throughout the entire process.'
   },
   {
     service: 'Team Game: Client + uTool',
-    description: 'We collaborate closely with our Clients to maximize effectiveness and optimize time to market'
+    description: 'We collaborate closely with our Clients throughout the entire process to maximize testing and get to market sooner.'
   },
   {
     service: 'Small teams with Senior leaders',
