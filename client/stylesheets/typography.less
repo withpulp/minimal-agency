@@ -42,10 +42,12 @@ html {
 
     a {
       color: @primary-color;
+      font-family: @font-family-serif;
+      text-decoration: none;
 
       &:hover,
       &:focus {
-        color: darken(@primary-color, @eighth);
+        text-decoration: underline;
       }
     }
 
@@ -62,7 +64,7 @@ html {
       margin-bottom: @space-base;
       color: @secondary-color;
       font-weight: bold;
-      font-family: @font-family-sans-serif;
+      font-family: @font-family-serif;
 
       small {
         color: lighten(@secondary-color, @eighth);
