@@ -6,8 +6,8 @@ Fixtures.root = [
     mission: 'We Help Businesses Grow',
     sections: [
       {
-        header: 'Attract more customers with more',
-        text: [
+        statement: 'Attract more customers with more',
+        points: [
             {
               text: 'Growth Opportunities'
             },
@@ -26,8 +26,8 @@ Fixtures.root = [
         ]
       },
       {
-        header: 'Here is our recent track record',
-        text: [
+        statement: 'Here is our recent track record',
+        points: [
             {
               date: '2015 May',
               metric: 'Purchases',
@@ -61,8 +61,8 @@ Fixtures.root = [
         ]
       },
       {
-        header: 'services header',
-        text: [
+        statement: 'We provide:',
+        points: [
             {
               text: 'test'
             },
@@ -75,8 +75,8 @@ Fixtures.root = [
         ]
       },
       {
-        header: 'process header',
-        text: [
+        statement: 'process header',
+        points: [
             {
               text: 'test'
             },
@@ -89,8 +89,8 @@ Fixtures.root = [
         ]
       },
       {
-        header: 'tools header',
-        text: [
+        statement: 'tools header',
+        points: [
             {
               text: 'test'
             },
