@@ -16,11 +16,15 @@ Meteor.startup(function () {
     loadFixture(Fixtures['clients'], Clients);
   }
 
-  if (Clients.find().count() === 0) {
+  if (Services.find().count() === 0) {
     loadFixture(Fixtures['services'], Services);
   }
 
-  if (Clients.find().count() === 0) {
+  if (Members.find().count() === 0) {
     loadFixture(Fixtures['members'], Members);
+  }
+
+  if (Root.find().count() === 0) {
+    loadFixture(Fixtures['root'], Root);
   }
 });
