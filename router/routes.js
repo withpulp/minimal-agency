@@ -1,5 +1,19 @@
 Router.route('/', {
-	name: 'root'
+	name: 'root',
+	data: function() {
+		return Root.find();
+	},
+	waitOn: function () {
+		return [
+			Meteor.subscribe('root')
+		]
+	},
+	action: function () {
+		if (this.ready())
+			this.render('root');
+		else
+			this.render('loading');
+	}
 }, function () {
   SEO.set({ title: Meteor.App.NAME });
 });
