@@ -3,33 +3,60 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.root = [
   {
-    mission: '/images/clients/logo.png',
+    mission: 'We Help Businesses Grow',
     sections: [
       {
-        header: 'benefits header',
+        header: 'Attract more customers with more',
         text: [
             {
-              text: 'test'
+              text: 'Growth Opportunities'
             },
             {
-              text: 'test',
+              text: 'Trial Signups',
             },
             {
-              text: 'test',
+              text: 'Leads',
+            },
+            {
+              text: 'Sales and Purchases',
+            },
+            {
+              text: 'Click-throughs',
             }
         ]
       },
       {
-        header: 'clients header',
+        header: 'Here is our recent track record',
         text: [
             {
-              text: 'test'
+              date: '2015 May',
+              metric: 'Purchases',
+              percent: '25%',
+              client: 'Wholesale E-commerce Company'
             },
             {
-              text: 'test',
+              date: '2015 May',
+              metric: 'Signups',
+              percent: '30%',
+              client: 'Wholesale E-commerce Company'
             },
             {
-              text: 'test',
+              date: '2015 March',
+              metric: 'Signups',
+              percent: '40%',
+              client: 'Yoga Instructor'
+            },
+            {
+              date: '2015 February',
+              metric: 'Signups',
+              percent: '40%',
+              client: 'Product Strategy Consultant'
+            },
+            {
+              date: '2015 January',
+              metric: 'Donations',
+              percent: '15%',
+              client: 'Non-profit Organization'
             }
         ]
       },
