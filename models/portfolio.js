@@ -1,6 +1,6 @@
-Projects = new Mongo.Collection('projects');
+Portfolio = new Mongo.Collection('portfolio');
 
-Projects.allow({
+Portfolio.allow({
   insert: function (userId, doc) {
     return (userId && doc.ownerId === userId);
   },
@@ -13,8 +13,8 @@ Projects.allow({
   fetch: ['ownerId']
 });
 
-Projects.helpers({
+Portfolio.helpers({
   projects: function() {
-    return Projects.find();
+    return Portfolio.find();
   }
 });

@@ -8,8 +8,8 @@ function loadFixture(fixtures, collection) {
 }
 
 Meteor.startup(function () {
-  if (Projects.find().count() === 0) {
-    loadFixture(Fixtures['projects'], Projects);
+  if (Portfolio.find().count() === 0) {
+    loadFixture(Fixtures['portfolio'], Portfolio);
   }
 
   if (Clients.find().count() === 0) {

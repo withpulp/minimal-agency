@@ -4,7 +4,7 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.services = [
   {
     service: 'Digital Products and Services',
-    description: 'Product Strategy is our bread and Design & Development our butter. We have tools and resources that span Strategy, User Research, Design, Technology, Analytics & Optimization'
+    description: 'Product Development is our speciality. We have tools and resources that span Strategy, User Research, Design, Technology, Analytics & Optimization'
   },
   {
     service: 'Prototypes over Presentations',
@@ -16,6 +16,6 @@ Fixtures.services = [
   },
   {
     service: 'Small teams. Senior Leadership.',
-    description: 'Each client engagement is led by a partner and a small, dedicated team. In our experience, this maximizes effectiveness and efficiecny.'
+    description: 'Each client engagement is led by a partner and a small, dedicated team. In our experience, this maximizes effectiveness and efficiency.'
   }
 ];
