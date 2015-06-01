@@ -27,4 +27,8 @@ Meteor.startup(function () {
   if (Root.find().count() === 0) {
     loadFixture(Fixtures['root'], Root);
   }
+
+  if (Process.find().count() === 0) {
+    loadFixture(Fixtures['process'], Process);
+  }
 });
