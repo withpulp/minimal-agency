@@ -65,7 +65,7 @@ Router.route('/tools', {
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('porfolio')
+      Meteor.subscribe('portfolio')
     ]
   },
   action: function () {
