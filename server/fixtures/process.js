@@ -11,7 +11,15 @@ Fixtures.process = [
       },
       {
         statement: 'Outcome Definition',
-        description: ''
+        description: 'We define what successful execution looks like. This metric becomes our validator and guides all priorities.'
+      },
+      {
+        statement: 'Prototype Development',
+        description: 'We produce a prototype and a test plan. Our objective is to shatter all assumptions and cull the prototype down to it\'s true form.'
+      },
+      {
+        statement: 'Deployment and Testing',
+        description: 'We ship the prototype, monitor data using a suite of tools and iterate appropriately.'
       }
         ]
   }
