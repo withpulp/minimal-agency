@@ -61,11 +61,11 @@ Router.route('/services', {
 Router.route('/tools', {
 	name: 'tools',
 	data: function() {
-    return Projects.find();
+    return Portfolio.find();
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('projects')
+      Meteor.subscribe('porfolio')
     ]
   },
   action: function () {
