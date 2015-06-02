@@ -61,16 +61,10 @@ Fixtures.root = [
         ]
       },
       {
-        statement: 'We provide:',
+        statement: 'We specialize in Product Design and Development',
         points: [
             {
-              text: 'test'
-            },
-            {
-              text: 'test',
-            },
-            {
-              text: 'test',
+              text: 'Learn about our specialities and process'
             }
         ]
       },

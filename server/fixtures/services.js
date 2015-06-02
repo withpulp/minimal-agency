@@ -4,7 +4,7 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.services = [
   {
     service: 'Digital Products and Services',
-    description: 'Product Development is our speciality. We have tools and resources that span Strategy, User Research, Design, Technology, Analytics & Optimization'
+    description: 'Product Development is our speciality. We have tools and resources that span Strategy, User Research, Design, Technology, Analytics & Optimization.'
   },
   {
     service: 'Prototypes over Presentations',
