@@ -11,7 +11,11 @@
   z-index: 1;
 
   .root.view {
-  	margin: 0 @space-jumbo;
+    margin: 0;
     padding: @space-base;
+
+    @media (min-width: @desktop-width) {
+      margin: 0 @space-jumbo;
+    }
   }
 }
