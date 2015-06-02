@@ -64,25 +64,7 @@ Fixtures.root = [
         statement: 'We specialize in Product Design and Development',
         points: [
             {
-              text: 'Analysis'
-            },
-            {
-              text: 'Strategy',
-            },
-            {
-              text: 'User Research',
-            },
-            {
-              text: 'Heuristic Evaluations',
-            },
-            {
-              text: 'Design',
-            },
-            {
-              text: 'Development',
-            },
-            {
-              text: 'Optimization',
+              text: 'Learn about our specialities and process'
             }
         ]
       },
