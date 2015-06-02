@@ -3,10 +3,14 @@
 // helper styles
 
 .list {
-  text-indent: @space-large;
-
   &.unstyled {
     padding: 0;
 	  list-style-type: none;
   }
+}
+
+@media (min-width: 1200px) {
+  .list {
+    text-indent: @space-large;
+}
 }
