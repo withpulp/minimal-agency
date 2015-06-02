@@ -2,7 +2,7 @@
 
 // views styles
 
-.view {
+.view.container {
   position: relative;
   margin-bottom: @fluid-full;
   background: @background-color;
@@ -10,8 +10,8 @@
   background-size: @space-largest @space-largest;
   z-index: 1;
 
-  &.root {
-  	padding: @space-base;
+  .root.view {
   	margin: 0 @space-jumbo;
+    padding: @space-base;
   }
 }
