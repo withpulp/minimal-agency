@@ -14,7 +14,7 @@ Portfolio.allow({
 });
 
 Portfolio.helpers({
-  projects: function() {
+  portfolio: function() {
     return Portfolio.find();
   }
 });

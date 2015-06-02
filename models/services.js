@@ -14,7 +14,7 @@ Services.allow({
 });
 
 Services.helpers({
-  projects: function() {
+  services: function() {
     return Services.find();
   }
 });

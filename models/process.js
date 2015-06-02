@@ -14,7 +14,7 @@ Process.allow({
 });
 
 Process.helpers({
-  members: function() {
+  process: function() {
     return Process.find();
   }
 });
