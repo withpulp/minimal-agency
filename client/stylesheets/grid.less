@@ -12,23 +12,6 @@
   margin: 0;
   padding: 0;
 
-	.cell {
-		-webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-	  flex: 1;
-	}
-
-	&.flex {
-
-		.cell {
-			display: -webkit-box;
-		  display: -webkit-flex;
-		  display: -ms-flexbox;
-			display: flex;
-		}
-	}
-
 	&.top {
 		align-items: flex-start;
 	}
@@ -43,5 +26,88 @@
 
 	&.justify {
 		justify-content: center;
+	}
+
+	.cell {
+		-webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+	  flex: 1;
+
+		&.top {
+			align-self: flex-start;
+		}
+
+		&.bottom {
+			align-self: flex-end;
+		}
+
+		&.center {
+			align-self: center;
+		}
+
+		&.auto {
+			flex: none;
+		}
+	}
+
+	&.flex {
+
+		.cell {
+			display: -webkit-box;
+		  display: -webkit-flex;
+		  display: -ms-flexbox;
+			display: flex;
+		}
+	}
+
+	&.fit {
+
+		.cell {
+			-webkit-box-flex: 1;
+	    -webkit-flex: 1;
+	    -ms-flex: 1;
+			flex: 1;
+		}
+	}
+
+	&.full {
+
+		.cell {
+			-webkit-box-flex: 0 0 100%;
+	    -webkit-flex: 0 0 100%;
+	    -ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+		}
+	}
+
+	&.half {
+
+		.cell {
+			-webkit-box-flex: 0 0 50%;
+	    -webkit-flex: 0 0 50%;
+	    -ms-flex: 0 0 50%;
+			flex: 0 0 50%;
+		}
+	}
+
+	&.third {
+
+		.cell {
+			-webkit-box-flex: 0 0 33.3333%;
+	    -webkit-flex: 0 0 33.3333%;
+	    -ms-flex: 0 0 33.3333%;
+			flex: 0 0 33.3333%;
+		}
+	}
+
+	&.quarter {
+
+		.cell {
+			-webkit-box-flex: 0 0 25%;
+	    -webkit-flex: 0 0 25%;
+	    -ms-flex: 0 0 25%;
+			flex: 0 0 25%;
+		}
 	}
 }
