@@ -4,6 +4,7 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.root = [
   {
     mission: 'We Help Businesses Grow',
+    supporting: 'with data-driven design and development',
     sections: [
       {
         statement: 'Attract more customers with more',
@@ -61,24 +62,47 @@ Fixtures.root = [
         ]
       },
       {
-        statement: 'We specialize in Product Design and Development',
         points: [
+          {
+            image: 'http://placehold.it/150x150',
+            name: 'Husam Machlovi',
+            title: 'Strategy & Design'
+          },
+          {
+            image: 'http://placehold.it/150x150',
+            name: 'Damir Vazgird',
+            title: 'Technology'
+          }
+        ]
+      },
+      {
+        statement: 'We\ve worked with:',
+        clients: [
             {
-              text: 'Learn about our specialities and proven process'
+              thumb: 'http://placehold.it/150x150'
+            },
+            {
+              thumb: 'http://placehold.it/150x150'
+            },
+            {
+              thumb: 'http://placehold.it/150x150'
             }
         ]
       },
       {
-        statement: 'Growth products we\'ve built',
+        statement: 'Recent products:',
         points: [
             {
-              text: 'test'
+              title: 'title',
+              description: 'description'
             },
             {
-              text: 'test',
+              title: 'title',
+              description: 'description'
             },
             {
-              text: 'test',
+              title: 'title',
+              description: 'description'
             }
         ]
       }
