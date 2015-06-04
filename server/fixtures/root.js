@@ -62,7 +62,7 @@ Fixtures.root = [
         ]
       },
       {
-        member: [
+        points: [
           {
             image: 'http://placehold.it/150x150',
             name: 'Husam Machlovi',
@@ -76,24 +76,33 @@ Fixtures.root = [
         ]
       },
       {
-        statement: 'We specialize in Product Design and Development',
-        points: [
+        statement: 'We\ve worked with:',
+        clients: [
             {
-              text: 'Learn about our specialities and proven process'
+              thumb: 'http://placehold.it/150x150'
+            },
+            {
+              thumb: 'http://placehold.it/150x150'
+            },
+            {
+              thumb: 'http://placehold.it/150x150'
             }
         ]
       },
       {
-        statement: 'Growth products we\'ve built',
+        statement: 'Recent products:',
         points: [
             {
-              text: 'test'
+              title: 'title',
+              description: 'description'
             },
             {
-              text: 'test',
+              title: 'title',
+              description: 'description'
             },
             {
-              text: 'test',
+              title: 'title',
+              description: 'description'
             }
         ]
       }
