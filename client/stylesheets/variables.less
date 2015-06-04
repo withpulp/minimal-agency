@@ -12,7 +12,6 @@
 
 // Brand
 
-//@primary-color: #313B90; // new blue color?
 @primary-color: #6E6E6E;
 @secondary-color: #0B0F27;
 @cta-color: #6F7EFF;
@@ -20,12 +19,12 @@
 // Global
 
 @font-color: @gray-darker;
-@header-color: @gray-darker;
+@header-color: @secondary-color;
 @link-color: @primary-color;
 @icon-color: @primary-color;
 @line-color: @gray-lighter;
-@background-color: @light;
 
+@background-color: @light;
 @grid-paper: linear-gradient(0deg, transparent 24%,
 							fade(lighten(@primary-color, 50%), 90%) 25%,
 							fade(lighten(@primary-color, 50%), 90%) 26%,
@@ -133,11 +132,6 @@
 @line-height-large: 1.5;
 @line-height-jumbo: 2;
 @line-height-computed: floor((@font-size-base * @line-height-base));
-
-@headings-font-family: inherit;
-@headings-font-weight: bold;
-@headings-line-height: @line-height-large;
-@headings-color: @secondary-color;
 
 // Media Queries
 

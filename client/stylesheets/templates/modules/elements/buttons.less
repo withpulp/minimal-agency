@@ -6,8 +6,8 @@
   margin: @space-small auto;
 	padding: @space-smallest @space-small;
   border: 0;
-	background: @primary-color;
-	color: @light;
+	background: @gray-lighter;
+	color: @font-color;
   cursor: pointer;
 
   &:hover,
@@ -16,7 +16,7 @@
   }
 
   &.primary {
-    background: @cta-color;
+    background: @primary-color;
     color: @light;
 
     &:hover,
@@ -32,6 +32,16 @@
     &:hover,
     &:focus {
       background: darken(@secondary-color, @eighth);
+    }
+  }
+
+  &.cta {
+    background: @cta-color;
+    color: @light;
+
+    &:hover,
+    &:focus {
+      background: @secondary-color;
     }
   }
 
