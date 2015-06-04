@@ -5,8 +5,9 @@ Fixtures.root = [
   {
     mission: 'We Help Businesses Grow',
     supporting: 'with data-driven design and development',
-    sections: [
+    segments: [
       {
+        id: 'benefits',
         statement: 'Attract more customers with more',
         points: [
             {
@@ -27,6 +28,7 @@ Fixtures.root = [
         ]
       },
       {
+        id: 'figures',
         statement: 'Here is our recent track record',
         points: [
             {
@@ -62,6 +64,7 @@ Fixtures.root = [
         ]
       },
       {
+        id: 'members',
         points: [
           {
             image: 'http://placehold.it/150x150',
@@ -76,6 +79,7 @@ Fixtures.root = [
         ]
       },
       {
+        id: 'clients',
         statement: 'We\ve worked with:',
         clients: [
             {
@@ -90,6 +94,7 @@ Fixtures.root = [
         ]
       },
       {
+        id: 'tools',
         statement: 'Recent products:',
         points: [
             {
