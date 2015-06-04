@@ -4,6 +4,7 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.root = [
   {
     mission: 'We Help Businesses Grow',
+    supporting: 'with data-driven design and development',
     sections: [
       {
         statement: 'Attract more customers with more',
@@ -58,6 +59,15 @@ Fixtures.root = [
               percent: '15%',
               client: 'Non-profit Organization'
             }
+        ]
+      },
+      {
+        member: [
+          {
+            image: '',
+            name: '',
+            title: ''
+          }
         ]
       },
       {
