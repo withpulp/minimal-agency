@@ -64,9 +64,14 @@ Fixtures.root = [
       {
         member: [
           {
-            image: '',
-            name: '',
-            title: ''
+            image: 'http://placehold.it/150x150',
+            name: 'Husam Machlovi',
+            title: 'Strategy & Design'
+          },
+          {
+            image: 'http://placehold.it/150x150',
+            name: 'Damir Vazgird',
+            title: 'Technology'
           }
         ]
       },
