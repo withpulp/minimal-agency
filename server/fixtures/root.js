@@ -8,7 +8,7 @@ Fixtures.root = [
     segments: [
       {
         id: 'benefits',
-        statement: 'Attract more customers with more',
+        statement: 'Attract more customers with:',
         points: [
             {
               text: 'Growth Opportunities'
