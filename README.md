@@ -2,8 +2,6 @@
 
 A website for an agency / startup built with Meteor.
 
-Demo here: [agency.meteor.com](http://agency.meteor.com).
-
 <!-- toc -->
 
 * [Roadmap](#roadmap)
@@ -25,7 +23,15 @@ Demo here: [agency.meteor.com](http://agency.meteor.com).
 
 ### Features
 
-* Admin account to insert/update/delete content.
+* Admin account to insert/update/delete content
+* Email capture
+
+### Views
+
+* Landing
+* Portfolio view
+* Case study view
+* Blog
 
 ## How to use
 
