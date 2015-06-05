@@ -7,36 +7,36 @@ html {
   body {
     color: @font-color;
 		font-family: @font-family-base;
-    font-size: @font-size-small;
+    font-size: @mobile-font-base;
     line-height: @line-height-base;
 
     p, a, li, pre, code, figcaption {
       margin: 0;
       margin-bottom: @space-small;
-      font-size: @font-size-smaller;
+      font-size: @mobile-font-base;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-small;
+        font-size: @tablet-font-base;
       }
 
       @media (min-width: @desktop-width) {
-        font-size: @font-size-base;
+        font-size: @desktop-font-base;
       }
 
       @media (min-width: @large-desktop-width) {
-        font-size: @font-size-large * @font-size-adjuster;
+        font-size: @desktop-font-large;
       }
 
       @media (min-width: @larger-desktop-width) {
-        font-size: @font-size-larger * @font-size-adjuster;
+        font-size: @desktop-font-huge;
       }
 
       @media (min-width: @largest-desktop-width) {
-        font-size: @font-size-largest * @font-size-adjuster;
+        font-size: @desktop-font-jumbo;
       }
 
       @media (min-width: @huge-desktop-width) {
-        font-size: @font-size-huge * @font-size-adjuster;
+        font-size: @desktop-font-giant;
       }
     }
 
@@ -63,11 +63,11 @@ html {
       margin: 0;
       margin-bottom: @space-base;
       color: @header-color;
-      font-weight: bold;
       font-family: @font-family-serif;
+      font-weight: bold;
 
       small {
-        color: lighten(@secondary-color, @eighth);
+        color: lighten(@header-color, @eighth);
       }
     }
 
