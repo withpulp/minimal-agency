@@ -23,6 +23,22 @@
   }
 }
 
-span.highlight {
-  border-bottom: 1px solid red;
+.underline {
+  border-bottom: @space-mini solid;
+
+  &.red {
+    border-color: @negative-color;
+  }
+
+  &.yellow {
+    border-color: @caution-color;
+  }
+
+  &.blue {
+    border-color: @info-color;
+  }
+
+  &.green {
+    border-color: @positive-color;
+  }
 }
