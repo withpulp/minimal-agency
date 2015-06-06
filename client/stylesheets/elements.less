@@ -1,16 +1,14 @@
-@import '../../../variables';
+@import 'variables';
 
-// buttons styles
+// elements styles
+
+// buttons
 
 .button {
-  margin: @space-small auto;
 	padding: @space-small @space-large;
   border: 0;
 	background: @gray-lighter;
 	color: @font-color;
-  font-family: @font-family-base;
-  font-size: @font-size-small;
-  line-height: @line-height-base;
   cursor: pointer;
 
   &:hover,
@@ -49,10 +47,38 @@
   }
 
   &.fluid {
+    display: block;
     width: @full;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   &.rounded {
     border-radius: @space-tiny;
+  }
+}
+
+// lists
+
+.list {
+
+  &.unstyled {
+    padding: 0;
+	  list-style-type: none;
+  }
+
+  @media (min-width: @desktop-width) {
+    text-indent: @space-large;
+  }
+}
+
+// images
+
+.image {
+  display: block;
+  margin: @space-base auto;
+
+  &.fluid {
+    width: @full;
   }
 }

@@ -31,18 +31,18 @@
 
 @background-color: @light;
 @grid-paper: linear-gradient(0deg, transparent 24%,
-							fade(lighten(@primary-color, 50%), 90%) 25%,
-							fade(lighten(@primary-color, 50%), 90%) 26%,
+							fade(lighten(@cta-color, 25%), 90%) 25%,
+							fade(lighten(@cta-color, 25%), 90%) 26%,
 	            transparent 27%, transparent 74%,
-							fade(lighten(@primary-color, 50%), 90%) 75%,
-							fade(lighten(@primary-color, 50%), 90%) 76%,
+							fade(lighten(@cta-color, 25%), 90%) 75%,
+							fade(lighten(@cta-color, 25%), 90%) 76%,
 	            transparent 77%, transparent),
 	           linear-gradient(90deg, transparent 24%,
-							fade(lighten(@primary-color, 50%), 90%) 25%,
-							fade(lighten(@primary-color, 50%), 90%) 26%,
+							fade(lighten(@cta-color, 25%), 90%) 25%,
+							fade(lighten(@cta-color, 25%), 90%) 26%,
 	            transparent 27%, transparent 74%,
-							fade(lighten(@primary-color, 50%), 90%) 75%,
-							fade(lighten(@primary-color, 50%), 90%) 76%,
+							fade(lighten(@cta-color, 25%), 90%) 75%,
+							fade(lighten(@cta-color, 25%), 90%) 76%,
 	            transparent 77%, transparent);
 
 // Alerts
@@ -111,81 +111,57 @@
 @font-family-monospace: 'Inconsolata', 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
 @font-family-base: @font-family-monospace;
 
-@font-size-adjuster: 0.90;
+@mobile-font-tiny: 0.5rem;
+@mobile-font-small: 0.75rem;
+@mobile-font-base: 1rem;
+@mobile-font-large: 1.25rem;
+@mobile-font-huge: 1.5rem;
+@mobile-font-jumbo: 1.75rem;
+@mobile-font-giant: 2rem;
+@mobile-font-massive: 2.25rem;
+@mobile-font-titanic: 2.5rem;
+@mobile-font-galactic: 2.75rem;
+@mobile-font-god: 3rem;
 
-@font-size-micro: 0.15rem;
-@font-size-mini: 0.25rem;
-@font-size-tiny: 0.5rem;
-@font-size-smallest: 0.75rem;
-@font-size-smaller: 1.15rem;
-@font-size-small: 1.25rem;
-@font-size-base: 1.4rem;
-@font-size-large: 1.6rem;
-@font-size-larger: 2rem;
-@font-size-largest: 2.5rem;
-@font-size-huge: 3rem;
-@font-size-jumbo: 4rem;
-@font-size-giant: 5rem;
-@font-size-massive: 6rem;
-@font-size-collosal: 7rem;
-@font-size-titanic: 8rem;
-@font-size-galactic: 9rem;
-@font-size-god: 10rem;
+@tablet-font-micro: @mobile-font-tiny;
+@tablet-font-tiny: @mobile-font-small;
+@tablet-font-small: @mobile-font-base;
+@tablet-font-base: @mobile-font-large;
+@tablet-font-large: @mobile-font-huge;
+@tablet-font-huge: @mobile-font-jumbo;
+@tablet-font-jumbo: @mobile-font-giant;
+@tablet-font-giant: @mobile-font-massive;
+@tablet-font-massive: @mobile-font-titanic;
+@tablet-font-titanic: @mobile-font-galactic;
+@tablet-font-galactic: @mobile-font-god;
+@tablet-font-god: 3.25rem;
 
-@mobile-font-micro: 0.5rem;
-@mobile-font-tiny: 0.75rem;
-@mobile-font-small: 1rem;
-@mobile-font-base: 1.25rem;
-@mobile-font-large: 1.5rem;
-@mobile-font-huge: 1.75rem;
-@mobile-font-jumbo: 2rem;
-@mobile-font-giant: 2.5rem;
-@mobile-font-massive: 3rem;
-@mobile-font-titanic: 3.5rem;
-@mobile-font-galactic: 4rem;
-@mobile-font-god: 4.5rem;
-
-@desktop-font-micro: @mobile-font-small;
-@desktop-font-mini: @mobile-font-base;
-@desktop-font-tiny: @mobile-font-large;
-@desktop-font-small: @mobile-font-huge;
-@desktop-font-base: @mobile-font-jumbo;
-@desktop-font-large: 2.25rem;
-@desktop-font-huge: @mobile-font-giant;
-@desktop-font-jumbo: 2.75rem;
-@desktop-font-giant: @mobile-font-massive;
-@desktop-font-massive: @mobile-font-titanic;
-@desktop-font-titanic: @mobile-font-galactic;
-@desktop-font-galactic: @mobile-font-god;
-@desktop-font-god: 5rem;
-
-@large-desktop-font-micro: @desktop-font-small;
-@large-desktop-font-mini: @desktop-font-base;
-@large-desktop-font-tiny: @desktop-font-large;
-@large-desktop-font-small: @desktop-font-huge;
-@large-desktop-font-base: @desktop-font-jumbo;
-@large-desktop-font-large: @desktop-font-giant;
-@large-desktop-font-huge: 3.25rem;
-@large-desktop-font-jumbo: @desktop-font-massive;
-@large-desktop-font-giant: 3.75rem;
-@large-desktop-font-massive: @desktop-font-titanic;
-@large-desktop-font-titanic: @desktop-font-galactic;
-@large-desktop-font-galactic: @desktop-font-god;
-@large-desktop-font-god: 5.5rem;
+@desktop-font-micro: @tablet-font-tiny;
+@desktop-font-tiny: @tablet-font-small;
+@desktop-font-small: @tablet-font-base;
+@desktop-font-base: @tablet-font-large;
+@desktop-font-large: @tablet-font-huge;
+@desktop-font-huge: @tablet-font-jumbo;
+@desktop-font-jumbo: @tablet-font-giant;
+@desktop-font-giant: @tablet-font-massive;
+@desktop-font-massive: @tablet-font-titanic;
+@desktop-font-titanic: @tablet-font-galactic;
+@desktop-font-galactic: @tablet-font-god;
+@desktop-font-god: 3.5rem;
 
 @line-height-small: 0.5;
 @line-height-base: 1;
 @line-height-large: 1.5;
 @line-height-jumbo: 2;
-@line-height-computed: floor((@font-size-base * @line-height-base));
+@line-height-computed: floor((@mobile-font-base * @line-height-base));
 
 // Media Queries
 
 @phone-width: 30em;
 @tablet-width: 48em;
 @desktop-width: 62em;
-@medium-desktop-width: 80em;
-@large-desktop-width: 90em;
-@larger-desktop-width: 120em;
-@largest-desktop-width: 160em;
-@huge-desktop-width: 190em;
+@large-desktop-width: 80em;
+@huge-desktop-width: 100em;
+@jumbo-desktop-width: 120em;
+@giant-desktop-width: 140em;
+@massive-desktop-width: 180em;

@@ -2,27 +2,23 @@
 
 // helper styles
 
-.list {
+.underline {
+  display: inline-block;
+  border-bottom: @space-mini solid;
 
-  &.unstyled {
-    padding: 0;
-	  list-style-type: none;
+  &.red {
+    border-color: @negative-color;
   }
 
-  @media (min-width: @desktop-width) {
-    text-indent: @space-large;
+  &.yellow {
+    border-color: @caution-color;
   }
-}
 
-.image {
-  display: block;
-  margin: @space-base auto;
-
-  &.fluid {
-    width: @full;
+  &.blue {
+    border-color: @info-color;
   }
-}
 
-span.highlight {
-  border-bottom: 1px solid red;
+  &.green {
+    border-color: @positive-color;
+  }
 }

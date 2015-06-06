@@ -7,36 +7,38 @@ html {
   body {
     color: @font-color;
 		font-family: @font-family-base;
-    font-size: @font-size-small;
+    font-size: @mobile-font-base;
     line-height: @line-height-base;
 
-    p, a, li, pre, code, figcaption {
+    p, a, li, pre, code, figcaption, .button {
       margin: 0;
       margin-bottom: @space-small;
-      font-size: @font-size-smaller;
+      font-family: @font-family-base;
+      font-size: @mobile-font-base;
+      line-height: @line-height-base;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-large;
+        font-size: @tablet-font-base;
       }
 
       @media (min-width: @desktop-width) {
-        font-size: @font-size-larger;
+        font-size: @desktop-font-base;
       }
 
       @media (min-width: @large-desktop-width) {
-        font-size: @font-size-largest * @font-size-adjuster;
-      }
-
-      @media (min-width: @larger-desktop-width) {
-        font-size: @font-size-huge * @font-size-adjuster;
-      }
-
-      @media (min-width: @largest-desktop-width) {
-        font-size: @font-size-jumbo * @font-size-adjuster;
+        font-size: @desktop-font-large;
       }
 
       @media (min-width: @huge-desktop-width) {
-        font-size: @font-size-massive * @font-size-adjuster;
+        font-size: @desktop-font-huge;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @desktop-font-jumbo;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @desktop-font-giant;
       }
     }
 
@@ -63,179 +65,179 @@ html {
       margin: 0;
       margin-bottom: @space-base;
       color: @header-color;
-      font-weight: bold;
       font-family: @font-family-serif;
+      font-weight: bold;
 
       small {
-        color: lighten(@secondary-color, @eighth);
+        color: lighten(@header-color, @eighth);
       }
     }
 
     h1 {
-      font-size: @font-size-huge;
+      font-size: @mobile-font-jumbo;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-jumbo;
+        font-size: @tablet-font-jumbo;
       }
 
       @media (min-width: @desktop-width) {
-        font-size: @font-size-giant;
+        font-size: @desktop-font-jumbo;
       }
 
       @media (min-width: @large-desktop-width) {
-        font-size: @font-size-massive;
-      }
-
-      @media (min-width: @larger-desktop-width) {
-        font-size: @font-size-collosal;
-      }
-
-      @media (min-width: @largest-desktop-width) {
-        font-size: @font-size-titanic;
+        font-size: @desktop-font-giant;
       }
 
       @media (min-width: @huge-desktop-width) {
-        font-size: @font-size-galactic;
+        font-size: @desktop-font-massive;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @desktop-font-titanic
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @desktop-font-galactic;
       }
     }
 
     h2 {
-      font-size: @font-size-largest;
+      font-size: @mobile-font-huge;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-huge;
+        font-size: @tablet-font-huge;
       }
 
       @media (min-width: @desktop-width) {
-        font-size: @font-size-jumbo;
+        font-size: @desktop-font-huge;
       }
 
       @media (min-width: @large-desktop-width) {
-        font-size: @font-size-giant;
-      }
-
-      @media (min-width: @larger-desktop-width) {
-        font-size: @font-size-massive;
-      }
-
-      @media (min-width: @largest-desktop-width) {
-        font-size: @font-size-collosal;
+        font-size: @desktop-font-jumbo;
       }
 
       @media (min-width: @huge-desktop-width) {
-        font-size: @font-size-titanic;
+        font-size: @desktop-font-giant;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @desktop-font-massive;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @desktop-font-titanic;
       }
     }
 
     h3 {
-      font-size: @font-size-base;
+      font-size: @mobile-font-large;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-largest;
+        font-size: @tablet-font-large;
       }
 
       @media (min-width: @desktop-width) {
-        font-size: @font-size-huge;
+        font-size: @desktop-font-large;
       }
 
       @media (min-width: @large-desktop-width) {
-        font-size: @font-size-jumbo;
-      }
-
-      @media (min-width: @larger-desktop-width) {
-        font-size: @font-size-giant;
-      }
-
-      @media (min-width: @largest-desktop-width) {
-        font-size: @font-size-massive;
+        font-size: @desktop-font-huge;
       }
 
       @media (min-width: @huge-desktop-width) {
-        font-size: @font-size-collosal;
+        font-size: @desktop-font-jumbo;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @desktop-font-giant;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @desktop-font-massive;
       }
     }
 
     h4 {
-      font-size: @font-size-large;
+      font-size: @mobile-font-base;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-larger;
+        font-size: @tablet-font-base;
       }
 
       @media (min-width: @desktop-width) {
-        font-size: @font-size-largest;
+        font-size: @desktop-font-base;
       }
 
       @media (min-width: @large-desktop-width) {
-        font-size: @font-size-huge;
-      }
-
-      @media (min-width: @larger-desktop-width) {
-        font-size: @font-size-jumbo;
-      }
-
-      @media (min-width: @largest-desktop-width) {
-        font-size: @font-size-giant;
+        font-size: @desktop-font-large;
       }
 
       @media (min-width: @huge-desktop-width) {
-        font-size: @font-size-massive;
+        font-size: @desktop-font-huge;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @desktop-font-jumbo;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @desktop-font-giant;
       }
     }
 
     h5 {
-      font-size: @font-size-base;
+      font-size: @mobile-font-small;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-large;
+        font-size: @tablet-font-small;
       }
 
       @media (min-width: @desktop-width) {
-        font-size: @font-size-larger;
+        font-size: @desktop-font-small;
       }
 
       @media (min-width: @large-desktop-width) {
-        font-size: @font-size-largest;
-      }
-
-      @media (min-width: @larger-desktop-width) {
-        font-size: @font-size-huge;
-      }
-
-      @media (min-width: @largest-desktop-width) {
-        font-size: @font-size-jumbo;
+        font-size: @desktop-font-base;
       }
 
       @media (min-width: @huge-desktop-width) {
-        font-size: @font-size-giant;
+        font-size: @desktop-font-large;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @desktop-font-huge;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @desktop-font-jumbo;
       }
     }
 
     h6 {
-      font-size: @font-size-small;
+      font-size: @mobile-font-tiny;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-base;
+        font-size: @tablet-font-tiny;
       }
 
       @media (min-width: @desktop-width) {
-        font-size: @font-size-large;
+        font-size: @desktop-font-tiny;
       }
 
       @media (min-width: @large-desktop-width) {
-        font-size: @font-size-larger;
-      }
-
-      @media (min-width: @larger-desktop-width) {
-        font-size: @font-size-largest;
-      }
-
-      @media (min-width: @largest-desktop-width) {
-        font-size: @font-size-huge;
+        font-size: @desktop-font-small;
       }
 
       @media (min-width: @huge-desktop-width) {
-        font-size: @font-size-jumbo;
+        font-size: @desktop-font-base;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @desktop-font-large;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @desktop-font-huge;
       }
     }
 	}
