@@ -9,19 +9,19 @@
   .logo {
     width: @full;
     margin: 0 auto;
-    padding: 0;
+    margin-left: -0.15rem;
+    padding: 0 @space-smallest @space-tiny @space-smallest;
     cursor: pointer;
     color: @primary-color;
-    border: 2px solid @primary-color;
+    border: @space-mini solid @primary-color;
     font-family: @font-family-monospace;
-    padding: 0 @mobile-font-tiny @mobile-font-micro @mobile-font-tiny;
     font-size: @mobile-font-large;
 
     &:hover,
     &:focus {
       background: @primary-color;
       color: @light;
-      border: 1px solid @primary-color;
+      border: @space-micro solid @primary-color;
       text-decoration: none;
     }
 
