@@ -12,16 +12,24 @@
 	color: @light;
 
 	.copyright {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: @full;
 		margin: 0;
-		color: fade(@gray-darker, @three-quarters);
+		padding: @space-tiny;
+		color: @light;
+		font-size: @mobile-font-small;
+		text-align: center;
 
 		.creator {
-			color: @primary-color;
-			text-decoration: none;
+			color: @light;
+			font-family: @font-family-base;
+			font-size: @mobile-font-small;
 
 			&:hover,
 			&:focus {
-				color: fade(@gray-darker, @three-quarters);
+				color: @primary-color;
 			}
 		}
 	}
