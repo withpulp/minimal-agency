@@ -7085,11 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-<<<<<<< HEAD
-                  "value": "a29a418e0743d34870d9c42e7e7d35d12dbdf8c5"
-=======
-                  "value": "73d0b1aaad838814a780d8faad31de1c1c9981f3"
->>>>>>> dev
+                  "value": "c4446ab315ed9ba6b8f001d36a03412cc51affad"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7213,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 0
+              "value": 2
             },
             "timeout": {
               "type": "constant",
@@ -7865,15 +7861,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "e2955b35a7c2114b2465f3d70f1ade08d449b782"
+          "value": "004e88c623bdbd6e6e192f3762b52d758f670934"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-<<<<<<< HEAD
-          "value": "32df26f92605a9160f1d5af85f976dd5149ae895"
-=======
-          "value": "edb754f9475e18cc1e804a678bebc1904fa2cf2d"
->>>>>>> dev
+          "value": "3d33852b0d5035d79565535fb00bc0a8d50c117b"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -9791,6 +9783,21 @@ var packageMetadata = {
     }
   },
   "velocity:html-reporter": {},
+  "miro:mailchimp": {
+    "MailChimp": {
+      "type": "function",
+      "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "call": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
   "session": {},
   "livedata": {
     "DDP": {
