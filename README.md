@@ -86,6 +86,7 @@ Router.route('/about', function () {
  * [dburles:collection-helpers](https://github.com/dburles/meteor-collection-helpers/)
 * UI and UX
   * [fastclick](https://github.com/meteor/meteor/tree/devel/packages/fastclick)
+  * [miro:mailchimp](https://github.com/MiroHibler/meteor-mailchimp)
 * SEO
   * [manuelschoebel:ms-seo](https://github.com/DerMambo/ms-seo)
 * Development

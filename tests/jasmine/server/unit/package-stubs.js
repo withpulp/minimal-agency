@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "f3171f4bd4ac4de4037fd6034a5a1066d23f73aa"
+                  "value": "6d8a784acd67b74269f8b0e00e91b79fcf6aaad7"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 6
+              "value": 5
             },
             "timeout": {
               "type": "constant",
@@ -7861,11 +7861,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "0591ae2d076de0b20c7179c76bd446a79395e5e2"
+          "value": "63f56856e95edf1542e929c8c585c856e3c9eb43"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "59d8605940f114937312e80d795d209308a19365"
+          "value": "5b20945d45fded403796347fb563b0e62bab212c"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -9783,6 +9783,21 @@ var packageMetadata = {
     }
   },
   "velocity:html-reporter": {},
+  "miro:mailchimp": {
+    "MailChimp": {
+      "type": "function",
+      "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "call": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
   "session": {},
   "livedata": {
     "DDP": {
