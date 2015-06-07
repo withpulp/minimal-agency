@@ -4,7 +4,7 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.root = [
   {
     mission: 'We Help Business Grow',
-    supporting: '&#956;Tool (/mu:tool/) creates modern, data-driven digital products and services that give brands a competitive edge.',
+    supporting: '&#956;Tool (/mu:tool/) creates data-driven digital products and services that give brands a competitive edge.',
     segments: [
       {
         id: 'benefits',
