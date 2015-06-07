@@ -7,7 +7,7 @@
 .button {
 	padding: @space-small @space-large;
   border: 0;
-	background: @gray-lighter;
+	background: @gray;
 	color: @font-color;
   cursor: pointer;
 
@@ -17,10 +17,10 @@
   }
 
   &.primary {
-    background: @primary-color;
+    background: @gray;
 		-moz-box-shadow: inset 0 -1px darken(@primary-color, 5%), 0 2px 2px darken(@primary-color, 10%);
 		-webkit-box-shadow: inset 0 -1px darken(@primary-color, 5%), 0 2px 2px darken(@primary-color, 10%);
-		box-shadow: inset 0 -1px darken(@primary-color, 5%), 0 2px 2px darken(@primary-color, 10%);
+		box-shadow: inset 0 -1px @gray, 0 2px 2px @gray-darker;
     color: @light;
 
     &:hover,
