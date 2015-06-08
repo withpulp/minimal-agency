@@ -11,6 +11,54 @@
   background: transparent;
   transition: top 0.1s ease-in-out;
 
+  .wrap {
+  	perspective: 800px;
+  	perspective-origin: 50% 100px;
+
+    @keyframes spin {
+	     from { transform: rotateY(0); }
+	      to { transform: rotateY(360deg); }
+    }
+
+    .cube {
+    	position: relative;
+    	width: 200px;
+    	transform-style: preserve-3d;
+      animation: spin 5s infinite linear;
+
+      div {
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          box-shadow: inset 0 0 30px rgba(125,125,125,0.8);
+          text-align: center;
+        }
+
+      .back {
+      	transform: translateZ(-100px) rotateY(180deg);
+      }
+      .right {
+      	transform: rotateY(-270deg) translateX(100px);
+      	transform-origin: top right;
+      }
+      .left {
+      	transform: rotateY(270deg) translateX(-100px);
+      	transform-origin: center left;
+      }
+      .top {
+      	transform: rotateX(-90deg) translateY(-100px);
+      	transform-origin: top center;
+      }
+      .bottom {
+      	transform: rotateX(90deg) translateY(100px);
+      	transform-origin: bottom center;
+      }
+      .front {
+      	transform: translateZ(100px);
+      }
+    }
+  }
+
   &.nav-up {
       top: -45px;
   }
