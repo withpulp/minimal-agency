@@ -17,6 +17,7 @@
 		border-color: @primary-color;
 		width: 90%;
 	}
+
 	.endmatter {
 		position: fixed;
 		left: 0;
@@ -25,29 +26,30 @@
 		margin: 0;
 
 		.contact {
-			padding: @space-base 0 @space-large @space-base;
+			display: table-cell;
+			width: @full;
+			padding: @space-base @space-large;
 
 			a {
 				color: @light;
 			}
 		}
 
-	}
-
-	.copyright {
-		text-align: center;
-		padding: @space-tiny;
-		color: @light;
-		font-size: @mobile-font-small;
-
-		.creator {
+		.copyright {
+			text-align: center;
+			padding: @space-tiny;
 			color: @light;
-			font-family: @font-family-base;
 			font-size: @mobile-font-small;
 
-			&:hover,
-			&:focus {
-				color: @primary-color;
+			.creator {
+				color: @light;
+				font-family: @font-family-base;
+				font-size: @mobile-font-small;
+
+				&:hover,
+				&:focus {
+					color: @primary-color;
+				}
 			}
 		}
 	}
