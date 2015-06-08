@@ -98,16 +98,12 @@ Fixtures.root = [
         statement: 'Recent products:',
         points: [
             {
-              title: 'title',
-              description: 'description'
+              title: 'Landing Page Builder',
+              description: 'Create an effective landing page in minutes. Perfect for coming soon and newly launched products.'
             },
             {
-              title: 'title',
-              description: 'description'
-            },
-            {
-              title: 'title',
-              description: 'description'
+              title: 'Blog',
+              description: 'Minimal blogging platform designed for readability.'
             }
         ]
       }
