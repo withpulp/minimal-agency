@@ -6,10 +6,10 @@ Fixtures.root = [
     class: 'intro',
     template: 'rootIntro',
     statement: 'We Help Business Grow',
-    points: {
+    supporting: {
       strong: 'µTool',
       emphasis: '(/mu:tool/)',
-      supporting: 'creates data-driven digital products and services that give brands a competitive edge.'
+      paragraph: 'creates data-driven digital products and services that give brands a competitive edge.'
     }
   },
   {
@@ -18,19 +18,19 @@ Fixtures.root = [
     statement: 'Attract more customers with:',
     points: [
       {
-        text: 'Growth Opportunities'
+        item: 'Growth Opportunities'
       },
       {
-        text: 'Trial Signups',
+        item: 'Trial Signups',
       },
       {
-        text: 'Leads',
+        item: 'Leads',
       },
       {
-        text: 'Sales and Purchases',
+        item: 'Sales and Purchases',
       },
       {
-        text: 'Click-throughs',
+        item: 'Click-throughs',
       }
     ]
   },
@@ -38,7 +38,7 @@ Fixtures.root = [
     class: 'figures',
     template: 'rootFigures',
     statement: 'Here is our recent track record',
-    points: [
+    figures: [
       {
         date: '2015 May',
         metric: 'Purchases',
@@ -72,34 +72,38 @@ Fixtures.root = [
     ]
   },
   {
+    class: 'cta',
+    template: 'rootCTA'
+  },
+  {
     class: 'clients',
     template: 'rootClients',
     statement: 'We\'ve worked with:',
-    points: [
+    clients: [
       {
-        thumb: 'images/clients/pfizer.png'
+        image: 'images/clients/pfizer.png'
       },
       {
-        thumb: 'images/clients/jj.png'
+        image: 'images/clients/jj.png'
       },
       {
-        thumb: 'images/clients/sva.png'
+        image: 'images/clients/sva.png'
       },
       {
-        thumb: 'images/clients/thermofisher.png'
+        image: 'images/clients/thermofisher.png'
       },
       {
-        thumb: 'images/clients/amc.png'
+        image: 'images/clients/amc.png'
       },
       {
-        thumb: 'images/clients/novo.png'
+        image: 'images/clients/novo.png'
       }
     ]
   },
   {
-    class: 'members',
+    class: 'leadership',
     template: 'rootMembers',
-    points: [
+    members: [
       {
         image: '/images/team/husam.jpg',
         name: 'Husam Machlovi',
@@ -113,10 +117,14 @@ Fixtures.root = [
     ]
   },
   {
+    class: 'cta',
+    template: 'rootCTA'
+  },
+  {
     class: 'tools',
     template: 'rootTools',
     statement: 'Recent products:',
-    points: [
+    tools: [
       {
         title: 'Landing Page Builder',
         description: 'Create an effective landing page in minutes. Perfect for coming soon and newly launched products.'

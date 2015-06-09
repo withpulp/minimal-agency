@@ -1,0 +1,10 @@
+<template name="rootMembers">
+	<div class="members top gutter grid">
+	  {{#each members}}
+		  <div class="member card cell">
+			  <img class="fluid image" src="{{image}}" />
+			  <h4>{{name}} <small>{{title}}</small></h4>
+		  </div>
+		{{/each}}
+	</div>
+</template>

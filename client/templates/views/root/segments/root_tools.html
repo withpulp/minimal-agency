@@ -1,0 +1,11 @@
+<template name="rootTools">
+  {{#each tools}}
+	  <article class="tool article module">
+		  <h4 class="article title">
+			  <a href="#">{{title}}</a>
+		  </h4>
+		  <p>{{description}}</p>
+	  </article>
+	{{/each}}
+	<a class="route link" href="{{pathFor 'tools'}}">View All</a>
+</template>
