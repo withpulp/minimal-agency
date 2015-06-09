@@ -67,12 +67,12 @@ Fixtures.root = [
         id: 'members',
         points: [
           {
-            image: 'http://placehold.it/150x150',
+            image: '/images/team/husam.jpg',
             name: 'Husam Machlovi',
             title: 'Strategy & Design'
           },
           {
-            image: 'http://placehold.it/150x150',
+            image: '/images/team/damir.jpg',
             name: 'Damir Vazgird',
             title: 'Technology'
           }
@@ -83,13 +83,22 @@ Fixtures.root = [
         statement: 'We\ve worked with:',
         clients: [
             {
-              thumb: 'http://placehold.it/150x150'
+              thumb: 'images/clients/pfizer.png'
             },
             {
-              thumb: 'http://placehold.it/150x150'
+              thumb: 'images/clients/jj.png'
             },
             {
-              thumb: 'http://placehold.it/150x150'
+              thumb: 'images/clients/sva.png'
+            },
+            {
+              thumb: 'images/clients/thermofisher.png'
+            },
+            {
+              thumb: 'images/clients/amc.png'
+            },
+            {
+              thumb: 'images/clients/novo.png'
             }
         ]
       },
@@ -98,16 +107,12 @@ Fixtures.root = [
         statement: 'Recent products:',
         points: [
             {
-              title: 'title',
-              description: 'description'
+              title: 'Landing Page Builder',
+              description: 'Create an effective landing page in minutes. Perfect for coming soon and newly launched products.'
             },
             {
-              title: 'title',
-              description: 'description'
-            },
-            {
-              title: 'title',
-              description: 'description'
+              title: 'Blog',
+              description: 'Minimal blogging platform designed for readability.'
             }
         ]
       }
