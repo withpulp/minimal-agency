@@ -31,4 +31,9 @@ Meteor.startup(function () {
   if (Process.find().count() === 0) {
     loadFixture(Fixtures['process'], Process);
   }
+
+  if (Footer.find().count() === 0) {
+    loadFixture(Fixtures['footer'], Footer);
+  }
+
 });
