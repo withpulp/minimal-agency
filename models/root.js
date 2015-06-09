@@ -14,7 +14,7 @@ Root.allow({
 });
 
 Root.helpers({
-  root: function() {
+  segments: function() {
     return Root.find();
   }
 });

@@ -4,11 +4,17 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.root = [
   {
     class: 'intro',
+    template: 'rootIntro',
     statement: 'We Help Business Grow',
-    supporting: '&#956;Tool (/mu:tool/) creates data-driven digital products and services that give brands a competitive edge.'
+    points: {
+      strong: 'µTool',
+      emphasis: '(/mu:tool/)',
+      supporting: 'creates data-driven digital products and services that give brands a competitive edge.'
+    }
   },
   {
     class: 'benefits',
+    template: 'rootBenefits',
     statement: 'Attract more customers with:',
     points: [
       {
@@ -30,6 +36,7 @@ Fixtures.root = [
   },
   {
     class: 'figures',
+    template: 'rootFigures',
     statement: 'Here is our recent track record',
     points: [
       {
@@ -66,6 +73,7 @@ Fixtures.root = [
   },
   {
     class: 'clients',
+    template: 'rootClients',
     statement: 'We\'ve worked with:',
     points: [
       {
@@ -90,6 +98,7 @@ Fixtures.root = [
   },
   {
     class: 'members',
+    template: 'rootMembers',
     points: [
       {
         image: '/images/team/husam.jpg',
@@ -105,6 +114,7 @@ Fixtures.root = [
   },
   {
     class: 'tools',
+    template: 'rootTools',
     statement: 'Recent products:',
     points: [
       {
