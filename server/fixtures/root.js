@@ -64,21 +64,6 @@ Fixtures.root = [
         ]
       },
       {
-        id: 'members',
-        points: [
-          {
-            image: '/images/team/husam.jpg',
-            name: 'Husam Machlovi',
-            title: 'Strategy & Design'
-          },
-          {
-            image: '/images/team/damir.jpg',
-            name: 'Damir Vazgird',
-            title: 'Technology'
-          }
-        ]
-      },
-      {
         id: 'clients',
         statement: 'We\ve worked with:',
         clients: [
@@ -100,6 +85,21 @@ Fixtures.root = [
             {
               thumb: 'images/clients/novo.png'
             }
+        ]
+      },
+      {
+        id: 'members',
+        points: [
+          {
+            image: '/images/team/husam.jpg',
+            name: 'Husam Machlovi',
+            title: 'Strategy & Design'
+          },
+          {
+            image: '/images/team/damir.jpg',
+            name: 'Damir Vazgird',
+            title: 'Technology'
+          }
         ]
       },
       {
