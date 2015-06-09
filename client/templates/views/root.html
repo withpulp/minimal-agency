@@ -1,6 +1,12 @@
 <template name="root">
   <div class="root view">
 
+    <section class="intro segment">
+      <h1 class="mission statement">We boost business.</h1>
+      <p><strong>&#956;Tool</strong> <em class="emphasis">(/mu:tool/)</em> creates <span class="highlighter">data-driven</span> digital products & services that
+      give brands a competitive edge.</p>
+    </section>
+
     {{#each root}}
       <section class="{{id}} segment">
         <h3 class="leading statement">{{statement}}</h3>
@@ -8,12 +14,7 @@
       </section>
     {{/each}}
 
-    <section class="intro segment">
-      <h1 class="mission statement">We boost business.</h1>
-      <p><strong>&#956;Tool</strong> <em class="emphasis">(/mu:tool/)</em> creates <span class="highlighter">data-driven</span> digital products & services that
-      give brands a competitive edge.</p>
-    </section>
-
+    <!--
     <section class="rtb benefits segment">
       <h3 class="leading statement">Attract customers with more:</h3>
       <ul class="list">
@@ -106,5 +107,6 @@
       </div>
       <a class="route link" href="{{pathFor 'tools'}}">View All</a>
     </section>
+    -->
   </div>
 </template>
