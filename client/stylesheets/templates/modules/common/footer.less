@@ -3,7 +3,6 @@
 // footer styles
 
 .footer.module {
-	display: table;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -13,43 +12,43 @@
 	background: @secondary-color;
 	color: @light;
 
-	hr {
-		border-color: @primary-color;
-		width: 90%;
-	}
-
 	.endmatter {
-		position: fixed;
+		position: absolute;
 		left: 0;
-		bottom: 0;
+		bottom: @space-larger;
 		width: @full;
 		margin: 0;
 
 		.contact {
-			display: table-cell;
 			width: @full;
-			padding: @space-base @space-small;
+			margin: 0 @space-small;
+			padding: @space-small 0;
+			border-top: @space-mini solid @primary-color;
 
 			a {
 				color: @light;
 			}
 		}
+	}
 
-		.copyright {
-			text-align: center;
-			padding: @space-tiny;
+	.copyright {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: @full;
+		padding: @space-tiny;
+		color: @light;
+		font-size: @mobile-font-small;
+		text-align: center;
+
+		.creator {
 			color: @light;
+			font-family: @font-family-base;
 			font-size: @mobile-font-small;
 
-			.creator {
-				color: @light;
-				font-family: @font-family-base;
-				font-size: @mobile-font-small;
-
-				&:hover,
-				&:focus {
-					color: @primary-color;
-				}
+			&:hover,
+			&:focus {
+				color: @primary-color;
 			}
 		}
 	}
