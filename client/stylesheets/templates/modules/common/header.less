@@ -9,16 +9,16 @@
   width: auto;
   z-index: 2;
   background: transparent;
-  transition: top 0.1s ease-in-out;
+  transition: top @fastest ease-in-out;
 
-  &.nav-up {
-    top: -45px;
+  &.up {
+    top: -@space-jumbo;
   }
 
   .logo {
     width: @full;
     margin: 0 auto;
-    margin-left: -0.15rem;
+    margin-left: -@space-mini;
     padding: 0 @space-smallest @space-tiny @space-smallest;
     cursor: pointer;
     background: @primary-color;
@@ -32,14 +32,7 @@
     &:focus {
       background: @gray-darker;
       color: @primary-color;
-      border: 0;
       text-decoration: none;
     }
-
-    .image {
-      display: inline-block;
-      width: @space-large;
-      margin: 0;
-    }
-  }
+	}
 }
