@@ -1,0 +1,72 @@
+@import '../../../variables';
+
+// loading styles
+
+.loading.module {
+	height: @fluid-full;
+	padding: 0;
+	text-align: center;
+
+  .loader {
+		display: inline-block;
+		width: @space-base;
+	  height: @space-base;
+	  position: relative;
+		background-color: @gray-darker;
+	  border: @space-mini solid @gray-darker;
+	  top: @half;
+	  animation: loader 1.5s infinite ease;
+
+		.fill {
+			vertical-align: top;
+			display: inline-block;
+			width: @full;
+			background-color: @primary-color;
+			animation: fill 1.5s infinite ease-in;
+		}
+	}
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fill {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: @full;
+  }
+
+  75% {
+    height: @full;
+  }
+
+  100% {
+    height: 0%;
+  }
+}
