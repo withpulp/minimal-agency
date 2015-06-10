@@ -11,9 +11,66 @@
 			.statement {
 
 				&.leading {
+					display: inline-block;
+					position: relative;
+					overflow: hidden;
 					margin: @space-base auto;
 					color: @dark;
 					font-size: @mobile-font-jumbo;
+
+					span {
+						display: block;
+						position: relative;
+						margin-left: @space-tiny;
+						padding: @space-smallest @space-tiny 0;
+						line-height: @line-height-base;
+
+						&::before {
+							content: attr(data-text);
+							position: absolute;
+						  color: @light;
+						  left: 0;
+						  overflow: hidden;
+						  white-space: nowrap;
+						  width: 0%;
+						  -webkit-transition: width @fast;
+						  transition: width @fast;
+						  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+						  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+						}
+					}
+
+					&::after {
+						content: '';
+						position: absolute;
+					  height: @full;
+					  width: @full;
+					  top: 0;
+					  right: 0;
+					  z-index: -1;
+					  background: @dark;
+					  -webkit-transform: translate3d(101%,0,0);
+					  transform: translate3d(101%,0,0);
+					  -webkit-transition: -webkit-transform @fast;
+					  transition: transform @fast;
+					  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+					  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+					}
+
+					&:hover {
+
+						span {
+
+							&::before {
+								width: @full;
+							}
+						}
+
+						&::after {
+							-webkit-transform: translate3d(0,0,0);
+							transform: translate3d(0,0,0);
+						}
+					}
 
 					@media (min-width: @tablet-width) {
 		        font-size: @tablet-font-jumbo;
