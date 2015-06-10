@@ -9,19 +9,19 @@
 
   .loader {
 		display: inline-block;
-		width: 30px;
-	  height: 30px;
+		width: @space-base;
+	  height: @space-base;
 	  position: relative;
-	  border: 2px solid @gray-darker;
-	  top: 50%;
-	  animation: loader 2s infinite ease;
+	  border: @space-mini solid @gray-darker;
+	  top: @half;
+	  animation: loader 1.5s infinite ease;
 
 		.fill {
 			vertical-align: top;
 			display: inline-block;
-			width: 100%;
+			width: @full;
 			background-color: @primary-color;
-			animation: fill 2s infinite ease-in;
+			animation: fill 1.5s infinite ease-in;
 		}
 	}
 }
@@ -58,11 +58,11 @@
   }
 
   50% {
-    height: 100%;
+    height: @full;
   }
 
   75% {
-    height: 100%;
+    height: @full;
   }
 
   100% {
