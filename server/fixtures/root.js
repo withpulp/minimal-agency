@@ -9,7 +9,8 @@ Fixtures.root = [
     supporting: {
       strong: 'µTool',
       emphasis: '(/mu:tool/)',
-      paragraph: 'creates data-driven digital products and services that give brands a competitive edge.'
+      highlight: 'data-driven',
+      paragraph: 'digital products and services that give brands a competitive edge.'
     }
   },
   {
