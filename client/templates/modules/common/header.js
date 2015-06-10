@@ -1,9 +1,9 @@
 Template.header.rendered = function () {
   // Hide logo on scroll down
-  var didScroll;
-  var lastScrollTop = 0;
-  var delta = 0;
-  var navbarHeight = $('.logo').outerHeight();
+  var didScroll,
+      lastScrollTop = 0,
+      delta = 0,
+      headerHeight = $('.logo').outerHeight();
 
   $(window).scroll(function(event){
     didScroll = true;
@@ -23,9 +23,9 @@ Template.header.rendered = function () {
     if (Math.abs(lastScrollTop - scroll) <= delta)
       return;
 
-    // If they scrolled down and are past the navbar, add class .nav-up.
+    // If they scrolled down and are past the navbar, add class .up.
     // This is necessary so you never see what is "behind" the navbar.
-    if (scroll > lastScrollTop && scroll > navbarHeight){
+    if (scroll > lastScrollTop && scroll > headerHeight){
       // Scroll Down
       $('header').removeClass('down').addClass('up');
     } else {
