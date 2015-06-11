@@ -16,23 +16,54 @@
   }
 
   .logo {
-    width: @full;
+    display: block;
+    position: relative;
+    width: @space-large;
+    height: @space-large;
     margin: 0 auto;
-    margin-left: -@space-mini;
-    padding: 0 @space-smallest @space-tiny @space-smallest;
-    cursor: pointer;
-    background: @primary-color;
-    color: @gray-darker;
-    border: @space-mini solid @gray-darker;
-    font-family: @font-family-monospace;
-    font-size: @mobile-font-large;
-    text-decoration: none;
+    perspective: 1000px;
+    perspective-origin: @half @full;
 
-    &:hover,
-    &:focus {
-      background: @gray-darker;
-      color: @primary-color;
-      text-decoration: none;
+    .cube {
+      width: @full;
+      height: @full;
+      top: 0;
+      position: absolute;
+      transform-style: preserve-3d;
+      transition: transform @slowest;
+
+      .face {
+        display: block;
+        position: absolute;
+        margin: 0 auto;
+        padding: @space-tiny @space-smaller @space-smallest;
+        border: @space-mini solid @gray-darker;
+        font-size: @mobile-font-large;
+        text-align: center;
+        line-height: @line-height-base;
+
+        &.front {
+          transform: translateZ(@space-small);
+          background: @primary-color;
+          color: @gray-darker
+        }
+
+        &.back {
+          transform: rotateX(-180deg) translateZ(@space-small);
+          background: @gray-darker;
+          color: @primary-color;
+        }
+
+        &.bottom{
+          transform: rotateX(-90deg) translateZ(@space-small);
+          background: @gray-lighter;
+          color: @dark;
+        }
+      }
+
+      &:hover {
+        transform: rotateX(180deg) rotateY(0deg);
+      }
     }
-	}
+  }
 }

@@ -1,10 +1,9 @@
 <template name="footer">
-  <div class="mailchimp module">
+  <div class="mailchimp module grid">
     {{> MailChimpListSubscribe}}
   </div>
-  <div class="endmatter">
-    <hr>
-    <section class="contact">
+  <div class="endmatter grid">
+    <section class="contact cell">
       <p>Contact</p>
       <ul class="list">
         <li class="list item">
@@ -18,11 +17,11 @@
         </li>
       </ul>
     </section>
-    <p class="copyright">
-      &copy;2015,
-      <a class="creator" href="{{pathFor 'root'}}">
-        &micro;Tool
-      </a>
-    </p>
   </div>
+  <p class="copyright">
+    &copy;2015,
+    <a class="creator" href="{{pathFor 'root'}}">
+      &micro;Tool
+    </a>
+  </p>
 </template>
