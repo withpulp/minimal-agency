@@ -43,26 +43,21 @@
         line-height: @line-height-base;
 
         &.front {
-          transform: translateZ(@space-small);
+          transform: translateZ(@space-base);
           background: @primary-color;
           color: @gray-darker
         }
 
-        &.back {
-          transform: rotateX(-180deg) translateZ(@space-small);
+        &.left {
+          transform: rotateY(-90deg) translateZ(@space-base);
           background: @gray-darker;
           color: @primary-color;
-        }
-
-        &.bottom{
-          transform: rotateX(-90deg) translateZ(@space-small);
-          background: @gray-lighter;
-          color: @dark;
         }
       }
 
       &:hover {
-        transform: rotateX(180deg) rotateY(0deg);
+        left: @space-tiny;
+        transform: rotateX(0) rotateY(90deg);
       }
     }
   }
