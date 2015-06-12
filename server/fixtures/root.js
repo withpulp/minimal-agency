@@ -16,7 +16,7 @@ Fixtures.root = [
   {
     class: 'benefits',
     template: 'rootBenefits',
-    statement: 'Attract more customers with:',
+    statement: 'Attract customers with more:',
     points: [
       {
         item: 'Growth Opportunities'
@@ -38,7 +38,7 @@ Fixtures.root = [
   {
     class: 'figures',
     template: 'rootFigures',
-    statement: 'Here is our recent track record',
+    statement: 'Our recent track record:',
     figures: [
       {
         date: '2015 May',
