@@ -50,7 +50,7 @@
         }
 
         &.left {
-          transform: rotateY(90deg) translateZ(@space-base);
+          transform: rotateY(-90deg) translateZ(@space-base);
           background: @gray-darker;
           color: @primary-color;
         }
@@ -58,7 +58,7 @@
 
       &:hover {
         left: @space-tiny;
-        transform: rotateX(0) rotateY(-90deg);
+        transform: rotateX(0) rotateY(90deg);
       }
     }
   }
