@@ -7,22 +7,24 @@
 .button {
 	padding: @space-small @space-large;
 	border: @space-mini solid @gray;
-	background-color: @gray;
-	color: @light;
+	background-color: @primary-color;
+	color: @gray;
   cursor: pointer;
 	-moz-transition: all @faster;
 	-webkit-transition: all @faster;
 	transition: all @faster;
+	box-shadow: @space-micro @space-mini 0 @dark;
 
   &:hover,
   &:focus {
-    background-color: @primary-color;
-		color: @gray;
+    background-color: @gray;
+		color: @light;
+		border: @space-mini solid @dark;
   }
 
   &.primary {
     background-color: @primary-color;
-    color: @light;
+    color: @gray;
 
     &:hover,
     &:focus {
