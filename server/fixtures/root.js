@@ -73,10 +73,6 @@ Fixtures.root = [
     ]
   },
   {
-    class: 'cta',
-    template: 'rootCTA'
-  },
-  {
     class: 'clients',
     template: 'rootClients',
     statement: 'We\'ve worked with:',
@@ -102,6 +98,10 @@ Fixtures.root = [
     ]
   },
   {
+    class: 'cta',
+    template: 'rootCTA'
+  },
+  {
     class: 'leadership',
     template: 'rootMembers',
     members: [
@@ -116,10 +116,6 @@ Fixtures.root = [
         title: 'Technology'
       }
     ]
-  },
-  {
-    class: 'cta',
-    template: 'rootCTA'
   },
   {
     class: 'tools',
