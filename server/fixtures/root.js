@@ -99,7 +99,9 @@ Fixtures.root = [
   },
   {
     class: 'cta',
-    template: 'rootCTA'
+    template: 'rootCTA',
+    cta: 'Get Similar Results',
+    supporting: 'Reserve a free consultation'
   },
   {
     class: 'leadership',
