@@ -5,7 +5,7 @@ Fixtures.root = [
   {
     class: 'intro',
     template: 'rootIntro',
-    statement: 'We Boost Business',
+    statement: 'We Boost Business.',
     supporting: {
       strong: 'µTool',
       emphasis: '(/mu:tool/)',
@@ -73,10 +73,6 @@ Fixtures.root = [
     ]
   },
   {
-    class: 'cta',
-    template: 'rootCTA'
-  },
-  {
     class: 'clients',
     template: 'rootClients',
     statement: 'We\'ve worked with:',
@@ -102,6 +98,12 @@ Fixtures.root = [
     ]
   },
   {
+    class: 'cta',
+    template: 'rootCTA',
+    cta: 'Get Similar Results',
+    supporting: 'Reserve a free consultation'
+  },
+  {
     class: 'leadership',
     template: 'rootMembers',
     members: [
@@ -116,10 +118,6 @@ Fixtures.root = [
         title: 'Technology'
       }
     ]
-  },
-  {
-    class: 'cta',
-    template: 'rootCTA'
   },
   {
     class: 'tools',

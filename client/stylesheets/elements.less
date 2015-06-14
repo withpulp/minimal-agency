@@ -15,6 +15,16 @@
 	transition: all @faster;
 	box-shadow: @space-micro @space-mini 0 @dark;
 
+	p {
+		margin-bottom: 0;
+	}
+
+	.cta {
+		font-weight: bold;
+		font-size: @space-base;
+		padding-bottom: @space-tiny;
+	}
+
   &:hover,
   &:focus {
     background-color: @gray;
@@ -30,6 +40,8 @@
     &:focus {
       background-color: @secondary-color;
     }
+
+
   }
 
   &.secondary {
