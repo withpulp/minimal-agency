@@ -1,6 +1,6 @@
 # Minimal Agency Webapp
 
-A website for an agency / startup built with Meteor.
+A mobile-first website for an agency / startup built with Meteor.
 
 <!-- toc -->
 
@@ -109,6 +109,8 @@ client/             # Client folder
     layouts/            # Router layouts
     views/              # All the views
     modules/         # UI elements and components (i.e. forms, actions, etc...)
+     common/            # Common components (i.e. header, footer)
+     elements/          # Re-usable components 
 models/             # Model files, for each Meteor.Collection
 private/            # Private files
 public/             # Public files
