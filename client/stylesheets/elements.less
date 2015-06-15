@@ -9,25 +9,13 @@
 	border: @space-mini solid @gray;
 	background-color: @primary-color;
 	color: @gray;
+	text-align: center;
+	text-decoration: none;
   cursor: pointer;
 	-moz-transition: all @faster;
 	-webkit-transition: all @faster;
 	transition: all @faster;
 	box-shadow: @space-micro @space-mini 0 @dark;
-
-	p {
-		margin-bottom: 0;
-	}
-
-	.cta {
-		font-weight: bold;
-		font-size: @space-base;
-		padding-bottom: @space-tiny;
-
-		@media (min-width: @tablet-width) {
-			font-size: @space-large;
-		}
-	}
 
   &:hover,
   &:focus {
@@ -44,8 +32,6 @@
     &:focus {
       background-color: @secondary-color;
     }
-
-
   }
 
   &.secondary {
@@ -58,9 +44,24 @@
     }
   }
 
+	&.cta {
+		font-size: @mobile-font-large;
+		font-weight: bold;
+
+		.supporting {
+			display: block;
+			margin-top: @space-tiny;
+			font-weight: normal;
+		}
+
+		@media (min-width: @tablet-width) {
+			font-size: @tablet-font-jumbo;
+		}
+	}
+
   &.fluid {
     display: block;
-    width: @full;
+    width: auto;
     margin-right: auto;
     margin-left: auto;
   }
@@ -68,6 +69,10 @@
   &.rounded {
     border-radius: @space-tiny;
   }
+
+	@media (min-width: @tablet-width) {
+		padding: @space-normal @space-larger;
+	}
 }
 
 // lists
