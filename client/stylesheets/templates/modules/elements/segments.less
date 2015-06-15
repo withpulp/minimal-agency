@@ -5,8 +5,16 @@
 .segment {
 	padding: @space-normal 0;
 
+	@media (min-width: @tablet-width) {
+		padding: @space-larger 0;
+	}
+
 		&.intro {
 			padding: @space-jumbo 0;
+
+			@media (min-width: @tablet-width) {
+				padding: @space-giant 0;
+			}
 
 			.statement {
 
