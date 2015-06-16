@@ -7,20 +7,22 @@
 .button {
 	padding: @space-small @space-large;
 	border: @space-mini solid @gray;
-	background-color: @primary-color;
-	color: @gray;
+	background-color: @gray;
+	color: @light;
 	text-align: center;
 	text-decoration: none;
   cursor: pointer;
 	-moz-transition: all @faster;
 	-webkit-transition: all @faster;
 	transition: all @faster;
-	box-shadow: @space-micro @space-mini 0 @dark;
+	-moz-box-shadow: 0 @space-mini @space-mini 0 @dark;
+	-webkit-box-shadow: 0 @space-mini @space-mini 0 @dark;
+	box-shadow: 0 @space-mini @space-mini 0 @dark;
 
   &:hover,
   &:focus {
-    background-color: @gray;
-		color: @light;
+    background-color: @primary-color;
+		color: @gray;
 		border: @space-mini solid @dark;
   }
 
@@ -30,7 +32,8 @@
 
     &:hover,
     &:focus {
-      background-color: @secondary-color;
+      background-color: @gray;
+			color: @light;
     }
   }
 
@@ -41,6 +44,7 @@
     &:hover,
     &:focus {
       background-color: @primary-color;
+			color: @gray;
     }
   }
 
