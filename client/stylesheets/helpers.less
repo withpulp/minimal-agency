@@ -30,3 +30,14 @@
 .emphasis {
   color: @gray;
 }
+
+.hidden {
+  display: none;
+
+  &.mobile {
+
+    @media(min-width: @tablet-width) {
+      display: inline-block;
+    }
+  }
+}

@@ -1,16 +1,13 @@
 <template name="rootFigures">
   {{#each figures}}
-  <!--mobile-->
 	  <figure class="figure module mobile">
-		  <figcaption class="figure caption">{{date}}</figcaption>
-		  <ul class="list">
-			  <li>Increased {{metric}} by {{percent}} for {{client}}</li>
-		  </ul>
+		  <figcaption class="figure caption">
+        {{date}}
+        <span class="hidden mobile">|</span>
+        <span class="data">
+          Increased {{metric}} by {{percent}} for {{client}}
+        </span>
+      </figcaption>
 	  </figure>
-
-  <!--tablet and desktop-->
-  <figure class="figure module tablet-desktop">
-    <figcaption class="figure caption">{{date}} | Increased {{metric}} by {{percent}} for {{client}}</figcaption>
-  </figure>
 	{{/each}}
 </template>
