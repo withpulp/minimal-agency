@@ -48,7 +48,39 @@
     padding: @fluid-quarter @space-small @space-small;
 
     div {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
       width: @full;
+
+      &::before,
+      &::after {
+        box-sizing: border-box;
+      }
+
+      .message {
+        position: absolute;
+        bottom: 4rem;
+        font-size: 1.25rem;
+      }
+
+      .email {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        border: 0;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 100%;
+      }
+
+      .subscribe {
+        margin: 0;
+        border: 0;
+        padding: 0 1rem;
+      }
     }
   }
 }
