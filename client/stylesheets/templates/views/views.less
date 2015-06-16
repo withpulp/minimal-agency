@@ -11,7 +11,6 @@
   .root.view {
     margin: 0;
     padding: @space-small;
-    padding-top: @space-huge;
 
     .clients {
 
@@ -35,18 +34,21 @@
           }
       }
     }
+
     @media (max-width: @tablet-width) {
       figure.figure.module.tablet-desktop {
         display: none;
       }
     }
+
     @media (min-width: @tablet-width) {
       figure.figure.module.mobile {
         display: none;
       }
     }
+
     @media (min-width: @desktop-width) {
-      margin: 0 @space-jumbo;
+      padding: @space-jumbo;
     }
   }
 }
