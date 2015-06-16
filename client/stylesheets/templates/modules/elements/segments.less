@@ -5,111 +5,113 @@
 .segment {
 	padding: @space-normal 0;
 
-	@media (min-width: @tablet-width) {
-		padding: @space-larger 0;
-	}
+	&.intro {
+		padding: @space-giant 0;
 
-		&.intro {
-			padding: @space-jumbo 0;
+		@media (min-width: @tablet-width) {
+			padding: @space-titanic 0;
+		}
 
-			@media (min-width: @tablet-width) {
-				padding: @space-giant 0;
-			}
+		@media (min-width: @desktop-width) {
+			padding: @space-god 0;
+		}
 
-			.statement {
+		.statement {
 
-				&.leading {
-					display: inline-block;
+			&.leading {
+				display: inline-block;
+				position: relative;
+				overflow: hidden;
+				margin: @space-base auto;
+				color: @dark;
+				font-size: @mobile-font-jumbo;
+
+				span {
+					display: block;
 					position: relative;
-					overflow: hidden;
-					margin: @space-base auto;
-					color: @dark;
-					font-size: @mobile-font-jumbo;
+					padding: @space-smallest @space-tiny 0;
+					line-height: @line-height-base;
+
+					&::before {
+						content: attr(data-text);
+						position: absolute;
+						color: @primary-color;
+						left: 0;
+						overflow: hidden;
+						white-space: nowrap;
+						width: 0%;
+						-webkit-transition: width @fast;
+						transition: width @fast;
+						-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+						transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+					}
+				}
+
+				&::after {
+					content: '';
+					position: absolute;
+					height: @full;
+					width: @full;
+					top: 0;
+					right: 0;
+					z-index: -1;
+					background: @dark;
+					-webkit-transform: translate3d(101%,0,0);
+					transform: translate3d(101%,0,0);
+					-webkit-transition: -webkit-transform @fast;
+					transition: transform @fast;
+					-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+					transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+				}
+
+				&:hover {
 
 					span {
-						display: block;
-						position: relative;
-						margin-left: @space-tiny;
-						padding: @space-smallest @space-tiny 0;
-						line-height: @line-height-base;
 
 						&::before {
-							content: attr(data-text);
-							position: absolute;
-						  color: @primary-color;
-						  left: 0;
-						  overflow: hidden;
-						  white-space: nowrap;
-						  width: 0%;
-						  -webkit-transition: width @fast;
-						  transition: width @fast;
-						  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-						  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+							width: @full;
 						}
 					}
 
 					&::after {
-						content: '';
-						position: absolute;
-					  height: @full;
-					  width: @full;
-					  top: 0;
-					  right: 0;
-					  z-index: -1;
-					  background: @dark;
-					  -webkit-transform: translate3d(101%,0,0);
-					  transform: translate3d(101%,0,0);
-					  -webkit-transition: -webkit-transform @fast;
-					  transition: transform @fast;
-					  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-					  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+						-webkit-transform: translate3d(0,0,0);
+						transform: translate3d(0,0,0);
 					}
-
-					&:hover {
-
-						span {
-
-							&::before {
-								width: @full;
-							}
-						}
-
-						&::after {
-							-webkit-transform: translate3d(0,0,0);
-							transform: translate3d(0,0,0);
-						}
-					}
-
-					@media (min-width: @tablet-width) {
-		        font-size: @tablet-font-jumbo;
-		      }
-
-		      @media (min-width: @desktop-width) {
-		        font-size: @desktop-font-jumbo;
-		      }
-
-		      @media (min-width: @large-desktop-width) {
-		        font-size: @desktop-font-giant;
-		      }
-
-		      @media (min-width: @huge-desktop-width) {
-		        font-size: @desktop-font-massive;
-		      }
-
-		      @media (min-width: @jumbo-desktop-width) {
-		        font-size: @desktop-font-titanic
-		      }
-
-		      @media (min-width: @giant-desktop-width) {
-		        font-size: @desktop-font-galactic;
-		      }
 				}
 
-				&.supporting {
-					letter-spacing: @space-micro;
-					text-indent: @space-small;
-				}
+				@media (min-width: @tablet-width) {
+		      font-size: @tablet-font-jumbo;
+		    }
+
+		    @media (min-width: @desktop-width) {
+		      font-size: @desktop-font-jumbo;
+		    }
+
+		    @media (min-width: @large-desktop-width) {
+		      font-size: @desktop-font-giant;
+		    }
+
+		    @media (min-width: @huge-desktop-width) {
+		      font-size: @desktop-font-massive;
+		    }
+
+		    @media (min-width: @jumbo-desktop-width) {
+		      font-size: @desktop-font-titanic
+		    }
+
+		    @media (min-width: @giant-desktop-width) {
+		      font-size: @desktop-font-galactic;
+		    }
+			}
+
+			&.supporting {
+				letter-spacing: @space-micro;
+				text-indent: @space-small;
 			}
 		}
+	}
 
+	@media (min-width: @tablet-width) {
+		padding: @space-larger 0;
+	}
 }
