@@ -61,8 +61,8 @@
 
       .message {
         position: absolute;
-        bottom: 4rem;
-        font-size: 1.25rem;
+        bottom: @space-jumbo;
+        font-size: @mobile-font-large;
       }
 
       .email {
@@ -70,16 +70,27 @@
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
-        border: 0;
-        padding: 1rem;
-        font-size: 1rem;
-        width: 100%;
+        width: @full;
+        padding: @space-small;
+        border: @space-mini solid @dark;
+        border-right: 0;
+        outline: 0;
+        font-size: @mobile-font-base;
       }
 
       .subscribe {
         margin: 0;
-        border: 0;
-        padding: 0 1rem;
+        padding: @space-small;
+        cursor: pointer;
+        border: @space-mini solid @dark;
+        background-color: @primary-color;
+        color: @gray;
+
+        &:hover,
+        &:focus {
+          background-color: @gray;
+          color: @light;
+        }
       }
     }
   }
