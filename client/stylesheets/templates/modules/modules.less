@@ -45,7 +45,10 @@
   }
 
   &.mailchimp {
-    padding: @fluid-quarter @space-small @space-small;
+    position: absolute;
+		left: 0;
+		bottom: @space-larger;
+		width: @full;
 
     div {
       display: -webkit-box;
@@ -53,6 +56,7 @@
       display: -ms-flexbox;
       display: flex;
       width: @full;
+      padding: @space-small;
 
       &::before,
       &::after {
