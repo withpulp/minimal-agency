@@ -9,6 +9,8 @@
   width: auto;
   z-index: 2;
   background: transparent;
+  -moz-transition: top @fastest ease-in-out;
+  -webkit-transition: top @fastest ease-in-out;
   transition: top @fastest ease-in-out;
 
   &.up {
@@ -22,7 +24,11 @@
     width: @space-large;
     height: @space-large;
     margin: 0 auto;
+    -moz-perspective: 1000px;
+    -webkit-perspective: 1000px;
     perspective: 1000px;
+    -moz-perspective-origin: @half @full;
+    -webkit-perspective-origin: @half @full;
     perspective-origin: @half @full;
 
     .cube {
@@ -30,7 +36,11 @@
       height: @full;
       top: 0;
       position: absolute;
+      -moz-transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
       transform-style: preserve-3d;
+      -moz-transition: transform @slowest;
+      -webkit-transition: transform @slowest;
       transition: transform @slowest;
 
       .face {
@@ -58,6 +68,8 @@
 
       &:hover {
         left: @space-tiny;
+        -moz-transform: rotateX(0) rotateY(90deg);
+        -webkit-transform: rotateX(0) rotateY(90deg);
         transform: rotateX(0) rotateY(90deg);
       }
     }
