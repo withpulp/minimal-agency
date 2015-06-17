@@ -56,6 +56,11 @@
 			display: block;
 			margin-top: @space-tiny;
 			font-weight: normal;
+			font-size: @mobile-font-base;
+
+			@media (min-width: @tablet-width) {
+				font-size: @tablet-font-huge;
+			}
 		}
 
 		@media (min-width: @tablet-width) {
