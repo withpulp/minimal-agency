@@ -24,24 +24,12 @@
     width: @space-large;
     height: @space-large;
     margin: 0 auto;
-    -moz-perspective: 1000px;
-    -webkit-perspective: 1000px;
-    perspective: 1000px;
-    -moz-perspective-origin: @half @full;
-    -webkit-perspective-origin: @half @full;
-    perspective-origin: @half @full;
 
     .cube {
       width: @full;
       height: @full;
       top: 0;
       position: absolute;
-      -moz-transform-style: preserve-3d;
-      -webkit-transform-style: preserve-3d;
-      transform-style: preserve-3d;
-      -moz-transition: transform @slowest;
-      -webkit-transition: transform @slowest;
-      transition: transform @slowest;
 
       .face {
         display: block;
@@ -54,23 +42,52 @@
         line-height: @line-height-base;
 
         &.front {
-          transform: translateZ(@space-base);
           background: fade(@primary-color, @three-quarters);
           color: @gray-darker
         }
 
         &.left {
-          transform: rotateY(-90deg) translateZ(@space-base);
+          display: none;
           background: @gray-darker;
           color: @primary-color;
         }
       }
+    }
 
-      &:hover {
-        left: @space-tiny;
-        -moz-transform: rotateX(0) rotateY(90deg);
-        -webkit-transform: rotateX(0) rotateY(90deg);
-        transform: rotateX(0) rotateY(90deg);
+    @media (min-width: @tablet-width) {
+      -moz-perspective: 1000px;
+      -webkit-perspective: 1000px;
+      perspective: 1000px;
+      -moz-perspective-origin: @half @full;
+      -webkit-perspective-origin: @half @full;
+      perspective-origin: @half @full;
+
+      .cube {
+        -moz-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -moz-transition: transform @slowest;
+        -webkit-transition: transform @slowest;
+        transition: transform @slowest;
+
+        .face {
+
+          &.front {
+            transform: translateZ(@space-base);
+          }
+
+          &.left {
+            display: block;
+            transform: rotateY(-90deg) translateZ(@space-base);
+          }
+        }
+
+        &:hover {
+          left: @space-tiny;
+          -moz-transform: rotateX(0) rotateY(90deg);
+          -webkit-transform: rotateX(0) rotateY(90deg);
+          transform: rotateX(0) rotateY(90deg);
+        }
       }
     }
   }
