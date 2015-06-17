@@ -73,11 +73,15 @@
         .face {
 
           &.front {
+            -moz-transform: translateZ(@space-base);
+            -webkit-transform: translateZ(@space-base);
             transform: translateZ(@space-base);
           }
 
           &.left {
             display: block;
+            -moz-transform: rotateY(-90deg) translateZ(@space-base);
+            -webkit-transform: rotateY(-90deg) translateZ(@space-base);
             transform: rotateY(-90deg) translateZ(@space-base);
           }
         }
