@@ -36,4 +36,8 @@ Meteor.startup(function () {
     loadFixture(Fixtures['footer'], Footer);
   }
 
+  if (Quotes.find().count() === 0) {
+    loadFixture(Fixtures['quotes'], Quotes);
+  }
+
 });
