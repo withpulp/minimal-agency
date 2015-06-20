@@ -7862,11 +7862,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "35fe575da843f5b2de9e787ae541ad9eea03fae3"
+          "value": "7ae6b43ebcd128df315ea9b8b2ea37816d8efeb4"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "474a73d661652b597548c88d28927dbf7e4422b0"
+          "value": "1195f6a642b39348e9a780f7f49e44bf37ba4021"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
