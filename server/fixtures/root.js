@@ -56,13 +56,13 @@ Fixtures.root = [
         date: '2015 March',
         metric: 'Signups',
         percent: '40%',
-        client: 'Yoga Instructor'
+        client: 'Yoga Studio'
       },
       {
-        date: '2015 February',
-        metric: 'Signups',
-        percent: '40%',
-        client: 'Product Strategy Consultant'
+        date: '2015 March',
+        metric: 'Click-throughs',
+        percent: '22%',
+        client: 'TV Network'
       },
       {
         date: '2015 January',
@@ -75,7 +75,7 @@ Fixtures.root = [
   {
     class: 'clients',
     template: 'rootClients',
-    statement: 'We\'ve worked with:',
+    statement: 'Trusted by:',
     clients: [
       {
         image: 'images/clients/pfizer.png'
