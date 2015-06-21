@@ -4,11 +4,11 @@
 		  <figcaption class="figure caption">
         {{date}}
         <span class="hidden mobile">|</span>
-        <span class="data">
-          {{#each figures}}
+        {{#each figures}}
+          <span class="data">
             Increased {{metric}} by {{percent}} for {{client}}
-          {{/each}}
-        </span>
+          </span>
+        {{/each}}
       </figcaption>
 	  </figure>
 	{{/each}}
