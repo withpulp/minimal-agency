@@ -5,9 +5,9 @@
         {{date}}
         <span class="hidden mobile">|</span>
         <span class="data">
-          {{#with figures}}
-          Increased {{metric}} by {{percent}} for {{client}}
-          {{/with}}
+          {{#each figures}}
+            Increased {{metric}} by {{percent}} for {{client}}
+          {{/each}}
         </span>
       </figcaption>
 	  </figure>

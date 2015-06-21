@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 2
+              "value": 1
             },
             "timeout": {
               "type": "constant",
@@ -7861,11 +7861,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "1b8d1958ddc33bc6dd58c71d9ddeb835243729e1"
+          "value": "d55ead66d071e7a69f6f3085e87b96df30fa251d"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "bdee7076fff76db419728b2aad903a89943e3a05"
+          "value": "3ccfee69ced4d2a2d4661e47613b7ac922cd5f2b"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
