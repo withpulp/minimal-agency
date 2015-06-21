@@ -25,6 +25,7 @@ A mobile-first website for an agency / startup built with Meteor.
 
 * Admin account to insert/update/delete content
 * Email capture
+* Random quote on page load
 
 ### Views
 
@@ -32,6 +33,12 @@ A mobile-first website for an agency / startup built with Meteor.
 * Portfolio view
 * Case study view
 * Blog
+
+### MVP
+
+* Email capture
+* Random quote on page load
+* Landing view
 
 ## How to use
 
@@ -110,7 +117,7 @@ client/             # Client folder
     views/              # All the views
     modules/         # UI elements and components (i.e. forms, actions, etc...)
      common/            # Common components (i.e. header, footer)
-     elements/          # Re-usable components 
+     elements/          # Re-usable components
 models/             # Model files, for each Meteor.Collection
 private/            # Private files
 public/             # Public files
