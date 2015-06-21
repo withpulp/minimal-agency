@@ -46,15 +46,23 @@
 
   &.quotes {
 		padding: @space-jumbo @space-small @space-small;
+    font-family: @font-family-serif;
+
+    @media (min-width: @tablet-width) {
+      text-align: center;
+    }
 
 		.quote {
       margin: 0;
-      font-family: @font-family-serif;
 			font-size: @mobile-font-large;
+
+      @media (min-width: @tablet-width) {
+			font-size: @mobile-font-giant;
+      }
 
       .author {
         margin: @space-small 0;
-  			text-align: right;
+        font-family: @font-family-serif;
   		}
     }
 	}
