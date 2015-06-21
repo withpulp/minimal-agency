@@ -38,7 +38,7 @@ Fixtures.root = [
   {
     class: 'figures',
     template: 'rootFigures',
-    statement: 'Our recent track record:',
+    statement: 'Recent track record:',
     figures: [
       {
         date: '2015 May',
@@ -122,7 +122,7 @@ Fixtures.root = [
   {
     class: 'tools',
     template: 'rootTools',
-    statement: 'Recent products:',
+    statement: 'Latest Tools:',
     tools: [
       {
         title: 'Landing Page Builder',
