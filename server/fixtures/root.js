@@ -39,36 +39,21 @@ Fixtures.root = [
     class: 'figures',
     template: 'rootFigures',
     statement: 'Recent track record:',
-    figures: [
+    dates: [
       {
         date: '2015 May',
-        metric: 'Purchases',
-        percent: '25%',
-        client: 'Wholesale E-commerce Company'
-      },
-      {
-        date: '2015 May',
-        metric: 'Signups',
-        percent: '30%',
-        client: 'Wholesale E-commerce Company'
-      },
-      {
-        date: '2015 March',
-        metric: 'Signups',
-        percent: '40%',
-        client: 'Yoga Studio'
-      },
-      {
-        date: '2015 March',
-        metric: 'Click-throughs',
-        percent: '22%',
-        client: 'TV Network'
-      },
-      {
-        date: '2015 January',
-        metric: 'Donations',
-        percent: '15%',
-        client: 'Non-profit Organization'
+        figures: [
+          {
+            metric: 'Purchases',
+            percent: '25%',
+            client: 'Wholesale E-commerce Company'
+          },
+          {
+            metric: 'Purchases',
+            percent: '25%',
+            client: 'Wholesale E-commerce Company'
+          }
+        ]
       }
     ]
   },

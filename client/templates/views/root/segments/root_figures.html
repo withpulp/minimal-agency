@@ -1,11 +1,13 @@
 <template name="rootFigures">
-  {{#each figures}}
+  {{#each dates}}
 	  <figure class="figure module mobile">
 		  <figcaption class="figure caption">
         {{date}}
         <span class="hidden mobile">|</span>
         <span class="data">
+          {{#with figures}}
           Increased {{metric}} by {{percent}} for {{client}}
+          {{/with}}
         </span>
       </figcaption>
 	  </figure>
