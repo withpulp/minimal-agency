@@ -100,7 +100,7 @@ Fixtures.root = [
       {
         image: '/images/team/damir.jpg',
         name: 'Damir Vazgird',
-        title: 'Technology'
+        title: 'Development & Tech'
       }
     ]
   },

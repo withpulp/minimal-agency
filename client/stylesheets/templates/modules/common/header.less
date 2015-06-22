@@ -24,12 +24,24 @@
     width: @space-large;
     height: @space-large;
     margin: 0 auto;
+    -moz-perspective: 1000px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -moz-perspective-origin: @half @full;
+    -webkit-perspective-origin: @half @full;
+    perspective-origin: @half @full;
 
     .cube {
       width: @full;
       height: @full;
       top: 0;
       position: absolute;
+      -moz-transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      -moz-transition: transform @slowest;
+      -webkit-transition: transform @slowest;
+      transition: transform @slowest;
 
       .face {
         display: block;
@@ -43,55 +55,26 @@
 
         &.front {
           background: fade(@primary-color, @three-quarters);
-          color: @gray-darker
+          color: @gray-darker;
+          -moz-transform: translateZ(@space-base);
+          -webkit-transform: translateZ(@space-base);
+          transform: translateZ(@space-base);
         }
 
         &.left {
-          display: none;
           background: @gray-darker;
           color: @primary-color;
+          -moz-transform: rotateY(-90deg) translateZ(@space-base);
+          -webkit-transform: rotateY(-90deg) translateZ(@space-base);
+          transform: rotateY(-90deg) translateZ(@space-base);
         }
       }
-    }
 
-    @media (min-width: @tablet-width) {
-      -moz-perspective: 1000px;
-      -webkit-perspective: 1000px;
-      perspective: 1000px;
-      -moz-perspective-origin: @half @full;
-      -webkit-perspective-origin: @half @full;
-      perspective-origin: @half @full;
-
-      .cube {
-        -moz-transform-style: preserve-3d;
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-        -moz-transition: transform @slowest;
-        -webkit-transition: transform @slowest;
-        transition: transform @slowest;
-
-        .face {
-
-          &.front {
-            -moz-transform: translateZ(@space-base);
-            -webkit-transform: translateZ(@space-base);
-            transform: translateZ(@space-base);
-          }
-
-          &.left {
-            display: block;
-            -moz-transform: rotateY(-90deg) translateZ(@space-base);
-            -webkit-transform: rotateY(-90deg) translateZ(@space-base);
-            transform: rotateY(-90deg) translateZ(@space-base);
-          }
-        }
-
-        &:hover {
-          left: @space-tiny;
-          -moz-transform: rotateX(0) rotateY(90deg);
-          -webkit-transform: rotateX(0) rotateY(90deg);
-          transform: rotateX(0) rotateY(90deg);
-        }
+      &:hover {
+        left: @space-tiny;
+        -moz-transform: rotateX(0) rotateY(90deg);
+        -webkit-transform: rotateX(0) rotateY(90deg);
+        transform: rotateX(0) rotateY(90deg);
       }
     }
   }

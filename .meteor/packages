@@ -9,9 +9,9 @@ iron:router
 dburles:collection-helpers
 fastclick
 manuelschoebel:ms-seo
-less
 momentjs:moment
 msavin:mongol
 sanjo:jasmine
 velocity:html-reporter
 miro:mailchimp
+lauricio:less-autoprefixer
