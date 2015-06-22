@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "8004b06f54a6d18804e7825a005d211996b2f22f"
+                  "value": "fbfa276e3c417f0633b869105b525a238fdf2d63"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 1
+              "value": 0
             },
             "timeout": {
               "type": "constant",
@@ -7861,11 +7861,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "d55ead66d071e7a69f6f3085e87b96df30fa251d"
+          "value": "468b668a2ef08f3a65f8fd13d4e919e054596415"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "3ccfee69ced4d2a2d4661e47613b7ac922cd5f2b"
+          "value": "c3ddec679be7462d24e56f77308133dd0215333a"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -8710,7 +8710,6 @@ var packageMetadata = {
   "fastclick": {},
   "coffeescript": {},
   "manuelschoebel:ms-seo": {},
-  "less": {},
   "lai:collection-extensions": {},
   "dburles:mongo-collection-instances": {},
   "babrahams:editable-json": {},
@@ -9798,6 +9797,7 @@ var packageMetadata = {
       }
     }
   },
+  "lauricio:less-autoprefixer": {},
   "session": {},
   "livedata": {
     "DDP": {

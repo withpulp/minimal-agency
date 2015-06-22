@@ -9,7 +9,6 @@ iron:router
 dburles:collection-helpers
 fastclick
 manuelschoebel:ms-seo
-less
 momentjs:moment
 msavin:mongol
 sanjo:jasmine
