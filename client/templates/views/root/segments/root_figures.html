@@ -3,12 +3,11 @@
 	  <figure class="figure module mobile">
 		  <figcaption class="figure caption">
         {{date}}
-        <span class="hidden mobile">|</span>
+        <ul class="list">
         {{#each figures}}
-          <span class="data">
-            Increased {{metric}} by {{percent}} for {{client}}
-          </span>
+          <li class="list item">Increased {{metric}} by {{percent}} for {{client}}</li>
         {{/each}}
+        </ul>
       </figcaption>
 	  </figure>
 	{{/each}}
