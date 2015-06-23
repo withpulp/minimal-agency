@@ -1,14 +1,14 @@
 <template name="rootFigures">
   {{#each dates}}
-	  <figure class="figure module mobile">
+	  <figure class="figure module">
 		  <figcaption class="figure caption">
         {{date}}
-        <ul class="list">
+      </figcaption>
+      <ul class="list">
         {{#each figures}}
           <li class="list item">Increased {{metric}} by {{percent}} for {{client}}</li>
         {{/each}}
-        </ul>
-      </figcaption>
+      </ul>
 	  </figure>
 	{{/each}}
 </template>
