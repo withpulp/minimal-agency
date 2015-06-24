@@ -15,3 +15,4 @@ sanjo:jasmine
 velocity:html-reporter
 miro:mailchimp
 lauricio:less-autoprefixer
+fortawesome:fontawesome
