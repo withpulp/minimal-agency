@@ -87,13 +87,21 @@
 // lists
 
 .list {
-
 	list-style-type: square;
 
   &.unstyled {
     padding: 0;
 	  list-style-type: none;
   }
+
+	&.inline {
+		padding: 0;
+		list-style-type: none;
+
+		.item {
+			display: inline;
+		}
+	}
 
   @media (min-width: @desktop-width) {
     text-indent: @space-large;

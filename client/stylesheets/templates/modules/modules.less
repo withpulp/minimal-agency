@@ -28,10 +28,25 @@
     padding: 0;
 
     .image {
+      position: relative;
+      display: block;
+      width: @full;
+      cursor: pointer;
+      opacity: 0.95;
+      -moz-transition: opacity @slowest, -moz-transform @slowest;
+      -webkit-transition: opacity @slowest, -webkit-transform @slowest;
+      transition: opacity @slowest, transform @slowest;
+      -moz-transform: scale3d(1.05,1.05,1);
+      -webkit-transform: scale3d(1.05,1.05,1);
+      transform: scale3d(1.05,1.05,1);
 
       @media (min-width: @tablet-width) {
         width: @half;
       }
+    }
+
+    .social {
+      text-align: center;
     }
 
     .name {
