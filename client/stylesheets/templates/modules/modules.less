@@ -49,10 +49,6 @@
       margin: 0;
       text-align: center;
 
-      @media (min-width: @desktop-width) {
-        margin-bottom: @space-base;
-      }
-
       .title {
         display: block;
         color: @gray;
@@ -63,28 +59,24 @@
     .social {
       display: block;
       width: @full;
-      margin: @space-smaller 0 @space-base;
+      margin: @space-smaller auto @space-base;
       text-align: center;
 
-      @media (min-width: @desktop-width) {
-        position: absolute;
-        bottom: @space-huge;
-        left: 0;
-        margin: 0;
-        padding: 0;
-        -moz-backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+      @media (min-width: @tablet-width) {
+        width: @half;
       }
 
-      .item {
-        padding: 0 @space-smallest;
+      .list {
 
-        .icon {
-          text-decoration: none;
+        .item {
+          padding: 0 @space-smallest;
 
-          @media (min-width: @desktop-width) {
-            color: @primary-color;
+          .icon {
+            text-decoration: none;
+
+            .fa {
+              display: inherit;
+            }
           }
         }
       }
