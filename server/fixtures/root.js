@@ -111,7 +111,7 @@ Fixtures.root = [
       {
         image: '/images/team/husam.jpg',
         name: 'Husam Machlovi',
-        title: 'Strategy & Design',
+        title: 'Design',
         social: [
           {
             url: 'http://twitter.com/hmachlovi',
@@ -130,7 +130,7 @@ Fixtures.root = [
       {
         image: '/images/team/damir.jpg',
         name: 'Damir Vazgird',
-        title: 'Development & Tech',
+        title: 'Development',
         social: [
           {
             url: 'http://twitter.com/dvazgird',
