@@ -79,19 +79,19 @@ Fixtures.root = [
     statement: 'Trusted by:',
     clients: [
       {
-        image: 'images/clients/pfizer.png'
+        image: 'images/clients/jj.png'
       },
       {
-        image: 'images/clients/jj.png'
+        image: 'images/clients/pfizer.png'
       },
       {
         image: 'images/clients/sva.png'
       },
       {
-        image: 'images/clients/thermofisher.png'
+        image: 'images/clients/amc.png'
       },
       {
-        image: 'images/clients/amc.png'
+        image: 'images/clients/thermofisher.png'
       },
       {
         image: 'images/clients/novo.png'
