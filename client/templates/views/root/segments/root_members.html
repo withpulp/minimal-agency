@@ -12,21 +12,13 @@
 					</h4>
 					<div class="social">
 						<ul class="inline list">
-							<li class="item">
-								<a class="icon" href="{{url}}">
-									<i class="fa fa-twitter-square"></i>
-								</a>
-							</li>
-							<li class="item">
-								<a class="icon" href="">
-								  <i class="fa fa-github-square"></i>
-								</a>
-							</li>
-							<li class="item">
-								<a class="icon" href="">
-								  <i class="fa fa-google-plus-square"></i>
-								</a>
-							</li>
+							{{#each social}}
+							  <li class="item">
+								  <a class="icon" href="{{url}}">
+									  <i class="{{icon}}"></i>
+								  </a>
+							  </li>
+							{{/each}}
 						</ul>
 					</div>
 				</figure>
