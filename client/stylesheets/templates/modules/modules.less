@@ -45,28 +45,48 @@
       }
     }
 
-    .social {
-      display: block;
-      position: absolute;
-      bottom: @space-huge;
-      left: 0;
-      width: @full;
-      margin: 0;
-      padding: 0;
-      color: @primary-color;
-      text-align: center;
-      -moz-backface-visibility: hidden;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-    }
-
     .name {
+      margin: 0;
       text-align: center;
+
+      @media (min-width: @desktop-width) {
+        margin-bottom: @space-base;
+      }
 
       .title {
         display: block;
         color: @gray;
         font-family: @font-family-monospace;
+      }
+    }
+
+    .social {
+      display: block;
+      width: @full;
+      margin: @space-smaller 0 @space-base;
+      text-align: center;
+
+      @media (min-width: @desktop-width) {
+        position: absolute;
+        bottom: @space-huge;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+
+      .item {
+        padding: 0 @space-smallest;
+
+        .icon {
+          text-decoration: none;
+
+          @media (min-width: @desktop-width) {
+            color: @primary-color;
+          }
+        }
       }
     }
   }
