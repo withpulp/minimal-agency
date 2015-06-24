@@ -46,7 +46,18 @@
     }
 
     .social {
+      display: block;
+      position: absolute;
+      bottom: @space-huge;
+      left: 0;
+      width: @full;
+      margin: 0;
+      padding: 0;
+      color: @primary-color;
       text-align: center;
+      -moz-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
     }
 
     .name {
