@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "f72842f9d993157c73389f49948b3f079b1b2392"
+                  "value": "0e8070fe8728e30c611f63d8c74848ccd26a7818"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 0
+              "value": 2
             },
             "timeout": {
               "type": "constant",
@@ -7861,11 +7861,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "16a321136bf2e87a91b855d1c7799f6605d0d734"
+          "value": "220d8d18389c978b153ce759ef1291a5bc01752d"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "39d120efc257894b58622b860f9019d5dc42c67a"
+          "value": "7ca14a05dd42c9ee21afe994b88909616f3eb181"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -9798,6 +9798,7 @@ var packageMetadata = {
     }
   },
   "lauricio:less-autoprefixer": {},
+  "fortawesome:fontawesome": {},
   "session": {},
   "livedata": {
     "DDP": {
