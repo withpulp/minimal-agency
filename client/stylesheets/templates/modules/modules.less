@@ -24,6 +24,27 @@
     }
   }
 
+  &.card {
+    padding: 0;
+
+    .image {
+
+      @media (min-width: @tablet-width) {
+        width: @half;
+      }
+    }
+
+    .name {
+      text-align: center;
+
+      .title {
+        display: block;
+        color: @gray;
+        font-family: @font-family-monospace;
+      }
+    }
+  }
+
   &.article {
     margin-bottom: @space-large;
     padding: 0;

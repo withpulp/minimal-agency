@@ -1,14 +1,16 @@
 <template name="rootMembers">
 	<div class="members top gutter grid">
 	  {{#each members}}
-		  <div class="member card cell">
-			  <img class="fluid image" src="{{image}}" />
-			  <h4 class="name">
-					{{name}}
-					<small class="title">
-						{{title}}
-					</small>
-				</h4>
+		  <div class="member cell">
+				<figure class="card module">
+			    <img class="fluid image" src="{{image}}" />
+			    <h4 class="name">
+					  {{name}}
+					  <small class="title">
+						  {{title}}
+					  </small>
+				  </h4>
+				</figure>
 		  </div>
 		{{/each}}
 	</div>
