@@ -4,23 +4,23 @@
 		  <div class="member cell">
 				<figure class="card module">
 			    <img class="fluid image" src="{{image}}" />
-			    <h4 class="name">
-					  {{name}}
-					  <small class="title">
-						  {{title}}
-					  </small>
-				  </h4>
-					<ul class="social inline list">
-						<li class="item">
-							<i class="">icon</i>
-						</li>
-						<li class="item">
-							<i class="">icon</i>
-						</li>
-						<li class="item">
-							<i class="">icon</i>
-						</li>
-					</ul>
+					<h4 class="name">
+						{{name}}
+						<small class="title">
+							{{title}}
+						</small>
+					</h4>
+					<div class="social">
+						<ul class="inline list">
+							{{#each social}}
+							  <li class="item">
+								  <a class="icon" href="{{url}}">
+									  <i class="{{icon}}"></i>
+								  </a>
+							  </li>
+							{{/each}}
+						</ul>
+					</div>
 				</figure>
 		  </div>
 		{{/each}}

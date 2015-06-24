@@ -94,6 +94,7 @@ Router.route('/about', function () {
 * UI and UX
   * [fastclick](https://github.com/meteor/meteor/tree/devel/packages/fastclick)
   * [miro:mailchimp](https://github.com/MiroHibler/meteor-mailchimp)
+  * [fortawesome:fontawesome](https://github.com/MeteorPackaging/Font-Awesome)
 * SEO
   * [manuelschoebel:ms-seo](https://github.com/DerMambo/ms-seo)
 * Development
