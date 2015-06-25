@@ -123,10 +123,12 @@
   }
 
   &.mailchimp {
-		left: 0;
-		bottom: @space-larger;
 		width: @full;
-    top: @space-smaller;
+    margin: auto;
+
+    @media (min-width: @tablet-width) {
+      width: @half;
+    }
 
     div {
       display: -webkit-box;
