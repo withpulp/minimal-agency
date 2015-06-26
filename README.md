@@ -22,23 +22,28 @@ A mobile-first website for an agency / startup built with Meteor.
 ## Roadmap
 
 ### Features
+* Views
+	* Landing
+	* Portfolio view
+	* Case study view
+	* Blog
 
-* Admin account to insert/update/delete content
-* Email capture
-* Random quote on page load
+* Modules
+	* Admin account to insert/update/delete content
+	* Email capture
+	* Random quote on page load
+	* Twitter streaming
 
 ### Views
 
-* Landing
-* Portfolio view
-* Case study view
-* Blog
 
 ### MVP
+* Views
+  * Landing
+* Modules
+  * Email capture
+  * Random quote on page load
 
-* Email capture
-* Random quote on page load
-* Landing view
 
 ## How to use
 
