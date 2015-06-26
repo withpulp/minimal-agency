@@ -11,7 +11,7 @@ Fixtures.about = [
     values: [
       {
         value: 'Authenticity',
-        definition: 'To be vulnerable.'
+        definition: 'To build positive relationships.'
       },
       {
         value: 'Adaptability',
@@ -19,7 +19,15 @@ Fixtures.about = [
       },
       {
         value: 'Simplicity',
-        definition: 'To subtract, not add.'
+        definition: 'To distill to only what\'s meaningful'
+      },
+      {
+        value: 'Self-awareness',
+        definition: 'To build on our strengths.'
+      },
+      {
+        value: 'Innovation',
+        definition: 'To empower the world.'
       }
     ]
   },
