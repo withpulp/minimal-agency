@@ -3,18 +3,24 @@
 // loading styles
 
 .loading.module {
-	height: @fluid-full;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: @full;
+	height: @full;
 	padding: 0;
+	background: @light;
 	text-align: center;
 
   .loader {
 		display: inline-block;
-		width: @space-base;
-	  height: @space-base;
+		width: @space-larger;
+	  height: @space-larger;
 	  position: relative;
 		background-color: @gray-darker;
 	  border: @space-mini solid @gray-darker;
-	  top: @half;
+	  top: 45vh;
 	  animation: loader 1.5s infinite ease;
 
 		.fill {
