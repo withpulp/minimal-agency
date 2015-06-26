@@ -21,11 +21,11 @@ Router.route('/', {
 Router.route('/about', {
 	name: 'about',
 	data: function() {
-    return Members.find();
+    return About.find();
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('members')
+      Meteor.subscribe('about')
     ]
   },
   action: function () {

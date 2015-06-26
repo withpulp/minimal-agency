@@ -21,7 +21,7 @@ Meteor.startup(function () {
   }
 
   if (Members.find().count() === 0) {
-    loadFixture(Fixtures['members'], Members);
+    loadFixture(Fixtures['about'], About);
   }
 
   if (Root.find().count() === 0) {

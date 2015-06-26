@@ -1,7 +1,7 @@
 // The "||" notation doesn't work yet
 Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
-Fixtures.members = [
+About.members = [
   {
     name: 'Husam Machlovi',
     photo: 'http://placehold.it/200x200',
