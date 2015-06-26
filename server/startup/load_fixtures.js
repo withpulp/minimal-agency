@@ -20,8 +20,8 @@ Meteor.startup(function () {
     loadFixture(Fixtures['services'], Services);
   }
 
-  if (Members.find().count() === 0) {
-    loadFixture(Fixtures['members'], Members);
+  if (About.find().count() === 0) {
+    loadFixture(Fixtures['about'], About);
   }
 
   if (Root.find().count() === 0) {

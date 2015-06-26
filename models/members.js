@@ -1,6 +1,6 @@
-Members = new Mongo.Collection('members');
+About = new Mongo.Collection('about');
 
-Members.allow({
+About.allow({
   insert: function (userId, doc) {
     return (userId && doc.ownerId === userId);
   },
@@ -13,8 +13,8 @@ Members.allow({
   fetch: ['ownerId']
 });
 
-Members.helpers({
-  members: function() {
-    return Members.find();
+About.helpers({
+  about: function() {
+    return About.find();
   }
 });
