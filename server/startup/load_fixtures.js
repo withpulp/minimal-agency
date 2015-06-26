@@ -20,7 +20,7 @@ Meteor.startup(function () {
     loadFixture(Fixtures['services'], Services);
   }
 
-  if (Members.find().count() === 0) {
+  if (About.find().count() === 0) {
     loadFixture(Fixtures['about'], About);
   }
 
