@@ -51,11 +51,6 @@
     }
 
     .caption {
-      display: none;
-
-      @media (min-width: @tablet-width) {
-        display: block;
-      }
 
       .name {
         margin: 0;
@@ -69,12 +64,13 @@
       }
 
       .social {
-        display: block;
+        display: none;
         width: @full;
         margin: @space-smaller auto @space-base;
         text-align: center;
 
         @media (min-width: @tablet-width) {
+          display: block;
           width: @half;
         }
 
