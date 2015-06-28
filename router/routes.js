@@ -5,7 +5,9 @@ Router.route('/', {
 	},
 	waitOn: function () {
 		return [
-			Meteor.subscribe('root')
+			Meteor.subscribe('root'),
+			Meteor.subscribe('quotes'),
+			Meteor.subscribe('contacts')
 		]
 	},
 	action: function () {
@@ -25,7 +27,9 @@ Router.route('/about', {
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('about')
+      Meteor.subscribe('about'),
+			Meteor.subscribe('quotes'),
+			Meteor.subscribe('contacts')
     ]
   },
   action: function () {
@@ -45,7 +49,9 @@ Router.route('/services', {
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('services')
+      Meteor.subscribe('services'),
+			Meteor.subscribe('quotes'),
+			Meteor.subscribe('contacts')
     ]
   },
   action: function () {
@@ -65,7 +71,9 @@ Router.route('/tools', {
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('portfolio')
+      Meteor.subscribe('portfolio'),
+			Meteor.subscribe('quotes'),
+			Meteor.subscribe('contacts')
     ]
   },
   action: function () {
@@ -85,7 +93,9 @@ Router.route('/clients', {
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('clients')
+      Meteor.subscribe('clients'),
+			Meteor.subscribe('quotes'),
+			Meteor.subscribe('contacts')
     ]
   },
   action: function () {

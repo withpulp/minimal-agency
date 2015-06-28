@@ -1,6 +1,6 @@
-Footer = new Mongo.Collection('footer');
+Contacts = new Mongo.Collection('contacts');
 
-Footer.allow({
+Contacts.allow({
   insert: function (userId, doc) {
     return (userId && doc.ownerId === userId);
   },
@@ -13,8 +13,8 @@ Footer.allow({
   fetch: ['ownerId']
 });
 
-Footer.helpers({
-  footer: function() {
-    return Footer.find();
+Contacts.helpers({
+  contacts: function() {
+    return Contacts.find();
   }
 });
