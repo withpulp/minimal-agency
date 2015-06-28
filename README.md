@@ -97,6 +97,9 @@ Router.route('/about', function () {
   * [iron:router](https://github.com/EventedMind/iron-router)
 * Collections
  * [dburles:collection-helpers](https://github.com/dburles/meteor-collection-helpers/)
+* Accounts
+  * [accounts-password](https://github.com/meteor/meteor/tree/devel/packages/accounts-password)
+  * [useraccounts:unstyled](https://github.com/meteor-useraccounts/unstyled/)
 * UI and UX
   * [fastclick](https://github.com/meteor/meteor/tree/devel/packages/fastclick)
   * [miro:mailchimp](https://github.com/MiroHibler/meteor-mailchimp)
