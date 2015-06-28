@@ -174,7 +174,7 @@ Fixtures.root = [
       },
       {
         title: 'Titles are Stupid',
-        description: 'While it is important to understand what others are doing, it\'s far more important to know that others are working. Titles lead to political jockeying and work-place stress.'
+        description: 'While it is important to understand what others are doing, it\'s far more important to know that others are doing something. Titles lead to political jockeying and work-place stress.'
       },
     ]
   }

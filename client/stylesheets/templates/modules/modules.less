@@ -115,33 +115,17 @@
   &.article {
     padding: 0;
 
-    .tool {
-      margin-bottom: @space-large;
+    article {
+      margin-bottom: @space-medium;
 
-      @media (min-width: @tablet-width) {
-        margin-bottom: @space-jumbo;
-      }
-
-      .title {
-        margin: 0;
-      }
+          .title {
+            margin-bottom: @space-tiny;
+          }
     }
 
-    &.posts {
-      padding: @space-larger @space-small;
-
-      .statement {
-        color: @light;
-        font-weight: normal;
-      }
-
-      .post {
-        padding: @space-smallest 0;
-      }
-
-      .link {
-        color: @primary-color;
-        font-weight: normal;
+    .tool {
+      @media (min-width: @tablet-width) {
+        margin-bottom: @space-jumbo;
       }
     }
   }
