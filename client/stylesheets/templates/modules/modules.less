@@ -133,7 +133,8 @@
   &.mailchimp {
 		width: @full;
     margin: 0 auto @space-small;
-    padding: @space-largest @space-small 0 @space-small;
+    padding: @space-huge @space-small 0 @space-small;
+    background-color: @gray-lighter;
 
     @media (min-width: @tablet-width) {
       width: @half;
@@ -156,7 +157,6 @@
         position: absolute;
         bottom: @space-massive;
         font-size: @mobile-font-base;
-        font-style: italic;
       }
 
       .email {
@@ -197,6 +197,8 @@
     display: inline-block;
     width: @full;
     margin-bottom: @space-jumbo;
+    padding: @space-normal;
+    font-style: italic;
 
     @media (min-width: @tablet-width) {
       text-align: center;
@@ -224,7 +226,6 @@
     width: @full;
     padding: @space-normal @space-small;
     text-align: center;
-    background-color: @gray-dark;
 
 		.list {
 
@@ -232,7 +233,6 @@
         margin: 0 @space-tiny;
 
         .info {
-  				color: @light;
           font-size: @mobile-font-small;
 
           @media (min-width: @tablet-width) {
