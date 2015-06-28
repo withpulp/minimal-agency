@@ -1,0 +1,12 @@
+<template name="rootPosts">
+  <div class="posts article module">
+    {{#each posts}}
+      <article class="post">
+    	  <h4 class="title">
+          <a class="id link" href="#">{{title}}</a>
+        </h4>
+        <p class="excerpt">{{description}}</p>
+      </article>
+    {{/each}}
+  </div>
+</template>

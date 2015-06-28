@@ -167,7 +167,7 @@ Fixtures.root = [
     class: 'posts',
     template: 'rootPosts',
     statement: 'Latest Articles:',
-    tools: [
+    posts: [
       {
         title: 'The Diamond Age is Upon Us',
         description: 'Given the acceleration of software engineering and the growing popularity of social coding platforms like GitHub, we\'re seeing the dawn of the age of self-sustainability.'
