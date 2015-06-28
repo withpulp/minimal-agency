@@ -181,7 +181,6 @@
   }
 
   &.quotes {
-    position: absolute;
     bottom: 0;
     width: @full;
     padding: @space-normal @space-small @space-giant;
@@ -243,9 +242,18 @@
 	}
 
   .posts {
-    padding: @space-normal @space-small;
+    h3 {
+      color: @light;
+      padding-top: @space-normal;
+      font-weight: normal;
 
+    }
+
+    .post {
+      padding: @space-small 0;
+    }
     a {
+      font-weight: normal;
       color: @primary-color;
     }
   }
