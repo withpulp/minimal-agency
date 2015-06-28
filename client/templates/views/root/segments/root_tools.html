@@ -1,11 +1,13 @@
 <template name="rootTools">
-  {{#each tools}}
-	  <article class="tool article module">
-		  <h4 class="article title">
-			  <a href="#">{{title}}</a>
-		  </h4>
-		  <p>{{description}}</p>
-	  </article>
-	{{/each}}
-	<a class="route link" href="{{pathFor 'tools'}}">View All</a>
+  <div class="tools article module">
+    {{#each tools}}
+	    <article class="tool">
+		    <h4 class="title">
+			    <a class="id link" href="#">{{title}}</a>
+		    </h4>
+		    <p class="excerpt">{{description}}</p>
+	    </article>
+	  {{/each}}
+	  <a class="route link" href="{{pathFor 'tools'}}">View All</a>
+  </div>
 </template>

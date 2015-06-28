@@ -106,15 +106,36 @@
   }
 
   &.article {
-    margin-bottom: @space-large;
     padding: 0;
 
-    @media (min-width: @tablet-width) {
-      margin-bottom: @space-jumbo;
+    .tool {
+      margin-bottom: @space-large;
+
+      @media (min-width: @tablet-width) {
+        margin-bottom: @space-jumbo;
+      }
+
+      .title {
+        margin: 0;
+      }
     }
 
-    .article.title {
-      margin: 0;
+    &.posts {
+      padding: @space-larger @space-small;
+
+      .statement {
+        color: @light;
+        font-weight: normal;
+      }
+
+      .post {
+        padding: @space-smallest 0;
+      }
+
+      .link {
+        color: @primary-color;
+        font-weight: normal;
+      }
     }
   }
 
@@ -240,21 +261,4 @@
       }
 		}
 	}
-
-  .posts {
-    padding: @space-larger @space-small;
-
-    h3 {
-      color: @light;
-      font-weight: normal;
-    }
-
-    .post {
-      padding: @space-smallest 0;
-    }
-    a {
-      font-weight: normal;
-      color: @primary-color;
-    }
-  }
 }
