@@ -5,7 +5,7 @@ Fixtures.root = [
   {
     class: 'intro',
     template: 'rootIntro',
-    statement: 'We Boost Business.',
+    statement: 'We boost business.',
     supporting: {
       strong: 'µTool',
       emphasis: '(/mu:tool/)',

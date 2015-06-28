@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "0b782a8b938b66bcee8a9d12426ab6179d85e2d8"
+                  "value": "c9a9127ac643c0380f65aa6e15919014d25ede33"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7865,7 +7865,7 @@ var packageMetadata = {
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "853e0e4cdbff5a35f215b63e58c5b2ea30402d06"
+          "value": "7321125cea3bf301a78d11b6681786900d061bac"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
