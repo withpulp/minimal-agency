@@ -183,8 +183,6 @@
   &.quotes {
     bottom: 0;
     width: @full;
-    padding: @space-normal @space-small @space-giant;
-    font-family: @font-family-serif;
     color: @gray-lighter;
     background-color: @divider;
 
@@ -194,15 +192,14 @@
 
 		.quote {
       margin: 0;
-			font-size: @mobile-font-large;
+			font-size: @mobile-font-base;
 
       @media (min-width: @tablet-width) {
 			  font-size: @mobile-font-giant;
       }
 
       .author {
-        margin: @space-smaller;
-        font-family: @font-family-serif;
+        margin: @space-smaller @space-smaller 0 @space-smaller;
         text-align: center;
   		}
     }
