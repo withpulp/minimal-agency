@@ -6,7 +6,7 @@
 
 .button {
 	padding: @space-small @space-large;
-	border: @space-tiny solid @dark;
+	border: @space-tinier solid @dark;
 	background-color: @gray;
 	color: @light;
 	text-align: center;
@@ -15,6 +15,10 @@
 	-moz-transition: all @faster;
 	-webkit-transition: all @faster;
 	transition: all @faster;
+
+	@media (min-width: @tablet-width) {
+		border: @space-tiny solid @dark;
+	}
 
   &:hover,
   &:focus {
@@ -48,6 +52,7 @@
 	&.cta {
 		font-size: @mobile-font-large;
 		font-weight: bold;
+		text-align: center;
 
 		.supporting {
 			display: block;
