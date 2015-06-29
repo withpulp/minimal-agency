@@ -118,14 +118,15 @@
     article {
       margin-bottom: @space-medium;
 
+      @media (min-width: @tablet-width) {
+        margin-bottom: @space-large;
+      }
+
       .title {
         margin-bottom: @space-tiny;
       }
 
       &.tool {
-        @media (min-width: @tablet-width) {
-          margin-bottom: @space-jumbo;
-        }
       }
     }
   }
