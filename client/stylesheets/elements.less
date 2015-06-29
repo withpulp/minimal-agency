@@ -6,7 +6,7 @@
 
 .button {
 	padding: @space-small @space-large;
-	border: @space-mini solid @gray;
+	border: @space-tiny solid @dark;
 	background-color: @gray;
 	color: @light;
 	text-align: center;
@@ -15,9 +15,6 @@
 	-moz-transition: all @faster;
 	-webkit-transition: all @faster;
 	transition: all @faster;
-	-moz-box-shadow: 0 @space-mini @space-mini 0 @dark;
-	-webkit-box-shadow: 0 @space-mini @space-mini 0 @dark;
-	box-shadow: 0 @space-mini @space-mini 0 @dark;
 
   &:hover,
   &:focus {
@@ -57,6 +54,7 @@
 			margin-top: @space-tiny;
 			font-weight: normal;
 			font-size: @mobile-font-base;
+			text-decoration: underline;
 
 			@media (min-width: @tablet-width) {
 				font-size: @tablet-font-huge;
