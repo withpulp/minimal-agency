@@ -118,14 +118,14 @@
     article {
       margin-bottom: @space-medium;
 
-          .title {
-            margin-bottom: @space-tiny;
-          }
-    }
+      .title {
+        margin-bottom: @space-tiny;
+      }
 
-    .tool {
-      @media (min-width: @tablet-width) {
-        margin-bottom: @space-jumbo;
+      &.tool {
+        @media (min-width: @tablet-width) {
+          margin-bottom: @space-jumbo;
+        }
       }
     }
   }
@@ -136,16 +136,13 @@
     padding: @space-larger @space-small @space-small @space-small;
     background-color: @gray-lighter;
 
-    @media (min-width: @tablet-width) {
-      width: @half;
-    }
-
     div {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       width: @full;
+      margin: auto;
       padding: @space-small 0;
 
       &::before,
@@ -153,10 +150,18 @@
         box-sizing: border-box;
       }
 
+      @media (min-width: @tablet-width) {
+        width: @half;
+      }
+
       .message {
         position: absolute;
         bottom: @space-massive;
         font-size: @mobile-font-base;
+
+        @media (min-width: @tablet-width) {
+          text-align: center;
+        }
       }
 
       .email {

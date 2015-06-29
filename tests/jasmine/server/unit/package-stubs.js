@@ -7861,11 +7861,15 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "75c96fcb3a3fff21d16bef6caf9e466ba5ee30c5"
+          "value": "dbd67e8df2a4d66e9810a6fa4cd3b9c73505fcda"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
+<<<<<<< HEAD
           "value": "47c582a42f34998c3c0d00711eea00fc5557036a"
+=======
+          "value": "ef57d0f71691954f31659a9628fc1eac089c7fb4"
+>>>>>>> efff678eec6fcc2c6ddf0da1e0fcb45472432a6e
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -8782,7 +8786,7 @@ var packageMetadata = {
             },
             "siteName": {
               "type": "constant",
-              "value": "localhost:3000"
+              "value": "localhost:3030"
             },
             "resetPassword": {
               "type": "object",
