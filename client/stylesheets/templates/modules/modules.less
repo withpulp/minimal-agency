@@ -162,6 +162,7 @@
 
         @media (min-width: @tablet-width) {
           text-align: center;
+          font-size: @tablet-font-base;
         }
       }
 
@@ -178,6 +179,10 @@
         outline: 0;
         font-size: @mobile-font-base;
         font-family: @font-family-monospace;
+
+        @media (min-width: @tablet-width) {
+          font-size: @tablet-font-base;
+        }
       }
 
       .subscribe {
@@ -189,6 +194,10 @@
         color: @gray;
         font-size: @mobile-font-base;
         font-family: @font-family-monospace;
+
+        @media (min-width: @tablet-width) {
+          font-size: @tablet-font-base;
+        }
 
         &:hover,
         &:focus {
@@ -203,13 +212,17 @@
     display: inline-block;
     width: @full;
     margin-bottom: @space-jumbo;
-    padding: @space-normal;
+    padding: @space-large;
     font-style: italic;
     font-family: @font-family-serif;
     text-align: center;
 
     @media (min-width: @tablet-width) {
-      text-align: center;
+      padding: @space-jumbo;
+    }
+
+    @media (min-width: @desktop-width) {
+      padding: @space-giant;
     }
 
 		.quote {
