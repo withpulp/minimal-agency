@@ -16,17 +16,25 @@
 		width: @full;
 		margin: 0;
 		padding: @space-tiny;
-		font-size: @mobile-font-small;
+		font-size: @mobile-font-tiny;
 		text-align: center;
 		background-color: @light;
 
+		@media (min-width: @tablet-width) {
+			font-size: @mobile-font-small;
+		}
+
 		.creator {
 			font-family: @font-family-base;
-			font-size: @mobile-font-small;
+			font-size: @mobile-font-tiny;
 
 			&:hover,
 			&:focus {
-				color: @primary-color;
+				color: @gray-darker;
+			}
+
+			@media (min-width: @tablet-width) {
+				font-size: @mobile-font-small;
 			}
 		}
 	}
