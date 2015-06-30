@@ -1,12 +1,12 @@
 <template name="layout">
+	<header class="header module">
+		{{> header}}
+	</header>
 	<main class="layout {{menuToggle}}">
-		<header class="header module">
-			{{> header}}
-		</header>
 		<aside class="menu module">
 			{{> menu}}
 		</aside>
-		<aside class="pusher">
+		<aside class="content pusher">
 		  <section class="view container">
 			  {{> yield}}
 		  </section>
