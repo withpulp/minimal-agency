@@ -24,6 +24,29 @@
     }
   }
 
+  &.clients {
+
+    .client {
+      -moz-transform: scale3d(1,1,1);
+      -webkit-transform: scale3d(1,1,1);
+      transform: scale3d(1,1,1);
+      -moz-transition: -moz-transform @slowest;
+      -webkit-transition: -webkit-transform @slowest;
+      transition: transform @slowest;
+
+      .image {
+        margin: 0;
+      }
+
+      &:hover,
+      &:focus {
+        -moz-transform: scale3d(1.25,1.25,1.25);
+        -webkit-transform: scale3d(1.25,1.25,1.25);
+        transform: scale3d(1.25,1.25,1.25);
+      }
+    }
+  }
+
   &.members {
 
     .member {
