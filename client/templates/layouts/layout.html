@@ -1,16 +1,18 @@
 <template name="layout">
-	<aside class="menu module">
-		{{> menu}}
-	</aside>
-	<main class="layout">
+	<main class="layout {{menuToggle}}">
 		<header class="header module">
 			{{> header}}
 		</header>
-		<section class="view container">
-			{{> yield}}
-		</section>
-		<footer class="footer module">
-			{{> footer}}
-		</footer>
+		<aside class="menu module">
+			{{> menu}}
+		</aside>
+		<aside class="pusher">
+		  <section class="view container">
+			  {{> yield}}
+		  </section>
+		  <footer class="footer module">
+			  {{> footer}}
+		  </footer>
+	  </aside>
 	</main>
 </template>

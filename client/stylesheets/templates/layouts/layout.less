@@ -7,8 +7,6 @@ html {
   height: @full;
 
   body {
-    position: absolute;
-    top: 0;
     width: @full;
     height: @full;
     margin: 0;
@@ -16,32 +14,27 @@ html {
     background-color: @background-color;
     overflow-y: scroll;
     overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-transition: -webkit-transform @slowest;
-    transition: transform @slowest;
-
-    .menu {
-      display: block;
-      position: fixed;
-      height: 100%;
-      width: 100%;
-      z-index: 1;
-      background: @gray-darker;
-      color: @primary-color;
-      -moz-transform: rotateY(-90deg) translateZ(@space-base);
-      -webkit-transform: rotateY(-90deg) translateZ(@space-base);
-      transform: rotateY(-90deg) translateZ(@space-base);
-    }
 
     .layout {
       position: relative;
       min-height: @full;
       overflow: hidden;
-      -moz-transform: translateZ(@space-base);
-      -webkit-transform: translateZ(@space-base);
-      transform: translateZ(@space-base);
+
+      .menu {
+        display: block;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background: @gray-darker;
+        color: @primary-color;
+      }
+
+      .pusher {
+      }
+
+      &.navigator {
+      }
     }
 	}
 }
