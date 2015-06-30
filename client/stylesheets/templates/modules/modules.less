@@ -31,18 +31,21 @@
       .card {
         margin: 0;
         padding: 0;
+        -moz-transform: scale3d(1,1,1);
+        -webkit-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1);
+        -moz-transition: -moz-transform @slowest;
+        -webkit-transition: -webkit-transform @slowest;
+        transition: transform @slowest;
 
         .image {
           position: relative;
           display: block;
           width: @full;
           cursor: pointer;
-          -moz-transition: filter @slowest, -moz-transform @slowest;
-          -webkit-transition: filter @slowest, -webkit-transform @slowest;
-          transition: filter @slowest, transform @slowest;
-          -moz-transform: scale3d(1,1,1);
-          -webkit-transform: scale3d(1,1,1);
-          transform: scale3d(1,1,1);
+          -moz-transition: filter @slowest;
+          -webkit-transition: filter @slowest;
+          transition: filter @slowest;
 
           @media (min-width: @tablet-width) {
             width: @half;
@@ -98,14 +101,14 @@
 
         &:hover,
         &:focus {
+          -moz-transform: scale3d(1.1,1.1,1.1);
+          -webkit-transform: scale3d(1.1,1.1,1.1);
+          transform: scale3d(1.1,1.1,1.1);
 
           .image {
             -moz-filter: grayscale(0);
             -webkit-filter: grayscale(0);
             filter: grayscale(0);
-            -moz-transform: scale3d(1.1,1.1,1.1);
-            -webkit-transform: scale3d(1.1,1.1,1.1);
-            transform: scale3d(1.1,1.1,1.1);
           }
         }
       }
