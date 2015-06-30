@@ -6,7 +6,6 @@
 
 .button {
 	padding: @space-small @space-large;
-	border: @space-tinier solid @dark;
 	background-color: @gray;
 	color: @light;
 	text-align: center;
@@ -17,14 +16,12 @@
 	transition: all @faster;
 
 	@media (min-width: @tablet-width) {
-		border: @space-tiny solid @dark;
 	}
 
   &:hover,
   &:focus {
     background-color: @primary-color;
 		color: @gray;
-		border: @space-mini solid @dark;
   }
 
   &.primary {
@@ -50,9 +47,11 @@
   }
 
 	&.cta {
-		font-size: @mobile-font-large;
+		font-size: @mobile-font-base;
 		font-weight: bold;
 		text-align: center;
+		margin: 0 -@eighth !important;
+		padding: 1.5rem 0;
 
 		.supporting {
 			display: block;
@@ -60,9 +59,10 @@
 			font-weight: normal;
 			font-size: @mobile-font-base;
 			text-decoration: underline;
+			padding-top: @space-tiny;
 
 			@media (min-width: @tablet-width) {
-				font-size: @tablet-font-huge;
+				font-size: @tablet-font-large;
 			}
 		}
 
