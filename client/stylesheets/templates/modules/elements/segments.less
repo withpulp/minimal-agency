@@ -5,6 +5,14 @@
 .segment {
 	padding: @space-normal 0;
 
+	@media (min-width: @tablet-width) {
+		padding: @space-large 0;
+	}
+
+	@media (min-width: @desktop-width) {
+		padding: @space-larger 0;
+	}
+
 	&.intro {
 		padding: @space-giant 0;
 
@@ -17,11 +25,11 @@
 		}
 	}
 
-	@media (min-width: @tablet-width) {
-		padding: @space-large 0;
-	}
+	&.cta {
+		margin: 0 -@sixteenth;
 
-	@media (min-width: @desktop-width) {
-		padding: @space-larger 0;
+		@media (min-width: @tablet-width) {
+			margin: 0 -13%;
+		}
 	}
 }
