@@ -33,11 +33,17 @@ Router.route('/', {
 Router.route('/about', {
 	name: 'about',
 	data: function() {
-    return About.find();
+		return [
+			Values.find(),
+	    Members.find(),
+			Quotes.find(),
+			Contacts.find()
+		]
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('about'),
+			Meteor.subscribe('values'),
+      Meteor.subscribe('members'),
 			Meteor.subscribe('quotes'),
 			Meteor.subscribe('contacts')
     ]
@@ -89,28 +95,6 @@ Router.route('/tools', {
   action: function () {
     if (this.ready())
       this.render('tools');
-    else
-      this.render('loading');
-  }
-}, function () {
-  SEO.set({ title: Meteor.App.NAME });
-});
-
-Router.route('/clients', {
-	name: 'clients',
-	data: function() {
-    return Clients.find();
-  },
-  waitOn: function () {
-    return [
-      Meteor.subscribe('clients'),
-			Meteor.subscribe('quotes'),
-			Meteor.subscribe('contacts')
-    ]
-  },
-  action: function () {
-    if (this.ready())
-      this.render('clients');
     else
       this.render('loading');
   }
