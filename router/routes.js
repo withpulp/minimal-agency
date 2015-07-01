@@ -1,11 +1,17 @@
 Router.route('/', {
 	name: 'root',
 	data: function() {
-		return Root.find();
+		return [
+			Root.find(),
+			Benefits.find(),
+			Quotes.find(),
+			Contacts.find()
+		]
 	},
 	waitOn: function () {
 		return [
 			Meteor.subscribe('root'),
+			Meteor.subscribe('benefits'),
 			Meteor.subscribe('quotes'),
 			Meteor.subscribe('contacts')
 		]

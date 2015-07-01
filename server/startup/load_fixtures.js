@@ -14,6 +14,10 @@ Meteor.startup(function () {
     loadFixture(Fixtures['portfolio'], Portfolio);
   }
 
+  if (Benefits.find().count() === 0) {
+    loadFixture(Fixtures['benefits'], Benefits);
+  }
+
   if (Clients.find().count() === 0) {
     loadFixture(Fixtures['clients'], Clients);
   }
