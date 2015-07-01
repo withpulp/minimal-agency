@@ -30,6 +30,10 @@ Meteor.startup(function () {
     loadFixture(Fixtures['members'], Members);
   }
 
+  if (Tools.find().count() === 0) {
+    loadFixture(Fixtures['tools'], Tools);
+  }
+
   if (Services.find().count() === 0) {
     loadFixture(Fixtures['services'], Services);
   }
