@@ -3,18 +3,18 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.benefits = [
 	{
-		item: 'Growth Opportunities'
+		benefit: 'Growth Opportunities'
 	},
 	{
-		item: 'Trial Signups',
+		benefit: 'Trial Signups',
 	},
 	{
-		item: 'Leads',
+		benefit: 'Leads',
 	},
 	{
-		item: 'Sales and Purchases',
+		benefit: 'Sales and Purchases',
 	},
 	{
-		item: 'Click-throughs',
+		benefit: 'Click-throughs',
 	}
 ]
