@@ -1,10 +1,13 @@
 <template name="posts">
   <div class="posts article module">
-    <article class="post">
-  	  <h4 class="title">
-        <a class="id link" href="#">The Diamond Age is Upon Us</a>
-      </h4>
-      <p class="excerpt">Given the acceleration of software engineering and the growing popular of social coding platforms like GitHub, we're seeing the dawn of the age of self-sustainability.</p>
-    </article>
+    {{#each posts}}
+      <article class="post">
+    	  <h4 class="title">
+          <a class="id link" href="#">{{title}}</a>
+        </h4>
+        <p class="excerpt">{{description}}</p>
+      </article>
+    {{/each}}
+    <a class="route link" href="{{pathFor 'blog'}}">View our blog</a>
   </div>
 </template>
