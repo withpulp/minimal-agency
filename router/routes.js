@@ -5,6 +5,7 @@ Router.route('/', {
 			Benefits.find(),
 			Figures.find(),
 			Clients.find(),
+			Members.find(),
 			Quotes.find(),
 			Contacts.find()
 		]
@@ -14,6 +15,7 @@ Router.route('/', {
 			Meteor.subscribe('benefits'),
 			Meteor.subscribe('figures'),
 			Meteor.subscribe('clients'),
+			Meteor.subscribe('members'),
 			Meteor.subscribe('quotes'),
 			Meteor.subscribe('contacts')
 		]

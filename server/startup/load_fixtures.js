@@ -26,16 +26,16 @@ Meteor.startup(function () {
     loadFixture(Fixtures['clients'], Clients);
   }
 
+  if (Members.find().count() === 0) {
+    loadFixture(Fixtures['members'], Members);
+  }
+
   if (Services.find().count() === 0) {
     loadFixture(Fixtures['services'], Services);
   }
 
-  if (About.find().count() === 0) {
-    loadFixture(Fixtures['about'], About);
-  }
-
-  if (Root.find().count() === 0) {
-    loadFixture(Fixtures['root'], Root);
+  if (Values.find().count() === 0) {
+    loadFixture(Fixtures['values'], Values);
   }
 
   if (Process.find().count() === 0) {

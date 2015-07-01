@@ -1,6 +1,6 @@
-Root = new Mongo.Collection('root');
+Values = new Mongo.Collection('values');
 
-Root.allow({
+Values.allow({
   insert: function (userId, doc) {
     return (userId && doc.ownerId === userId);
   },
@@ -13,8 +13,8 @@ Root.allow({
   fetch: ['ownerId']
 });
 
-Root.helpers({
-  segments: function() {
-    return Root.find();
+Values.helpers({
+  values: function() {
+    return Values.find();
   }
 });
