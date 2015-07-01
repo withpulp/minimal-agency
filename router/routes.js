@@ -7,6 +7,7 @@ Router.route('/', {
 			Clients.find(),
 			Members.find(),
 			Tools.find(),
+			Posts.find(),
 			Quotes.find(),
 			Contacts.find()
 		]
@@ -18,6 +19,7 @@ Router.route('/', {
 			Meteor.subscribe('clients'),
 			Meteor.subscribe('members'),
 			Meteor.subscribe('tools'),
+			Meteor.subscribe('posts'),
 			Meteor.subscribe('quotes'),
 			Meteor.subscribe('contacts')
 		]
