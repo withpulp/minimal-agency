@@ -19,39 +19,38 @@ html {
       position: relative;
       min-height: @full;
       overflow: hidden;
-      -webkit-perspective: 1000px;
-      -webkit-perspective-origin: 0 50%;
+      perspective: 1000px;
+      perspective-origin: 0 @half;
 
       .menu {
-        display: block;
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        z-index: 1;
-        background: @gray-darker;
-        color: @primary-color;
-        -webkit-transform-origin: 100% 50% 0px;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-        -webkit-transform: translateX(-100%) translateX(0) scale(1) rotateY(-45deg);
+        transform-origin: @full @half 0;
+        transition: all @slowest ease;
+        transition: all @slowest ease;
+        transform: translateX(-@full)
+                           translateX(0)
+                           scale(1)
+                           rotateY(-45deg);
       }
 
       .pusher {
-        -webkit-overflow-scrolling: touch;
-        -webkit-transform-style: preserve-3d;
-        -webkit-transform-origin: 0px 50% 0px;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
+        overflow-scrolling: touch;
+        transform-style: preserve-3d;
+        transform-origin: 0 @half 0;
+        transition: all @slowest ease;
       }
 
       &.navigator {
 
         .menu {
-          transform: translateX(0) translateX(0) scale(1) rotateY(0);
+          transform: translateX(0)
+                     translateX(0)
+                     scale(1)
+                     rotateY(0);
         }
 
         .pusher {
-          transform: translateX(100%) rotateY(45deg);
+          transform: translateX(@full)
+                     rotateY(45deg);
         }
       }
     }
