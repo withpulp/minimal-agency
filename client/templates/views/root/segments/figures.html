@@ -1,0 +1,14 @@
+<template name="figures">
+	{{#each figures}}
+	  <figure class="figure module">
+		  <figcaption class="figure caption">
+        {{date}}
+      </figcaption>
+      <ul class="list">
+        {{#each records}}
+          <li class="item">Increased {{metric}} by {{percent}} for {{client}}</li>
+        {{/each}}
+      </ul>
+	  </figure>
+	{{/each}}
+</template>
