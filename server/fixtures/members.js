@@ -7,6 +7,7 @@ Fixtures.members = [
 		name: 'Husam Machlovi',
 		title: 'Design',
 		rank: 'Partner',
+		summary: 'Husam guides clients in their efforts to envision, plan, and roll out best-in-category experiences. Prior to uTool, Husam oversaw digital product strategy and design for Fortune 100 companies including Johnson & Johnson and Pfizer.’',
 		social: [
 			{
 				url: 'http://twitter.com/hmachlovi',
@@ -27,6 +28,7 @@ Fixtures.members = [
 		name: 'Damir Vazgird',
 		title: 'Development',
 		rank: 'Partner',
+		summary: 'Damir sits at the intersection of Design and Technology, bringing his deep mobile and technological expertise to new applications for multi-million dollar companies including the School of Visual Arts and AMC Networks',
 		social: [
 			{
 				url: 'http://twitter.com/dvazgird',
