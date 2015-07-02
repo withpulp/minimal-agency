@@ -1,8 +1,12 @@
 <template name="values">
-  <div class="values module">
+  <div class="values half grid module">
     {{#each values}}
-      <h4>{{value}}</h4>
-      <p>{{definition}}</p>
+        <div class="grid cell">
+          <h4>{{value}}</h4>
+        </div>
+        <div class="grid cell">
+          <p>{{definition}}</p>
+        </div>
     {{/each}}
   </div>
-  </template>
+</template>
