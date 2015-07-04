@@ -42,12 +42,14 @@ A mobile-first website for an agency / startup built with Meteor.
 
 ### MVP
 * Views
-  * Landing
+  * ~~Landing~~
   * About
+  * Blog
   * Menu
 * Modules
-  * Email capture
-  * Random quote on page load
+  * ~~Email capture~~
+  * ~~Random quote on page load~~
+  * Posts CRUD - User Account with 2 admin users and 1 superadmin
 
 
 ## How to use
