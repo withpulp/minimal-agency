@@ -27,6 +27,7 @@ A mobile-first website for an agency / startup built with Meteor.
 	* Portfolio view
 	* Case study view
 	* Blog
+  * About
 
 * Modules
 	* Admin account to insert/update/delete content
