@@ -17,7 +17,6 @@ html {
 
     .layout {
       position: relative;
-      min-height: @full;
       overflow: hidden;
       perspective: 1000px;
       perspective-origin: 0 @half;
@@ -32,12 +31,18 @@ html {
                    rotateY(-45deg);
       }
 
-      .pusher {
-        filter: blur(0);
-        overflow-scrolling: touch;
-        transform-style: preserve-3d;
-        transform-origin: 0 @half 0;
-        transition: all @slowest ease;
+      .content {
+        display: flex;
+        flex-direction: column;
+        min-height: @full;
+
+        &.pusher {
+          filter: blur(0);
+          overflow-scrolling: touch;
+          transform-style: preserve-3d;
+          transform-origin: 0 @half 0;
+          transition: all @slowest ease;
+        }
       }
 
       &.navigator {
