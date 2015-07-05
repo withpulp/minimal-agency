@@ -1,4 +1,5 @@
 Fixtures.create(Meteor.users, function(api) {
+
 	api.insert('admin', {
 		email: 'admin@utool.com',
 		username: 'admin',
@@ -16,6 +17,7 @@ Fixtures.create(Meteor.users, function(api) {
 		username: 'husam',
 		password: 'husam'
 	});
+
 }, {
 	insert: Accounts.createUser
 });
