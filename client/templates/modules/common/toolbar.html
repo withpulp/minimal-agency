@@ -1,5 +1,8 @@
 <template name="toolbar">
   <div class="admin toolbar module">
-	  Hello, {{currentUser.username}}
+	  Hello,
+    <a class="route link" href="{{pathFor 'admin'}}">
+      {{currentUser.username}}
+    </a>
 	</div>
 </template>

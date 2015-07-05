@@ -88,21 +88,25 @@ Router.route('/about', {
   SEO.set({ title: Meteor.App.NAME });
 });
 
-Router.route('/services', {
-	name: 'services',
+Router.route('/portfolio', {
+	name: 'portfolio',
 	data: function() {
-    return Services.find();
+		return [
+	    Tools.find(),
+			Quotes.find(),
+			Contacts.find()
+		]
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('services'),
+      Meteor.subscribe('tools'),
 			Meteor.subscribe('quotes'),
 			Meteor.subscribe('contacts')
     ]
   },
   action: function () {
     if (this.ready())
-      this.render('services');
+      this.render('portfolio');
     else
       this.render('loading');
   }
@@ -110,21 +114,25 @@ Router.route('/services', {
   SEO.set({ title: Meteor.App.NAME });
 });
 
-Router.route('/tools', {
-	name: 'tools',
+Router.route('/blog', {
+	name: 'blog',
 	data: function() {
-    return Portfolio.find();
+		return [
+	    Posts.find(),
+			Quotes.find(),
+			Contacts.find()
+		]
   },
   waitOn: function () {
     return [
-      Meteor.subscribe('portfolio'),
+      Meteor.subscribe('posts'),
 			Meteor.subscribe('quotes'),
 			Meteor.subscribe('contacts')
     ]
   },
   action: function () {
     if (this.ready())
-      this.render('tools');
+      this.render('blog');
     else
       this.render('loading');
   }
