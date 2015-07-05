@@ -24,7 +24,7 @@ Fixtures.quotes = [
   },
   {
     author: 'Greg Egan',
-    quote: 'Everyone here would die for the sake of truth. Everyone here lies constantly for the tiniest chance of personal gain. This is what it means to be a scientist.'
+    quote: 'How does it feel to be seven thousand years old? That depends on how I want to feel.'
   },
   {
     author: 'Alastair Reynolds',
