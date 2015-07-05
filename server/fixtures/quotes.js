@@ -48,7 +48,7 @@ Fixtures.quotes = [
   },
   {
     author: 'Richard P. Feynman',
-    quote: 'It doesn\'t matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn\'t agree with experiment, it\'s wrong.'
+    quote: 'It doesn\'t matter how beautiful your theory is, it doesn\'t matter how smart you are. If it doesn\'t agree with experiment, it\'s wrong.'
   },
   {
     author: 'Leonardo da Vinci',
