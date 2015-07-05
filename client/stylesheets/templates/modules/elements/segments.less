@@ -38,6 +38,18 @@
 		@media (min-width: @tablet-width) {
 			margin-left: @space-massive;
 		}
+
+		.background.image {
+			filter: blur(@space-tiny);
+		}
+
+		&:hover,
+		&:focus {
+
+			.background.image {
+				filter: none;
+			}
+		}
 	}
 
 	&.posts {
@@ -45,6 +57,18 @@
 		@media (min-width: @tablet-width) {
 			margin-right: @space-massive;
 			text-align: right;
+		}
+
+		.background.image {
+			filter: blur(@space-tiny);
+		}
+
+		&:hover,
+		&:focus {
+
+			.background.image {
+				filter: none;
+			}
 		}
 	}
 }

@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: auto;
+  width: @full;
   z-index: 2;
   background: transparent;
   -moz-transition: top @fastest ease-in-out;
@@ -23,7 +23,7 @@
     position: relative;
     width: @space-large;
     height: @space-large;
-    margin: 0 auto;
+    margin: 0;
     -moz-perspective: 1000px;
     -webkit-perspective: 1000px;
     perspective: 1000px;
@@ -77,5 +77,11 @@
         transform: rotateX(0) rotateY(90deg);
       }
     }
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
