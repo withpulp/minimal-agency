@@ -52,6 +52,10 @@
 		text-align: center;
 		padding: 1.5rem 0;
 
+		@media (min-width: @tablet-width) {
+			font-size: @tablet-font-jumbo;
+		}
+
 		.supporting {
 			display: block;
 			margin-top: @space-tiny;
@@ -65,8 +69,12 @@
 			}
 		}
 
-		@media (min-width: @tablet-width) {
-			font-size: @tablet-font-jumbo;
+		&:hover,
+		&:focus {
+
+			.supporting {
+				color: @primary-color;
+			}
 		}
 	}
 
