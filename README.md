@@ -46,10 +46,11 @@ A mobile-first website for an agency / startup built with Meteor.
   * About
   * Blog
   * Menu
+  * Admin
 * Modules
   * ~~Email capture~~
   * ~~Random quote on page load~~
-  * Posts CRUD - User Account with 2 admin users and 1 superadmin
+  * Insert/Edit Post
 
 
 ## How to use
