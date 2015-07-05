@@ -16,4 +16,31 @@
     margin: 0;
     padding: @space-small;
   }
+
+  .about.view {
+
+    .segment {
+
+      &.header {
+        height: @space-god;
+        border-bottom: @space-mini solid @dark;
+        background-image: url("images/about/quotes.jpg");
+        background-size: cover;
+        background-position: @half @half;
+        background-repeat: no-repeat;
+
+        .title {
+          text-align: center;
+          margin-bottom: 0;
+        }
+      }
+
+      &.summary {
+
+        .statement {
+          text-align: center;
+        }
+      }
+    }
+  }
 }

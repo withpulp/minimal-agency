@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "6b449655f373b697ddc23e271c5b6a51f52476e5"
+                  "value": "83a9f76f83331d927740b7b5094c63987f538072"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 1
+              "value": 6
             },
             "timeout": {
               "type": "constant",
@@ -7861,11 +7861,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "19104bcf1d2334a53cc4207702774939e7e1e9ac"
+          "value": "048eae2c26e2eb0213e0060e1f11029a65113715"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "c43cf6d8fd566389194a92f3e660646e2e41d6b4"
+          "value": "995356fac752471fcb5d180912f63b97a2784389"
         },
         "autoupdateVersionCordova": {
           "type": "constant",

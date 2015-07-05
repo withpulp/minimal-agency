@@ -13,6 +13,14 @@
 		padding: @space-larger 0;
 	}
 
+	&.fluid {
+		margin: 0 -@sixteenth;
+
+		@media (min-width: @tablet-width) {
+			margin: 0 -13%;
+		}
+	}
+
 	&.intro {
 		padding: @space-giant 0;
 
@@ -25,11 +33,18 @@
 		}
 	}
 
-	&.cta {
-		margin: 0 -@sixteenth;
+	&.tools {
 
 		@media (min-width: @tablet-width) {
-			margin: 0 -13%;
+			margin-left: @space-massive;
+		}
+	}
+
+	&.posts {
+
+		@media (min-width: @tablet-width) {
+			margin-right: @space-massive;
+			text-align: right;
 		}
 	}
 }
