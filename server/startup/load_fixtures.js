@@ -10,8 +10,8 @@ function loadFixture(fixtures, collection) {
 Meteor.startup(function () {
   // @TODO: loop this
 
-  if (Portfolio.find().count() === 0) {
-    loadFixture(Fixtures['portfolio'], Portfolio);
+  if (Projects.find().count() === 0) {
+    loadFixture(Fixtures['projects'], Projects);
   }
 
   if (Benefits.find().count() === 0) {
