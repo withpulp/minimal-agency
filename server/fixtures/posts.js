@@ -5,8 +5,8 @@ Meteor.startup(function () {
 
 });
 
-var damir = 'damir',
-    husam = 'husam',
+var //damir = Meteor.users.find({username: 'damir'}),
+    //husam = Meteor.users.find({username: 'husam'}),
 		now = new Date();
 
 Fixtures.posts = [
@@ -14,12 +14,12 @@ Fixtures.posts = [
 		title: 'The Diamond Age is Upon Us',
 		excerpt: 'Given the acceleration of software engineering and the growing popularity of social coding platforms like GitHub, we\'re seeing the dawn of the age of self-sustainability.',
 		createdAt: now,
-		author: damir
+		//author: damir
 	},
 	{
 		title: 'Titles are Stupid',
 		excerpt: 'While it is important to understand what others are doing, it\'s far more important to know that others are doing something. Titles lead to political jockeying and work-place stress.',
 		createdAt: now,
-		author: husam
+		//author: husam
 	}
 ]
