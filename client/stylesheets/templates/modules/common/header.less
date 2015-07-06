@@ -21,8 +21,8 @@
     font-family: @font-family-monospace;
     display: block;
     position: relative;
-    width: @space-jumbo;
-    height: @space-jumbo;
+    width: @space-large;
+    height: @space-large;
     margin: 0;
     -moz-perspective: 1000px;
     -webkit-perspective: 1000px;
@@ -48,7 +48,7 @@
         position: absolute;
         margin: 0 auto;
         padding: @space-mini @space-small @space-tiny;
-        border: @space-mini solid @gray-darker;
+        border: @space-micro solid @gray-darker;
         font-size: @mobile-font-large;
         text-align: center;
         line-height: @line-height-base;
@@ -56,24 +56,18 @@
         &.front {
           background: fade(@primary-color, @three-quarters);
           color: @gray-darker;
-          -moz-transform: translateZ(@space-base);
-          -webkit-transform: translateZ(@space-base);
-          transform: translateZ(@space-base);
+          transform: translateZ(@space-small + @space-mini);
         }
 
         &.left {
           background: @gray-darker;
           color: @primary-color;
-          -moz-transform: rotateY(-90deg) translateZ(@space-base);
-          -webkit-transform: rotateY(-90deg) translateZ(@space-base);
-          transform: rotateY(-90deg) translateZ(@space-base);
+          transform: rotateY(-90deg) translateZ(@space-small + @space-mini);
         }
       }
 
       &:hover {
-        left: @space-tiny;
-        -moz-transform: rotateX(0) rotateY(90deg);
-        -webkit-transform: rotateX(0) rotateY(90deg);
+        left: @space-quantum;
         transform: rotateX(0) rotateY(90deg);
       }
     }
