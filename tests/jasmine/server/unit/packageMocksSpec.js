@@ -7086,7 +7086,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "1dcc289582e20cb312279405f351eb5cc9df7f23"
+                  "value": "66cf33ba5d671908f5532cc682651c6e28edce0e"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7210,7 +7210,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 2
+              "value": 3
             },
             "timeout": {
               "type": "constant",
@@ -7862,7 +7862,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "8647bd389b530ff542782342d62282288b93dca8"
+          "value": "b54fc9e00da5b122c7451f6bb5f158935b9a06f2"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -20108,73 +20108,6 @@ var packageMetadata = {
     }
   },
   "useraccounts:unstyled": {},
-  "moonco:fixtures": {
-    "Fixtures": {
-      "type": "object",
-      "members": {
-        "ids": {
-          "type": "function"
-        },
-        "get": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "update": {
-          "type": "function"
-        },
-        "remove": {
-          "type": "function"
-        },
-        "flush": {
-          "type": "function"
-        },
-        "count": {
-          "type": "function"
-        },
-        "create": {
-          "type": "function"
-        },
-        "benefits": {
-          "type": "array"
-        },
-        "clients": {
-          "type": "array"
-        },
-        "contacts": {
-          "type": "array"
-        },
-        "figures": {
-          "type": "array"
-        },
-        "members": {
-          "type": "array"
-        },
-        "posts": {
-          "type": "array"
-        },
-        "process": {
-          "type": "array"
-        },
-        "projects": {
-          "type": "array"
-        },
-        "quotes": {
-          "type": "array"
-        },
-        "services": {
-          "type": "array"
-        },
-        "tools": {
-          "type": "array"
-        },
-        "values": {
-          "type": "array"
-        }
-      }
-    }
-  },
   "session": {},
   "livedata": {
     "DDP": {

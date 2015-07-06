@@ -5,8 +5,8 @@ Meteor.startup(function () {
 
 });
 
-var damir = Fixtures.get(Meteor.users, 'damir'),
-    husam = Fixtures.get(Meteor.users, 'husam'),
+var damir = 'damir',
+    husam = 'husam',
 		now = new Date();
 
 Fixtures.posts = [
