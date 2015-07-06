@@ -9,8 +9,6 @@
   width: @full;
   z-index: 2;
   background: transparent;
-  -moz-transition: top @fastest ease-in-out;
-  -webkit-transition: top @fastest ease-in-out;
   transition: top @fastest ease-in-out;
 
   &.up {
@@ -18,17 +16,13 @@
   }
 
   .logo {
-    font-family: @font-family-monospace;
     display: block;
     position: relative;
     width: @space-large;
     height: @space-large;
     margin: 0;
-    -moz-perspective: 1000px;
-    -webkit-perspective: 1000px;
+    font-family: @font-family-base;
     perspective: 1000px;
-    -moz-perspective-origin: @half @full;
-    -webkit-perspective-origin: @half @full;
     perspective-origin: @half @full;
 
     .cube {
@@ -36,11 +30,7 @@
       height: @full;
       top: 0;
       position: absolute;
-      -moz-transform-style: preserve-3d;
-      -webkit-transform-style: preserve-3d;
       transform-style: preserve-3d;
-      -moz-transition: transform @slowest;
-      -webkit-transition: transform @slowest;
       transition: transform @slowest;
 
       .face {
@@ -49,7 +39,7 @@
         margin: 0 auto;
         padding: @space-mini @space-small @space-tiny;
         border: @space-micro solid @gray-darker;
-        font-size: @mobile-font-large;
+        font-size: @font-size-base;
         text-align: center;
         line-height: @line-height-base;
 
@@ -77,11 +67,11 @@
     position: absolute;
     top: 0;
     right: 0;
-    font-size: @mobile-font-base;
+    font-size: @font-size-base;
 
     .route.link {
-      font-size: @mobile-font-base;
       font-family: @font-family-base;
+      font-size: @font-size-base;
     }
   }
 }

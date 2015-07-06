@@ -12,7 +12,7 @@
   }
 
   &.figure {
-    padding: @mobile-font-small 0;
+    padding: @space-tiny 0;
 
     .figure.caption {
       text-align: left;
@@ -27,11 +27,7 @@
   &.clients {
 
     .client {
-      -moz-transform: scale3d(1,1,1);
-      -webkit-transform: scale3d(1,1,1);
       transform: scale3d(1,1,1);
-      -moz-transition: -moz-transform @slowest;
-      -webkit-transition: -webkit-transform @slowest;
       transition: transform @slowest;
 
       .image {
@@ -40,8 +36,6 @@
 
       &:hover,
       &:focus {
-        -moz-transform: scale3d(1.15,1.15,1.15);
-        -webkit-transform: scale3d(1.15,1.15,1.15);
         transform: scale3d(1.15,1.15,1.15);
       }
     }
@@ -54,11 +48,7 @@
       .card {
         margin: 0;
         padding: 0;
-        -moz-transform: scale3d(1,1,1);
-        -webkit-transform: scale3d(1,1,1);
         transform: scale3d(1,1,1);
-        -moz-transition: -moz-transform @slowest;
-        -webkit-transition: -webkit-transform @slowest;
         transition: transform @slowest;
 
         .image {
@@ -66,17 +56,13 @@
           display: block;
           width: @full;
           cursor: pointer;
-          -moz-transition: filter @slowest;
-          -webkit-transition: filter @slowest;
           transition: filter @slowest;
 
           @media (min-width: @tablet-width) {
-            width: @forty;
+            width: @third + @eighth;
           }
 
           @media (min-width: @desktop-width) {
-            -moz-filter: grayscale(@three-quarters);
-            -webkit-filter: grayscale(@three-quarters);
             filter: grayscale(@three-quarters);
           }
         }
@@ -90,7 +76,7 @@
             .title {
               display: block;
               color: @gray;
-              font-family: @font-family-monospace;
+              font-family: @font-family-base;
             }
           }
 
@@ -124,13 +110,9 @@
 
         &:hover,
         &:focus {
-          -moz-transform: scale3d(1.1,1.1,1.1);
-          -webkit-transform: scale3d(1.1,1.1,1.1);
           transform: scale3d(1.1,1.1,1.1);
 
           .image {
-            -moz-filter: grayscale(0);
-            -webkit-filter: grayscale(0);
             filter: grayscale(0);
           }
         }
@@ -160,22 +142,14 @@
   &.mailchimp {
 		width: @full;
     margin: 0 auto @space-small;
-    padding: @space-base @space-small @space-small @space-small;
+    padding: @space-huge @space-small @space-base;
     background-color: @gray-lighter;
 
     div {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
       width: @full;
       margin: auto;
       padding: @space-small 0;
-
-      &::before,
-      &::after {
-        box-sizing: border-box;
-      }
 
       @media (min-width: @tablet-width) {
         width: @half;
@@ -184,18 +158,15 @@
       .message {
         position: absolute;
         bottom: @space-massive;
-        font-size: @mobile-font-base;
+        font-size: @font-size-base;
 
         @media (min-width: @tablet-width) {
           text-align: center;
-          font-size: @tablet-font-base;
+          font-size: @font-size-base + @font-size-micro;
         }
       }
 
       .email {
-        -webkit-box-flex: 1;
-        -webkit-flex: 1;
-        -ms-flex: 1;
         flex: 1;
         width: @full;
         padding: @space-small;
@@ -203,11 +174,11 @@
         border-right: 0;
         border-radius: 0;
         outline: 0;
-        font-size: @mobile-font-base;
-        font-family: @font-family-monospace;
+        font-size: @font-size-base;
+        font-family: @font-family-base;
 
         @media (min-width: @tablet-width) {
-          font-size: @tablet-font-base;
+          font-size: @font-size-base + @font-size-micro;
         }
       }
 
@@ -218,11 +189,11 @@
         border: @space-micro solid @dark;
         background-color: @primary-color;
         color: @gray;
-        font-size: @mobile-font-base;
-        font-family: @font-family-monospace;
+        font-size: @font-size-base;
+        font-family: @font-family-base;
 
         @media (min-width: @tablet-width) {
-          font-size: @tablet-font-base;
+          font-size: @font-size-base + @font-size-micro;
         }
 
         &:hover,
@@ -253,17 +224,18 @@
 
 		.quote {
       margin: 0;
+      padding: 0;
       border: 0;
-			font-size: @mobile-font-base;
+			font-size: @font-size-base;
 
       @media (min-width: @tablet-width) {
-			  font-size: @mobile-font-giant;
+			  font-size: @font-size-large + @font-size-mini;
       }
 
       .author {
-        margin: @space-small @space-small 0 @space-small;
-        text-align: center;
+        margin-top: @space-small;
         font-family: @font-family-serif;
+        text-align: center;
   		}
     }
 	}
@@ -282,14 +254,14 @@
         margin: 0 @space-tiny;
 
         .info {
-          font-size: @mobile-font-small;
+          font-size: @font-size-small + @font-size-micro;
 
           @media (min-width: @tablet-width) {
-            font-size: @tablet-font-small;
+            font-size: @font-size-base;
           }
 
           @media (min-width: @desktop-width) {
-            font-size: @desktop-font-small;
+            font-size: @font-size-base + @font-size-micro;
           }
 
           &:hover,

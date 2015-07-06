@@ -80,7 +80,6 @@
 @eighth: 12.5%;
 @quarter: 25%;
 @third: 33.3333%;
-@forty: 40%;
 @half: 50%;
 @two-thirds: 66.6666%;
 @three-quarters: 75%;
@@ -110,45 +109,6 @@
 @font-size-galactic: 9rem;
 @font-size-god: 10rem;
 
-@mobile-font-micro: 0.2rem;
-@mobile-font-tiny: 0.5rem;
-@mobile-font-small: 0.75rem;
-@mobile-font-base: 1rem;
-@mobile-font-large: 1.25rem;
-@mobile-font-huge: 1.5rem;
-@mobile-font-jumbo: 1.75rem;
-@mobile-font-giant: 2rem;
-@mobile-font-massive: 2.25rem;
-@mobile-font-titanic: 2.5rem;
-@mobile-font-galactic: 2.75rem;
-@mobile-font-god: 3rem;
-
-@tablet-font-micro: @mobile-font-tiny;
-@tablet-font-tiny: @mobile-font-small;
-@tablet-font-small: @mobile-font-base;
-@tablet-font-base: @mobile-font-large;
-@tablet-font-large: @mobile-font-huge;
-@tablet-font-huge: @mobile-font-jumbo;
-@tablet-font-jumbo: @mobile-font-giant;
-@tablet-font-giant: @mobile-font-massive;
-@tablet-font-massive: @mobile-font-titanic;
-@tablet-font-titanic: @mobile-font-galactic;
-@tablet-font-galactic: @mobile-font-god;
-@tablet-font-god: 3.25rem;
-
-@desktop-font-micro: @tablet-font-tiny;
-@desktop-font-tiny: @tablet-font-small;
-@desktop-font-small: @tablet-font-base;
-@desktop-font-base: @tablet-font-large;
-@desktop-font-large: @tablet-font-huge;
-@desktop-font-huge: @tablet-font-jumbo;
-@desktop-font-jumbo: @tablet-font-giant;
-@desktop-font-giant: @tablet-font-massive;
-@desktop-font-massive: @tablet-font-titanic;
-@desktop-font-titanic: @tablet-font-galactic;
-@desktop-font-galactic: @tablet-font-god;
-@desktop-font-god: 3.5rem;
-
 @line-height-quantum: 0.05;
 @line-height-atomic: 0.15;
 @line-height-micro: 0.25;
@@ -159,7 +119,7 @@
 @line-height-huge: 1.5;
 @line-height-jumbo: 1.75;
 @line-height-giant: 2;
-@line-height-computed: floor((@mobile-font-base * @line-height-base));
+@line-height-computed: floor((@font-size-base * @line-height-base));
 
 // Media Queries
 
