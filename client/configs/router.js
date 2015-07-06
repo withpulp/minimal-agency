@@ -4,8 +4,4 @@ Router.configure({
   notFoundTemplate: 'redirect'
 });
 
-Router.plugin('ensureSignedIn', {
-  only: ['admin']
-});
-
 Router.onBeforeAction('loading');
