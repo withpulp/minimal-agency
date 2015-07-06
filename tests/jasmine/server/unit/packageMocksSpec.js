@@ -7086,7 +7086,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "feecf992971c238e5cc0a8217f1dc8568982e6e8"
+                  "value": "89e0bb2438410daa7e3f94a66363be7bb7a4fdef"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7210,7 +7210,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 0
+              "value": 4
             },
             "timeout": {
               "type": "constant",
@@ -7810,6 +7810,9 @@ var packageMetadata = {
             "prototype": {
               "type": "object",
               "members": {
+                "attachRoles": {
+                  "type": "function"
+                },
                 "find": {
                   "type": "function"
                 },
@@ -7842,6 +7845,12 @@ var packageMetadata = {
                 },
                 "helpers": {
                   "type": "function"
+                },
+                "attachSchema": {
+                  "type": "function"
+                },
+                "simpleSchema": {
+                  "type": "function"
                 }
               }
             }
@@ -7862,11 +7871,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "b54fc9e00da5b122c7451f6bb5f158935b9a06f2"
+          "value": "b825dd1ee1be965c0365d79bb3f1323f9c9b60db"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "7f43cc909c836fa9b09b20177bc1c47007a5919a"
+          "value": "3208ab5f93eebe42256d7d930cc9799f5e3d22aa"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -8343,6 +8352,9 @@ var packageMetadata = {
                 },
                 "delete": {
                   "type": "function"
+                },
+                "patch": {
+                  "type": "function"
                 }
               }
             }
@@ -8714,6 +8726,117 @@ var packageMetadata = {
   "fastclick": {},
   "coffeescript": {},
   "manuelschoebel:ms-seo": {},
+  "aldeed:simple-schema": {
+    "SimpleSchema": {
+      "type": "function",
+      "members": {
+        "extendOptions": {
+          "type": "function"
+        },
+        "RegEx": {
+          "type": "object",
+          "members": {
+            "Email": {
+              "type": "regexp"
+            },
+            "Domain": {
+              "type": "regexp"
+            },
+            "WeakDomain": {
+              "type": "regexp"
+            },
+            "IP": {
+              "type": "regexp"
+            },
+            "IPv4": {
+              "type": "regexp"
+            },
+            "IPv6": {
+              "type": "regexp"
+            },
+            "Url": {
+              "type": "regexp"
+            },
+            "Id": {
+              "type": "regexp"
+            },
+            "ZipCode": {
+              "type": "regexp"
+            }
+          }
+        },
+        "addValidator": {
+          "type": "function"
+        },
+        "messages": {
+          "type": "function"
+        },
+        "prototype": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            },
+            "namedContext": {
+              "type": "function"
+            },
+            "validator": {
+              "type": "function",
+              "refID": 22
+            },
+            "addValidator": {
+              "ref": 22
+            },
+            "pick": {
+              "type": "function"
+            },
+            "clean": {
+              "type": "function"
+            },
+            "schema": {
+              "type": "function"
+            },
+            "getDefinition": {
+              "type": "function"
+            },
+            "keyIsInBlackBox": {
+              "type": "function"
+            },
+            "labels": {
+              "type": "function"
+            },
+            "label": {
+              "type": "function"
+            },
+            "messages": {
+              "type": "function"
+            },
+            "messageForError": {
+              "type": "function"
+            },
+            "allowsKey": {
+              "type": "function"
+            },
+            "newContext": {
+              "type": "function"
+            },
+            "objectKeys": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    },
+    "MongoObject": {
+      "type": "function",
+      "members": {
+        "expandKey": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "aldeed:collection2": {},
   "accounts-base": {
     "Accounts": {
       "type": "object",
@@ -8838,6 +8961,143 @@ var packageMetadata = {
         "loginServiceConfiguration": {
           "type": "object",
           "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "attachRoles": {
+              "type": "function"
+            },
             "find": {
               "type": "function"
             },
@@ -8869,6 +9129,12 @@ var packageMetadata = {
               "type": "function"
             },
             "helpers": {
+              "type": "function"
+            },
+            "attachSchema": {
+              "type": "function"
+            },
+            "simpleSchema": {
               "type": "function"
             }
           }
@@ -8892,163 +9158,202 @@ var packageMetadata = {
         "Impersonate": {
           "type": "object",
           "members": {
-            "find": {
+            "attachRoles": {
               "type": "function",
               "refID": 2
             },
-            "findOne": {
+            "find": {
               "type": "function",
               "refID": 4
             },
-            "insert": {
+            "findOne": {
               "type": "function",
               "refID": 6
             },
-            "update": {
+            "insert": {
               "type": "function",
               "refID": 8
             },
-            "remove": {
+            "update": {
               "type": "function",
               "refID": 10
             },
-            "upsert": {
+            "remove": {
               "type": "function",
               "refID": 12
             },
-            "rawCollection": {
+            "upsert": {
               "type": "function",
               "refID": 14
             },
-            "rawDatabase": {
+            "rawCollection": {
               "type": "function",
               "refID": 16
             },
-            "allow": {
+            "rawDatabase": {
               "type": "function",
               "refID": 18
             },
-            "deny": {
+            "allow": {
               "type": "function",
               "refID": 20
             },
-            "helpers": {
+            "deny": {
               "type": "function",
               "refID": 22
+            },
+            "helpers": {
+              "type": "function",
+              "refID": 24
+            },
+            "attachSchema": {
+              "type": "function",
+              "refID": 26
+            },
+            "simpleSchema": {
+              "type": "function",
+              "refID": 28
             }
           }
         },
         "JetSetter": {
           "type": "object",
           "members": {
-            "find": {
+            "attachRoles": {
               "ref": 2
             },
-            "findOne": {
+            "find": {
               "ref": 4
             },
-            "insert": {
+            "findOne": {
               "ref": 6
             },
-            "update": {
+            "insert": {
               "ref": 8
             },
-            "remove": {
+            "update": {
               "ref": 10
             },
-            "upsert": {
+            "remove": {
               "ref": 12
             },
-            "rawCollection": {
+            "upsert": {
               "ref": 14
             },
-            "rawDatabase": {
+            "rawCollection": {
               "ref": 16
             },
-            "allow": {
+            "rawDatabase": {
               "ref": 18
             },
-            "deny": {
+            "allow": {
               "ref": 20
             },
-            "helpers": {
+            "deny": {
               "ref": 22
+            },
+            "helpers": {
+              "ref": 24
+            },
+            "attachSchema": {
+              "ref": 26
+            },
+            "simpleSchema": {
+              "ref": 28
             }
           }
         },
         "Mongol": {
           "type": "object",
           "members": {
-            "find": {
+            "attachRoles": {
               "ref": 2
             },
-            "findOne": {
+            "find": {
               "ref": 4
             },
-            "insert": {
+            "findOne": {
               "ref": 6
             },
-            "update": {
+            "insert": {
               "ref": 8
             },
-            "remove": {
+            "update": {
               "ref": 10
             },
-            "upsert": {
+            "remove": {
               "ref": 12
             },
-            "rawCollection": {
+            "upsert": {
               "ref": 14
             },
-            "rawDatabase": {
+            "rawCollection": {
               "ref": 16
             },
-            "allow": {
+            "rawDatabase": {
               "ref": 18
             },
-            "deny": {
+            "allow": {
               "ref": 20
             },
-            "helpers": {
+            "deny": {
               "ref": 22
+            },
+            "helpers": {
+              "ref": 24
+            },
+            "attachSchema": {
+              "ref": 26
+            },
+            "simpleSchema": {
+              "ref": 28
             }
           }
         },
         "credentials": {
           "type": "object",
           "members": {
-            "find": {
+            "attachRoles": {
               "ref": 2
             },
-            "findOne": {
+            "find": {
               "ref": 4
             },
-            "insert": {
+            "findOne": {
               "ref": 6
             },
-            "update": {
+            "insert": {
               "ref": 8
             },
-            "remove": {
+            "update": {
               "ref": 10
             },
-            "upsert": {
+            "remove": {
               "ref": 12
             },
-            "rawCollection": {
+            "upsert": {
               "ref": 14
             },
-            "rawDatabase": {
+            "rawCollection": {
               "ref": 16
             },
-            "allow": {
+            "rawDatabase": {
               "ref": 18
             },
-            "deny": {
+            "allow": {
               "ref": 20
             },
-            "helpers": {
+            "deny": {
               "ref": 22
+            },
+            "helpers": {
+              "ref": 24
+            },
+            "attachSchema": {
+              "ref": 26
+            },
+            "simpleSchema": {
+              "ref": 28
             }
           }
         }
@@ -9620,6 +9925,9 @@ var packageMetadata = {
     "VelocityTestFiles": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9651,6 +9959,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9658,6 +9972,9 @@ var packageMetadata = {
     "VelocityFixtureFiles": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9689,6 +10006,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9696,6 +10019,9 @@ var packageMetadata = {
     "VelocityTestReports": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9727,6 +10053,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9734,6 +10066,9 @@ var packageMetadata = {
     "VelocityAggregateReports": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9765,6 +10100,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9772,6 +10113,9 @@ var packageMetadata = {
     "VelocityLogs": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9803,6 +10147,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9810,6 +10160,9 @@ var packageMetadata = {
     "VelocityMirrors": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9841,6 +10194,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9848,6 +10207,9 @@ var packageMetadata = {
     "VelocityOptions": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9879,6 +10241,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -10055,1133 +10423,212 @@ var packageMetadata = {
     }
   },
   "accounts-password": {},
-  "url": {
-    "URL": {
-      "type": "object"
-    }
-  },
-  "http": {
-    "HTTP": {
+  "session": {},
+  "livedata": {
+    "DDP": {
       "type": "object",
       "members": {
-        "get": {
+        "ConnectionError": {
+          "type": "function",
+          "refID": 1,
+          "members": {
+            "captureStackTrace": {
+              "type": "function",
+              "refID": 2
+            },
+            "stackTraceLimit": {
+              "type": "constant",
+              "value": 10
+            },
+            "prepareStackTrace": {
+              "type": "function",
+              "refID": 4
+            },
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 1
+                }
+              }
+            }
+          }
+        },
+        "ForcedReconnectError": {
+          "type": "function",
+          "refID": 7,
+          "members": {
+            "captureStackTrace": {
+              "ref": 2
+            },
+            "stackTraceLimit": {
+              "type": "constant",
+              "value": 10
+            },
+            "prepareStackTrace": {
+              "ref": 4
+            },
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "ref": 7
+                }
+              }
+            }
+          }
+        },
+        "randomStream": {
           "type": "function"
         },
-        "post": {
-          "type": "function"
-        },
-        "put": {
-          "type": "function"
-        },
-        "del": {
-          "type": "function"
-        },
-        "call": {
+        "connect": {
           "type": "function"
         }
       }
     },
-    "HTTPInternals": {
+    "DDPServer": {
+      "type": "object"
+    },
+    "LivedataTest": {
+      "type": "undefined"
+    }
+  },
+  "nicolaslopezj:roles": {
+    "Roles": {
       "type": "object",
       "members": {
-        "NpmModules": {
-          "type": "object",
+        "userHasRole": {
+          "type": "function"
+        },
+        "registerAction": {
+          "type": "function"
+        },
+        "registerHelper": {
+          "type": "function"
+        },
+        "Role": {
+          "type": "function",
           "members": {
-            "request": {
+            "prototype": {
               "type": "object",
               "members": {
-                "version": {
-                  "type": "constant",
-                  "value": "2.53.0"
+                "allow": {
+                  "type": "function"
                 },
-                "module": {
-                  "type": "function",
-                  "members": {
-                    "get": {
-                      "type": "function"
-                    },
-                    "head": {
-                      "type": "function"
-                    },
-                    "post": {
-                      "type": "function"
-                    },
-                    "put": {
-                      "type": "function"
-                    },
-                    "patch": {
-                      "type": "function"
-                    },
-                    "del": {
-                      "type": "function"
-                    },
-                    "jar": {
-                      "type": "function"
-                    },
-                    "cookie": {
-                      "type": "function"
-                    },
-                    "defaults": {
-                      "type": "function"
-                    },
-                    "forever": {
-                      "type": "function"
-                    },
-                    "Request": {
-                      "type": "function",
-                      "members": {
-                        "super_": {
-                          "type": "function",
-                          "refID": 25,
-                          "members": {
-                            "super_": {
-                              "type": "function",
-                              "members": {
-                                "listenerCount": {
-                                  "type": "function"
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "setMaxListeners": {
-                                      "type": "function",
-                                      "refID": 30
-                                    },
-                                    "emit": {
-                                      "type": "function",
-                                      "refID": 32
-                                    },
-                                    "addListener": {
-                                      "type": "function",
-                                      "refID": 34
-                                    },
-                                    "on": {
-                                      "ref": 34
-                                    },
-                                    "once": {
-                                      "type": "function",
-                                      "refID": 36
-                                    },
-                                    "removeListener": {
-                                      "type": "function",
-                                      "refID": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "type": "function",
-                                      "refID": 40
-                                    },
-                                    "listeners": {
-                                      "type": "function",
-                                      "refID": 42
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "Readable": {
-                              "type": "function",
-                              "refID": 44,
-                              "members": {
-                                "ReadableState": {
-                                  "type": "function"
-                                },
-                                "super_": {
-                                  "ref": 25
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "push": {
-                                      "type": "function",
-                                      "refID": 48
-                                    },
-                                    "unshift": {
-                                      "type": "function",
-                                      "refID": 50
-                                    },
-                                    "setEncoding": {
-                                      "type": "function",
-                                      "refID": 52
-                                    },
-                                    "read": {
-                                      "type": "function",
-                                      "refID": 54
-                                    },
-                                    "pipe": {
-                                      "type": "function",
-                                      "refID": 56
-                                    },
-                                    "unpipe": {
-                                      "type": "function",
-                                      "refID": 58
-                                    },
-                                    "on": {
-                                      "type": "function",
-                                      "refID": 60
-                                    },
-                                    "addListener": {
-                                      "ref": 60
-                                    },
-                                    "resume": {
-                                      "type": "function",
-                                      "refID": 62
-                                    },
-                                    "pause": {
-                                      "type": "function",
-                                      "refID": 64
-                                    },
-                                    "wrap": {
-                                      "type": "function",
-                                      "refID": 66
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "Writable": {
-                              "type": "function",
-                              "members": {
-                                "WritableState": {
-                                  "type": "function"
-                                },
-                                "super_": {
-                                  "ref": 25
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "pipe": {
-                                      "type": "function"
-                                    },
-                                    "write": {
-                                      "type": "function",
-                                      "refID": 74
-                                    },
-                                    "end": {
-                                      "type": "function",
-                                      "refID": 76
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "addListener": {
-                                      "ref": 34
-                                    },
-                                    "on": {
-                                      "ref": 34
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "Duplex": {
-                              "type": "function",
-                              "refID": 78,
-                              "members": {
-                                "super_": {
-                                  "ref": 44
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "write": {
-                                      "ref": 74
-                                    },
-                                    "end": {
-                                      "ref": 76
-                                    },
-                                    "push": {
-                                      "ref": 48
-                                    },
-                                    "unshift": {
-                                      "ref": 50
-                                    },
-                                    "setEncoding": {
-                                      "ref": 52
-                                    },
-                                    "read": {
-                                      "ref": 54
-                                    },
-                                    "pipe": {
-                                      "ref": 56
-                                    },
-                                    "unpipe": {
-                                      "ref": 58
-                                    },
-                                    "on": {
-                                      "ref": 60
-                                    },
-                                    "addListener": {
-                                      "ref": 60
-                                    },
-                                    "resume": {
-                                      "ref": 62
-                                    },
-                                    "pause": {
-                                      "ref": 64
-                                    },
-                                    "wrap": {
-                                      "ref": 66
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "Transform": {
-                              "type": "function",
-                              "refID": 80,
-                              "members": {
-                                "super_": {
-                                  "ref": 78
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "push": {
-                                      "type": "function",
-                                      "refID": 82
-                                    },
-                                    "write": {
-                                      "ref": 74
-                                    },
-                                    "end": {
-                                      "ref": 76
-                                    },
-                                    "unshift": {
-                                      "ref": 50
-                                    },
-                                    "setEncoding": {
-                                      "ref": 52
-                                    },
-                                    "read": {
-                                      "ref": 54
-                                    },
-                                    "pipe": {
-                                      "ref": 56
-                                    },
-                                    "unpipe": {
-                                      "ref": 58
-                                    },
-                                    "on": {
-                                      "ref": 60
-                                    },
-                                    "addListener": {
-                                      "ref": 60
-                                    },
-                                    "resume": {
-                                      "ref": 62
-                                    },
-                                    "pause": {
-                                      "ref": 64
-                                    },
-                                    "wrap": {
-                                      "ref": 66
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "PassThrough": {
-                              "type": "function",
-                              "members": {
-                                "super_": {
-                                  "ref": 80
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "push": {
-                                      "ref": 82
-                                    },
-                                    "write": {
-                                      "ref": 74
-                                    },
-                                    "end": {
-                                      "ref": 76
-                                    },
-                                    "unshift": {
-                                      "ref": 50
-                                    },
-                                    "setEncoding": {
-                                      "ref": 52
-                                    },
-                                    "read": {
-                                      "ref": 54
-                                    },
-                                    "pipe": {
-                                      "ref": 56
-                                    },
-                                    "unpipe": {
-                                      "ref": 58
-                                    },
-                                    "on": {
-                                      "ref": 60
-                                    },
-                                    "addListener": {
-                                      "ref": 60
-                                    },
-                                    "resume": {
-                                      "ref": 62
-                                    },
-                                    "pause": {
-                                      "ref": 64
-                                    },
-                                    "wrap": {
-                                      "ref": 66
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "Stream": {
-                              "ref": 25
-                            },
-                            "prototype": {
-                              "type": "object",
-                              "members": {
-                                "pipe": {
-                                  "type": "function"
-                                },
-                                "setMaxListeners": {
-                                  "ref": 30
-                                },
-                                "emit": {
-                                  "ref": 32
-                                },
-                                "addListener": {
-                                  "ref": 34
-                                },
-                                "on": {
-                                  "ref": 34
-                                },
-                                "once": {
-                                  "ref": 36
-                                },
-                                "removeListener": {
-                                  "ref": 38
-                                },
-                                "removeAllListeners": {
-                                  "ref": 40
-                                },
-                                "listeners": {
-                                  "ref": 42
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "debug": {
-                          "type": "undefined"
-                        },
-                        "defaultProxyHeaderWhiteList": {
-                          "type": "array"
-                        },
-                        "defaultProxyHeaderExclusiveList": {
-                          "type": "array"
-                        },
-                        "prototype": {
-                          "type": "object",
-                          "members": {
-                            "setupTunnel": {
-                              "type": "function"
-                            },
-                            "init": {
-                              "type": "function"
-                            },
-                            "getNewAgent": {
-                              "type": "function"
-                            },
-                            "start": {
-                              "type": "function"
-                            },
-                            "onRequestError": {
-                              "type": "function"
-                            },
-                            "onRequestResponse": {
-                              "type": "function"
-                            },
-                            "abort": {
-                              "type": "function"
-                            },
-                            "pipeDest": {
-                              "type": "function"
-                            },
-                            "qs": {
-                              "type": "function"
-                            },
-                            "form": {
-                              "type": "function"
-                            },
-                            "multipart": {
-                              "type": "function"
-                            },
-                            "json": {
-                              "type": "function"
-                            },
-                            "getHeader": {
-                              "type": "function"
-                            },
-                            "auth": {
-                              "type": "function"
-                            },
-                            "aws": {
-                              "type": "function"
-                            },
-                            "httpSignature": {
-                              "type": "function"
-                            },
-                            "hawk": {
-                              "type": "function"
-                            },
-                            "oauth": {
-                              "type": "function"
-                            },
-                            "jar": {
-                              "type": "function"
-                            },
-                            "pipe": {
-                              "type": "function"
-                            },
-                            "write": {
-                              "type": "function"
-                            },
-                            "end": {
-                              "type": "function"
-                            },
-                            "pause": {
-                              "type": "function"
-                            },
-                            "resume": {
-                              "type": "function"
-                            },
-                            "destroy": {
-                              "type": "function"
-                            },
-                            "toJSON": {
-                              "type": "function"
-                            },
-                            "setMaxListeners": {
-                              "ref": 30
-                            },
-                            "emit": {
-                              "ref": 32
-                            },
-                            "addListener": {
-                              "ref": 34
-                            },
-                            "on": {
-                              "ref": 34
-                            },
-                            "once": {
-                              "ref": 36
-                            },
-                            "removeListener": {
-                              "ref": 38
-                            },
-                            "removeAllListeners": {
-                              "ref": 40
-                            },
-                            "listeners": {
-                              "ref": 42
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "initParams": {
-                      "type": "function"
-                    },
-                    "debug": {
-                      "type": "undefined"
-                    }
-                  }
+                "deny": {
+                  "type": "function"
+                },
+                "helper": {
+                  "type": "function"
                 }
               }
             }
           }
+        },
+        "helper": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        },
+        "userHasPermission": {
+          "type": "function"
+        },
+        "checkPermission": {
+          "type": "function"
+        },
+        "addUserToRoles": {
+          "type": "function"
+        },
+        "setUserRoles": {
+          "type": "function"
+        },
+        "removeUserFromRoles": {
+          "type": "function"
         }
       }
     }
   },
-  "useraccounts:core": {
-    "AccountsTemplates": {
+  "nicolaslopezj:options": {
+    "Options": {
       "type": "object",
       "members": {
-        "ROUTE_DEFAULT": {
-          "type": "object",
-          "members": {
-            "changePwd": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atChangePwd"
-                },
-                "path": {
-                  "type": "constant",
-                  "value": "/change-password"
-                }
-              }
-            },
-            "enrollAccount": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atEnrollAccount"
-                },
-                "path": {
-                  "type": "constant",
-                  "value": "/enroll-account"
-                }
-              }
-            },
-            "ensureSignedIn": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atEnsureSignedIn"
-                },
-                "path": {
-                  "type": "null",
-                  "value": null
-                }
-              }
-            },
-            "forgotPwd": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atForgotPwd"
-                },
-                "path": {
-                  "type": "constant",
-                  "value": "/forgot-password"
-                }
-              }
-            },
-            "resetPwd": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atResetPwd"
-                },
-                "path": {
-                  "type": "constant",
-                  "value": "/reset-password"
-                }
-              }
-            },
-            "signIn": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atSignIn"
-                },
-                "path": {
-                  "type": "constant",
-                  "value": "/sign-in"
-                }
-              }
-            },
-            "signUp": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atSignUp"
-                },
-                "path": {
-                  "type": "constant",
-                  "value": "/sign-up"
-                }
-              }
-            },
-            "verifyEmail": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atVerifyEmail"
-                },
-                "path": {
-                  "type": "constant",
-                  "value": "/verify-email"
-                }
-              }
-            },
-            "resendVerificationEmail": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atResendVerificationEmail"
-                },
-                "path": {
-                  "type": "constant",
-                  "value": "/send-again"
-                }
-              }
-            }
-          }
-        },
-        "INPUT_TYPES": {
-          "type": "array"
-        },
-        "options": {
-          "type": "object",
-          "members": {
-            "defaultState": {
-              "type": "constant",
-              "value": "signIn"
-            },
-            "socialLoginStyle": {
-              "type": "constant",
-              "value": "popup"
-            },
-            "privacyUrl": {
-              "type": "undefined"
-            },
-            "termsUrl": {
-              "type": "undefined"
-            },
-            "homeRoutePath": {
-              "type": "constant",
-              "value": "/"
-            },
-            "redirectTimeout": {
-              "type": "constant",
-              "value": 2000
-            },
-            "onSubmitHook": {
-              "type": "undefined"
-            }
-          }
-        },
-        "texts": {
-          "type": "object",
-          "members": {
-            "button": {
-              "type": "object",
-              "members": {
-                "changePwd": {
-                  "type": "constant",
-                  "value": "updateYourPassword"
-                },
-                "enrollAccount": {
-                  "type": "constant",
-                  "value": "signUp"
-                },
-                "forgotPwd": {
-                  "type": "constant",
-                  "value": "emailResetLink"
-                },
-                "resetPwd": {
-                  "type": "constant",
-                  "value": "setPassword"
-                },
-                "signIn": {
-                  "type": "constant",
-                  "value": "signIn"
-                },
-                "signUp": {
-                  "type": "constant",
-                  "value": "signUp"
-                },
-                "resendVerificationEmail": {
-                  "type": "constant",
-                  "value": "Send email again"
-                }
-              }
-            },
-            "errors": {
-              "type": "object",
-              "members": {
-                "accountsCreationDisabled": {
-                  "type": "constant",
-                  "value": "Client side accounts creation is disabled!!!"
-                },
-                "cannotRemoveService": {
-                  "type": "constant",
-                  "value": "Cannot remove the only active service!"
-                },
-                "captchaVerification": {
-                  "type": "constant",
-                  "value": "Captcha verification failed!"
-                },
-                "loginForbidden": {
-                  "type": "constant",
-                  "value": "error.accounts.Login forbidden"
-                },
-                "mustBeLoggedIn": {
-                  "type": "constant",
-                  "value": "error.accounts.Must be logged in"
-                },
-                "pwdMismatch": {
-                  "type": "constant",
-                  "value": "error.pwdsDontMatch"
-                },
-                "validationErrors": {
-                  "type": "constant",
-                  "value": "Validation Errors"
-                },
-                "verifyEmailFirst": {
-                  "type": "constant",
-                  "value": "Please verify your email first. Check the email and follow the link!"
-                }
-              }
-            },
-            "navSignIn": {
-              "type": "constant",
-              "value": "signIn"
-            },
-            "navSignOut": {
-              "type": "constant",
-              "value": "signOut"
-            },
-            "info": {
-              "type": "object",
-              "members": {
-                "emailSent": {
-                  "type": "constant",
-                  "value": "info.emailSent"
-                },
-                "emailVerified": {
-                  "type": "constant",
-                  "value": "info.emailVerified"
-                },
-                "pwdChanged": {
-                  "type": "constant",
-                  "value": "info.passwordChanged"
-                },
-                "pwdReset": {
-                  "type": "constant",
-                  "value": "info.passwordReset"
-                },
-                "pwdSet": {
-                  "type": "constant",
-                  "value": "Password Set"
-                },
-                "signUpVerifyEmail": {
-                  "type": "constant",
-                  "value": "Successful Registration! Please check your email and follow the instructions."
-                },
-                "verificationEmailSent": {
-                  "type": "constant",
-                  "value": "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder."
-                }
-              }
-            },
-            "inputIcons": {
-              "type": "object",
-              "members": {
-                "isValidating": {
-                  "type": "constant",
-                  "value": "fa fa-spinner fa-spin"
-                },
-                "hasSuccess": {
-                  "type": "constant",
-                  "value": "fa fa-check"
-                },
-                "hasError": {
-                  "type": "constant",
-                  "value": "fa fa-times"
-                }
-              }
-            },
-            "maxAllowedLength": {
-              "type": "constant",
-              "value": "Maximum allowed length"
-            },
-            "minRequiredLength": {
-              "type": "constant",
-              "value": "Minimum required length"
-            },
-            "optionalField": {
-              "type": "constant",
-              "value": "optional"
-            },
-            "pwdLink_pre": {
-              "type": "constant",
-              "value": ""
-            },
-            "pwdLink_link": {
-              "type": "constant",
-              "value": "forgotPassword"
-            },
-            "pwdLink_suff": {
-              "type": "constant",
-              "value": ""
-            },
-            "requiredField": {
-              "type": "constant",
-              "value": "Required Field"
-            },
-            "resendVerificationEmailLink_pre": {
-              "type": "constant",
-              "value": "Verification email lost?"
-            },
-            "resendVerificationEmailLink_link": {
-              "type": "constant",
-              "value": "Send again"
-            },
-            "resendVerificationEmailLink_suff": {
-              "type": "constant",
-              "value": ""
-            },
-            "sep": {
-              "type": "constant",
-              "value": "OR"
-            },
-            "signInLink_pre": {
-              "type": "constant",
-              "value": "ifYouAlreadyHaveAnAccount"
-            },
-            "signInLink_link": {
-              "type": "constant",
-              "value": "signin"
-            },
-            "signInLink_suff": {
-              "type": "constant",
-              "value": ""
-            },
-            "signUpLink_pre": {
-              "type": "constant",
-              "value": "dontHaveAnAccount"
-            },
-            "signUpLink_link": {
-              "type": "constant",
-              "value": "signUp"
-            },
-            "signUpLink_suff": {
-              "type": "constant",
-              "value": ""
-            },
-            "socialAdd": {
-              "type": "constant",
-              "value": "add"
-            },
-            "socialConfigure": {
-              "type": "constant",
-              "value": "configure"
-            },
-            "socialIcons": {
-              "type": "object",
-              "members": {
-                "meteor-developer": {
-                  "type": "constant",
-                  "value": "fa fa-rocket"
-                }
-              }
-            },
-            "socialRemove": {
-              "type": "constant",
-              "value": "remove"
-            },
-            "socialSignIn": {
-              "type": "constant",
-              "value": "signIn"
-            },
-            "socialSignUp": {
-              "type": "constant",
-              "value": "signUp"
-            },
-            "socialWith": {
-              "type": "constant",
-              "value": "with"
-            },
-            "termsPreamble": {
-              "type": "constant",
-              "value": "clickAgree"
-            },
-            "termsPrivacy": {
-              "type": "constant",
-              "value": "privacyPolicy"
-            },
-            "termsAnd": {
-              "type": "constant",
-              "value": "and"
-            },
-            "termsTerms": {
-              "type": "constant",
-              "value": "terms"
-            },
-            "title": {
-              "type": "object",
-              "members": {
-                "changePwd": {
-                  "type": "constant",
-                  "value": "changePassword"
-                },
-                "enrollAccount": {
-                  "type": "constant",
-                  "value": "createAccount"
-                },
-                "forgotPwd": {
-                  "type": "constant",
-                  "value": "resetYourPassword"
-                },
-                "resetPwd": {
-                  "type": "constant",
-                  "value": "resetYourPassword"
-                },
-                "signIn": {
-                  "type": "constant",
-                  "value": "signIn"
-                },
-                "signUp": {
-                  "type": "constant",
-                  "value": "createAccount"
-                },
-                "verifyEmail": {
-                  "type": "constant",
-                  "value": ""
-                },
-                "resendVerificationEmail": {
-                  "type": "constant",
-                  "value": "Send the verification email again"
-                }
-              }
-            }
-          }
-        },
-        "SPECIAL_FIELDS": {
-          "type": "array"
-        },
-        "routes": {
-          "type": "object"
-        },
-        "addField": {
+        "init": {
           "type": "function"
         },
-        "addFields": {
+        "set": {
+          "type": "function"
+        },
+        "arrayPush": {
+          "type": "function"
+        },
+        "listen": {
+          "type": "function"
+        },
+        "get": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "nicolaslopezj:reactive-templates": {
+    "ReactiveTemplates": {
+      "type": "object",
+      "members": {
+        "request": {
+          "type": "function"
+        },
+        "get": {
+          "type": "function"
+        },
+        "set": {
+          "type": "function"
+        },
+        "isRequested": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "zimme:active-route": {
+    "ActiveRoute": {
+      "type": "object",
+      "members": {
+        "config": {
           "type": "function"
         },
         "configure": {
           "type": "function"
         },
-        "configureRoute": {
+        "name": {
           "type": "function"
         },
-        "hasField": {
+        "path": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "anti:i18n": {
+    "i18n": {
+      "type": "function",
+      "members": {
+        "setLanguage": {
           "type": "function"
         },
-        "getField": {
+        "setDefaultLanguage": {
           "type": "function"
         },
-        "getFields": {
+        "getLanguage": {
           "type": "function"
         },
-        "getFieldIds": {
+        "showMissing": {
           "type": "function"
         },
-        "getRouteName": {
-          "type": "function"
-        },
-        "getRoutePath": {
-          "type": "function"
-        },
-        "oauthServices": {
-          "type": "function"
-        },
-        "removeField": {
-          "type": "function"
-        },
-        "setupRoutes": {
-          "type": "function"
-        },
-        "init": {
+        "map": {
           "type": "function"
         }
       }
@@ -11515,7 +10962,7 @@ var packageMetadata = {
                 }
               }
             },
-            "zh-cn": {
+            "zh_cn": {
               "type": "object",
               "members": {
                 "add": {
@@ -13835,15 +13282,15 @@ var packageMetadata = {
                 },
                 "signUp": {
                   "type": "constant",
-                  "value": "Suscribir"
+                  "value": "Registrarse"
                 },
                 "signupCode": {
                   "type": "constant",
-                  "value": "Código de suscripción"
+                  "value": "Código de registro"
                 },
                 "signUpWithYourEmailAddress": {
                   "type": "constant",
-                  "value": "Suscribir con tu email"
+                  "value": "Registrarse con tu email"
                 },
                 "terms": {
                   "type": "constant",
@@ -15540,6 +14987,648 @@ var packageMetadata = {
                 }
               }
             },
+            "hu": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "hozzáadás"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "és"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "vissza"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "Jelszó megváltoztatása"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "Válassz egy jelszót"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "A regisztráció gombra kattintva egyetértesz a mi"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "Beállítás"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "Felhasználó létrehozása"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "Jelenlegi jelszó"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Nincs még felhasználód?"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "Email"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "Email cím"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "Visszaállító link küldése"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "Elfelejtetted a jelszavadat?"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Ha már van felhasználód, "
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "Új jelszó"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "Új jelszó (ismét)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "Opcionális"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "VAGY"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "Jelszó"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "Jelszó (ismét)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "Adatvédelmi irányelvek"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "eltávolítás"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "Jelszó visszaállítása"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "Jelszó beállítása"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "Bejelentkezés"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "Bejelentkezés"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "jelentkezz be"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "Kijelentkezés"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "Regisztráció"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "Regisztrációs kód"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "Regisztráció email címmel"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "Használati feltételek"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "Jelszó módosítása"
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "Felhasználónév"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "Felhasználónév vagy email"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "-"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "Email elküldve"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "Email cím igazolva"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "Jelszó megváltoztatva"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "Jelszó visszaállítva"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "Email cím megadása kötelező."
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "A jelszónak legalább 7 karakter hoszúnak kell lennie."
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "A jelszavak nem egyeznek"
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "A jelszónak legalább egy számjegyet tartalmaznia kell."
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "A jelszónak legalább egy betűt tartalmaznia kell."
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "A művelet végrehajtásához be kell jelentkezned."
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "A regisztrációs kód hibás."
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "A regisztrációs kód megadása kötelező."
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "A felhasználónév nem lehet egy email cím."
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "Felhasználónév megadása kötelező."
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "A megadott email cím már létezik."
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "Email cím nem felel meg a feltételeknek."
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "Érvénytelen belépési token"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "Belépés megtagadva"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "Ismeretlen szolgáltatás"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "Ismeretlen beállítások a belépési kérelemhez"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "Felhasználó azonosítás sikertelen"
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "A felhasználónév már létezik."
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "Nem vagy bejelentkezve."
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "A szerver kijelentkeztetett. Kérjük, jelentkezz be újra."
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "A munkamenet lejárt. Kérjük, jelentkezz be újra."
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "Nem található megegyező belépési próbálkozás"
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "A jelszó túl régi. Kérjük, változtasd meg a jelszavad."
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "Helytelen jelszó"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "Érvénytelen email cím"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "A művelet végrehajtásához bejelentkezés szükséges"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "Felhasználónév vagy email cím beállítása kötelező"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "régi jelszó formátum"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "A jelszó nem lehet üres"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "Regisztráció megtagadva"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "Token lejárt"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "A token érvénytelen email címet tartalmaz"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "A felhasználóhoz nincs jelszó beállítva"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "Felhasználó nem található"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "Igazoló email link lejárt"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "Az igazoló email link ismeretlen címhez tartozik"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "Megegyeztetés sikertelen"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "Ismeretlen hiba"
+                }
+              }
+            },
+            "id": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "tambah"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "dan"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "kembali"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "Ganti Password"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "Masukkan Password"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "Dengan anda mendaftar, anda setuju dengan"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "Mengaturkan"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "Buat Account"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "Password Anda Saat Ini"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Tidak punya account?"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "Email"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "Alamat Email"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "Link untuk Email Reset"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "Lupa password?"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Jika anda belum punya account"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "Password Baru"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "Password Baru (ulang)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "Opsional"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "ATAU"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "Password"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "Password (ulang)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "Kebijakan Privasi"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "hapus"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "Reset password anda"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "Masukkan Password"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "Sign"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "Sign In"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "sign in"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "Sign Out"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "Mendaftar"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "Kode Registrasi"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "Mendaftar dengan alamat email anda"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "Persyaratan Layanan"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "Perbarui password anda"
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "Username"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "Username atau email"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "dengan"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "Email terkirim"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "Email diverifikasi"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "Password terganti"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "Password direset"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "Alamat email dibutuhkan."
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "Minimum password 7 karakter."
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "Password yang diulang tidak sama."
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "Password harus ada minimum 1 angka."
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "Password harus ada minimum 1 huruf."
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "Anda harus sign in untuk melakukan itu."
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "Kode registrasi salah."
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "Kode registrasi dibutuhkan."
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "Username anda tidak bisa sama dengan email address."
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "Username dibutuhkan."
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "Alamat email sudah dipakai."
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "Alamat email tidak sesuai dengan kriteria."
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "Login token tidak valid"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "Login dilarang"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "Layanan unknown"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "Options tidak tersedia untuk permintaan login"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "Validasi user gagal"
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "Username sudah dipakai."
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "Anda belum login."
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "Anda belum dilogout oleh server. Silahkan coba login lagi."
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "Session anda telah kedaluarsa. Silahkan coba login lagi."
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "Usaha login tidak ditemukan."
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "Password anda terlalu tua. Silahkan ganti password anda."
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "Password salah"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "Alamat email tidak valid"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "Anda harus login"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "Anda harus masukkan username atau email"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "format password lama"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "Password tidak boleh kosong"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "Signup dilarang"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "Token telah kedaluarsa"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "Token memberikan alamat email yang tidak valid"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "User belum memasukkan password"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "User tidak ditemukan"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "Link untuk verifikasi alamat email telah kedaluarsa"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "Link untuk verifikasi alamat email memberikan alamat email yang tidak dikenalkan"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "Mencocokan gagal"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "Error tidak dikenalkan"
+                }
+              }
+            },
             "it": {
               "type": "object",
               "members": {
@@ -16182,6 +16271,327 @@ var packageMetadata = {
                 }
               }
             },
+            "kh": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "បន្ថែម"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "និង"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "ត្រឡប់ក្រោយ"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "ផ្លាស់ប្តូរពាក្យសម្ងាត់"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "ជ្រើសពាក្យសម្ងាត់"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "សូមចុះឈ្មោះ បើអ្នកយល់ព្រម"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "កំណត់រចនាសម្ព័ន្ធ"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "បង្កើតគណនី"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់បច្ចុប្បន្ន"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "មិនមានគណនីទេឬ?"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "អ៊ីម៉ែល"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "អាសយដ្ឋានអ៊ីម៉ែល"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "អ៊ីម៉ែលតំណភ្ជាប់ សម្រាប់កំណត់ឡើងវិញ"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "ភ្លេចពាក្យសម្ងាត់?"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "បើអ្នកមានគណនីមួយរួចទៅហើយ"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់ថ្មី"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់ថ្មី (ម្ដងទៀត)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "ជម្រើស"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "ឬ"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់ (ម្ដងទៀត)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "គោលការណ៍ភាពឯកជន"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "លុប"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "កំណត់ពាក្យសម្ងាត់"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "ចូលគណនី"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "ពិនិត្យចូល"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "ចូល"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "ចាកចេញ"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "ចុះឈ្មោះ"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "លេខ​កូដចុះឈ្មោះ"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "ចុះឈ្មោះជាមួយអាសយដ្ឋានអ៊ីមែល"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "លក្ខខណ្ឌនៃការប្រើប្រាស់"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "ធ្វើបច្ចុប្បន្នភាពពាក្យសម្ងាត់"
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "ឈ្មោះអ្នកប្រើ"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "ឈ្មោះអ្នកប្រើ ឬអ៊ីម៉ែល"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "ជាមួយនឹង"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "អ៊ីម៉ែលដែលបានផ្ញើរ"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "អ៊ីម៉ែលបានផ្ទៀងផ្ទាត់"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់បាន​ផ្លាស់ប្តូរ"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "អ៊ីម៉ែលត្រូវបានទាមទារ"
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់អប្បបរមា ៧ តួអក្សរលេខ"
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់មិនត្រូវគ្នា"
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ ១ តួលេខ"
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ ១ តួអក្សរ​"
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "អ្នកត្រូវតែបានចូលគណនី ដើម្បីធ្វើការងារផ្សេងៗ"
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "លេខកូដការចុះឈ្មោះមិនត្រឹមត្រូវ"
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "លេខកូដការចុះឈ្មោះត្រូវបានទាមទារ"
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "ឈ្មោះអ្នកប្រើមិនអាចជាអាសយដ្ឋានអ៊ីមែល"
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "ឈ្មោះអ្នកប្រើត្រូវបានទាមទារ"
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "អ៊ីម៉ែលមានរួចហើយ"
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "អ៊ីម៉ែលមិនផ្គូផ្គងនឹងលក្ខណៈវិនិច្ឆ័យ"
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "សញ្ញាសម្ងាត់ចូលមិនត្រឹមត្រូវ"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "បានហាមឃាត់ការចូល"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "សេវាមិនស្គាល់"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "មិនស្គាល់ជម្រើសសម្រាប់សំណើកត់ត្រាចូល"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "សុពលភាពរបស់អ្នកប្រើបានបរាជ័យ"
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "ឈ្មោះអ្នកប្រើមាន​រួចហើយ"
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "អ្នកមិនបានចូលគណនីទេ"
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "អ្នកបានចាកចេញ ពីគណនី, សូមចូលម្តងទៀត"
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "សុពលភាពរបស់អ្នកបានផុតកំណត់, សូមចូលម្តងទៀត"
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "គ្មានការផ្គូផ្គងចូលត្រូវបានរកឃើញ"
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់គឺចាស់,​ សូមកំណត់ពាក្យសម្ងាត់ឡើងវិញ"
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់មិនត្រឹមត្រូវ"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "អ៊ីម៉ែលមិនត្រឹមត្រូវ"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "ត្រូវតែចូលគណនី"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "ត្រូវកំណត់ឈ្មោះអ្នកប្រើ​ ឬអ៊ីម៉ែល"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "ទ្រង់ទ្រាយពាក្យសម្ងាត់ចាស់"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "ពាក្យសម្ងាត់ប្រហែលជាមិនអាចទទេ"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "ការចូលត្រូវបានហាមឃាត់"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "សញ្ញាសម្ងាត់ផុតកំណត់"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "សញ្ញាសម្ងាត់ដែលមានអាសយដ្ឋានអ៊ីមែលមិនត្រឹមត្រូវ"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "អ្នកប្រើមិនមានសំណុំពាក្យសម្ងាត់"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "រកមិនឃើញអ្នកប្រើ"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "ផ្ទៀងផ្ទាត់តំណភ្ជាប់អ៊ីម៉ែលផុតកំណត់"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "ផ្ទៀងផ្ទាត់តំណភ្ជាប់អ៊ីម៉ែល គឺសម្រាប់អាសយដ្ឋានមិនស្គាល់"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "ការផ្ទៀងផ្ទាត់បានបរាជ័យ"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "មិនស្គាល់កំហុស"
+                }
+              }
+            },
             "pl": {
               "type": "object",
               "members": {
@@ -16813,6 +17223,327 @@ var packageMetadata = {
                 "error.accounts.Verify email link is for unknown address": {
                   "type": "constant",
                   "value": "O link de verificação de e-mail está configurado para um endereço desconhecido"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "Comparação falhou"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "Erro desconhecido"
+                }
+              }
+            },
+            "pt_PT": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "adicionar"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "e"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "voltar"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "Alterar palavra-passe"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "Escolha uma palavra-passe"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "Ao clicar em Registar, está a aceitar os nossos"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "Configurar"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "Criar uma Conta"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "Palavra-passe Atual"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Não tem conta?"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "E-mail"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "Endereço de e-mail"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "Enviar e-mail para redefinir a palavra-passe"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "Esqueci-me da palavra-passe"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Se já tem uma conta"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "Nova Palavra-passe"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "Nova Palavra-passe (novamente)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "Opcional"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "OU"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "Palavra-passe"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "Palavra-passe (novamente)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "Política de Privacidade"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "remover"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "Redefinir a palavra-passe"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "Definir Palavra-passe"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "Iniciar"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "Iniciar Sessão"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "iniciar sessão"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "Sair"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "Criar conta"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "Código de Registo"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "Registar com o endereço de e-mail"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "Termos de Uso"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "Alterar a palavra-passe"
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "Nome do ulilizador"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "Ulilizador ou e-mail"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "com"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "E-mail enviado"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "E-mail verificado"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "Palavra-passe alterada"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "Palavra-passe redefinida"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "O e-mail é obrigatório."
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "A palavra-passe tem de ter no mínimo 7 caracteres."
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "As palavra-passes não coincidem"
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "A palavra-passe tem de conter pelo menos um dígito."
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "A palavra-passe tem de conter pelo menos uma letra."
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "É necessário iniciar sessão para fazer isso."
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "Código de registo incorreto."
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "É necessário um código de registo."
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "O nome do utilizador não pode ser um endereço de e-mail."
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "O nome de usuário é obrigatório."
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "O e-mail já existe."
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "E-mail inválido."
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "Token de início de sessão inválido"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "Início de sessão impedido"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "Serviço desconhecido"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "Pedido de início de sessão com opções não reconhecidas"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "A validação do utilizador falhou"
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "O nome do utilizador já existe."
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "Não tem sessão iniciada."
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "Sessão terminada pelo servidor. Por favor, inicie sessão novamente."
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "A sua sessão expirou. Por favor, inicie sessão novamente."
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "Não foi encontrada nenhuma tentativa de início de sessão que coincida."
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "A palavra-passe é antiga. Por favor, redefina a sua palavra-passe."
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "Palavra-passe incorreta"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "E-mail inválido"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "É necessário iniciar sessão"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "É necessário definir um nome de utilizador ou e-mail"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "Formato de palavra-passe antigo"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "A palavra-passe não pode estar em branco"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "Criação de contas proibida"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "O token expirou"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "O token tem um endereço de e-mail inválido"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "O utilizador não defeniu a palavra-passe"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "Utilizador não encontrado"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "O link de verificação de e-mail expirou"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "O link de verificação de e-mail está definido para um endereço desconhecido"
                 },
                 "error.accounts.Match failed": {
                   "type": "constant",
@@ -19485,7 +20216,7 @@ var packageMetadata = {
                 },
                 "privacyPolicy": {
                   "type": "constant",
-                  "value": "privacy verklaring"
+                  "value": "privacyverklaring"
                 },
                 "remove": {
                   "type": "constant",
@@ -19533,7 +20264,7 @@ var packageMetadata = {
                 },
                 "updateYourPassword": {
                   "type": "constant",
-                  "value": "Wachtwoord actualiseren"
+                  "value": "Wachtwoord veranderen"
                 },
                 "username": {
                   "type": "constant",
@@ -19613,7 +20344,7 @@ var packageMetadata = {
                 },
                 "error.accounts.Invalid login token": {
                   "type": "constant",
-                  "value": "Ongeldig login token"
+                  "value": "Ongeldig inlogtoken"
                 },
                 "error.accounts.Login forbidden": {
                   "type": "constant",
@@ -19625,11 +20356,11 @@ var packageMetadata = {
                 },
                 "error.accounts.Unrecognized options for login request": {
                   "type": "constant",
-                  "value": "Onbekende optie voor login request"
+                  "value": "Onbekende optie voor inlogverzoek"
                 },
                 "error.accounts.User validation failed": {
                   "type": "constant",
-                  "value": "Gebruikers validatie mislukt"
+                  "value": "Gebruikersvalidatie mislukt"
                 },
                 "error.accounts.Username already exists.": {
                   "type": "constant",
@@ -19641,19 +20372,19 @@ var packageMetadata = {
                 },
                 "error.accounts.You've been logged out by the server. Please log in again.": {
                   "type": "constant",
-                  "value": "Je bent door de server afgemeld. Opnieuw aanmelden svp."
+                  "value": "Je bent door de server afgemeld. Meld a.u.b. opnieuw aan."
                 },
                 "error.accounts.Your session has expired. Please log in again.": {
                   "type": "constant",
-                  "value": "Je sessie is verlopen. Opnieuw aanmelden svp."
+                  "value": "Je sessie is verlopen. Meld a.u.b. opnieuw aan."
                 },
                 "error.accounts.No matching login attempt found": {
                   "type": "constant",
-                  "value": "Geen overeenkomstig login verzoek gevonden."
+                  "value": "Geen overeenkomstig inlogverzoek gevonden."
                 },
                 "error.accounts.Password is old. Please reset your Password.": {
                   "type": "constant",
-                  "value": "Wachtwoord is verlopen. Wachtwoord resetten svp."
+                  "value": "Wachtwoord is verlopen. Reset a.u.b. uw wachtwoord."
                 },
                 "error.accounts.Incorrect Password": {
                   "type": "constant",
@@ -19697,11 +20428,11 @@ var packageMetadata = {
                 },
                 "error.accounts.Verify email link expired": {
                   "type": "constant",
-                  "value": "E-mail verificatie link is verlopen"
+                  "value": "Verificatielink is verlopen"
                 },
                 "error.accounts.Verify email link is for unknown address": {
                   "type": "constant",
-                  "value": "E-mail verificatie link is voor onbekend e-mailadres"
+                  "value": "Verificatielink is voor onbekend e-mailadres"
                 },
                 "error.accounts.Match failed": {
                   "type": "constant",
@@ -20049,15 +20780,15 @@ var packageMetadata = {
           "members": {
             "depend": {
               "type": "function",
-              "refID": 31
+              "refID": 35
             },
             "changed": {
               "type": "function",
-              "refID": 33
+              "refID": 37
             },
             "hasDependents": {
               "type": "function",
-              "refID": 35
+              "refID": 39
             }
           }
         },
@@ -20065,13 +20796,13 @@ var packageMetadata = {
           "type": "object",
           "members": {
             "depend": {
-              "ref": 31
+              "ref": 35
             },
             "changed": {
-              "ref": 33
+              "ref": 37
             },
             "hasDependents": {
-              "ref": 35
+              "ref": 39
             }
           }
         },
@@ -20107,75 +20838,7501 @@ var packageMetadata = {
       }
     }
   },
-  "useraccounts:unstyled": {},
-  "session": {},
-  "livedata": {
-    "DDP": {
+  "orionjs:lang-en": {},
+  "orionjs:base": {
+    "orion": {
       "type": "object",
       "members": {
-        "ConnectionError": {
-          "type": "function",
-          "refID": 1,
+        "helpers": {
+          "type": "object",
           "members": {
-            "captureStackTrace": {
-              "type": "function",
-              "refID": 2
+            "searchObjectWithDots": {
+              "type": "function"
             },
-            "stackTraceLimit": {
-              "type": "constant",
-              "value": 10
+            "deepExtend": {
+              "type": "function"
             },
-            "prepareStackTrace": {
-              "type": "function",
-              "refID": 4
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
             },
-            "prototype": {
+            "createdBy": {
               "type": "object",
               "members": {
-                "constructor": {
-                  "ref": 1
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdByPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
                 }
               }
             }
           }
         },
-        "ForcedReconnectError": {
-          "type": "function",
-          "refID": 7,
-          "members": {
-            "captureStackTrace": {
-              "ref": 2
-            },
-            "stackTraceLimit": {
-              "type": "constant",
-              "value": 10
-            },
-            "prepareStackTrace": {
-              "ref": 4
-            },
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 7
-                }
-              }
-            }
-          }
-        },
-        "randomStream": {
+        "attribute": {
           "type": "function"
         },
-        "connect": {
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
+                  "type": "function",
+                  "refID": 32
+                },
+                "addValidator": {
+                  "ref": 32
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "invitations": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "type": "function",
+                  "refID": 118
+                },
+                "find": {
+                  "type": "function",
+                  "refID": 120
+                },
+                "findOne": {
+                  "type": "function",
+                  "refID": 122
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 124
+                },
+                "update": {
+                  "type": "function",
+                  "refID": 126
+                },
+                "remove": {
+                  "type": "function",
+                  "refID": 128
+                },
+                "upsert": {
+                  "type": "function",
+                  "refID": 130
+                },
+                "rawCollection": {
+                  "type": "function",
+                  "refID": 132
+                },
+                "rawDatabase": {
+                  "type": "function",
+                  "refID": 134
+                },
+                "allow": {
+                  "type": "function",
+                  "refID": 136
+                },
+                "deny": {
+                  "type": "function",
+                  "refID": 138
+                },
+                "helpers": {
+                  "type": "function",
+                  "refID": 140
+                },
+                "attachSchema": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "simpleSchema": {
+                  "type": "function",
+                  "refID": 144
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 118
+                },
+                "find": {
+                  "ref": 120
+                },
+                "findOne": {
+                  "ref": 122
+                },
+                "insert": {
+                  "ref": 124
+                },
+                "update": {
+                  "ref": 126
+                },
+                "remove": {
+                  "ref": 128
+                },
+                "upsert": {
+                  "ref": 130
+                },
+                "rawCollection": {
+                  "ref": 132
+                },
+                "rawDatabase": {
+                  "ref": 134
+                },
+                "allow": {
+                  "ref": 136
+                },
+                "deny": {
+                  "ref": 138
+                },
+                "helpers": {
+                  "ref": 140
+                },
+                "attachSchema": {
+                  "ref": 142
+                },
+                "simpleSchema": {
+                  "ref": 144
+                }
+              }
+            },
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
+              "type": "object",
+              "members": {
+                "onCreated": {
+                  "type": "array"
+                }
+              }
+            },
+            "onCreated": {
+              "type": "function"
+            }
+          }
+        },
+        "collection": {
+          "type": "function"
+        },
+        "dictionary": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "attachRoles": {
+              "ref": 118
+            },
+            "find": {
+              "ref": 120
+            },
+            "findOne": {
+              "ref": 122
+            },
+            "insert": {
+              "ref": 124
+            },
+            "update": {
+              "ref": 126
+            },
+            "remove": {
+              "ref": 128
+            },
+            "upsert": {
+              "ref": 130
+            },
+            "rawCollection": {
+              "ref": 132
+            },
+            "rawDatabase": {
+              "ref": 134
+            },
+            "allow": {
+              "ref": 136
+            },
+            "deny": {
+              "ref": 138
+            },
+            "helpers": {
+              "ref": 140
+            },
+            "attachSchema": {
+              "ref": 142
+            },
+            "simpleSchema": {
+              "ref": 144
+            }
+          }
+        }
+      }
+    }
+  },
+  "aldeed:autoform": {},
+  "orionjs:attributes": {
+    "orion": {
+      "type": "object",
+      "members": {
+        "helpers": {
+          "type": "object",
+          "members": {
+            "searchObjectWithDots": {
+              "type": "function"
+            },
+            "deepExtend": {
+              "type": "function"
+            },
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
+            },
+            "createdBy": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdByPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "attribute": {
+          "type": "function"
+        },
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
+                  "type": "function",
+                  "refID": 32
+                },
+                "addValidator": {
+                  "ref": 32
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "invitations": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "type": "function",
+                  "refID": 118
+                },
+                "find": {
+                  "type": "function",
+                  "refID": 120
+                },
+                "findOne": {
+                  "type": "function",
+                  "refID": 122
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 124
+                },
+                "update": {
+                  "type": "function",
+                  "refID": 126
+                },
+                "remove": {
+                  "type": "function",
+                  "refID": 128
+                },
+                "upsert": {
+                  "type": "function",
+                  "refID": 130
+                },
+                "rawCollection": {
+                  "type": "function",
+                  "refID": 132
+                },
+                "rawDatabase": {
+                  "type": "function",
+                  "refID": 134
+                },
+                "allow": {
+                  "type": "function",
+                  "refID": 136
+                },
+                "deny": {
+                  "type": "function",
+                  "refID": 138
+                },
+                "helpers": {
+                  "type": "function",
+                  "refID": 140
+                },
+                "attachSchema": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "simpleSchema": {
+                  "type": "function",
+                  "refID": 144
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 118
+                },
+                "find": {
+                  "ref": 120
+                },
+                "findOne": {
+                  "ref": 122
+                },
+                "insert": {
+                  "ref": 124
+                },
+                "update": {
+                  "ref": 126
+                },
+                "remove": {
+                  "ref": 128
+                },
+                "upsert": {
+                  "ref": 130
+                },
+                "rawCollection": {
+                  "ref": 132
+                },
+                "rawDatabase": {
+                  "ref": 134
+                },
+                "allow": {
+                  "ref": 136
+                },
+                "deny": {
+                  "ref": 138
+                },
+                "helpers": {
+                  "ref": 140
+                },
+                "attachSchema": {
+                  "ref": 142
+                },
+                "simpleSchema": {
+                  "ref": 144
+                }
+              }
+            },
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
+              "type": "object",
+              "members": {
+                "onCreated": {
+                  "type": "array"
+                }
+              }
+            },
+            "onCreated": {
+              "type": "function"
+            }
+          }
+        },
+        "collection": {
+          "type": "function"
+        },
+        "dictionary": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "attachRoles": {
+              "ref": 118
+            },
+            "find": {
+              "ref": 120
+            },
+            "findOne": {
+              "ref": 122
+            },
+            "insert": {
+              "ref": 124
+            },
+            "update": {
+              "ref": 126
+            },
+            "remove": {
+              "ref": 128
+            },
+            "upsert": {
+              "ref": 130
+            },
+            "rawCollection": {
+              "ref": 132
+            },
+            "rawDatabase": {
+              "ref": 134
+            },
+            "allow": {
+              "ref": 136
+            },
+            "deny": {
+              "ref": 138
+            },
+            "helpers": {
+              "ref": 140
+            },
+            "attachSchema": {
+              "ref": 142
+            },
+            "simpleSchema": {
+              "ref": 144
+            }
+          }
+        }
+      }
+    }
+  },
+  "url": {
+    "URL": {
+      "type": "object"
+    }
+  },
+  "http": {
+    "HTTP": {
+      "type": "object",
+      "members": {
+        "get": {
+          "type": "function"
+        },
+        "post": {
+          "type": "function"
+        },
+        "put": {
+          "type": "function"
+        },
+        "del": {
+          "type": "function"
+        },
+        "call": {
           "type": "function"
         }
       }
     },
-    "DDPServer": {
-      "type": "object"
+    "HTTPInternals": {
+      "type": "object",
+      "members": {
+        "NpmModules": {
+          "type": "object",
+          "members": {
+            "request": {
+              "type": "object",
+              "members": {
+                "version": {
+                  "type": "constant",
+                  "value": "2.53.0"
+                },
+                "module": {
+                  "type": "function",
+                  "members": {
+                    "get": {
+                      "type": "function"
+                    },
+                    "head": {
+                      "type": "function"
+                    },
+                    "post": {
+                      "type": "function"
+                    },
+                    "put": {
+                      "type": "function"
+                    },
+                    "patch": {
+                      "type": "function"
+                    },
+                    "del": {
+                      "type": "function"
+                    },
+                    "jar": {
+                      "type": "function"
+                    },
+                    "cookie": {
+                      "type": "function"
+                    },
+                    "defaults": {
+                      "type": "function"
+                    },
+                    "forever": {
+                      "type": "function"
+                    },
+                    "Request": {
+                      "type": "function",
+                      "members": {
+                        "super_": {
+                          "type": "function",
+                          "refID": 25,
+                          "members": {
+                            "super_": {
+                              "type": "function",
+                              "members": {
+                                "listenerCount": {
+                                  "type": "function"
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "setMaxListeners": {
+                                      "type": "function",
+                                      "refID": 30
+                                    },
+                                    "emit": {
+                                      "type": "function",
+                                      "refID": 32
+                                    },
+                                    "addListener": {
+                                      "type": "function",
+                                      "refID": 34
+                                    },
+                                    "on": {
+                                      "ref": 34
+                                    },
+                                    "once": {
+                                      "type": "function",
+                                      "refID": 36
+                                    },
+                                    "removeListener": {
+                                      "type": "function",
+                                      "refID": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "type": "function",
+                                      "refID": 40
+                                    },
+                                    "listeners": {
+                                      "type": "function",
+                                      "refID": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Readable": {
+                              "type": "function",
+                              "refID": 44,
+                              "members": {
+                                "ReadableState": {
+                                  "type": "function"
+                                },
+                                "super_": {
+                                  "ref": 25
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "push": {
+                                      "type": "function",
+                                      "refID": 48
+                                    },
+                                    "unshift": {
+                                      "type": "function",
+                                      "refID": 50
+                                    },
+                                    "setEncoding": {
+                                      "type": "function",
+                                      "refID": 52
+                                    },
+                                    "read": {
+                                      "type": "function",
+                                      "refID": 54
+                                    },
+                                    "pipe": {
+                                      "type": "function",
+                                      "refID": 56
+                                    },
+                                    "unpipe": {
+                                      "type": "function",
+                                      "refID": 58
+                                    },
+                                    "on": {
+                                      "type": "function",
+                                      "refID": 60
+                                    },
+                                    "addListener": {
+                                      "ref": 60
+                                    },
+                                    "resume": {
+                                      "type": "function",
+                                      "refID": 62
+                                    },
+                                    "pause": {
+                                      "type": "function",
+                                      "refID": 64
+                                    },
+                                    "wrap": {
+                                      "type": "function",
+                                      "refID": 66
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Writable": {
+                              "type": "function",
+                              "members": {
+                                "WritableState": {
+                                  "type": "function"
+                                },
+                                "super_": {
+                                  "ref": 25
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "pipe": {
+                                      "type": "function"
+                                    },
+                                    "write": {
+                                      "type": "function",
+                                      "refID": 74
+                                    },
+                                    "end": {
+                                      "type": "function",
+                                      "refID": 76
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "addListener": {
+                                      "ref": 34
+                                    },
+                                    "on": {
+                                      "ref": 34
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Duplex": {
+                              "type": "function",
+                              "refID": 78,
+                              "members": {
+                                "super_": {
+                                  "ref": 44
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "write": {
+                                      "ref": 74
+                                    },
+                                    "end": {
+                                      "ref": 76
+                                    },
+                                    "push": {
+                                      "ref": 48
+                                    },
+                                    "unshift": {
+                                      "ref": 50
+                                    },
+                                    "setEncoding": {
+                                      "ref": 52
+                                    },
+                                    "read": {
+                                      "ref": 54
+                                    },
+                                    "pipe": {
+                                      "ref": 56
+                                    },
+                                    "unpipe": {
+                                      "ref": 58
+                                    },
+                                    "on": {
+                                      "ref": 60
+                                    },
+                                    "addListener": {
+                                      "ref": 60
+                                    },
+                                    "resume": {
+                                      "ref": 62
+                                    },
+                                    "pause": {
+                                      "ref": 64
+                                    },
+                                    "wrap": {
+                                      "ref": 66
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Transform": {
+                              "type": "function",
+                              "refID": 80,
+                              "members": {
+                                "super_": {
+                                  "ref": 78
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "push": {
+                                      "type": "function",
+                                      "refID": 82
+                                    },
+                                    "write": {
+                                      "ref": 74
+                                    },
+                                    "end": {
+                                      "ref": 76
+                                    },
+                                    "unshift": {
+                                      "ref": 50
+                                    },
+                                    "setEncoding": {
+                                      "ref": 52
+                                    },
+                                    "read": {
+                                      "ref": 54
+                                    },
+                                    "pipe": {
+                                      "ref": 56
+                                    },
+                                    "unpipe": {
+                                      "ref": 58
+                                    },
+                                    "on": {
+                                      "ref": 60
+                                    },
+                                    "addListener": {
+                                      "ref": 60
+                                    },
+                                    "resume": {
+                                      "ref": 62
+                                    },
+                                    "pause": {
+                                      "ref": 64
+                                    },
+                                    "wrap": {
+                                      "ref": 66
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "PassThrough": {
+                              "type": "function",
+                              "members": {
+                                "super_": {
+                                  "ref": 80
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "push": {
+                                      "ref": 82
+                                    },
+                                    "write": {
+                                      "ref": 74
+                                    },
+                                    "end": {
+                                      "ref": 76
+                                    },
+                                    "unshift": {
+                                      "ref": 50
+                                    },
+                                    "setEncoding": {
+                                      "ref": 52
+                                    },
+                                    "read": {
+                                      "ref": 54
+                                    },
+                                    "pipe": {
+                                      "ref": 56
+                                    },
+                                    "unpipe": {
+                                      "ref": 58
+                                    },
+                                    "on": {
+                                      "ref": 60
+                                    },
+                                    "addListener": {
+                                      "ref": 60
+                                    },
+                                    "resume": {
+                                      "ref": 62
+                                    },
+                                    "pause": {
+                                      "ref": 64
+                                    },
+                                    "wrap": {
+                                      "ref": 66
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Stream": {
+                              "ref": 25
+                            },
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "pipe": {
+                                  "type": "function"
+                                },
+                                "setMaxListeners": {
+                                  "ref": 30
+                                },
+                                "emit": {
+                                  "ref": 32
+                                },
+                                "addListener": {
+                                  "ref": 34
+                                },
+                                "on": {
+                                  "ref": 34
+                                },
+                                "once": {
+                                  "ref": 36
+                                },
+                                "removeListener": {
+                                  "ref": 38
+                                },
+                                "removeAllListeners": {
+                                  "ref": 40
+                                },
+                                "listeners": {
+                                  "ref": 42
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "debug": {
+                          "type": "undefined"
+                        },
+                        "defaultProxyHeaderWhiteList": {
+                          "type": "array"
+                        },
+                        "defaultProxyHeaderExclusiveList": {
+                          "type": "array"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "setupTunnel": {
+                              "type": "function"
+                            },
+                            "init": {
+                              "type": "function"
+                            },
+                            "getNewAgent": {
+                              "type": "function"
+                            },
+                            "start": {
+                              "type": "function"
+                            },
+                            "onRequestError": {
+                              "type": "function"
+                            },
+                            "onRequestResponse": {
+                              "type": "function"
+                            },
+                            "abort": {
+                              "type": "function"
+                            },
+                            "pipeDest": {
+                              "type": "function"
+                            },
+                            "qs": {
+                              "type": "function"
+                            },
+                            "form": {
+                              "type": "function"
+                            },
+                            "multipart": {
+                              "type": "function"
+                            },
+                            "json": {
+                              "type": "function"
+                            },
+                            "getHeader": {
+                              "type": "function"
+                            },
+                            "auth": {
+                              "type": "function"
+                            },
+                            "aws": {
+                              "type": "function"
+                            },
+                            "httpSignature": {
+                              "type": "function"
+                            },
+                            "hawk": {
+                              "type": "function"
+                            },
+                            "oauth": {
+                              "type": "function"
+                            },
+                            "jar": {
+                              "type": "function"
+                            },
+                            "pipe": {
+                              "type": "function"
+                            },
+                            "write": {
+                              "type": "function"
+                            },
+                            "end": {
+                              "type": "function"
+                            },
+                            "pause": {
+                              "type": "function"
+                            },
+                            "resume": {
+                              "type": "function"
+                            },
+                            "destroy": {
+                              "type": "function"
+                            },
+                            "toJSON": {
+                              "type": "function"
+                            },
+                            "setMaxListeners": {
+                              "ref": 30
+                            },
+                            "emit": {
+                              "ref": 32
+                            },
+                            "addListener": {
+                              "ref": 34
+                            },
+                            "on": {
+                              "ref": 34
+                            },
+                            "once": {
+                              "ref": 36
+                            },
+                            "removeListener": {
+                              "ref": 38
+                            },
+                            "removeAllListeners": {
+                              "ref": 40
+                            },
+                            "listeners": {
+                              "ref": 42
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "initParams": {
+                      "type": "function"
+                    },
+                    "debug": {
+                      "type": "undefined"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "useraccounts:core": {
+    "AccountsTemplates": {
+      "type": "object",
+      "members": {
+        "options": {
+          "type": "object",
+          "members": {
+            "defaultState": {
+              "type": "constant",
+              "value": "signIn"
+            },
+            "socialLoginStyle": {
+              "type": "constant",
+              "value": "popup"
+            },
+            "privacyUrl": {
+              "type": "undefined"
+            },
+            "termsUrl": {
+              "type": "undefined"
+            },
+            "homeRoutePath": {
+              "type": "constant",
+              "value": "/"
+            },
+            "redirectTimeout": {
+              "type": "constant",
+              "value": 2000
+            },
+            "onSubmitHook": {
+              "type": "undefined"
+            }
+          }
+        },
+        "ROUTE_DEFAULT": {
+          "type": "object",
+          "members": {
+            "changePwd": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atChangePwd"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/change-password"
+                }
+              }
+            },
+            "enrollAccount": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atEnrollAccount"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/enroll-account"
+                }
+              }
+            },
+            "ensureSignedIn": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atEnsureSignedIn"
+                },
+                "path": {
+                  "type": "null",
+                  "value": null
+                }
+              }
+            },
+            "forgotPwd": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atForgotPwd"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/forgot-password"
+                }
+              }
+            },
+            "resetPwd": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atResetPwd"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/reset-password"
+                }
+              }
+            },
+            "signIn": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atSignIn"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/sign-in"
+                }
+              }
+            },
+            "signUp": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atSignUp"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/sign-up"
+                }
+              }
+            },
+            "verifyEmail": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atVerifyEmail"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/verify-email"
+                }
+              }
+            },
+            "resendVerificationEmail": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atResendVerificationEmail"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/send-again"
+                }
+              }
+            }
+          }
+        },
+        "INPUT_TYPES": {
+          "type": "array"
+        },
+        "texts": {
+          "type": "object",
+          "members": {
+            "button": {
+              "type": "object",
+              "members": {
+                "changePwd": {
+                  "type": "constant",
+                  "value": "updateYourPassword"
+                },
+                "enrollAccount": {
+                  "type": "constant",
+                  "value": "signUp"
+                },
+                "forgotPwd": {
+                  "type": "constant",
+                  "value": "emailResetLink"
+                },
+                "resetPwd": {
+                  "type": "constant",
+                  "value": "setPassword"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "signIn"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "signUp"
+                },
+                "resendVerificationEmail": {
+                  "type": "constant",
+                  "value": "Send email again"
+                }
+              }
+            },
+            "errors": {
+              "type": "object",
+              "members": {
+                "accountsCreationDisabled": {
+                  "type": "constant",
+                  "value": "Client side accounts creation is disabled!!!"
+                },
+                "cannotRemoveService": {
+                  "type": "constant",
+                  "value": "Cannot remove the only active service!"
+                },
+                "captchaVerification": {
+                  "type": "constant",
+                  "value": "Captcha verification failed!"
+                },
+                "loginForbidden": {
+                  "type": "constant",
+                  "value": "error.accounts.Login forbidden"
+                },
+                "mustBeLoggedIn": {
+                  "type": "constant",
+                  "value": "error.accounts.Must be logged in"
+                },
+                "pwdMismatch": {
+                  "type": "constant",
+                  "value": "error.pwdsDontMatch"
+                },
+                "validationErrors": {
+                  "type": "constant",
+                  "value": "Validation Errors"
+                },
+                "verifyEmailFirst": {
+                  "type": "constant",
+                  "value": "Please verify your email first. Check the email and follow the link!"
+                }
+              }
+            },
+            "navSignIn": {
+              "type": "constant",
+              "value": "signIn"
+            },
+            "navSignOut": {
+              "type": "constant",
+              "value": "signOut"
+            },
+            "info": {
+              "type": "object",
+              "members": {
+                "emailSent": {
+                  "type": "constant",
+                  "value": "info.emailSent"
+                },
+                "emailVerified": {
+                  "type": "constant",
+                  "value": "info.emailVerified"
+                },
+                "pwdChanged": {
+                  "type": "constant",
+                  "value": "info.passwordChanged"
+                },
+                "pwdReset": {
+                  "type": "constant",
+                  "value": "info.passwordReset"
+                },
+                "pwdSet": {
+                  "type": "constant",
+                  "value": "Password Set"
+                },
+                "signUpVerifyEmail": {
+                  "type": "constant",
+                  "value": "Successful Registration! Please check your email and follow the instructions."
+                },
+                "verificationEmailSent": {
+                  "type": "constant",
+                  "value": "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder."
+                }
+              }
+            },
+            "inputIcons": {
+              "type": "object",
+              "members": {
+                "isValidating": {
+                  "type": "constant",
+                  "value": "fa fa-spinner fa-spin"
+                },
+                "hasSuccess": {
+                  "type": "constant",
+                  "value": "fa fa-check"
+                },
+                "hasError": {
+                  "type": "constant",
+                  "value": "fa fa-times"
+                }
+              }
+            },
+            "maxAllowedLength": {
+              "type": "constant",
+              "value": "Maximum allowed length"
+            },
+            "minRequiredLength": {
+              "type": "constant",
+              "value": "Minimum required length"
+            },
+            "optionalField": {
+              "type": "constant",
+              "value": "optional"
+            },
+            "pwdLink_pre": {
+              "type": "constant",
+              "value": ""
+            },
+            "pwdLink_link": {
+              "type": "constant",
+              "value": "forgotPassword"
+            },
+            "pwdLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "requiredField": {
+              "type": "constant",
+              "value": "Required Field"
+            },
+            "resendVerificationEmailLink_pre": {
+              "type": "constant",
+              "value": "Verification email lost?"
+            },
+            "resendVerificationEmailLink_link": {
+              "type": "constant",
+              "value": "Send again"
+            },
+            "resendVerificationEmailLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "sep": {
+              "type": "constant",
+              "value": "OR"
+            },
+            "signInLink_pre": {
+              "type": "constant",
+              "value": "ifYouAlreadyHaveAnAccount"
+            },
+            "signInLink_link": {
+              "type": "constant",
+              "value": "signin"
+            },
+            "signInLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "signUpLink_pre": {
+              "type": "constant",
+              "value": "dontHaveAnAccount"
+            },
+            "signUpLink_link": {
+              "type": "constant",
+              "value": "signUp"
+            },
+            "signUpLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "socialAdd": {
+              "type": "constant",
+              "value": "add"
+            },
+            "socialConfigure": {
+              "type": "constant",
+              "value": "configure"
+            },
+            "socialIcons": {
+              "type": "object",
+              "members": {
+                "meteor-developer": {
+                  "type": "constant",
+                  "value": "fa fa-rocket"
+                }
+              }
+            },
+            "socialRemove": {
+              "type": "constant",
+              "value": "remove"
+            },
+            "socialSignIn": {
+              "type": "constant",
+              "value": "signIn"
+            },
+            "socialSignUp": {
+              "type": "constant",
+              "value": "signUp"
+            },
+            "socialWith": {
+              "type": "constant",
+              "value": "with"
+            },
+            "termsPreamble": {
+              "type": "constant",
+              "value": "clickAgree"
+            },
+            "termsPrivacy": {
+              "type": "constant",
+              "value": "privacyPolicy"
+            },
+            "termsAnd": {
+              "type": "constant",
+              "value": "and"
+            },
+            "termsTerms": {
+              "type": "constant",
+              "value": "terms"
+            },
+            "title": {
+              "type": "object",
+              "members": {
+                "changePwd": {
+                  "type": "constant",
+                  "value": "changePassword"
+                },
+                "enrollAccount": {
+                  "type": "constant",
+                  "value": "createAccount"
+                },
+                "forgotPwd": {
+                  "type": "constant",
+                  "value": "resetYourPassword"
+                },
+                "resetPwd": {
+                  "type": "constant",
+                  "value": "resetYourPassword"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "signIn"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "createAccount"
+                },
+                "verifyEmail": {
+                  "type": "constant",
+                  "value": ""
+                },
+                "resendVerificationEmail": {
+                  "type": "constant",
+                  "value": "Send the verification email again"
+                }
+              }
+            }
+          }
+        },
+        "SPECIAL_FIELDS": {
+          "type": "array"
+        },
+        "routes": {
+          "type": "object",
+          "members": {
+            "ensureSignedIn": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionBootstrapLogin"
+                },
+                "name": {
+                  "type": "constant",
+                  "value": "atEnsureSignedIn"
+                },
+                "path": {
+                  "type": "null",
+                  "value": null
+                },
+                "layoutTemplate": {
+                  "type": "constant",
+                  "value": "orionBootstrapOutAdminLayout"
+                }
+              }
+            }
+          }
+        },
+        "addField": {
+          "type": "function"
+        },
+        "addFields": {
+          "type": "function"
+        },
+        "configure": {
+          "type": "function"
+        },
+        "configureRoute": {
+          "type": "function"
+        },
+        "hasField": {
+          "type": "function"
+        },
+        "getField": {
+          "type": "function"
+        },
+        "getFields": {
+          "type": "function"
+        },
+        "getFieldIds": {
+          "type": "function"
+        },
+        "getRouteName": {
+          "type": "function"
+        },
+        "getRoutePath": {
+          "type": "function"
+        },
+        "oauthServices": {
+          "type": "function"
+        },
+        "removeField": {
+          "type": "function"
+        },
+        "setupRoutes": {
+          "type": "function"
+        },
+        "init": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "matb33:collection-hooks": {
+    "CollectionHooks": {
+      "type": "object",
+      "members": {
+        "defaults": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "object"
+                },
+                "update": {
+                  "type": "object"
+                },
+                "remove": {
+                  "type": "object"
+                },
+                "find": {
+                  "type": "object"
+                },
+                "findOne": {
+                  "type": "object"
+                },
+                "all": {
+                  "type": "object"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "object"
+                },
+                "update": {
+                  "type": "object"
+                },
+                "remove": {
+                  "type": "object"
+                },
+                "find": {
+                  "type": "object"
+                },
+                "findOne": {
+                  "type": "object"
+                },
+                "all": {
+                  "type": "object"
+                }
+              }
+            },
+            "all": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "object"
+                },
+                "update": {
+                  "type": "object"
+                },
+                "remove": {
+                  "type": "object"
+                },
+                "find": {
+                  "type": "object"
+                },
+                "findOne": {
+                  "type": "object"
+                },
+                "all": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "getUserId": {
+          "type": "function"
+        },
+        "extendCollectionInstance": {
+          "type": "function"
+        },
+        "defineAdvice": {
+          "type": "function"
+        },
+        "initOptions": {
+          "type": "function"
+        },
+        "extendOptions": {
+          "type": "function"
+        },
+        "getDocs": {
+          "type": "function"
+        },
+        "reassignPrototype": {
+          "type": "function"
+        },
+        "wrapCollection": {
+          "type": "function"
+        },
+        "isWithinPublish": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "meteorhacks:inject-initial": {
+    "Inject": {
+      "type": "object",
+      "members": {
+        "obj": {
+          "type": "function"
+        },
+        "objList": {
+          "type": "object",
+          "members": {
+            "adminExists": {
+              "type": "object"
+            },
+            "orion.config": {
+              "type": "object"
+            }
+          }
+        },
+        "meta": {
+          "type": "function"
+        },
+        "metaList": {
+          "type": "object"
+        },
+        "rawHead": {
+          "type": "function"
+        },
+        "rawHeads": {
+          "type": "object"
+        },
+        "rawBody": {
+          "type": "function"
+        },
+        "rawBodies": {
+          "type": "object"
+        },
+        "rawModHtml": {
+          "type": "function"
+        },
+        "rawModHtmlFuncs": {
+          "type": "object",
+          "members": {
+            "injectHeads": {
+              "type": "function"
+            },
+            "injectMeta": {
+              "type": "function"
+            },
+            "injectBodies": {
+              "type": "function"
+            },
+            "injectObjects": {
+              "type": "function"
+            }
+          }
+        },
+        "appUrl": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "orionjs:accounts": {
+    "orion": {
+      "type": "object",
+      "members": {
+        "helpers": {
+          "type": "object",
+          "members": {
+            "searchObjectWithDots": {
+              "type": "function"
+            },
+            "deepExtend": {
+              "type": "function"
+            },
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
+            },
+            "createdBy": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdByPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "attribute": {
+          "type": "function"
+        },
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
+                  "type": "function",
+                  "refID": 32
+                },
+                "addValidator": {
+                  "ref": 32
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "invitations": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "type": "function",
+                  "refID": 118
+                },
+                "find": {
+                  "type": "function",
+                  "refID": 120
+                },
+                "findOne": {
+                  "type": "function",
+                  "refID": 122
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 124
+                },
+                "update": {
+                  "type": "function",
+                  "refID": 126
+                },
+                "remove": {
+                  "type": "function",
+                  "refID": 128
+                },
+                "upsert": {
+                  "type": "function",
+                  "refID": 130
+                },
+                "rawCollection": {
+                  "type": "function",
+                  "refID": 132
+                },
+                "rawDatabase": {
+                  "type": "function",
+                  "refID": 134
+                },
+                "allow": {
+                  "type": "function",
+                  "refID": 136
+                },
+                "deny": {
+                  "type": "function",
+                  "refID": 138
+                },
+                "helpers": {
+                  "type": "function",
+                  "refID": 140
+                },
+                "attachSchema": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "simpleSchema": {
+                  "type": "function",
+                  "refID": 144
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 118
+                },
+                "find": {
+                  "ref": 120
+                },
+                "findOne": {
+                  "ref": 122
+                },
+                "insert": {
+                  "ref": 124
+                },
+                "update": {
+                  "ref": 126
+                },
+                "remove": {
+                  "ref": 128
+                },
+                "upsert": {
+                  "ref": 130
+                },
+                "rawCollection": {
+                  "ref": 132
+                },
+                "rawDatabase": {
+                  "ref": 134
+                },
+                "allow": {
+                  "ref": 136
+                },
+                "deny": {
+                  "ref": 138
+                },
+                "helpers": {
+                  "ref": 140
+                },
+                "attachSchema": {
+                  "ref": 142
+                },
+                "simpleSchema": {
+                  "ref": 144
+                }
+              }
+            },
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
+              "type": "object",
+              "members": {
+                "onCreated": {
+                  "type": "array"
+                }
+              }
+            },
+            "onCreated": {
+              "type": "function"
+            }
+          }
+        },
+        "collection": {
+          "type": "function"
+        },
+        "dictionary": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "attachRoles": {
+              "ref": 118
+            },
+            "find": {
+              "ref": 120
+            },
+            "findOne": {
+              "ref": 122
+            },
+            "insert": {
+              "ref": 124
+            },
+            "update": {
+              "ref": 126
+            },
+            "remove": {
+              "ref": 128
+            },
+            "upsert": {
+              "ref": 130
+            },
+            "rawCollection": {
+              "ref": 132
+            },
+            "rawDatabase": {
+              "ref": 134
+            },
+            "allow": {
+              "ref": 136
+            },
+            "deny": {
+              "ref": 138
+            },
+            "helpers": {
+              "ref": 140
+            },
+            "attachSchema": {
+              "ref": 142
+            },
+            "simpleSchema": {
+              "ref": 144
+            }
+          }
+        }
+      }
     },
-    "LivedataTest": {
-      "type": "undefined"
+    "EnrolledUsers": {
+      "type": "object",
+      "members": {
+        "before": {
+          "type": "object",
+          "members": {
+            "insert": {
+              "type": "function"
+            },
+            "update": {
+              "type": "function"
+            },
+            "remove": {
+              "type": "function"
+            },
+            "find": {
+              "type": "function"
+            },
+            "findOne": {
+              "type": "function"
+            }
+          }
+        },
+        "after": {
+          "type": "object",
+          "members": {
+            "insert": {
+              "type": "function"
+            },
+            "update": {
+              "type": "function"
+            },
+            "remove": {
+              "type": "function"
+            },
+            "find": {
+              "type": "function"
+            },
+            "findOne": {
+              "type": "function"
+            }
+          }
+        },
+        "hookOptions": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "object"
+                },
+                "update": {
+                  "type": "object"
+                },
+                "remove": {
+                  "type": "object"
+                },
+                "find": {
+                  "type": "object"
+                },
+                "findOne": {
+                  "type": "object"
+                },
+                "all": {
+                  "type": "object"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "object"
+                },
+                "update": {
+                  "type": "object"
+                },
+                "remove": {
+                  "type": "object"
+                },
+                "find": {
+                  "type": "object"
+                },
+                "findOne": {
+                  "type": "object"
+                },
+                "all": {
+                  "type": "object"
+                }
+              }
+            },
+            "all": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "object"
+                },
+                "update": {
+                  "type": "object"
+                },
+                "remove": {
+                  "type": "object"
+                },
+                "find": {
+                  "type": "object"
+                },
+                "findOne": {
+                  "type": "object"
+                },
+                "all": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "direct": {
+          "type": "object",
+          "members": {
+            "insert": {
+              "type": "function"
+            },
+            "update": {
+              "type": "function"
+            },
+            "remove": {
+              "type": "function"
+            },
+            "find": {
+              "type": "function"
+            },
+            "findOne": {
+              "type": "function"
+            }
+          }
+        },
+        "attachRoles": {
+          "type": "function"
+        },
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        },
+        "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "orionjs:config": {
+    "orion": {
+      "type": "object",
+      "members": {
+        "helpers": {
+          "type": "object",
+          "members": {
+            "searchObjectWithDots": {
+              "type": "function"
+            },
+            "deepExtend": {
+              "type": "function"
+            },
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
+            },
+            "createdBy": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdByPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "attribute": {
+          "type": "function"
+        },
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
+                  "type": "function",
+                  "refID": 32
+                },
+                "addValidator": {
+                  "ref": 32
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "invitations": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "type": "function",
+                  "refID": 118
+                },
+                "find": {
+                  "type": "function",
+                  "refID": 120
+                },
+                "findOne": {
+                  "type": "function",
+                  "refID": 122
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 124
+                },
+                "update": {
+                  "type": "function",
+                  "refID": 126
+                },
+                "remove": {
+                  "type": "function",
+                  "refID": 128
+                },
+                "upsert": {
+                  "type": "function",
+                  "refID": 130
+                },
+                "rawCollection": {
+                  "type": "function",
+                  "refID": 132
+                },
+                "rawDatabase": {
+                  "type": "function",
+                  "refID": 134
+                },
+                "allow": {
+                  "type": "function",
+                  "refID": 136
+                },
+                "deny": {
+                  "type": "function",
+                  "refID": 138
+                },
+                "helpers": {
+                  "type": "function",
+                  "refID": 140
+                },
+                "attachSchema": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "simpleSchema": {
+                  "type": "function",
+                  "refID": 144
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 118
+                },
+                "find": {
+                  "ref": 120
+                },
+                "findOne": {
+                  "ref": 122
+                },
+                "insert": {
+                  "ref": 124
+                },
+                "update": {
+                  "ref": 126
+                },
+                "remove": {
+                  "ref": 128
+                },
+                "upsert": {
+                  "ref": 130
+                },
+                "rawCollection": {
+                  "ref": 132
+                },
+                "rawDatabase": {
+                  "ref": 134
+                },
+                "allow": {
+                  "ref": 136
+                },
+                "deny": {
+                  "ref": 138
+                },
+                "helpers": {
+                  "ref": 140
+                },
+                "attachSchema": {
+                  "ref": 142
+                },
+                "simpleSchema": {
+                  "ref": 144
+                }
+              }
+            },
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
+              "type": "object",
+              "members": {
+                "onCreated": {
+                  "type": "array"
+                }
+              }
+            },
+            "onCreated": {
+              "type": "function"
+            }
+          }
+        },
+        "collection": {
+          "type": "function"
+        },
+        "dictionary": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "attachRoles": {
+              "ref": 118
+            },
+            "find": {
+              "ref": 120
+            },
+            "findOne": {
+              "ref": 122
+            },
+            "insert": {
+              "ref": 124
+            },
+            "update": {
+              "ref": 126
+            },
+            "remove": {
+              "ref": 128
+            },
+            "upsert": {
+              "ref": 130
+            },
+            "rawCollection": {
+              "ref": 132
+            },
+            "rawDatabase": {
+              "ref": 134
+            },
+            "allow": {
+              "ref": 136
+            },
+            "deny": {
+              "ref": 138
+            },
+            "helpers": {
+              "ref": 140
+            },
+            "attachSchema": {
+              "ref": 142
+            },
+            "simpleSchema": {
+              "ref": 144
+            }
+          }
+        }
+      }
+    }
+  },
+  "orionjs:collections": {
+    "orion": {
+      "type": "object",
+      "members": {
+        "helpers": {
+          "type": "object",
+          "members": {
+            "searchObjectWithDots": {
+              "type": "function"
+            },
+            "deepExtend": {
+              "type": "function"
+            },
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
+            },
+            "createdBy": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdByPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "attribute": {
+          "type": "function"
+        },
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
+                  "type": "function",
+                  "refID": 32
+                },
+                "addValidator": {
+                  "ref": 32
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "invitations": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "type": "function",
+                  "refID": 118
+                },
+                "find": {
+                  "type": "function",
+                  "refID": 120
+                },
+                "findOne": {
+                  "type": "function",
+                  "refID": 122
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 124
+                },
+                "update": {
+                  "type": "function",
+                  "refID": 126
+                },
+                "remove": {
+                  "type": "function",
+                  "refID": 128
+                },
+                "upsert": {
+                  "type": "function",
+                  "refID": 130
+                },
+                "rawCollection": {
+                  "type": "function",
+                  "refID": 132
+                },
+                "rawDatabase": {
+                  "type": "function",
+                  "refID": 134
+                },
+                "allow": {
+                  "type": "function",
+                  "refID": 136
+                },
+                "deny": {
+                  "type": "function",
+                  "refID": 138
+                },
+                "helpers": {
+                  "type": "function",
+                  "refID": 140
+                },
+                "attachSchema": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "simpleSchema": {
+                  "type": "function",
+                  "refID": 144
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 118
+                },
+                "find": {
+                  "ref": 120
+                },
+                "findOne": {
+                  "ref": 122
+                },
+                "insert": {
+                  "ref": 124
+                },
+                "update": {
+                  "ref": 126
+                },
+                "remove": {
+                  "ref": 128
+                },
+                "upsert": {
+                  "ref": 130
+                },
+                "rawCollection": {
+                  "ref": 132
+                },
+                "rawDatabase": {
+                  "ref": 134
+                },
+                "allow": {
+                  "ref": 136
+                },
+                "deny": {
+                  "ref": 138
+                },
+                "helpers": {
+                  "ref": 140
+                },
+                "attachSchema": {
+                  "ref": 142
+                },
+                "simpleSchema": {
+                  "ref": 144
+                }
+              }
+            },
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
+              "type": "object",
+              "members": {
+                "onCreated": {
+                  "type": "array"
+                }
+              }
+            },
+            "onCreated": {
+              "type": "function"
+            }
+          }
+        },
+        "collection": {
+          "type": "function"
+        },
+        "dictionary": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "attachRoles": {
+              "ref": 118
+            },
+            "find": {
+              "ref": 120
+            },
+            "findOne": {
+              "ref": 122
+            },
+            "insert": {
+              "ref": 124
+            },
+            "update": {
+              "ref": 126
+            },
+            "remove": {
+              "ref": 128
+            },
+            "upsert": {
+              "ref": 130
+            },
+            "rawCollection": {
+              "ref": 132
+            },
+            "rawDatabase": {
+              "ref": 134
+            },
+            "allow": {
+              "ref": 136
+            },
+            "deny": {
+              "ref": 138
+            },
+            "helpers": {
+              "ref": 140
+            },
+            "attachSchema": {
+              "ref": 142
+            },
+            "simpleSchema": {
+              "ref": 144
+            }
+          }
+        }
+      }
+    }
+  },
+  "orionjs:dictionary": {
+    "orion": {
+      "type": "object",
+      "members": {
+        "helpers": {
+          "type": "object",
+          "members": {
+            "searchObjectWithDots": {
+              "type": "function"
+            },
+            "deepExtend": {
+              "type": "function"
+            },
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
+            },
+            "createdBy": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdByPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "attribute": {
+          "type": "function"
+        },
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
+                  "type": "function",
+                  "refID": 32
+                },
+                "addValidator": {
+                  "ref": 32
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "invitations": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "type": "function",
+                  "refID": 118
+                },
+                "find": {
+                  "type": "function",
+                  "refID": 120
+                },
+                "findOne": {
+                  "type": "function",
+                  "refID": 122
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 124
+                },
+                "update": {
+                  "type": "function",
+                  "refID": 126
+                },
+                "remove": {
+                  "type": "function",
+                  "refID": 128
+                },
+                "upsert": {
+                  "type": "function",
+                  "refID": 130
+                },
+                "rawCollection": {
+                  "type": "function",
+                  "refID": 132
+                },
+                "rawDatabase": {
+                  "type": "function",
+                  "refID": 134
+                },
+                "allow": {
+                  "type": "function",
+                  "refID": 136
+                },
+                "deny": {
+                  "type": "function",
+                  "refID": 138
+                },
+                "helpers": {
+                  "type": "function",
+                  "refID": 140
+                },
+                "attachSchema": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "simpleSchema": {
+                  "type": "function",
+                  "refID": 144
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 118
+                },
+                "find": {
+                  "ref": 120
+                },
+                "findOne": {
+                  "ref": 122
+                },
+                "insert": {
+                  "ref": 124
+                },
+                "update": {
+                  "ref": 126
+                },
+                "remove": {
+                  "ref": 128
+                },
+                "upsert": {
+                  "ref": 130
+                },
+                "rawCollection": {
+                  "ref": 132
+                },
+                "rawDatabase": {
+                  "ref": 134
+                },
+                "allow": {
+                  "ref": 136
+                },
+                "deny": {
+                  "ref": 138
+                },
+                "helpers": {
+                  "ref": 140
+                },
+                "attachSchema": {
+                  "ref": 142
+                },
+                "simpleSchema": {
+                  "ref": 144
+                }
+              }
+            },
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
+              "type": "object",
+              "members": {
+                "onCreated": {
+                  "type": "array"
+                }
+              }
+            },
+            "onCreated": {
+              "type": "function"
+            }
+          }
+        },
+        "collection": {
+          "type": "function"
+        },
+        "dictionary": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "attachRoles": {
+              "ref": 118
+            },
+            "find": {
+              "ref": 120
+            },
+            "findOne": {
+              "ref": 122
+            },
+            "insert": {
+              "ref": 124
+            },
+            "update": {
+              "ref": 126
+            },
+            "remove": {
+              "ref": 128
+            },
+            "upsert": {
+              "ref": 130
+            },
+            "rawCollection": {
+              "ref": 132
+            },
+            "rawDatabase": {
+              "ref": 134
+            },
+            "allow": {
+              "ref": 136
+            },
+            "deny": {
+              "ref": 138
+            },
+            "helpers": {
+              "ref": 140
+            },
+            "attachSchema": {
+              "ref": 142
+            },
+            "simpleSchema": {
+              "ref": 144
+            }
+          }
+        }
+      }
+    }
+  },
+  "orionjs:core": {
+    "orion": {
+      "type": "object",
+      "members": {
+        "helpers": {
+          "type": "object",
+          "members": {
+            "searchObjectWithDots": {
+              "type": "function"
+            },
+            "deepExtend": {
+              "type": "function"
+            },
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
+            },
+            "createdBy": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdByPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "attribute": {
+          "type": "function"
+        },
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
+                  "type": "function",
+                  "refID": 32
+                },
+                "addValidator": {
+                  "ref": 32
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "invitations": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "type": "function",
+                  "refID": 118
+                },
+                "find": {
+                  "type": "function",
+                  "refID": 120
+                },
+                "findOne": {
+                  "type": "function",
+                  "refID": 122
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 124
+                },
+                "update": {
+                  "type": "function",
+                  "refID": 126
+                },
+                "remove": {
+                  "type": "function",
+                  "refID": 128
+                },
+                "upsert": {
+                  "type": "function",
+                  "refID": 130
+                },
+                "rawCollection": {
+                  "type": "function",
+                  "refID": 132
+                },
+                "rawDatabase": {
+                  "type": "function",
+                  "refID": 134
+                },
+                "allow": {
+                  "type": "function",
+                  "refID": 136
+                },
+                "deny": {
+                  "type": "function",
+                  "refID": 138
+                },
+                "helpers": {
+                  "type": "function",
+                  "refID": 140
+                },
+                "attachSchema": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "simpleSchema": {
+                  "type": "function",
+                  "refID": 144
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 118
+                },
+                "find": {
+                  "ref": 120
+                },
+                "findOne": {
+                  "ref": 122
+                },
+                "insert": {
+                  "ref": 124
+                },
+                "update": {
+                  "ref": 126
+                },
+                "remove": {
+                  "ref": 128
+                },
+                "upsert": {
+                  "ref": 130
+                },
+                "rawCollection": {
+                  "ref": 132
+                },
+                "rawDatabase": {
+                  "ref": 134
+                },
+                "allow": {
+                  "ref": 136
+                },
+                "deny": {
+                  "ref": 138
+                },
+                "helpers": {
+                  "ref": 140
+                },
+                "attachSchema": {
+                  "ref": 142
+                },
+                "simpleSchema": {
+                  "ref": 144
+                }
+              }
+            },
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
+              "type": "object",
+              "members": {
+                "onCreated": {
+                  "type": "array"
+                }
+              }
+            },
+            "onCreated": {
+              "type": "function"
+            }
+          }
+        },
+        "collection": {
+          "type": "function"
+        },
+        "dictionary": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "attachRoles": {
+              "ref": 118
+            },
+            "find": {
+              "ref": 120
+            },
+            "findOne": {
+              "ref": 122
+            },
+            "insert": {
+              "ref": 124
+            },
+            "update": {
+              "ref": 126
+            },
+            "remove": {
+              "ref": 128
+            },
+            "upsert": {
+              "ref": 130
+            },
+            "rawCollection": {
+              "ref": 132
+            },
+            "rawDatabase": {
+              "ref": 134
+            },
+            "allow": {
+              "ref": 136
+            },
+            "deny": {
+              "ref": 138
+            },
+            "helpers": {
+              "ref": 140
+            },
+            "attachSchema": {
+              "ref": 142
+            },
+            "simpleSchema": {
+              "ref": 144
+            }
+          }
+        }
+      }
+    }
+  },
+  "twbs:bootstrap": {},
+  "less": {},
+  "aldeed:tabular": {
+    "Tabular": {
+      "type": "object",
+      "members": {
+        "Table": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "useraccounts:bootstrap": {},
+  "orionjs:bootstrap": {
+    "orion": {
+      "type": "object",
+      "members": {
+        "helpers": {
+          "type": "object",
+          "members": {
+            "searchObjectWithDots": {
+              "type": "function"
+            },
+            "deepExtend": {
+              "type": "function"
+            },
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
+            },
+            "createdBy": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdByPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "attribute": {
+          "type": "function"
+        },
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
+                  "type": "function",
+                  "refID": 32
+                },
+                "addValidator": {
+                  "ref": 32
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "invitations": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "type": "function",
+                  "refID": 118
+                },
+                "find": {
+                  "type": "function",
+                  "refID": 120
+                },
+                "findOne": {
+                  "type": "function",
+                  "refID": 122
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 124
+                },
+                "update": {
+                  "type": "function",
+                  "refID": 126
+                },
+                "remove": {
+                  "type": "function",
+                  "refID": 128
+                },
+                "upsert": {
+                  "type": "function",
+                  "refID": 130
+                },
+                "rawCollection": {
+                  "type": "function",
+                  "refID": 132
+                },
+                "rawDatabase": {
+                  "type": "function",
+                  "refID": 134
+                },
+                "allow": {
+                  "type": "function",
+                  "refID": 136
+                },
+                "deny": {
+                  "type": "function",
+                  "refID": 138
+                },
+                "helpers": {
+                  "type": "function",
+                  "refID": 140
+                },
+                "attachSchema": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "simpleSchema": {
+                  "type": "function",
+                  "refID": 144
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 118
+                },
+                "find": {
+                  "ref": 120
+                },
+                "findOne": {
+                  "ref": 122
+                },
+                "insert": {
+                  "ref": 124
+                },
+                "update": {
+                  "ref": 126
+                },
+                "remove": {
+                  "ref": 128
+                },
+                "upsert": {
+                  "ref": 130
+                },
+                "rawCollection": {
+                  "ref": 132
+                },
+                "rawDatabase": {
+                  "ref": 134
+                },
+                "allow": {
+                  "ref": 136
+                },
+                "deny": {
+                  "ref": 138
+                },
+                "helpers": {
+                  "ref": 140
+                },
+                "attachSchema": {
+                  "ref": 142
+                },
+                "simpleSchema": {
+                  "ref": 144
+                }
+              }
+            },
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
+              "type": "object",
+              "members": {
+                "onCreated": {
+                  "type": "array"
+                }
+              }
+            },
+            "onCreated": {
+              "type": "function"
+            }
+          }
+        },
+        "collection": {
+          "type": "function"
+        },
+        "dictionary": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "attachRoles": {
+              "ref": 118
+            },
+            "find": {
+              "ref": 120
+            },
+            "findOne": {
+              "ref": 122
+            },
+            "insert": {
+              "ref": 124
+            },
+            "update": {
+              "ref": 126
+            },
+            "remove": {
+              "ref": 128
+            },
+            "upsert": {
+              "ref": 130
+            },
+            "rawCollection": {
+              "ref": 132
+            },
+            "rawDatabase": {
+              "ref": 134
+            },
+            "allow": {
+              "ref": 136
+            },
+            "deny": {
+              "ref": 138
+            },
+            "helpers": {
+              "ref": 140
+            },
+            "attachSchema": {
+              "ref": 142
+            },
+            "simpleSchema": {
+              "ref": 144
+            }
+          }
+        }
+      }
     }
   },
   "service-configuration": {
@@ -20185,6 +28342,143 @@ var packageMetadata = {
         "configurations": {
           "type": "object",
           "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "attachRoles": {
+              "type": "function"
+            },
             "find": {
               "type": "function"
             },
@@ -20216,6 +28510,12 @@ var packageMetadata = {
               "type": "function"
             },
             "helpers": {
+              "type": "function"
+            },
+            "attachSchema": {
+              "type": "function"
+            },
+            "simpleSchema": {
               "type": "function"
             }
           }

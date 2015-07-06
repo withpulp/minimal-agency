@@ -15,26 +15,26 @@
 		bottom: 0;
 		width: @full;
 		margin: 0;
-		padding: @space-tiny;
-		font-size: @mobile-font-tiny;
+		padding: @space-atomic;
+		font-size: @font-size-small;
 		text-align: center;
 		background-color: @light;
 
 		@media (min-width: @tablet-width) {
-			font-size: @mobile-font-small;
+			font-size: @font-size-small + @font-size-micro;
 		}
 
 		.creator {
 			font-family: @font-family-base;
-			font-size: @mobile-font-tiny;
+			font-size: @font-size-small;
+
+			@media (min-width: @tablet-width) {
+				font-size: @font-size-small + @font-size-micro;
+			}
 
 			&:hover,
 			&:focus {
 				color: @gray-darker;
-			}
-
-			@media (min-width: @tablet-width) {
-				font-size: @mobile-font-small;
 			}
 		}
 	}

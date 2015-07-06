@@ -21,9 +21,13 @@
 @header-color: @secondary-color;
 @link-color: @primary-color;
 @icon-color: @primary-color;
-@line-color: @gray-lighter;
+@highlight: #ff0;
+@divider: #414179;
+
+// Backgrounds
 
 @background-color: #E74C3C;
+@about-header-bg: url('images/about/quotes.jpg');
 
 // Alerts
 
@@ -32,11 +36,6 @@
 @caution-color: #F1C40F;
 @info-color: #00A2D3;
 
-// highlight
-@highlight: yellow;
-
-// divider
-@divider: #414179;
 // Animation Speed
 
 @fastest: 100ms;
@@ -48,39 +47,22 @@
 
 // Margin and Padding
 
-@space-micro: 0.05rem;
-@space-mini: 0.15rem;
-@space-tinier: 0.2rem;
-@space-tiny: 0.25rem;
-@space-smallest: 0.5rem;
-@space-smaller: 0.75rem;
+@space-quantum: 0.05rem;
+@space-atomic: 0.15rem;
+@space-micro: 0.25rem;
+@space-mini: 0.5rem;
+@space-tiny: 0.75rem;
 @space-small: 1rem;
-@space-base: 1.25rem;
-@space-normal: 1.5rem;
-@space-medium: 1.75rem;
-@space-large: 2rem;
-@space-larger: 2.5rem;
-@space-largest: 3rem;
-@space-huge: 3.5rem;
-@space-jumbo: 4rem;
-@space-massive: 5rem;
-@space-giant: 6rem;
-@space-collosal: 7rem;
-@space-titanic: 8rem;
-@space-galactic: 9rem;
-@space-god: 10rem;
-
-// Grid Widths
-
-@sixteenth: 6%;
-@eighth: 12.5%;
-@quarter: 25%;
-@third: 33.3333%;
-@forty: 40%;
-@half: 50%;
-@two-thirds: 66.6666%;
-@three-quarters: 75%;
-@full: 100%;
+@space-base: 2rem;
+@space-large: 3rem;
+@space-huge: 4rem;
+@space-jumbo: 5rem;
+@space-massive: 6rem;
+@space-giant: 7rem;
+@space-collosal: 8rem;
+@space-titanic: 9rem;
+@space-galactic: 10rem;
+@space-god: 20rem;
 
 // Fluid Spaces
 @fluid-sixteenth: 6vh;
@@ -92,6 +74,17 @@
 @fluid-three-quarters: 75vh;
 @fluid-full: 100vh;
 
+// Grid Widths
+
+@sixteenth: 6%;
+@eighth: 12.5%;
+@quarter: 25%;
+@third: 33.3333%;
+@half: 50%;
+@two-thirds: 66.6666%;
+@three-quarters: 75%;
+@full: 100%;
+
 // Typography
 
 @font-family-sans-serif: 'Roboto', Helvetica, Arial, sans-serif;
@@ -99,45 +92,25 @@
 @font-family-monospace: 'Inconsolata', Menlo, Monaco, Consolas, monospace;
 @font-family-base: @font-family-monospace;
 
-@mobile-font-micro: 0.2rem;
-@mobile-font-tiny: 0.5rem;
-@mobile-font-small: 0.75rem;
-@mobile-font-base: 1rem;
-@mobile-font-large: 1.25rem;
-@mobile-font-huge: 1.5rem;
-@mobile-font-jumbo: 1.75rem;
-@mobile-font-giant: 2rem;
-@mobile-font-massive: 2.25rem;
-@mobile-font-titanic: 2.5rem;
-@mobile-font-galactic: 2.75rem;
-@mobile-font-god: 3rem;
+@font-size-quantum: 0.05rem;
+@font-size-atomic: 0.15rem;
+@font-size-micro: 0.25rem;
+@font-size-mini: 0.5rem;
+@font-size-tiny: 0.75rem;
+@font-size-small: 1rem;
+@font-size-base: 1.5rem;
+@font-size-large: 2rem;
+@font-size-huge: 3rem;
+@font-size-jumbo: 4rem;
+@font-size-giant: 5rem;
+@font-size-massive: 6rem;
+@font-size-collosal: 7rem;
+@font-size-titanic: 6rem;
+@font-size-galactic: 9rem;
+@font-size-god: 10rem;
 
-@tablet-font-micro: @mobile-font-tiny;
-@tablet-font-tiny: @mobile-font-small;
-@tablet-font-small: @mobile-font-base;
-@tablet-font-base: @mobile-font-large;
-@tablet-font-large: @mobile-font-huge;
-@tablet-font-huge: @mobile-font-jumbo;
-@tablet-font-jumbo: @mobile-font-giant;
-@tablet-font-giant: @mobile-font-massive;
-@tablet-font-massive: @mobile-font-titanic;
-@tablet-font-titanic: @mobile-font-galactic;
-@tablet-font-galactic: @mobile-font-god;
-@tablet-font-god: 3.25rem;
-
-@desktop-font-micro: @tablet-font-tiny;
-@desktop-font-tiny: @tablet-font-small;
-@desktop-font-small: @tablet-font-base;
-@desktop-font-base: @tablet-font-large;
-@desktop-font-large: @tablet-font-huge;
-@desktop-font-huge: @tablet-font-jumbo;
-@desktop-font-jumbo: @tablet-font-giant;
-@desktop-font-giant: @tablet-font-massive;
-@desktop-font-massive: @tablet-font-titanic;
-@desktop-font-titanic: @tablet-font-galactic;
-@desktop-font-galactic: @tablet-font-god;
-@desktop-font-god: 3.5rem;
-
+@line-height-quantum: 0.05;
+@line-height-atomic: 0.15;
 @line-height-micro: 0.25;
 @line-height-tiny: 0.5;
 @line-height-small: 0.75;
@@ -146,15 +119,15 @@
 @line-height-huge: 1.5;
 @line-height-jumbo: 1.75;
 @line-height-giant: 2;
-@line-height-computed: floor((@mobile-font-base * @line-height-base));
+@line-height-computed: floor((@font-size-base * @line-height-base));
 
 // Media Queries
 
 @phone-width: 30em;
 @tablet-width: 48em;
 @desktop-width: 62em;
-@large-desktop-width: 80em;
+@large-desktop-width: 75em;
 @huge-desktop-width: 100em;
-@jumbo-desktop-width: 120em;
-@giant-desktop-width: 140em;
-@massive-desktop-width: 180em;
+@jumbo-desktop-width: 125em;
+@giant-desktop-width: 175em;
+@massive-desktop-width: 200em;

@@ -2,9 +2,8 @@
 
 // views styles
 
-.view.container {
+.view.frame {
   position: relative;
-  flex: 1;
   background: @light;
   z-index: 1;
 
@@ -14,7 +13,7 @@
 
   .root.view {
     margin: 0;
-    padding: @space-small;
+    padding: @space-small + @space-tiny;
   }
 
   .about.view {
@@ -23,8 +22,8 @@
 
       &.header {
         height: @space-god;
-        border-bottom: @space-mini solid @dark;
-        background-image: url("images/about/quotes.jpg");
+        border-bottom: @space-micro solid @dark;
+        background-image: @about-header-bg;
         background-size: cover;
         background-position: @half @half;
         background-repeat: no-repeat;

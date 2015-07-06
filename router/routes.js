@@ -34,32 +34,6 @@ Router.route('/', {
   SEO.set({ title: Meteor.App.NAME });
 });
 
-Router.route('/admin', {
-	name: 'admin',
-	data: function() {
-		return [
-			Posts.find(),
-			Quotes.find(),
-			Contacts.find()
-		]
-  },
-  waitOn: function () {
-    return [
-			Meteor.subscribe('posts'),
-			Meteor.subscribe('quotes'),
-			Meteor.subscribe('contacts')
-    ]
-  },
-  action: function () {
-    if (this.ready())
-      this.render('admin');
-    else
-      this.render('loading');
-  }
-}, function () {
-  SEO.set({ title: Meteor.App.NAME });
-});
-
 Router.route('/about', {
 	name: 'about',
 	data: function() {

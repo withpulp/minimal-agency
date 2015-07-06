@@ -5,7 +5,7 @@
 // buttons
 
 .button {
-	padding: @space-small @space-large;
+	padding: @space-base @space-large;
 	background-color: @gray;
 	color: @light;
 	text-align: center;
@@ -16,6 +16,7 @@
 	transition: all @faster;
 
 	@media (min-width: @tablet-width) {
+		padding: @space-large @space-huge;
 	}
 
   &:hover,
@@ -47,30 +48,30 @@
   }
 
 	&.cta {
-		font-size: @mobile-font-base;
+		font-size: @font-size-base;
 		font-weight: bold;
 		text-align: center;
-		padding: 1.5rem 0;
+		padding: @space-base 0;
 
 		@media (min-width: @tablet-width) {
-			font-size: @tablet-font-jumbo;
+			font-size: @font-size-base + @font-size-mini;
 		}
 
 		.supporting {
 			display: block;
-			margin-top: @space-tiny;
+			margin-top: @space-small;
 			font-weight: normal;
-			font-size: @mobile-font-base;
+			font-size: @font-size-base;
 			text-decoration: underline;
-			padding-top: @space-tiny;
 
 			@media (min-width: @tablet-width) {
-				font-size: @tablet-font-large;
+				font-size: @font-size-base + @font-size-mini;
 			}
 		}
 
 		&:hover,
 		&:focus {
+			text-decoration: none;
 
 			.supporting {
 				color: @primary-color;
@@ -88,10 +89,6 @@
   &.rounded {
     border-radius: @space-tiny;
   }
-
-	@media (min-width: @tablet-width) {
-		padding: @space-normal @space-larger;
-	}
 }
 
 // lists
