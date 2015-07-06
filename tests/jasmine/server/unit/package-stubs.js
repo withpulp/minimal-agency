@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "feecf992971c238e5cc0a8217f1dc8568982e6e8"
+                  "value": "1b7141ef9d239df488952d5425432090d518392b"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 0
+              "value": 2
             },
             "timeout": {
               "type": "constant",
@@ -7809,6 +7809,9 @@ var packageMetadata = {
             "prototype": {
               "type": "object",
               "members": {
+                "attachRoles": {
+                  "type": "function"
+                },
                 "find": {
                   "type": "function"
                 },
@@ -7841,6 +7844,12 @@ var packageMetadata = {
                 },
                 "helpers": {
                   "type": "function"
+                },
+                "attachSchema": {
+                  "type": "function"
+                },
+                "simpleSchema": {
+                  "type": "function"
                 }
               }
             }
@@ -7861,7 +7870,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "b54fc9e00da5b122c7451f6bb5f158935b9a06f2"
+          "value": "34a4d485d86b310d646915cbbb64e1bd6be0e7a7"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -8713,6 +8722,117 @@ var packageMetadata = {
   "fastclick": {},
   "coffeescript": {},
   "manuelschoebel:ms-seo": {},
+  "aldeed:simple-schema": {
+    "SimpleSchema": {
+      "type": "function",
+      "members": {
+        "extendOptions": {
+          "type": "function"
+        },
+        "RegEx": {
+          "type": "object",
+          "members": {
+            "Email": {
+              "type": "regexp"
+            },
+            "Domain": {
+              "type": "regexp"
+            },
+            "WeakDomain": {
+              "type": "regexp"
+            },
+            "IP": {
+              "type": "regexp"
+            },
+            "IPv4": {
+              "type": "regexp"
+            },
+            "IPv6": {
+              "type": "regexp"
+            },
+            "Url": {
+              "type": "regexp"
+            },
+            "Id": {
+              "type": "regexp"
+            },
+            "ZipCode": {
+              "type": "regexp"
+            }
+          }
+        },
+        "addValidator": {
+          "type": "function"
+        },
+        "messages": {
+          "type": "function"
+        },
+        "prototype": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            },
+            "namedContext": {
+              "type": "function"
+            },
+            "validator": {
+              "type": "function",
+              "refID": 22
+            },
+            "addValidator": {
+              "ref": 22
+            },
+            "pick": {
+              "type": "function"
+            },
+            "clean": {
+              "type": "function"
+            },
+            "schema": {
+              "type": "function"
+            },
+            "getDefinition": {
+              "type": "function"
+            },
+            "keyIsInBlackBox": {
+              "type": "function"
+            },
+            "labels": {
+              "type": "function"
+            },
+            "label": {
+              "type": "function"
+            },
+            "messages": {
+              "type": "function"
+            },
+            "messageForError": {
+              "type": "function"
+            },
+            "allowsKey": {
+              "type": "function"
+            },
+            "newContext": {
+              "type": "function"
+            },
+            "objectKeys": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    },
+    "MongoObject": {
+      "type": "function",
+      "members": {
+        "expandKey": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "aldeed:collection2": {},
   "accounts-base": {
     "Accounts": {
       "type": "object",
@@ -8837,6 +8957,9 @@ var packageMetadata = {
         "loginServiceConfiguration": {
           "type": "object",
           "members": {
+            "attachRoles": {
+              "type": "function"
+            },
             "find": {
               "type": "function"
             },
@@ -8868,6 +8991,12 @@ var packageMetadata = {
               "type": "function"
             },
             "helpers": {
+              "type": "function"
+            },
+            "attachSchema": {
+              "type": "function"
+            },
+            "simpleSchema": {
               "type": "function"
             }
           }
@@ -8891,163 +9020,202 @@ var packageMetadata = {
         "Impersonate": {
           "type": "object",
           "members": {
-            "find": {
+            "attachRoles": {
               "type": "function",
               "refID": 2
             },
-            "findOne": {
+            "find": {
               "type": "function",
               "refID": 4
             },
-            "insert": {
+            "findOne": {
               "type": "function",
               "refID": 6
             },
-            "update": {
+            "insert": {
               "type": "function",
               "refID": 8
             },
-            "remove": {
+            "update": {
               "type": "function",
               "refID": 10
             },
-            "upsert": {
+            "remove": {
               "type": "function",
               "refID": 12
             },
-            "rawCollection": {
+            "upsert": {
               "type": "function",
               "refID": 14
             },
-            "rawDatabase": {
+            "rawCollection": {
               "type": "function",
               "refID": 16
             },
-            "allow": {
+            "rawDatabase": {
               "type": "function",
               "refID": 18
             },
-            "deny": {
+            "allow": {
               "type": "function",
               "refID": 20
             },
-            "helpers": {
+            "deny": {
               "type": "function",
               "refID": 22
+            },
+            "helpers": {
+              "type": "function",
+              "refID": 24
+            },
+            "attachSchema": {
+              "type": "function",
+              "refID": 26
+            },
+            "simpleSchema": {
+              "type": "function",
+              "refID": 28
             }
           }
         },
         "JetSetter": {
           "type": "object",
           "members": {
-            "find": {
+            "attachRoles": {
               "ref": 2
             },
-            "findOne": {
+            "find": {
               "ref": 4
             },
-            "insert": {
+            "findOne": {
               "ref": 6
             },
-            "update": {
+            "insert": {
               "ref": 8
             },
-            "remove": {
+            "update": {
               "ref": 10
             },
-            "upsert": {
+            "remove": {
               "ref": 12
             },
-            "rawCollection": {
+            "upsert": {
               "ref": 14
             },
-            "rawDatabase": {
+            "rawCollection": {
               "ref": 16
             },
-            "allow": {
+            "rawDatabase": {
               "ref": 18
             },
-            "deny": {
+            "allow": {
               "ref": 20
             },
-            "helpers": {
+            "deny": {
               "ref": 22
+            },
+            "helpers": {
+              "ref": 24
+            },
+            "attachSchema": {
+              "ref": 26
+            },
+            "simpleSchema": {
+              "ref": 28
             }
           }
         },
         "Mongol": {
           "type": "object",
           "members": {
-            "find": {
+            "attachRoles": {
               "ref": 2
             },
-            "findOne": {
+            "find": {
               "ref": 4
             },
-            "insert": {
+            "findOne": {
               "ref": 6
             },
-            "update": {
+            "insert": {
               "ref": 8
             },
-            "remove": {
+            "update": {
               "ref": 10
             },
-            "upsert": {
+            "remove": {
               "ref": 12
             },
-            "rawCollection": {
+            "upsert": {
               "ref": 14
             },
-            "rawDatabase": {
+            "rawCollection": {
               "ref": 16
             },
-            "allow": {
+            "rawDatabase": {
               "ref": 18
             },
-            "deny": {
+            "allow": {
               "ref": 20
             },
-            "helpers": {
+            "deny": {
               "ref": 22
+            },
+            "helpers": {
+              "ref": 24
+            },
+            "attachSchema": {
+              "ref": 26
+            },
+            "simpleSchema": {
+              "ref": 28
             }
           }
         },
         "credentials": {
           "type": "object",
           "members": {
-            "find": {
+            "attachRoles": {
               "ref": 2
             },
-            "findOne": {
+            "find": {
               "ref": 4
             },
-            "insert": {
+            "findOne": {
               "ref": 6
             },
-            "update": {
+            "insert": {
               "ref": 8
             },
-            "remove": {
+            "update": {
               "ref": 10
             },
-            "upsert": {
+            "remove": {
               "ref": 12
             },
-            "rawCollection": {
+            "upsert": {
               "ref": 14
             },
-            "rawDatabase": {
+            "rawCollection": {
               "ref": 16
             },
-            "allow": {
+            "rawDatabase": {
               "ref": 18
             },
-            "deny": {
+            "allow": {
               "ref": 20
             },
-            "helpers": {
+            "deny": {
               "ref": 22
+            },
+            "helpers": {
+              "ref": 24
+            },
+            "attachSchema": {
+              "ref": 26
+            },
+            "simpleSchema": {
+              "ref": 28
             }
           }
         }
@@ -9619,6 +9787,9 @@ var packageMetadata = {
     "VelocityTestFiles": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9650,6 +9821,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9657,6 +9834,9 @@ var packageMetadata = {
     "VelocityFixtureFiles": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9688,6 +9868,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9695,6 +9881,9 @@ var packageMetadata = {
     "VelocityTestReports": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9726,6 +9915,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9733,6 +9928,9 @@ var packageMetadata = {
     "VelocityAggregateReports": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9764,6 +9962,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9771,6 +9975,9 @@ var packageMetadata = {
     "VelocityLogs": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9802,6 +10009,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9809,6 +10022,9 @@ var packageMetadata = {
     "VelocityMirrors": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9840,6 +10056,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -9847,6 +10069,9 @@ var packageMetadata = {
     "VelocityOptions": {
       "type": "object",
       "members": {
+        "attachRoles": {
+          "type": "function"
+        },
         "find": {
           "type": "function"
         },
@@ -9878,6 +10103,12 @@ var packageMetadata = {
           "type": "function"
         },
         "helpers": {
+          "type": "function"
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
           "type": "function"
         }
       }
@@ -20177,6 +20408,65 @@ var packageMetadata = {
       "type": "undefined"
     }
   },
+  "nicolaslopezj:roles": {
+    "Roles": {
+      "type": "object",
+      "members": {
+        "userHasRole": {
+          "type": "function"
+        },
+        "registerAction": {
+          "type": "function"
+        },
+        "registerHelper": {
+          "type": "function"
+        },
+        "Role": {
+          "type": "function",
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "allow": {
+                  "type": "function"
+                },
+                "deny": {
+                  "type": "function"
+                },
+                "helper": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "helper": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        },
+        "userHasPermission": {
+          "type": "function"
+        },
+        "checkPermission": {
+          "type": "function"
+        },
+        "addUserToRoles": {
+          "type": "function"
+        },
+        "setUserRoles": {
+          "type": "function"
+        },
+        "removeUserFromRoles": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "service-configuration": {
     "ServiceConfiguration": {
       "type": "object",
@@ -20184,6 +20474,9 @@ var packageMetadata = {
         "configurations": {
           "type": "object",
           "members": {
+            "attachRoles": {
+              "type": "function"
+            },
             "find": {
               "type": "function"
             },
@@ -20215,6 +20508,12 @@ var packageMetadata = {
               "type": "function"
             },
             "helpers": {
+              "type": "function"
+            },
+            "attachSchema": {
+              "type": "function"
+            },
+            "simpleSchema": {
               "type": "function"
             }
           }

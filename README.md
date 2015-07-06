@@ -107,6 +107,7 @@ Router.route('/about', function () {
 * Accounts
   * [accounts-password](https://github.com/meteor/meteor/tree/devel/packages/accounts-password)
   * [useraccounts:unstyled](https://github.com/meteor-useraccounts/unstyled/)
+  * [nicolaslopezj:roles](https://github.com/nicolaslopezj/roles)
 * UI and UX
   * [fastclick](https://github.com/meteor/meteor/tree/devel/packages/fastclick)
   * [miro:mailchimp](https://github.com/MiroHibler/meteor-mailchimp)
