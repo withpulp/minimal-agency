@@ -1,5 +1,5 @@
 Template['posts'].helpers({
-  'posts': function() {
-	  return Posts.find();
+  'limitedPosts': function() {
+	  return Posts.find({}, {limit: 2, sort: {createdAt: -1}});
   }
 });
