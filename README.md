@@ -144,6 +144,8 @@ client/             # Client folder
     modules/            # UI elements and components (i.e. forms, actions, etc...)
      common/              # Common components (i.e. header, footer)
      elements/            # Re-usable components
+orion/              # Orion CMS files
+  dictionary/         # Orion dictionary definitions
 models/             # Model files, for each Meteor.Collection
 private/            # Private files
 public/             # Public files
