@@ -15,7 +15,6 @@ Posts = new orion.collection('posts', {
         data: 'excerpt',
         title: 'Excerpt'
       },
-      orion.attributeColumn('summernote', 'body', 'Content'),
       orion.attributeColumn('createdBy', 'createdBy', 'Author'),
       orion.attributeColumn('createdAt', 'createdAt', 'Date')
     ]

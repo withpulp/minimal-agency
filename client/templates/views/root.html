@@ -16,30 +16,30 @@
 
     <section class="benefits segment">
       <h3 class="leading statement">
-        Attract customers with more:
+        {{ dict 'root.benefitsStatement' 'Attract customers with more:' }}
       </h3>
       {{> benefits}}
     </section>
 
     <section class="figures segment">
       <h3 class="leading statement">
-        Recent track record:
+        {{ dict 'root.figuresStatement' 'Recent track record:' }}
       </h3>
       {{> figures}}
     </section>
 
     <section class="clients segment">
       <h3 class="leading statement">
-        Trusted by:
+        {{ dict 'root.clientsStatement' 'Trusted by:' }}
       </h3>
       {{> clients}}
     </section>
 
     <section class="fluid cta segment">
       <a class="fluid primary cta button" href="#">
-    		Get Similar Results
+        {{ dict 'root.ctaStatement' 'Get Similar Results' }}
     		<span class="supporting">
-          Reserve a free consultation
+          {{ dict 'root.ctaSupportingStatement' 'Reserve a free consultation' }}
         </span>
     	</a>
     </section>
@@ -51,7 +51,7 @@
     <section class="tools segment">
       <img class="background left image" src="/images/root/wrench.png" />
       <h3 class="leading statement">
-        Latest Tools
+        {{ dict 'root.toolsStatement' 'Latest Tools' }}
       </h3>
       {{> tools}}
     </section>
@@ -59,7 +59,7 @@
     <section class="posts segment">
       <img class="background right image" src="/images/root/robot.png" />
       <h3 class="leading statement">
-        Latest Articles
+        {{ dict 'root.postsStatement' 'Latest Articles' }}
       </h3>
       {{> posts}}
     </section>
