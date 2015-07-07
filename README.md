@@ -47,11 +47,11 @@ A mobile-first website for an agency / startup built with Meteor.
   * About
   * Blog
   * Menu
-  * Admin
+  * ~~Admin~~
 * Modules
   * ~~Email capture~~
   * ~~Random quote on page load~~
-  * Insert/Edit Post
+  * ~~Insert/Edit Post~~
 
 
 ## How to use
