@@ -6,17 +6,5 @@ Meteor.startup(function () {
       'password': 'admin',
 			'email': 'admin@utool.com'
     });
-
-		Accounts.createUser({
-      'username': 'damir',
-      'password': 'damir',
-			'email': 'damir@utool.com'
-    });
-
-		Accounts.createUser({
-      'username': 'husam',
-      'password': 'husam',
-			'email': 'husam@utool.com'
-    });
   }
 });
