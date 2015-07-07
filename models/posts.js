@@ -11,7 +11,10 @@ Posts = new orion.collection('posts', {
         data: 'title',
         title: 'Title'
       },
-      orion.attributeColumn('file', 'image', 'Image'),
+      {
+        data: 'excerpt',
+        title: 'Excerpt'
+      },
       orion.attributeColumn('summernote', 'body', 'Content'),
       orion.attributeColumn('createdBy', 'createdBy', 'Author'),
       orion.attributeColumn('createdAt', 'createdAt', 'Date')
@@ -24,10 +27,10 @@ Posts.attachSchema(new SimpleSchema({
     type: String,
     label: 'Title'
   },
-  image: orion.attribute('file', {
-    label: 'Image',
-    optional: true
-  }),
+  excerpt: {
+    type: String,
+    label: 'Excerpt'
+  },
   body: orion.attribute('summernote', {
     label: 'Content'
   }),
