@@ -79,7 +79,6 @@ orionjs:dictionary@1.1.0
 orionjs:file-attribute@1.1.1
 orionjs:filesystem@1.1.0
 orionjs:lang-en@1.1.1
-orionjs:pages@1.1.2
 orionjs:summernote@1.1.0
 package-version-parser@3.0.3
 practicalmeteor:chai@1.9.2_3

@@ -109,6 +109,12 @@ Router.route('/about', function () {
   * [accounts-password](https://github.com/meteor/meteor/tree/devel/packages/accounts-password)
   * [useraccounts:unstyled](https://github.com/meteor-useraccounts/unstyled/)
   * [nicolaslopezj:roles](https://github.com/nicolaslopezj/roles)
+* CMS
+  * [orionjs:core](https://github.com/orionjs/orion)
+  * [orionjs:bootstrap](https://github.com/orionjs/orion/tree/master/packages/bootstrap)
+  * [orionjs:summernote](https://github.com/orionjs/orion/tree/master/packages/summernote)
+  * [orionjs:file-attribute](https://github.com/orionjs/orion/tree/master/packages/file-attribute)
+  * [twbs:bootstrap](https://github.com/twbs/bootstrap)
 * UI and UX
   * [fastclick](https://github.com/meteor/meteor/tree/devel/packages/fastclick)
   * [miro:mailchimp](https://github.com/MiroHibler/meteor-mailchimp)

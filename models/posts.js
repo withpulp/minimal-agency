@@ -1,20 +1,20 @@
 Posts = new orion.collection('posts', {
-  singularName: orion.helpers.getTranslation('posts.singularName'),
-  pluralName: orion.helpers.getTranslation('posts.pluralName'),
-  title: orion.helpers.getTranslation('posts.title'),
+  singularName: 'post',
+  pluralName: 'posts',
+  title: 'Posts',
   link: {
-    title: orion.helpers.getTranslation('posts.title')
+    title: 'Posts'
   },
   tabular: {
     columns: [
       {
         data: 'title',
-        title: orion.helpers.getTranslation('posts.schema.title')
+        title: 'Title'
       },
-      orion.attributeColumn('file', 'image', orion.helpers.getTranslation('posts.schema.image')),
-      orion.attributeColumn('summernote', 'body', orion.helpers.getTranslation('posts.schema.body')),
-      orion.attributeColumn('createdBy', 'createdBy', orion.helpers.getTranslation('posts.schema.createdBy')),
-      orion.attributeColumn('createdAt', 'createdAt', orion.helpers.getTranslation('posts.schema.createdAt'))
+      orion.attributeColumn('file', 'image', 'Image'),
+      orion.attributeColumn('summernote', 'body', 'Content'),
+      orion.attributeColumn('createdBy', 'createdBy', 'Author'),
+      orion.attributeColumn('createdAt', 'createdAt', 'Date')
     ]
   }
 });
@@ -22,14 +22,14 @@ Posts = new orion.collection('posts', {
 Posts.attachSchema(new SimpleSchema({
   title: {
     type: String,
-    label: orion.helpers.getTranslation('posts.schema.title')
+    label: 'Title'
   },
   image: orion.attribute('file', {
-      label: orion.helpers.getTranslation('posts.schema.image'), // We use this function to make i18n work in autoform
-      optional: true
+    label: 'Image',
+    optional: true
   }),
   body: orion.attribute('summernote', {
-      label: orion.helpers.getTranslation('posts.schema.body') // We use this function to make i18n work in autoform
+    label: 'Content'
   }),
   createdBy: orion.attribute('createdBy'),
   createdAt: orion.attribute('createdAt')
