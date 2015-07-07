@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "623b6e9d9ddc92e9af0d73dd59d783993fa29870"
+                  "value": "602a66e09abda3470d18ce92168e5cafd7d4827e"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 2
+              "value": 6
             },
             "timeout": {
               "type": "constant",
@@ -7870,11 +7870,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "8342a15204aa91091b6654172abbc3f89b2a599f"
+          "value": "b07ac7680fce962db26171ef9614bddc66c2e385"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "3c916b1eace42b00622f0d7f8310252780893cdf"
+          "value": "c75b28ca5425a770fe59fcf536cc7176521060c6"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -20897,6 +20897,44 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "file": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            },
+            "summernote": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernote"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernoteColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -20923,10 +20961,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 32
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 32
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -21111,59 +21149,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 118
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 120
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 122
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 124
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 126
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 128
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 130
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 132
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 134
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 136
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 138
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 140
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 142
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 144
+                  "refID": 154
                 }
               }
             }
@@ -21310,46 +21348,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 118
-                },
-                "find": {
-                  "ref": 120
-                },
-                "findOne": {
-                  "ref": 122
-                },
-                "insert": {
-                  "ref": 124
-                },
-                "update": {
-                  "ref": 126
-                },
-                "remove": {
                   "ref": 128
                 },
-                "upsert": {
+                "find": {
                   "ref": 130
                 },
-                "rawCollection": {
+                "findOne": {
                   "ref": 132
                 },
-                "rawDatabase": {
+                "insert": {
                   "ref": 134
                 },
-                "allow": {
+                "update": {
                   "ref": 136
                 },
-                "deny": {
+                "remove": {
                   "ref": 138
                 },
-                "helpers": {
+                "upsert": {
                   "ref": 140
                 },
-                "attachSchema": {
+                "rawCollection": {
                   "ref": 142
                 },
-                "simpleSchema": {
+                "rawDatabase": {
                   "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
                 }
               }
             },
@@ -21539,46 +21577,1707 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 118
-            },
-            "find": {
-              "ref": 120
-            },
-            "findOne": {
-              "ref": 122
-            },
-            "insert": {
-              "ref": 124
-            },
-            "update": {
-              "ref": 126
-            },
-            "remove": {
               "ref": 128
             },
-            "upsert": {
+            "find": {
               "ref": 130
             },
-            "rawCollection": {
+            "findOne": {
               "ref": 132
             },
-            "rawDatabase": {
+            "insert": {
               "ref": 134
             },
-            "allow": {
+            "update": {
               "ref": 136
             },
-            "deny": {
+            "remove": {
               "ref": 138
             },
-            "helpers": {
+            "upsert": {
               "ref": 140
             },
-            "attachSchema": {
+            "rawCollection": {
               "ref": 142
             },
-            "simpleSchema": {
+            "rawDatabase": {
               "ref": 144
+            },
+            "allow": {
+              "ref": 146
+            },
+            "deny": {
+              "ref": 148
+            },
+            "helpers": {
+              "ref": 150
+            },
+            "attachSchema": {
+              "ref": 152
+            },
+            "simpleSchema": {
+              "ref": 154
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "members": {
+            "templates": {
+              "type": "object"
+            },
+            "collection": {
+              "type": "object",
+              "refID": 352,
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "addTemplate": {
+              "type": "function"
+            },
+            "getNewTemplateSchema": {
+              "type": "function"
+            },
+            "tabular": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "PagesIndex"
+                },
+                "collection": {
+                  "ref": 352
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "tabular_genericPub"
+                },
+                "sub": {
+                  "type": "object",
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.2"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 429,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 429
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3030/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 454
+                    },
+                    "autosubscribe": {
+                      "ref": 454
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 458,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsList": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "pages": {
+                              "type": "function"
+                            },
+                            "page": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "postsWithUsers": {
+                              "type": "function"
+                            },
+                            "postWithUser": {
+                              "type": "function"
+                            },
+                            "process": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/insert": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/update": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/remove": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/pages/insert": {
+                              "type": "function"
+                            },
+                            "/pages/update": {
+                              "type": "function"
+                            },
+                            "/pages/remove": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/process/insert": {
+                              "type": "function"
+                            },
+                            "/process/update": {
+                              "type": "function"
+                            },
+                            "/process/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 841,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 841
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 845
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 847
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 849
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 851
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 853
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 855
+                                        },
+                                        "on": {
+                                          "ref": 855
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 857
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 859
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 861
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 863
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 845
+                                },
+                                "installHandlers": {
+                                  "ref": 847
+                                },
+                                "middleware": {
+                                  "ref": 849
+                                },
+                                "setMaxListeners": {
+                                  "ref": 851
+                                },
+                                "emit": {
+                                  "ref": 853
+                                },
+                                "addListener": {
+                                  "ref": 855
+                                },
+                                "on": {
+                                  "ref": 855
+                                },
+                                "once": {
+                                  "ref": 857
+                                },
+                                "removeListener": {
+                                  "ref": 859
+                                },
+                                "removeAllListeners": {
+                                  "ref": 861
+                                },
+                                "listeners": {
+                                  "ref": 863
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 458
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 918
+                                },
+                                "toJSONValue": {
+                                  "ref": 918
+                                },
+                                "valueOf": {
+                                  "ref": 918
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function"
+                        },
+                        "getAll": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "attachRoles": {
+                              "ref": 128
+                            },
+                            "find": {
+                              "ref": 130
+                            },
+                            "findOne": {
+                              "ref": 132
+                            },
+                            "insert": {
+                              "ref": 134
+                            },
+                            "update": {
+                              "ref": 136
+                            },
+                            "remove": {
+                              "ref": 138
+                            },
+                            "upsert": {
+                              "ref": 140
+                            },
+                            "rawCollection": {
+                              "ref": 142
+                            },
+                            "rawDatabase": {
+                              "ref": 144
+                            },
+                            "allow": {
+                              "ref": 146
+                            },
+                            "deny": {
+                              "ref": 148
+                            },
+                            "helpers": {
+                              "ref": 150
+                            },
+                            "attachSchema": {
+                              "ref": 152
+                            },
+                            "simpleSchema": {
+                              "ref": 154
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "users": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "hookOptions": {
+                          "type": "object",
+                          "members": {
+                            "before": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "after": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "all": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "direct": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "attachRoles": {
+                          "ref": 128
+                        },
+                        "find": {
+                          "ref": 130
+                        },
+                        "findOne": {
+                          "ref": 132
+                        },
+                        "insert": {
+                          "ref": 134
+                        },
+                        "update": {
+                          "ref": 136
+                        },
+                        "remove": {
+                          "ref": 138
+                        },
+                        "upsert": {
+                          "ref": 140
+                        },
+                        "rawCollection": {
+                          "ref": 142
+                        },
+                        "rawDatabase": {
+                          "ref": 144
+                        },
+                        "allow": {
+                          "ref": 146
+                        },
+                        "deny": {
+                          "ref": 148
+                        },
+                        "helpers": {
+                          "ref": 150
+                        },
+                        "attachSchema": {
+                          "ref": 152
+                        },
+                        "simpleSchema": {
+                          "ref": 154
+                        }
+                      }
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    }
+                  }
+                },
+                "onUnload": {
+                  "type": "undefined"
+                },
+                "allow": {
+                  "type": "undefined"
+                },
+                "allowFields": {
+                  "type": "undefined"
+                },
+                "changeSelector": {
+                  "type": "undefined"
+                },
+                "selector": {
+                  "type": "undefined"
+                },
+                "options": {
+                  "type": "object",
+                  "members": {
+                    "columns": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -21645,6 +23344,44 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "file": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            },
+            "summernote": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernote"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernoteColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -21671,10 +23408,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 32
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 32
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -21859,59 +23596,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 118
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 120
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 122
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 124
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 126
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 128
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 130
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 132
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 134
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 136
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 138
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 140
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 142
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 144
+                  "refID": 154
                 }
               }
             }
@@ -22058,46 +23795,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 118
-                },
-                "find": {
-                  "ref": 120
-                },
-                "findOne": {
-                  "ref": 122
-                },
-                "insert": {
-                  "ref": 124
-                },
-                "update": {
-                  "ref": 126
-                },
-                "remove": {
                   "ref": 128
                 },
-                "upsert": {
+                "find": {
                   "ref": 130
                 },
-                "rawCollection": {
+                "findOne": {
                   "ref": 132
                 },
-                "rawDatabase": {
+                "insert": {
                   "ref": 134
                 },
-                "allow": {
+                "update": {
                   "ref": 136
                 },
-                "deny": {
+                "remove": {
                   "ref": 138
                 },
-                "helpers": {
+                "upsert": {
                   "ref": 140
                 },
-                "attachSchema": {
+                "rawCollection": {
                   "ref": 142
                 },
-                "simpleSchema": {
+                "rawDatabase": {
                   "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
                 }
               }
             },
@@ -22287,46 +24024,1707 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 118
-            },
-            "find": {
-              "ref": 120
-            },
-            "findOne": {
-              "ref": 122
-            },
-            "insert": {
-              "ref": 124
-            },
-            "update": {
-              "ref": 126
-            },
-            "remove": {
               "ref": 128
             },
-            "upsert": {
+            "find": {
               "ref": 130
             },
-            "rawCollection": {
+            "findOne": {
               "ref": 132
             },
-            "rawDatabase": {
+            "insert": {
               "ref": 134
             },
-            "allow": {
+            "update": {
               "ref": 136
             },
-            "deny": {
+            "remove": {
               "ref": 138
             },
-            "helpers": {
+            "upsert": {
               "ref": 140
             },
-            "attachSchema": {
+            "rawCollection": {
               "ref": 142
             },
-            "simpleSchema": {
+            "rawDatabase": {
               "ref": 144
+            },
+            "allow": {
+              "ref": 146
+            },
+            "deny": {
+              "ref": 148
+            },
+            "helpers": {
+              "ref": 150
+            },
+            "attachSchema": {
+              "ref": 152
+            },
+            "simpleSchema": {
+              "ref": 154
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "members": {
+            "templates": {
+              "type": "object"
+            },
+            "collection": {
+              "type": "object",
+              "refID": 352,
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "addTemplate": {
+              "type": "function"
+            },
+            "getNewTemplateSchema": {
+              "type": "function"
+            },
+            "tabular": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "PagesIndex"
+                },
+                "collection": {
+                  "ref": 352
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "tabular_genericPub"
+                },
+                "sub": {
+                  "type": "object",
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.2"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 429,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 429
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3030/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 454
+                    },
+                    "autosubscribe": {
+                      "ref": 454
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 458,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsList": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "pages": {
+                              "type": "function"
+                            },
+                            "page": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "postsWithUsers": {
+                              "type": "function"
+                            },
+                            "postWithUser": {
+                              "type": "function"
+                            },
+                            "process": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/insert": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/update": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/remove": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/pages/insert": {
+                              "type": "function"
+                            },
+                            "/pages/update": {
+                              "type": "function"
+                            },
+                            "/pages/remove": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/process/insert": {
+                              "type": "function"
+                            },
+                            "/process/update": {
+                              "type": "function"
+                            },
+                            "/process/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 841,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 841
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 845
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 847
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 849
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 851
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 853
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 855
+                                        },
+                                        "on": {
+                                          "ref": 855
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 857
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 859
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 861
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 863
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 845
+                                },
+                                "installHandlers": {
+                                  "ref": 847
+                                },
+                                "middleware": {
+                                  "ref": 849
+                                },
+                                "setMaxListeners": {
+                                  "ref": 851
+                                },
+                                "emit": {
+                                  "ref": 853
+                                },
+                                "addListener": {
+                                  "ref": 855
+                                },
+                                "on": {
+                                  "ref": 855
+                                },
+                                "once": {
+                                  "ref": 857
+                                },
+                                "removeListener": {
+                                  "ref": 859
+                                },
+                                "removeAllListeners": {
+                                  "ref": 861
+                                },
+                                "listeners": {
+                                  "ref": 863
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 458
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 918
+                                },
+                                "toJSONValue": {
+                                  "ref": 918
+                                },
+                                "valueOf": {
+                                  "ref": 918
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function"
+                        },
+                        "getAll": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "attachRoles": {
+                              "ref": 128
+                            },
+                            "find": {
+                              "ref": 130
+                            },
+                            "findOne": {
+                              "ref": 132
+                            },
+                            "insert": {
+                              "ref": 134
+                            },
+                            "update": {
+                              "ref": 136
+                            },
+                            "remove": {
+                              "ref": 138
+                            },
+                            "upsert": {
+                              "ref": 140
+                            },
+                            "rawCollection": {
+                              "ref": 142
+                            },
+                            "rawDatabase": {
+                              "ref": 144
+                            },
+                            "allow": {
+                              "ref": 146
+                            },
+                            "deny": {
+                              "ref": 148
+                            },
+                            "helpers": {
+                              "ref": 150
+                            },
+                            "attachSchema": {
+                              "ref": 152
+                            },
+                            "simpleSchema": {
+                              "ref": 154
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "users": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "hookOptions": {
+                          "type": "object",
+                          "members": {
+                            "before": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "after": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "all": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "direct": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "attachRoles": {
+                          "ref": 128
+                        },
+                        "find": {
+                          "ref": 130
+                        },
+                        "findOne": {
+                          "ref": 132
+                        },
+                        "insert": {
+                          "ref": 134
+                        },
+                        "update": {
+                          "ref": 136
+                        },
+                        "remove": {
+                          "ref": 138
+                        },
+                        "upsert": {
+                          "ref": 140
+                        },
+                        "rawCollection": {
+                          "ref": 142
+                        },
+                        "rawDatabase": {
+                          "ref": 144
+                        },
+                        "allow": {
+                          "ref": 146
+                        },
+                        "deny": {
+                          "ref": 148
+                        },
+                        "helpers": {
+                          "ref": 150
+                        },
+                        "attachSchema": {
+                          "ref": 152
+                        },
+                        "simpleSchema": {
+                          "ref": 154
+                        }
+                      }
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    }
+                  }
+                },
+                "onUnload": {
+                  "type": "undefined"
+                },
+                "allow": {
+                  "type": "undefined"
+                },
+                "allowFields": {
+                  "type": "undefined"
+                },
+                "changeSelector": {
+                  "type": "undefined"
+                },
+                "selector": {
+                  "type": "undefined"
+                },
+                "options": {
+                  "type": "object",
+                  "members": {
+                    "columns": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -23717,6 +27115,44 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "file": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            },
+            "summernote": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernote"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernoteColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -23743,10 +27179,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 32
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 32
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -23931,59 +27367,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 118
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 120
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 122
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 124
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 126
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 128
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 130
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 132
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 134
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 136
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 138
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 140
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 142
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 144
+                  "refID": 154
                 }
               }
             }
@@ -24130,46 +27566,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 118
-                },
-                "find": {
-                  "ref": 120
-                },
-                "findOne": {
-                  "ref": 122
-                },
-                "insert": {
-                  "ref": 124
-                },
-                "update": {
-                  "ref": 126
-                },
-                "remove": {
                   "ref": 128
                 },
-                "upsert": {
+                "find": {
                   "ref": 130
                 },
-                "rawCollection": {
+                "findOne": {
                   "ref": 132
                 },
-                "rawDatabase": {
+                "insert": {
                   "ref": 134
                 },
-                "allow": {
+                "update": {
                   "ref": 136
                 },
-                "deny": {
+                "remove": {
                   "ref": 138
                 },
-                "helpers": {
+                "upsert": {
                   "ref": 140
                 },
-                "attachSchema": {
+                "rawCollection": {
                   "ref": 142
                 },
-                "simpleSchema": {
+                "rawDatabase": {
                   "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
                 }
               }
             },
@@ -24359,46 +27795,1707 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 118
-            },
-            "find": {
-              "ref": 120
-            },
-            "findOne": {
-              "ref": 122
-            },
-            "insert": {
-              "ref": 124
-            },
-            "update": {
-              "ref": 126
-            },
-            "remove": {
               "ref": 128
             },
-            "upsert": {
+            "find": {
               "ref": 130
             },
-            "rawCollection": {
+            "findOne": {
               "ref": 132
             },
-            "rawDatabase": {
+            "insert": {
               "ref": 134
             },
-            "allow": {
+            "update": {
               "ref": 136
             },
-            "deny": {
+            "remove": {
               "ref": 138
             },
-            "helpers": {
+            "upsert": {
               "ref": 140
             },
-            "attachSchema": {
+            "rawCollection": {
               "ref": 142
             },
-            "simpleSchema": {
+            "rawDatabase": {
               "ref": 144
+            },
+            "allow": {
+              "ref": 146
+            },
+            "deny": {
+              "ref": 148
+            },
+            "helpers": {
+              "ref": 150
+            },
+            "attachSchema": {
+              "ref": 152
+            },
+            "simpleSchema": {
+              "ref": 154
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "members": {
+            "templates": {
+              "type": "object"
+            },
+            "collection": {
+              "type": "object",
+              "refID": 352,
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "addTemplate": {
+              "type": "function"
+            },
+            "getNewTemplateSchema": {
+              "type": "function"
+            },
+            "tabular": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "PagesIndex"
+                },
+                "collection": {
+                  "ref": 352
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "tabular_genericPub"
+                },
+                "sub": {
+                  "type": "object",
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.2"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 429,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 429
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3030/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 454
+                    },
+                    "autosubscribe": {
+                      "ref": 454
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 458,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsList": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "pages": {
+                              "type": "function"
+                            },
+                            "page": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "postsWithUsers": {
+                              "type": "function"
+                            },
+                            "postWithUser": {
+                              "type": "function"
+                            },
+                            "process": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/insert": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/update": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/remove": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/pages/insert": {
+                              "type": "function"
+                            },
+                            "/pages/update": {
+                              "type": "function"
+                            },
+                            "/pages/remove": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/process/insert": {
+                              "type": "function"
+                            },
+                            "/process/update": {
+                              "type": "function"
+                            },
+                            "/process/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 841,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 841
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 845
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 847
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 849
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 851
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 853
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 855
+                                        },
+                                        "on": {
+                                          "ref": 855
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 857
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 859
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 861
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 863
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 845
+                                },
+                                "installHandlers": {
+                                  "ref": 847
+                                },
+                                "middleware": {
+                                  "ref": 849
+                                },
+                                "setMaxListeners": {
+                                  "ref": 851
+                                },
+                                "emit": {
+                                  "ref": 853
+                                },
+                                "addListener": {
+                                  "ref": 855
+                                },
+                                "on": {
+                                  "ref": 855
+                                },
+                                "once": {
+                                  "ref": 857
+                                },
+                                "removeListener": {
+                                  "ref": 859
+                                },
+                                "removeAllListeners": {
+                                  "ref": 861
+                                },
+                                "listeners": {
+                                  "ref": 863
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 458
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 918
+                                },
+                                "toJSONValue": {
+                                  "ref": 918
+                                },
+                                "valueOf": {
+                                  "ref": 918
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function"
+                        },
+                        "getAll": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "attachRoles": {
+                              "ref": 128
+                            },
+                            "find": {
+                              "ref": 130
+                            },
+                            "findOne": {
+                              "ref": 132
+                            },
+                            "insert": {
+                              "ref": 134
+                            },
+                            "update": {
+                              "ref": 136
+                            },
+                            "remove": {
+                              "ref": 138
+                            },
+                            "upsert": {
+                              "ref": 140
+                            },
+                            "rawCollection": {
+                              "ref": 142
+                            },
+                            "rawDatabase": {
+                              "ref": 144
+                            },
+                            "allow": {
+                              "ref": 146
+                            },
+                            "deny": {
+                              "ref": 148
+                            },
+                            "helpers": {
+                              "ref": 150
+                            },
+                            "attachSchema": {
+                              "ref": 152
+                            },
+                            "simpleSchema": {
+                              "ref": 154
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "users": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "hookOptions": {
+                          "type": "object",
+                          "members": {
+                            "before": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "after": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "all": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "direct": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "attachRoles": {
+                          "ref": 128
+                        },
+                        "find": {
+                          "ref": 130
+                        },
+                        "findOne": {
+                          "ref": 132
+                        },
+                        "insert": {
+                          "ref": 134
+                        },
+                        "update": {
+                          "ref": 136
+                        },
+                        "remove": {
+                          "ref": 138
+                        },
+                        "upsert": {
+                          "ref": 140
+                        },
+                        "rawCollection": {
+                          "ref": 142
+                        },
+                        "rawDatabase": {
+                          "ref": 144
+                        },
+                        "allow": {
+                          "ref": 146
+                        },
+                        "deny": {
+                          "ref": 148
+                        },
+                        "helpers": {
+                          "ref": 150
+                        },
+                        "attachSchema": {
+                          "ref": 152
+                        },
+                        "simpleSchema": {
+                          "ref": 154
+                        }
+                      }
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    }
+                  }
+                },
+                "onUnload": {
+                  "type": "undefined"
+                },
+                "allow": {
+                  "type": "undefined"
+                },
+                "allowFields": {
+                  "type": "undefined"
+                },
+                "changeSelector": {
+                  "type": "undefined"
+                },
+                "selector": {
+                  "type": "undefined"
+                },
+                "options": {
+                  "type": "object",
+                  "members": {
+                    "columns": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -24645,6 +29742,44 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "file": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            },
+            "summernote": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernote"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernoteColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -24671,10 +29806,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 32
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 32
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -24859,59 +29994,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 118
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 120
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 122
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 124
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 126
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 128
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 130
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 132
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 134
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 136
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 138
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 140
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 142
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 144
+                  "refID": 154
                 }
               }
             }
@@ -25058,46 +30193,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 118
-                },
-                "find": {
-                  "ref": 120
-                },
-                "findOne": {
-                  "ref": 122
-                },
-                "insert": {
-                  "ref": 124
-                },
-                "update": {
-                  "ref": 126
-                },
-                "remove": {
                   "ref": 128
                 },
-                "upsert": {
+                "find": {
                   "ref": 130
                 },
-                "rawCollection": {
+                "findOne": {
                   "ref": 132
                 },
-                "rawDatabase": {
+                "insert": {
                   "ref": 134
                 },
-                "allow": {
+                "update": {
                   "ref": 136
                 },
-                "deny": {
+                "remove": {
                   "ref": 138
                 },
-                "helpers": {
+                "upsert": {
                   "ref": 140
                 },
-                "attachSchema": {
+                "rawCollection": {
                   "ref": 142
                 },
-                "simpleSchema": {
+                "rawDatabase": {
                   "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
                 }
               }
             },
@@ -25287,46 +30422,1707 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 118
-            },
-            "find": {
-              "ref": 120
-            },
-            "findOne": {
-              "ref": 122
-            },
-            "insert": {
-              "ref": 124
-            },
-            "update": {
-              "ref": 126
-            },
-            "remove": {
               "ref": 128
             },
-            "upsert": {
+            "find": {
               "ref": 130
             },
-            "rawCollection": {
+            "findOne": {
               "ref": 132
             },
-            "rawDatabase": {
+            "insert": {
               "ref": 134
             },
-            "allow": {
+            "update": {
               "ref": 136
             },
-            "deny": {
+            "remove": {
               "ref": 138
             },
-            "helpers": {
+            "upsert": {
               "ref": 140
             },
-            "attachSchema": {
+            "rawCollection": {
               "ref": 142
             },
-            "simpleSchema": {
+            "rawDatabase": {
               "ref": 144
+            },
+            "allow": {
+              "ref": 146
+            },
+            "deny": {
+              "ref": 148
+            },
+            "helpers": {
+              "ref": 150
+            },
+            "attachSchema": {
+              "ref": 152
+            },
+            "simpleSchema": {
+              "ref": 154
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "members": {
+            "templates": {
+              "type": "object"
+            },
+            "collection": {
+              "type": "object",
+              "refID": 352,
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "addTemplate": {
+              "type": "function"
+            },
+            "getNewTemplateSchema": {
+              "type": "function"
+            },
+            "tabular": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "PagesIndex"
+                },
+                "collection": {
+                  "ref": 352
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "tabular_genericPub"
+                },
+                "sub": {
+                  "type": "object",
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.2"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 429,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 429
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3030/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 454
+                    },
+                    "autosubscribe": {
+                      "ref": 454
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 458,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsList": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "pages": {
+                              "type": "function"
+                            },
+                            "page": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "postsWithUsers": {
+                              "type": "function"
+                            },
+                            "postWithUser": {
+                              "type": "function"
+                            },
+                            "process": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/insert": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/update": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/remove": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/pages/insert": {
+                              "type": "function"
+                            },
+                            "/pages/update": {
+                              "type": "function"
+                            },
+                            "/pages/remove": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/process/insert": {
+                              "type": "function"
+                            },
+                            "/process/update": {
+                              "type": "function"
+                            },
+                            "/process/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 841,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 841
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 845
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 847
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 849
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 851
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 853
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 855
+                                        },
+                                        "on": {
+                                          "ref": 855
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 857
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 859
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 861
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 863
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 845
+                                },
+                                "installHandlers": {
+                                  "ref": 847
+                                },
+                                "middleware": {
+                                  "ref": 849
+                                },
+                                "setMaxListeners": {
+                                  "ref": 851
+                                },
+                                "emit": {
+                                  "ref": 853
+                                },
+                                "addListener": {
+                                  "ref": 855
+                                },
+                                "on": {
+                                  "ref": 855
+                                },
+                                "once": {
+                                  "ref": 857
+                                },
+                                "removeListener": {
+                                  "ref": 859
+                                },
+                                "removeAllListeners": {
+                                  "ref": 861
+                                },
+                                "listeners": {
+                                  "ref": 863
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 458
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 918
+                                },
+                                "toJSONValue": {
+                                  "ref": 918
+                                },
+                                "valueOf": {
+                                  "ref": 918
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function"
+                        },
+                        "getAll": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "attachRoles": {
+                              "ref": 128
+                            },
+                            "find": {
+                              "ref": 130
+                            },
+                            "findOne": {
+                              "ref": 132
+                            },
+                            "insert": {
+                              "ref": 134
+                            },
+                            "update": {
+                              "ref": 136
+                            },
+                            "remove": {
+                              "ref": 138
+                            },
+                            "upsert": {
+                              "ref": 140
+                            },
+                            "rawCollection": {
+                              "ref": 142
+                            },
+                            "rawDatabase": {
+                              "ref": 144
+                            },
+                            "allow": {
+                              "ref": 146
+                            },
+                            "deny": {
+                              "ref": 148
+                            },
+                            "helpers": {
+                              "ref": 150
+                            },
+                            "attachSchema": {
+                              "ref": 152
+                            },
+                            "simpleSchema": {
+                              "ref": 154
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "users": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "hookOptions": {
+                          "type": "object",
+                          "members": {
+                            "before": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "after": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "all": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "direct": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "attachRoles": {
+                          "ref": 128
+                        },
+                        "find": {
+                          "ref": 130
+                        },
+                        "findOne": {
+                          "ref": 132
+                        },
+                        "insert": {
+                          "ref": 134
+                        },
+                        "update": {
+                          "ref": 136
+                        },
+                        "remove": {
+                          "ref": 138
+                        },
+                        "upsert": {
+                          "ref": 140
+                        },
+                        "rawCollection": {
+                          "ref": 142
+                        },
+                        "rawDatabase": {
+                          "ref": 144
+                        },
+                        "allow": {
+                          "ref": 146
+                        },
+                        "deny": {
+                          "ref": 148
+                        },
+                        "helpers": {
+                          "ref": 150
+                        },
+                        "attachSchema": {
+                          "ref": 152
+                        },
+                        "simpleSchema": {
+                          "ref": 154
+                        }
+                      }
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    }
+                  }
+                },
+                "onUnload": {
+                  "type": "undefined"
+                },
+                "allow": {
+                  "type": "undefined"
+                },
+                "allowFields": {
+                  "type": "undefined"
+                },
+                "changeSelector": {
+                  "type": "undefined"
+                },
+                "selector": {
+                  "type": "undefined"
+                },
+                "options": {
+                  "type": "object",
+                  "members": {
+                    "columns": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -25392,6 +32188,44 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "file": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            },
+            "summernote": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernote"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernoteColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -25418,10 +32252,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 32
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 32
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -25606,59 +32440,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 118
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 120
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 122
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 124
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 126
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 128
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 130
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 132
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 134
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 136
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 138
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 140
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 142
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 144
+                  "refID": 154
                 }
               }
             }
@@ -25805,46 +32639,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 118
-                },
-                "find": {
-                  "ref": 120
-                },
-                "findOne": {
-                  "ref": 122
-                },
-                "insert": {
-                  "ref": 124
-                },
-                "update": {
-                  "ref": 126
-                },
-                "remove": {
                   "ref": 128
                 },
-                "upsert": {
+                "find": {
                   "ref": 130
                 },
-                "rawCollection": {
+                "findOne": {
                   "ref": 132
                 },
-                "rawDatabase": {
+                "insert": {
                   "ref": 134
                 },
-                "allow": {
+                "update": {
                   "ref": 136
                 },
-                "deny": {
+                "remove": {
                   "ref": 138
                 },
-                "helpers": {
+                "upsert": {
                   "ref": 140
                 },
-                "attachSchema": {
+                "rawCollection": {
                   "ref": 142
                 },
-                "simpleSchema": {
+                "rawDatabase": {
                   "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
                 }
               }
             },
@@ -26034,46 +32868,1707 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 118
-            },
-            "find": {
-              "ref": 120
-            },
-            "findOne": {
-              "ref": 122
-            },
-            "insert": {
-              "ref": 124
-            },
-            "update": {
-              "ref": 126
-            },
-            "remove": {
               "ref": 128
             },
-            "upsert": {
+            "find": {
               "ref": 130
             },
-            "rawCollection": {
+            "findOne": {
               "ref": 132
             },
-            "rawDatabase": {
+            "insert": {
               "ref": 134
             },
-            "allow": {
+            "update": {
               "ref": 136
             },
-            "deny": {
+            "remove": {
               "ref": 138
             },
-            "helpers": {
+            "upsert": {
               "ref": 140
             },
-            "attachSchema": {
+            "rawCollection": {
               "ref": 142
             },
-            "simpleSchema": {
+            "rawDatabase": {
               "ref": 144
+            },
+            "allow": {
+              "ref": 146
+            },
+            "deny": {
+              "ref": 148
+            },
+            "helpers": {
+              "ref": 150
+            },
+            "attachSchema": {
+              "ref": 152
+            },
+            "simpleSchema": {
+              "ref": 154
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "members": {
+            "templates": {
+              "type": "object"
+            },
+            "collection": {
+              "type": "object",
+              "refID": 352,
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "addTemplate": {
+              "type": "function"
+            },
+            "getNewTemplateSchema": {
+              "type": "function"
+            },
+            "tabular": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "PagesIndex"
+                },
+                "collection": {
+                  "ref": 352
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "tabular_genericPub"
+                },
+                "sub": {
+                  "type": "object",
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.2"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 429,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 429
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3030/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 454
+                    },
+                    "autosubscribe": {
+                      "ref": 454
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 458,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsList": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "pages": {
+                              "type": "function"
+                            },
+                            "page": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "postsWithUsers": {
+                              "type": "function"
+                            },
+                            "postWithUser": {
+                              "type": "function"
+                            },
+                            "process": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/insert": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/update": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/remove": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/pages/insert": {
+                              "type": "function"
+                            },
+                            "/pages/update": {
+                              "type": "function"
+                            },
+                            "/pages/remove": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/process/insert": {
+                              "type": "function"
+                            },
+                            "/process/update": {
+                              "type": "function"
+                            },
+                            "/process/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 841,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 841
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 845
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 847
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 849
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 851
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 853
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 855
+                                        },
+                                        "on": {
+                                          "ref": 855
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 857
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 859
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 861
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 863
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 845
+                                },
+                                "installHandlers": {
+                                  "ref": 847
+                                },
+                                "middleware": {
+                                  "ref": 849
+                                },
+                                "setMaxListeners": {
+                                  "ref": 851
+                                },
+                                "emit": {
+                                  "ref": 853
+                                },
+                                "addListener": {
+                                  "ref": 855
+                                },
+                                "on": {
+                                  "ref": 855
+                                },
+                                "once": {
+                                  "ref": 857
+                                },
+                                "removeListener": {
+                                  "ref": 859
+                                },
+                                "removeAllListeners": {
+                                  "ref": 861
+                                },
+                                "listeners": {
+                                  "ref": 863
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 458
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 918
+                                },
+                                "toJSONValue": {
+                                  "ref": 918
+                                },
+                                "valueOf": {
+                                  "ref": 918
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function"
+                        },
+                        "getAll": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "attachRoles": {
+                              "ref": 128
+                            },
+                            "find": {
+                              "ref": 130
+                            },
+                            "findOne": {
+                              "ref": 132
+                            },
+                            "insert": {
+                              "ref": 134
+                            },
+                            "update": {
+                              "ref": 136
+                            },
+                            "remove": {
+                              "ref": 138
+                            },
+                            "upsert": {
+                              "ref": 140
+                            },
+                            "rawCollection": {
+                              "ref": 142
+                            },
+                            "rawDatabase": {
+                              "ref": 144
+                            },
+                            "allow": {
+                              "ref": 146
+                            },
+                            "deny": {
+                              "ref": 148
+                            },
+                            "helpers": {
+                              "ref": 150
+                            },
+                            "attachSchema": {
+                              "ref": 152
+                            },
+                            "simpleSchema": {
+                              "ref": 154
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "users": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "hookOptions": {
+                          "type": "object",
+                          "members": {
+                            "before": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "after": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "all": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "direct": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "attachRoles": {
+                          "ref": 128
+                        },
+                        "find": {
+                          "ref": 130
+                        },
+                        "findOne": {
+                          "ref": 132
+                        },
+                        "insert": {
+                          "ref": 134
+                        },
+                        "update": {
+                          "ref": 136
+                        },
+                        "remove": {
+                          "ref": 138
+                        },
+                        "upsert": {
+                          "ref": 140
+                        },
+                        "rawCollection": {
+                          "ref": 142
+                        },
+                        "rawDatabase": {
+                          "ref": 144
+                        },
+                        "allow": {
+                          "ref": 146
+                        },
+                        "deny": {
+                          "ref": 148
+                        },
+                        "helpers": {
+                          "ref": 150
+                        },
+                        "attachSchema": {
+                          "ref": 152
+                        },
+                        "simpleSchema": {
+                          "ref": 154
+                        }
+                      }
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    }
+                  }
+                },
+                "onUnload": {
+                  "type": "undefined"
+                },
+                "allow": {
+                  "type": "undefined"
+                },
+                "allowFields": {
+                  "type": "undefined"
+                },
+                "changeSelector": {
+                  "type": "undefined"
+                },
+                "selector": {
+                  "type": "undefined"
+                },
+                "options": {
+                  "type": "object",
+                  "members": {
+                    "columns": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -26139,6 +34634,44 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "file": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            },
+            "summernote": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernote"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernoteColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -26165,10 +34698,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 32
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 32
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -26353,59 +34886,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 118
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 120
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 122
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 124
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 126
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 128
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 130
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 132
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 134
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 136
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 138
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 140
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 142
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 144
+                  "refID": 154
                 }
               }
             }
@@ -26552,46 +35085,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 118
-                },
-                "find": {
-                  "ref": 120
-                },
-                "findOne": {
-                  "ref": 122
-                },
-                "insert": {
-                  "ref": 124
-                },
-                "update": {
-                  "ref": 126
-                },
-                "remove": {
                   "ref": 128
                 },
-                "upsert": {
+                "find": {
                   "ref": 130
                 },
-                "rawCollection": {
+                "findOne": {
                   "ref": 132
                 },
-                "rawDatabase": {
+                "insert": {
                   "ref": 134
                 },
-                "allow": {
+                "update": {
                   "ref": 136
                 },
-                "deny": {
+                "remove": {
                   "ref": 138
                 },
-                "helpers": {
+                "upsert": {
                   "ref": 140
                 },
-                "attachSchema": {
+                "rawCollection": {
                   "ref": 142
                 },
-                "simpleSchema": {
+                "rawDatabase": {
                   "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
                 }
               }
             },
@@ -26781,46 +35314,1707 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 118
-            },
-            "find": {
-              "ref": 120
-            },
-            "findOne": {
-              "ref": 122
-            },
-            "insert": {
-              "ref": 124
-            },
-            "update": {
-              "ref": 126
-            },
-            "remove": {
               "ref": 128
             },
-            "upsert": {
+            "find": {
               "ref": 130
             },
-            "rawCollection": {
+            "findOne": {
               "ref": 132
             },
-            "rawDatabase": {
+            "insert": {
               "ref": 134
             },
-            "allow": {
+            "update": {
               "ref": 136
             },
-            "deny": {
+            "remove": {
               "ref": 138
             },
-            "helpers": {
+            "upsert": {
               "ref": 140
             },
-            "attachSchema": {
+            "rawCollection": {
               "ref": 142
             },
-            "simpleSchema": {
+            "rawDatabase": {
               "ref": 144
+            },
+            "allow": {
+              "ref": 146
+            },
+            "deny": {
+              "ref": 148
+            },
+            "helpers": {
+              "ref": 150
+            },
+            "attachSchema": {
+              "ref": 152
+            },
+            "simpleSchema": {
+              "ref": 154
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "members": {
+            "templates": {
+              "type": "object"
+            },
+            "collection": {
+              "type": "object",
+              "refID": 352,
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "addTemplate": {
+              "type": "function"
+            },
+            "getNewTemplateSchema": {
+              "type": "function"
+            },
+            "tabular": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "PagesIndex"
+                },
+                "collection": {
+                  "ref": 352
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "tabular_genericPub"
+                },
+                "sub": {
+                  "type": "object",
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.2"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 429,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 429
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3030/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 454
+                    },
+                    "autosubscribe": {
+                      "ref": 454
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 458,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsList": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "pages": {
+                              "type": "function"
+                            },
+                            "page": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "postsWithUsers": {
+                              "type": "function"
+                            },
+                            "postWithUser": {
+                              "type": "function"
+                            },
+                            "process": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/insert": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/update": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/remove": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/pages/insert": {
+                              "type": "function"
+                            },
+                            "/pages/update": {
+                              "type": "function"
+                            },
+                            "/pages/remove": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/process/insert": {
+                              "type": "function"
+                            },
+                            "/process/update": {
+                              "type": "function"
+                            },
+                            "/process/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 841,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 841
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 845
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 847
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 849
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 851
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 853
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 855
+                                        },
+                                        "on": {
+                                          "ref": 855
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 857
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 859
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 861
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 863
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 845
+                                },
+                                "installHandlers": {
+                                  "ref": 847
+                                },
+                                "middleware": {
+                                  "ref": 849
+                                },
+                                "setMaxListeners": {
+                                  "ref": 851
+                                },
+                                "emit": {
+                                  "ref": 853
+                                },
+                                "addListener": {
+                                  "ref": 855
+                                },
+                                "on": {
+                                  "ref": 855
+                                },
+                                "once": {
+                                  "ref": 857
+                                },
+                                "removeListener": {
+                                  "ref": 859
+                                },
+                                "removeAllListeners": {
+                                  "ref": 861
+                                },
+                                "listeners": {
+                                  "ref": 863
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 458
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 918
+                                },
+                                "toJSONValue": {
+                                  "ref": 918
+                                },
+                                "valueOf": {
+                                  "ref": 918
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function"
+                        },
+                        "getAll": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "attachRoles": {
+                              "ref": 128
+                            },
+                            "find": {
+                              "ref": 130
+                            },
+                            "findOne": {
+                              "ref": 132
+                            },
+                            "insert": {
+                              "ref": 134
+                            },
+                            "update": {
+                              "ref": 136
+                            },
+                            "remove": {
+                              "ref": 138
+                            },
+                            "upsert": {
+                              "ref": 140
+                            },
+                            "rawCollection": {
+                              "ref": 142
+                            },
+                            "rawDatabase": {
+                              "ref": 144
+                            },
+                            "allow": {
+                              "ref": 146
+                            },
+                            "deny": {
+                              "ref": 148
+                            },
+                            "helpers": {
+                              "ref": 150
+                            },
+                            "attachSchema": {
+                              "ref": 152
+                            },
+                            "simpleSchema": {
+                              "ref": 154
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "users": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "hookOptions": {
+                          "type": "object",
+                          "members": {
+                            "before": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "after": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "all": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "direct": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "attachRoles": {
+                          "ref": 128
+                        },
+                        "find": {
+                          "ref": 130
+                        },
+                        "findOne": {
+                          "ref": 132
+                        },
+                        "insert": {
+                          "ref": 134
+                        },
+                        "update": {
+                          "ref": 136
+                        },
+                        "remove": {
+                          "ref": 138
+                        },
+                        "upsert": {
+                          "ref": 140
+                        },
+                        "rawCollection": {
+                          "ref": 142
+                        },
+                        "rawDatabase": {
+                          "ref": 144
+                        },
+                        "allow": {
+                          "ref": 146
+                        },
+                        "deny": {
+                          "ref": 148
+                        },
+                        "helpers": {
+                          "ref": 150
+                        },
+                        "attachSchema": {
+                          "ref": 152
+                        },
+                        "simpleSchema": {
+                          "ref": 154
+                        }
+                      }
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    }
+                  }
+                },
+                "onUnload": {
+                  "type": "undefined"
+                },
+                "allow": {
+                  "type": "undefined"
+                },
+                "allowFields": {
+                  "type": "undefined"
+                },
+                "changeSelector": {
+                  "type": "undefined"
+                },
+                "selector": {
+                  "type": "undefined"
+                },
+                "options": {
+                  "type": "object",
+                  "members": {
+                    "columns": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -26886,6 +37080,44 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "file": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            },
+            "summernote": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernote"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernoteColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -26912,10 +37144,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 32
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 32
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -27100,59 +37332,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 118
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 120
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 122
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 124
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 126
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 128
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 130
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 132
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 134
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 136
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 138
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 140
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 142
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 144
+                  "refID": 154
                 }
               }
             }
@@ -27299,46 +37531,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 118
-                },
-                "find": {
-                  "ref": 120
-                },
-                "findOne": {
-                  "ref": 122
-                },
-                "insert": {
-                  "ref": 124
-                },
-                "update": {
-                  "ref": 126
-                },
-                "remove": {
                   "ref": 128
                 },
-                "upsert": {
+                "find": {
                   "ref": 130
                 },
-                "rawCollection": {
+                "findOne": {
                   "ref": 132
                 },
-                "rawDatabase": {
+                "insert": {
                   "ref": 134
                 },
-                "allow": {
+                "update": {
                   "ref": 136
                 },
-                "deny": {
+                "remove": {
                   "ref": 138
                 },
-                "helpers": {
+                "upsert": {
                   "ref": 140
                 },
-                "attachSchema": {
+                "rawCollection": {
                   "ref": 142
                 },
-                "simpleSchema": {
+                "rawDatabase": {
                   "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
                 }
               }
             },
@@ -27528,46 +37760,1707 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 118
-            },
-            "find": {
-              "ref": 120
-            },
-            "findOne": {
-              "ref": 122
-            },
-            "insert": {
-              "ref": 124
-            },
-            "update": {
-              "ref": 126
-            },
-            "remove": {
               "ref": 128
             },
-            "upsert": {
+            "find": {
               "ref": 130
             },
-            "rawCollection": {
+            "findOne": {
               "ref": 132
             },
-            "rawDatabase": {
+            "insert": {
               "ref": 134
             },
-            "allow": {
+            "update": {
               "ref": 136
             },
-            "deny": {
+            "remove": {
               "ref": 138
             },
-            "helpers": {
+            "upsert": {
               "ref": 140
             },
-            "attachSchema": {
+            "rawCollection": {
               "ref": 142
             },
-            "simpleSchema": {
+            "rawDatabase": {
               "ref": 144
+            },
+            "allow": {
+              "ref": 146
+            },
+            "deny": {
+              "ref": 148
+            },
+            "helpers": {
+              "ref": 150
+            },
+            "attachSchema": {
+              "ref": 152
+            },
+            "simpleSchema": {
+              "ref": 154
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "members": {
+            "templates": {
+              "type": "object"
+            },
+            "collection": {
+              "type": "object",
+              "refID": 352,
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "addTemplate": {
+              "type": "function"
+            },
+            "getNewTemplateSchema": {
+              "type": "function"
+            },
+            "tabular": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "PagesIndex"
+                },
+                "collection": {
+                  "ref": 352
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "tabular_genericPub"
+                },
+                "sub": {
+                  "type": "object",
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.2"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 429,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 429
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3030/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 454
+                    },
+                    "autosubscribe": {
+                      "ref": 454
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 458,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsList": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "pages": {
+                              "type": "function"
+                            },
+                            "page": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "postsWithUsers": {
+                              "type": "function"
+                            },
+                            "postWithUser": {
+                              "type": "function"
+                            },
+                            "process": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/insert": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/update": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/remove": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/pages/insert": {
+                              "type": "function"
+                            },
+                            "/pages/update": {
+                              "type": "function"
+                            },
+                            "/pages/remove": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/process/insert": {
+                              "type": "function"
+                            },
+                            "/process/update": {
+                              "type": "function"
+                            },
+                            "/process/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 841,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 841
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 845
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 847
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 849
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 851
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 853
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 855
+                                        },
+                                        "on": {
+                                          "ref": 855
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 857
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 859
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 861
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 863
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 845
+                                },
+                                "installHandlers": {
+                                  "ref": 847
+                                },
+                                "middleware": {
+                                  "ref": 849
+                                },
+                                "setMaxListeners": {
+                                  "ref": 851
+                                },
+                                "emit": {
+                                  "ref": 853
+                                },
+                                "addListener": {
+                                  "ref": 855
+                                },
+                                "on": {
+                                  "ref": 855
+                                },
+                                "once": {
+                                  "ref": 857
+                                },
+                                "removeListener": {
+                                  "ref": 859
+                                },
+                                "removeAllListeners": {
+                                  "ref": 861
+                                },
+                                "listeners": {
+                                  "ref": 863
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 458
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 918
+                                },
+                                "toJSONValue": {
+                                  "ref": 918
+                                },
+                                "valueOf": {
+                                  "ref": 918
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function"
+                        },
+                        "getAll": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "attachRoles": {
+                              "ref": 128
+                            },
+                            "find": {
+                              "ref": 130
+                            },
+                            "findOne": {
+                              "ref": 132
+                            },
+                            "insert": {
+                              "ref": 134
+                            },
+                            "update": {
+                              "ref": 136
+                            },
+                            "remove": {
+                              "ref": 138
+                            },
+                            "upsert": {
+                              "ref": 140
+                            },
+                            "rawCollection": {
+                              "ref": 142
+                            },
+                            "rawDatabase": {
+                              "ref": 144
+                            },
+                            "allow": {
+                              "ref": 146
+                            },
+                            "deny": {
+                              "ref": 148
+                            },
+                            "helpers": {
+                              "ref": 150
+                            },
+                            "attachSchema": {
+                              "ref": 152
+                            },
+                            "simpleSchema": {
+                              "ref": 154
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "users": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "hookOptions": {
+                          "type": "object",
+                          "members": {
+                            "before": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "after": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "all": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "direct": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "attachRoles": {
+                          "ref": 128
+                        },
+                        "find": {
+                          "ref": 130
+                        },
+                        "findOne": {
+                          "ref": 132
+                        },
+                        "insert": {
+                          "ref": 134
+                        },
+                        "update": {
+                          "ref": 136
+                        },
+                        "remove": {
+                          "ref": 138
+                        },
+                        "upsert": {
+                          "ref": 140
+                        },
+                        "rawCollection": {
+                          "ref": 142
+                        },
+                        "rawDatabase": {
+                          "ref": 144
+                        },
+                        "allow": {
+                          "ref": 146
+                        },
+                        "deny": {
+                          "ref": 148
+                        },
+                        "helpers": {
+                          "ref": 150
+                        },
+                        "attachSchema": {
+                          "ref": 152
+                        },
+                        "simpleSchema": {
+                          "ref": 154
+                        }
+                      }
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    }
+                  }
+                },
+                "onUnload": {
+                  "type": "undefined"
+                },
+                "allow": {
+                  "type": "undefined"
+                },
+                "allowFields": {
+                  "type": "undefined"
+                },
+                "changeSelector": {
+                  "type": "undefined"
+                },
+                "selector": {
+                  "type": "undefined"
+                },
+                "options": {
+                  "type": "object",
+                  "members": {
+                    "columns": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -27646,6 +39539,44 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "file": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            },
+            "summernote": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernote"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernoteColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -27672,10 +39603,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 32
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 32
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -27860,59 +39791,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 118
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 120
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 122
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 124
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 126
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 128
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 130
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 132
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 134
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 136
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 138
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 140
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 142
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 144
+                  "refID": 154
                 }
               }
             }
@@ -28059,46 +39990,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 118
-                },
-                "find": {
-                  "ref": 120
-                },
-                "findOne": {
-                  "ref": 122
-                },
-                "insert": {
-                  "ref": 124
-                },
-                "update": {
-                  "ref": 126
-                },
-                "remove": {
                   "ref": 128
                 },
-                "upsert": {
+                "find": {
                   "ref": 130
                 },
-                "rawCollection": {
+                "findOne": {
                   "ref": 132
                 },
-                "rawDatabase": {
+                "insert": {
                   "ref": 134
                 },
-                "allow": {
+                "update": {
                   "ref": 136
                 },
-                "deny": {
+                "remove": {
                   "ref": 138
                 },
-                "helpers": {
+                "upsert": {
                   "ref": 140
                 },
-                "attachSchema": {
+                "rawCollection": {
                   "ref": 142
                 },
-                "simpleSchema": {
+                "rawDatabase": {
                   "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
                 }
               }
             },
@@ -28288,52 +40219,4163 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 118
-            },
-            "find": {
-              "ref": 120
-            },
-            "findOne": {
-              "ref": 122
-            },
-            "insert": {
-              "ref": 124
-            },
-            "update": {
-              "ref": 126
-            },
-            "remove": {
               "ref": 128
             },
-            "upsert": {
+            "find": {
               "ref": 130
             },
-            "rawCollection": {
+            "findOne": {
               "ref": 132
             },
-            "rawDatabase": {
+            "insert": {
               "ref": 134
             },
-            "allow": {
+            "update": {
               "ref": 136
             },
-            "deny": {
+            "remove": {
               "ref": 138
             },
-            "helpers": {
+            "upsert": {
               "ref": 140
             },
-            "attachSchema": {
+            "rawCollection": {
               "ref": 142
             },
-            "simpleSchema": {
+            "rawDatabase": {
               "ref": 144
+            },
+            "allow": {
+              "ref": 146
+            },
+            "deny": {
+              "ref": 148
+            },
+            "helpers": {
+              "ref": 150
+            },
+            "attachSchema": {
+              "ref": 152
+            },
+            "simpleSchema": {
+              "ref": 154
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "members": {
+            "templates": {
+              "type": "object"
+            },
+            "collection": {
+              "type": "object",
+              "refID": 352,
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "addTemplate": {
+              "type": "function"
+            },
+            "getNewTemplateSchema": {
+              "type": "function"
+            },
+            "tabular": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "PagesIndex"
+                },
+                "collection": {
+                  "ref": 352
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "tabular_genericPub"
+                },
+                "sub": {
+                  "type": "object",
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.2"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 429,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 429
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3030/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 454
+                    },
+                    "autosubscribe": {
+                      "ref": 454
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 458,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsList": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "pages": {
+                              "type": "function"
+                            },
+                            "page": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "postsWithUsers": {
+                              "type": "function"
+                            },
+                            "postWithUser": {
+                              "type": "function"
+                            },
+                            "process": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/insert": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/update": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/remove": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/pages/insert": {
+                              "type": "function"
+                            },
+                            "/pages/update": {
+                              "type": "function"
+                            },
+                            "/pages/remove": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/process/insert": {
+                              "type": "function"
+                            },
+                            "/process/update": {
+                              "type": "function"
+                            },
+                            "/process/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 841,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 841
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 845
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 847
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 849
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 851
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 853
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 855
+                                        },
+                                        "on": {
+                                          "ref": 855
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 857
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 859
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 861
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 863
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 845
+                                },
+                                "installHandlers": {
+                                  "ref": 847
+                                },
+                                "middleware": {
+                                  "ref": 849
+                                },
+                                "setMaxListeners": {
+                                  "ref": 851
+                                },
+                                "emit": {
+                                  "ref": 853
+                                },
+                                "addListener": {
+                                  "ref": 855
+                                },
+                                "on": {
+                                  "ref": 855
+                                },
+                                "once": {
+                                  "ref": 857
+                                },
+                                "removeListener": {
+                                  "ref": 859
+                                },
+                                "removeAllListeners": {
+                                  "ref": 861
+                                },
+                                "listeners": {
+                                  "ref": 863
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 458
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 918
+                                },
+                                "toJSONValue": {
+                                  "ref": 918
+                                },
+                                "valueOf": {
+                                  "ref": 918
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function"
+                        },
+                        "getAll": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "attachRoles": {
+                              "ref": 128
+                            },
+                            "find": {
+                              "ref": 130
+                            },
+                            "findOne": {
+                              "ref": 132
+                            },
+                            "insert": {
+                              "ref": 134
+                            },
+                            "update": {
+                              "ref": 136
+                            },
+                            "remove": {
+                              "ref": 138
+                            },
+                            "upsert": {
+                              "ref": 140
+                            },
+                            "rawCollection": {
+                              "ref": 142
+                            },
+                            "rawDatabase": {
+                              "ref": 144
+                            },
+                            "allow": {
+                              "ref": 146
+                            },
+                            "deny": {
+                              "ref": 148
+                            },
+                            "helpers": {
+                              "ref": 150
+                            },
+                            "attachSchema": {
+                              "ref": 152
+                            },
+                            "simpleSchema": {
+                              "ref": 154
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "users": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "hookOptions": {
+                          "type": "object",
+                          "members": {
+                            "before": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "after": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "all": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "direct": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "attachRoles": {
+                          "ref": 128
+                        },
+                        "find": {
+                          "ref": 130
+                        },
+                        "findOne": {
+                          "ref": 132
+                        },
+                        "insert": {
+                          "ref": 134
+                        },
+                        "update": {
+                          "ref": 136
+                        },
+                        "remove": {
+                          "ref": 138
+                        },
+                        "upsert": {
+                          "ref": 140
+                        },
+                        "rawCollection": {
+                          "ref": 142
+                        },
+                        "rawDatabase": {
+                          "ref": 144
+                        },
+                        "allow": {
+                          "ref": 146
+                        },
+                        "deny": {
+                          "ref": 148
+                        },
+                        "helpers": {
+                          "ref": 150
+                        },
+                        "attachSchema": {
+                          "ref": 152
+                        },
+                        "simpleSchema": {
+                          "ref": 154
+                        }
+                      }
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    }
+                  }
+                },
+                "onUnload": {
+                  "type": "undefined"
+                },
+                "allow": {
+                  "type": "undefined"
+                },
+                "allowFields": {
+                  "type": "undefined"
+                },
+                "changeSelector": {
+                  "type": "undefined"
+                },
+                "selector": {
+                  "type": "undefined"
+                },
+                "options": {
+                  "type": "object",
+                  "members": {
+                    "columns": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
             }
           }
         }
       }
     }
   },
+  "orionjs:filesystem": {
+    "orion": {
+      "type": "object",
+      "members": {
+        "helpers": {
+          "type": "object",
+          "members": {
+            "searchObjectWithDots": {
+              "type": "function"
+            },
+            "deepExtend": {
+              "type": "function"
+            },
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
+            },
+            "createdBy": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdByPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "file": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFileUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            },
+            "summernote": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernote"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesSummernoteColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "attribute": {
+          "type": "function"
+        },
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
+                  "type": "function",
+                  "refID": 42
+                },
+                "addValidator": {
+                  "ref": 42
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "invitations": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "type": "function",
+                  "refID": 128
+                },
+                "find": {
+                  "type": "function",
+                  "refID": 130
+                },
+                "findOne": {
+                  "type": "function",
+                  "refID": 132
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 134
+                },
+                "update": {
+                  "type": "function",
+                  "refID": 136
+                },
+                "remove": {
+                  "type": "function",
+                  "refID": 138
+                },
+                "upsert": {
+                  "type": "function",
+                  "refID": 140
+                },
+                "rawCollection": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "rawDatabase": {
+                  "type": "function",
+                  "refID": 144
+                },
+                "allow": {
+                  "type": "function",
+                  "refID": 146
+                },
+                "deny": {
+                  "type": "function",
+                  "refID": 148
+                },
+                "helpers": {
+                  "type": "function",
+                  "refID": 150
+                },
+                "attachSchema": {
+                  "type": "function",
+                  "refID": 152
+                },
+                "simpleSchema": {
+                  "type": "function",
+                  "refID": 154
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
+              "type": "object",
+              "members": {
+                "onCreated": {
+                  "type": "array"
+                }
+              }
+            },
+            "onCreated": {
+              "type": "function"
+            }
+          }
+        },
+        "collection": {
+          "type": "function"
+        },
+        "dictionary": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "function"
+                },
+                "update": {
+                  "type": "function"
+                },
+                "remove": {
+                  "type": "function"
+                },
+                "find": {
+                  "type": "function"
+                },
+                "findOne": {
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "attachRoles": {
+              "ref": 128
+            },
+            "find": {
+              "ref": 130
+            },
+            "findOne": {
+              "ref": 132
+            },
+            "insert": {
+              "ref": 134
+            },
+            "update": {
+              "ref": 136
+            },
+            "remove": {
+              "ref": 138
+            },
+            "upsert": {
+              "ref": 140
+            },
+            "rawCollection": {
+              "ref": 142
+            },
+            "rawDatabase": {
+              "ref": 144
+            },
+            "allow": {
+              "ref": 146
+            },
+            "deny": {
+              "ref": 148
+            },
+            "helpers": {
+              "ref": 150
+            },
+            "attachSchema": {
+              "ref": 152
+            },
+            "simpleSchema": {
+              "ref": 154
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "members": {
+            "templates": {
+              "type": "object"
+            },
+            "collection": {
+              "type": "object",
+              "refID": 352,
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "attachRoles": {
+                  "ref": 128
+                },
+                "find": {
+                  "ref": 130
+                },
+                "findOne": {
+                  "ref": 132
+                },
+                "insert": {
+                  "ref": 134
+                },
+                "update": {
+                  "ref": 136
+                },
+                "remove": {
+                  "ref": 138
+                },
+                "upsert": {
+                  "ref": 140
+                },
+                "rawCollection": {
+                  "ref": 142
+                },
+                "rawDatabase": {
+                  "ref": 144
+                },
+                "allow": {
+                  "ref": 146
+                },
+                "deny": {
+                  "ref": 148
+                },
+                "helpers": {
+                  "ref": 150
+                },
+                "attachSchema": {
+                  "ref": 152
+                },
+                "simpleSchema": {
+                  "ref": 154
+                }
+              }
+            },
+            "addTemplate": {
+              "type": "function"
+            },
+            "getNewTemplateSchema": {
+              "type": "function"
+            },
+            "tabular": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "PagesIndex"
+                },
+                "collection": {
+                  "ref": 352
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "tabular_genericPub"
+                },
+                "sub": {
+                  "type": "object",
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.2"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 429,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 429
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3030/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 454
+                    },
+                    "autosubscribe": {
+                      "ref": 454
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 458,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsList": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "pages": {
+                              "type": "function"
+                            },
+                            "page": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "postsWithUsers": {
+                              "type": "function"
+                            },
+                            "postWithUser": {
+                              "type": "function"
+                            },
+                            "process": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/insert": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/update": {
+                              "type": "function"
+                            },
+                            "/enrolledUsers/remove": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/pages/insert": {
+                              "type": "function"
+                            },
+                            "/pages/update": {
+                              "type": "function"
+                            },
+                            "/pages/remove": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/process/insert": {
+                              "type": "function"
+                            },
+                            "/process/update": {
+                              "type": "function"
+                            },
+                            "/process/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 841,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 841
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 845
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 847
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 849
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 851
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 853
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 855
+                                        },
+                                        "on": {
+                                          "ref": 855
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 857
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 859
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 861
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 863
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 845
+                                },
+                                "installHandlers": {
+                                  "ref": 847
+                                },
+                                "middleware": {
+                                  "ref": 849
+                                },
+                                "setMaxListeners": {
+                                  "ref": 851
+                                },
+                                "emit": {
+                                  "ref": 853
+                                },
+                                "addListener": {
+                                  "ref": 855
+                                },
+                                "on": {
+                                  "ref": 855
+                                },
+                                "once": {
+                                  "ref": 857
+                                },
+                                "removeListener": {
+                                  "ref": 859
+                                },
+                                "removeAllListeners": {
+                                  "ref": 861
+                                },
+                                "listeners": {
+                                  "ref": 863
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 458
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 918
+                                },
+                                "toJSONValue": {
+                                  "ref": 918
+                                },
+                                "valueOf": {
+                                  "ref": 918
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function"
+                        },
+                        "getAll": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "attachRoles": {
+                              "ref": 128
+                            },
+                            "find": {
+                              "ref": 130
+                            },
+                            "findOne": {
+                              "ref": 132
+                            },
+                            "insert": {
+                              "ref": 134
+                            },
+                            "update": {
+                              "ref": 136
+                            },
+                            "remove": {
+                              "ref": 138
+                            },
+                            "upsert": {
+                              "ref": 140
+                            },
+                            "rawCollection": {
+                              "ref": 142
+                            },
+                            "rawDatabase": {
+                              "ref": 144
+                            },
+                            "allow": {
+                              "ref": 146
+                            },
+                            "deny": {
+                              "ref": 148
+                            },
+                            "helpers": {
+                              "ref": 150
+                            },
+                            "attachSchema": {
+                              "ref": 152
+                            },
+                            "simpleSchema": {
+                              "ref": 154
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "users": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "hookOptions": {
+                          "type": "object",
+                          "members": {
+                            "before": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "after": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "all": {
+                              "type": "object",
+                              "members": {
+                                "insert": {
+                                  "type": "object"
+                                },
+                                "update": {
+                                  "type": "object"
+                                },
+                                "remove": {
+                                  "type": "object"
+                                },
+                                "find": {
+                                  "type": "object"
+                                },
+                                "findOne": {
+                                  "type": "object"
+                                },
+                                "all": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "direct": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "remove": {
+                              "type": "function"
+                            },
+                            "find": {
+                              "type": "function"
+                            },
+                            "findOne": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "attachRoles": {
+                          "ref": 128
+                        },
+                        "find": {
+                          "ref": 130
+                        },
+                        "findOne": {
+                          "ref": 132
+                        },
+                        "insert": {
+                          "ref": 134
+                        },
+                        "update": {
+                          "ref": 136
+                        },
+                        "remove": {
+                          "ref": 138
+                        },
+                        "upsert": {
+                          "ref": 140
+                        },
+                        "rawCollection": {
+                          "ref": 142
+                        },
+                        "rawDatabase": {
+                          "ref": 144
+                        },
+                        "allow": {
+                          "ref": 146
+                        },
+                        "deny": {
+                          "ref": 148
+                        },
+                        "helpers": {
+                          "ref": 150
+                        },
+                        "attachSchema": {
+                          "ref": 152
+                        },
+                        "simpleSchema": {
+                          "ref": 154
+                        }
+                      }
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    }
+                  }
+                },
+                "onUnload": {
+                  "type": "undefined"
+                },
+                "allow": {
+                  "type": "undefined"
+                },
+                "allowFields": {
+                  "type": "undefined"
+                },
+                "changeSelector": {
+                  "type": "undefined"
+                },
+                "selector": {
+                  "type": "undefined"
+                },
+                "options": {
+                  "type": "object",
+                  "members": {
+                    "columns": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "orionjs:file-attribute": {},
+  "orionjs:pages": {},
+  "summernote:standalone": {},
+  "orionjs:summernote": {},
   "service-configuration": {
     "ServiceConfiguration": {
       "type": "object",

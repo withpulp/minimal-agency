@@ -22,3 +22,6 @@ nicolaslopezj:roles
 orionjs:core
 twbs:bootstrap
 orionjs:bootstrap
+orionjs:file-attribute
+orionjs:pages
+orionjs:summernote
