@@ -53,7 +53,7 @@ Fixtures.quotes = [
   {
     author: 'Isaac Asimov',
     quote: 'I do not fear computers. I fear the lack of them.'
-  }
+  },
   {
     author: 'Richard P. Feynman',
     quote: 'It doesn\'t matter how beautiful your theory is, it doesn\'t matter how smart you are. If it doesn\'t agree with experiment, it\'s wrong.'
