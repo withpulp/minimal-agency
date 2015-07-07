@@ -64,14 +64,34 @@
   }
 
   .toolbar {
-    position: absolute;
-    top: 0;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
     right: 0;
-    font-size: @font-size-base;
+    margin: @space-mini;
+    padding: @space-micro @space-mini;
+    border-radius: @space-tiny;
+    background-color: @background-color;
+    color: @light;
+    font-size: @font-size-small;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      right: -@space-mini;
+      bottom: 0;
+      width: @space-small;
+      height: @space-small;
+      border-left: @space-mini solid @background-color;
+      border-bottom-left-radius: @full;
+      z-index: -1;
+    }
 
     .route.link {
+      color: @light;
       font-family: @font-family-base;
-      font-size: @font-size-base;
+      font-size: @font-size-small;
     }
   }
 }
