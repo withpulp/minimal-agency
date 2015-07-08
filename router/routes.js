@@ -88,7 +88,7 @@ Router.route('/portfolio', {
   SEO.set({ title: Meteor.App.NAME });
 });
 
-Router.route('/blog', {
+Router.route('/blog/', {
 	name: 'blog',
 	data: function() {
 		return [
@@ -107,6 +107,32 @@ Router.route('/blog', {
   action: function () {
     if (this.ready())
       this.render('blog');
+    else
+      this.render('loading');
+  }
+}, function () {
+  SEO.set({ title: Meteor.App.NAME });
+});
+
+Router.route('/blog/:_id', {
+  name: 'post',
+  data: function() {
+    return [
+			Posts.findOne(this.params._id),
+			Quotes.find(),
+			Contacts.find()
+		]
+  },
+  waitOn: function () {
+		return [
+			Meteor.subscribe('post', this.params._id),
+			Meteor.subscribe('quotes'),
+			Meteor.subscribe('contacts')
+		]
+  },
+  action: function () {
+    if (this.ready())
+      this.render('post')
     else
       this.render('loading');
   }
