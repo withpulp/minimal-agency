@@ -19,35 +19,43 @@
     padding: 0 @eighth + @sixteenth;
   }
 
-  .root.view {
-    margin: 0;
+  .view {
     padding: @space-small + @space-tiny;
-  }
 
-  .about.view {
+    &.root {
+      margin: 0;
+    }
 
-    .segment {
+    &.about {
+      padding-top: 0;
 
-      &.header {
-        height: @space-god;
-        border-bottom: @space-micro solid @dark;
-        background-image: @about-header-bg;
-        background-size: cover;
-        background-position: @half @half;
-        background-repeat: no-repeat;
+      .segment {
 
-        .title {
-          text-align: center;
-          margin-bottom: 0;
+        &.header {
+          height: @space-god;
+          border-bottom: @space-micro solid @dark;
+          background-image: @about-header-bg;
+          background-size: cover;
+          background-position: @half @half;
+          background-repeat: no-repeat;
+
+          .title {
+            text-align: center;
+            margin-bottom: 0;
+          }
+        }
+
+        &.summary {
+
+          .statement {
+            text-align: center;
+          }
         }
       }
+    }
 
-      &.summary {
-
-        .statement {
-          text-align: center;
-        }
-      }
+    &.blog {
+      margin: 0;
     }
   }
 }
