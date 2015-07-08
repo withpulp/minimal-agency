@@ -3,6 +3,26 @@ orion.dictionary.addDefinition('introMission', 'root', {
   label: 'Intro Mission Statement'
 });
 
+orion.dictionary.addDefinition('introSupportingMissionBold', 'root', {
+  type: String,
+  label: 'Intro Supporting Mission Bold'
+});
+
+orion.dictionary.addDefinition('introSupportingMissionEmphasis', 'root', {
+  type: String,
+  label: 'Intro Supporting Mission Emphasis'
+});
+
+orion.dictionary.addDefinition('introSupportingMissionVerb', 'root', {
+  type: String,
+  label: 'Intro Supporting Mission Verb'
+});
+
+orion.dictionary.addDefinition('introSupportingMissionHighlight', 'root', {
+  type: String,
+  label: 'Intro Supporting Mission Highlight'
+});
+
 orion.dictionary.addDefinition('introSupportingMission', 'root', {
   type: String,
   label: 'Intro Supporting Mission Statement'
