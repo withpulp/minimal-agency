@@ -8,7 +8,15 @@
   z-index: 1;
 
   @media (min-width: @tablet-width) {
-    padding: 0 8%;
+    padding: 0 @sixteenth;
+  }
+
+  @media (min-width: @desktop-width) {
+    padding: 0 @eighth;
+  }
+
+  @media (min-width: @huge-desktop-width) {
+    padding: 0 @eighth + @sixteenth;
   }
 
   .root.view {
