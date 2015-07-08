@@ -22,7 +22,6 @@ html {
       perspective-origin: 0 @half;
 
       .menu {
-        filter: blur(@space-tiny);
         transform-origin: @full @half 0;
         transition: all @slowest ease;
         transform: translateX(-@full)
@@ -36,7 +35,6 @@ html {
         min-height: @fluid-full;
 
         &.pusher {
-          filter: blur(0);
           overflow-scrolling: touch;
           transform-style: preserve-3d;
           transform-origin: 0 @half 0;
@@ -47,7 +45,6 @@ html {
       &.navigator {
 
         .menu {
-          filter: blur(0);
           transform: translateX(0)
                      translateX(0)
                      scale(1)
@@ -55,7 +52,6 @@ html {
         }
 
         .pusher {
-          filter: blur(@space-tiny);
           transform: translateX(@full)
                      rotateY(45deg);
         }
