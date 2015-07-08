@@ -40,8 +40,5 @@ Posts.attachSchema(new SimpleSchema({
 Posts.helpers({
   getCreator: function () {
     return Meteor.users.findOne({ _id: this.createdBy });
-  },
-  posts: function() {
-    return Posts.find();
   }
 });

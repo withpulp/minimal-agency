@@ -1,13 +1,24 @@
 <template name="posts">
   <div class="posts article module">
-    {{#each limitedPosts}}
-      <article class="post">
-    	  <h4 class="title">
-          <a class="id link" href="#">{{title}}</a>
-        </h4>
-        <p class="excerpt">{{excerpt}}</p>
-      </article>
-    {{/each}}
-    <a class="route link" href="{{pathFor 'blog'}}">View our blog</a>
+    {{#if root}}
+      {{#each limitedPosts}}
+        <article class="post">
+    	    <h4 class="title">
+            <a class="id link" href="{{pathFor 'post'}}">{{title}}</a>
+          </h4>
+          <p class="excerpt">{{excerpt}}</p>
+        </article>
+      {{/each}}
+      <a class="route link" href="{{pathFor 'blog'}}">View our blog</a>
+    {{else}}
+      {{#each posts}}
+        <article class="post">
+          <h4 class="title">
+            <a class="id link" href="{{pathFor 'post'}}">{{title}}</a>
+          </h4>
+          <p class="excerpt">{{excerpt}}</p>
+        </article>
+      {{/each}}
+    {{/if}}
   </div>
 </template>
