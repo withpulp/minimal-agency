@@ -23,6 +23,14 @@ Fixtures.quotes = [
     quote: 'Logic will get you from A to B. Imagination will take you everywhere.'
   },
   {
+    author: 'Richard P. Feynman',
+    quote: 'It doesn\'t matter how beautiful your theory is, it doesn\'t matter how smart you are. If it doesn\'t agree with experiment, it\'s wrong.'
+  },
+  {
+    author: 'Stephen Hawking',
+    quote: 'Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.'
+  },
+  {
     author: 'Greg Egan',
     quote: 'Widespread caffeine use explains a lot about the twentieth century.'
   },
@@ -53,10 +61,6 @@ Fixtures.quotes = [
   {
     author: 'Isaac Asimov',
     quote: 'I do not fear computers. I fear the lack of them.'
-  },
-  {
-    author: 'Richard P. Feynman',
-    quote: 'It doesn\'t matter how beautiful your theory is, it doesn\'t matter how smart you are. If it doesn\'t agree with experiment, it\'s wrong.'
   },
   {
     author: 'Leonardo da Vinci',
