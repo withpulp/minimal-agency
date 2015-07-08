@@ -2,6 +2,11 @@ Meteor.publish('posts', function() {
   return Posts.find();
 });
 
+Meteor.publish('post', function(id) {
+  check(id, String)
+  return Posts.find(id);
+});
+
 Meteor.publish('postsWithUsers', {
   find: function() {
     return Posts.find();
