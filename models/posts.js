@@ -24,11 +24,13 @@ Posts = new orion.collection('posts', {
 Posts.attachSchema(new SimpleSchema({
   title: {
     type: String,
-    label: 'Title'
+    label: 'Title',
+    max: 100
   },
   excerpt: {
     type: String,
-    label: 'Excerpt'
+    label: 'Excerpt',
+    max: 500
   },
   body: orion.attribute('summernote', {
     label: 'Content'
