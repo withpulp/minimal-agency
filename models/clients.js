@@ -1,20 +1,41 @@
-Clients = new Mongo.Collection('clients');
-
-Clients.allow({
-  insert: function (userId, doc) {
-    return (userId && doc.ownerId === userId);
+Clients = new orion.collection('clients', {
+  singularName: 'client',
+  pluralName: 'clients',
+  title: 'Clients',
+  link: {
+    title: 'Clients'
   },
-  update: function (userId, doc, fields, modifier) {
-    return doc.ownerId === userId;
-  },
-  remove: function (userId, doc) {
-    return doc.ownerId === userId;
-  },
-  fetch: ['ownerId']
-});
-
-Clients.helpers({
-  clients: function() {
-    return Clients.find();
+  tabular: {
+    columns: [
+      {
+        data: 'client',
+        title: 'client'
+      },
+      {
+        data: 'date',
+        title: 'date'
+      }
+    ]
   }
 });
+
+Clients.attachSchema(new SimpleSchema({
+  client: {
+    type: String,
+    label: 'Client'
+  },
+  logo: {
+    type: String,
+    label: 'Logo'
+  },
+  url: {
+    type: String,
+    label: 'URL'
+  },
+  date: {
+    type: String,
+    label: 'Date'
+  },
+  createdBy: orion.attribute('createdBy'),
+  createdAt: orion.attribute('createdAt')
+}));

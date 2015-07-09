@@ -3,29 +3,39 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.clients = [
   {
+    client: 'Johnson & Johnson',
     logo: 'images/clients/jj.png',
-    title: 'Project X for Client',
-    URL: 'http://clientx.com',
-    date: 'May 2015',
-    meta: {
-      createdAt: 'test',
-      description: 'test',
-      keywords: 'test'
-    }
+    url: 'http://www.jnj.com/',
+    date: 'May 2015'
   },
   {
-    logo: 'images/clients/pfizer.png'
+    client: 'Pfizer',
+    logo: 'images/clients/pfizer.png',
+    url: 'http://www.pfizer.com/',
+    date: 'May 2015'
   },
   {
-    logo: 'images/clients/sva.png'
+    client: 'SVA',
+    logo: 'images/clients/sva.png',
+    url: 'http://www.sva.edu',
+    date: 'May 2015'
   },
   {
-    logo: 'images/clients/amc.png'
+    client: 'AMC',
+    logo: 'images/clients/amc.png',
+    url: 'http://www.amc.com/',
+    date: 'May 2015'
   },
   {
-    logo: 'images/clients/thermofisher.png'
+    client: 'ThermoFisher Scientific',
+    logo: 'images/clients/thermofisher.png',
+    url: 'http://www.thermofisher.com/en/home.html',
+    date: 'May 2015'
   },
   {
-    logo: 'images/clients/novo.png'
+    client: 'Novo Nordisk',
+    logo: 'images/clients/novo.png',
+    url: 'http://www.novonordisk-us.com/',
+    date: 'May 2015'
   }
 ];
