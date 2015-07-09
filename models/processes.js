@@ -1,6 +1,6 @@
-Process = new Mongo.Collection('process');
+Processes = new Mongo.Collection('processes');
 
-Process.allow({
+Processes.allow({
   insert: function (userId, doc) {
     return (userId && doc.ownerId === userId);
   },
@@ -13,8 +13,8 @@ Process.allow({
   fetch: ['ownerId']
 });
 
-Process.helpers({
-  process: function() {
-    return Process.find();
+Processes.helpers({
+  processes: function() {
+    return Processes.find();
   }
 });

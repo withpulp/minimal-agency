@@ -46,8 +46,8 @@ Meteor.startup(function () {
     loadFixture(Fixtures['values'], Values);
   }
 
-  if (Process.find().count() === 0) {
-    loadFixture(Fixtures['process'], Process);
+  if (Processes.find().count() === 0) {
+    loadFixture(Fixtures['processes'], Processes);
   }
 
   if (Contacts.find().count() === 0) {
