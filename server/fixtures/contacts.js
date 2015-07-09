@@ -3,17 +3,12 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.contacts = [
   {
-    title: 'contact',
-    list: [
-      {
-        item: 'newbiz@utool.com'
-      },
-      {
-        item: 'careers@utool.com'
-      },
-      {
-        item: 'press@utool.com'
-      }
-    ]
+    email: 'newbiz@utool.com'
+  },
+  {
+    email: 'careers@utool.com'
+  },
+  {
+    email: 'press@utool.com'
   }
 ];
