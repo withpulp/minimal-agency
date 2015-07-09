@@ -1,20 +1,25 @@
-Benefits = new Mongo.Collection('benefits');
-
-Benefits.allow({
-  insert: function (userId, doc) {
-    return (userId && doc.ownerId === userId);
+Benefits = new orion.collection('benefits', {
+  singularName: 'benefit',
+  pluralName: 'benefits',
+  title: 'Benefits',
+  link: {
+    title: 'Benefits'
   },
-  update: function (userId, doc, fields, modifier) {
-    return doc.ownerId === userId;
-  },
-  remove: function (userId, doc) {
-    return doc.ownerId === userId;
-  },
-  fetch: ['ownerId']
-});
-
-Benefits.helpers({
-  benefits: function() {
-    return Benefits.find();
+  tabular: {
+    columns: [
+      {
+        data: 'benefit',
+        title: 'Benefit'
+      }
+    ]
   }
 });
+
+Benefits.attachSchema(new SimpleSchema({
+  benefit: {
+    type: String,
+    label: 'Benefit'
+  },
+  createdBy: orion.attribute('createdBy'),
+  createdAt: orion.attribute('createdAt')
+}));
