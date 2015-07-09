@@ -31,6 +31,10 @@ Fixtures.quotes = [
     quote: 'Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.'
   },
   {
+    author: 'Neil deGrasse Tyson',
+    quote: 'Dreams about the future are always filled with gadgets.'
+  },
+  {
     author: 'Greg Egan',
     quote: 'Widespread caffeine use explains a lot about the twentieth century.'
   },
