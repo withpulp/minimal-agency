@@ -1,20 +1,26 @@
-Contacts = new Mongo.Collection('contacts');
-
-Contacts.allow({
-  insert: function (userId, doc) {
-    return (userId && doc.ownerId === userId);
+Contacts = new orion.collection('contacts', {
+  singularName: 'contact',
+  pluralName: 'contacts',
+  title: 'Contacts',
+  link: {
+    title: 'Contacts'
   },
-  update: function (userId, doc, fields, modifier) {
-    return doc.ownerId === userId;
-  },
-  remove: function (userId, doc) {
-    return doc.ownerId === userId;
-  },
-  fetch: ['ownerId']
-});
-
-Contacts.helpers({
-  contacts: function() {
-    return Contacts.find();
+  tabular: {
+    columns: [
+      {
+        data: 'email',
+        title: 'Email'
+      }
+    ]
   }
 });
+
+Contacts.attachSchema(new SimpleSchema({
+  email: {
+    type: String,
+    label: 'Email',
+    regEx: SimpleSchema.RegEx.Email
+  },
+  createdBy: orion.attribute('createdBy'),
+  createdAt: orion.attribute('createdAt')
+}));
