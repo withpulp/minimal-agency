@@ -1,20 +1,33 @@
-Processes = new Mongo.Collection('processes');
-
-Processes.allow({
-  insert: function (userId, doc) {
-    return (userId && doc.ownerId === userId);
+Processes = new orion.collection('processes', {
+  singularName: 'process',
+  pluralName: 'processes',
+  title: 'Processes',
+  link: {
+    title: 'Processes'
   },
-  update: function (userId, doc, fields, modifier) {
-    return doc.ownerId === userId;
-  },
-  remove: function (userId, doc) {
-    return doc.ownerId === userId;
-  },
-  fetch: ['ownerId']
-});
-
-Processes.helpers({
-  processes: function() {
-    return Processes.find();
+  tabular: {
+    columns: [
+      {
+        data: 'process',
+        title: 'Process'
+      },
+      {
+        data: 'description',
+        title: 'Description'
+      }
+    ]
   }
 });
+
+Processes.attachSchema(new SimpleSchema({
+  process: {
+    type: String,
+    label: 'Process'
+  },
+  description: {
+    type: String,
+    label: 'Description'
+  },
+  createdBy: orion.attribute('createdBy'),
+  createdAt: orion.attribute('createdAt')
+}));
