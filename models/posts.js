@@ -33,7 +33,7 @@ Posts.attachSchema(new SimpleSchema({
     max: 500
   },
   body: orion.attribute('summernote', {
-    label: 'Content'
+    label: 'Body'
   }),
   createdBy: orion.attribute('createdBy'),
   createdAt: orion.attribute('createdAt')
