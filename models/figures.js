@@ -1,20 +1,37 @@
-Figures = new Mongo.Collection('figures');
-
-Figures.allow({
-  insert: function (userId, doc) {
-    return (userId && doc.ownerId === userId);
+Figures = new orion.collection('figures', {
+  singularName: 'figure',
+  pluralName: 'figures',
+  title: 'Figures',
+  link: {
+    title: 'Figures'
   },
-  update: function (userId, doc, fields, modifier) {
-    return doc.ownerId === userId;
-  },
-  remove: function (userId, doc) {
-    return doc.ownerId === userId;
-  },
-  fetch: ['ownerId']
-});
-
-Figures.helpers({
-  figures: function() {
-    return Figures.find();
+  tabular: {
+    columns: [
+      {
+        data: 'date',
+        title: 'Date'
+      }
+    ]
   }
 });
+
+Figures.attachSchema(new SimpleSchema({
+  date: {
+    type: String,
+    label: 'Date'
+  },
+  'records.$.metric': {
+    type: String,
+    label: 'Metric'
+  },
+  'records.$.percent': {
+    type: String,
+    label: 'Percent'
+  },
+  'records.$.client': {
+    type: String,
+    label: 'Client'
+  },
+  createdBy: orion.attribute('createdBy'),
+  createdAt: orion.attribute('createdAt')
+}));
