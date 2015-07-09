@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "49ea2455e13f75b4ede44aacafef990c019c350a"
+                  "value": "e869663a0ba476357c543650a22555b72781b84c"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7870,11 +7870,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "ffcc3b834d5381ca394dc85192c05143c2753856"
+          "value": "0d12e653dbd7a3db6dd519d42289372550ff26d2"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "ebf404e7f9e2609931afb62e3a3cf4b3cc8102fe"
+          "value": "d3c44e6671a3bf541bfd989f8307bfe64def6100"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -20916,6 +20916,25 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "image": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -20942,10 +20961,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 37
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 37
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -21130,59 +21149,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 123
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 125
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 127
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 129
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 131
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 133
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 135
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 137
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 139
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 141
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 143
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 145
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 147
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 149
+                  "refID": 154
                 }
               }
             }
@@ -21329,46 +21348,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             },
@@ -21558,46 +21577,46 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 123
+              "ref": 128
             },
             "find": {
-              "ref": 125
+              "ref": 130
             },
             "findOne": {
-              "ref": 127
+              "ref": 132
             },
             "insert": {
-              "ref": 129
+              "ref": 134
             },
             "update": {
-              "ref": 131
+              "ref": 136
             },
             "remove": {
-              "ref": 133
+              "ref": 138
             },
             "upsert": {
-              "ref": 135
+              "ref": 140
             },
             "rawCollection": {
-              "ref": 137
+              "ref": 142
             },
             "rawDatabase": {
-              "ref": 139
+              "ref": 144
             },
             "allow": {
-              "ref": 141
+              "ref": 146
             },
             "deny": {
-              "ref": 143
+              "ref": 148
             },
             "helpers": {
-              "ref": 145
+              "ref": 150
             },
             "attachSchema": {
-              "ref": 147
+              "ref": 152
             },
             "simpleSchema": {
-              "ref": 149
+              "ref": 154
             }
           }
         },
@@ -21742,46 +21761,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             }
@@ -21869,6 +21888,25 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "image": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -21895,10 +21933,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 37
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 37
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -22083,59 +22121,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 123
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 125
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 127
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 129
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 131
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 133
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 135
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 137
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 139
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 141
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 143
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 145
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 147
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 149
+                  "refID": 154
                 }
               }
             }
@@ -22282,46 +22320,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             },
@@ -22511,46 +22549,46 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 123
+              "ref": 128
             },
             "find": {
-              "ref": 125
+              "ref": 130
             },
             "findOne": {
-              "ref": 127
+              "ref": 132
             },
             "insert": {
-              "ref": 129
+              "ref": 134
             },
             "update": {
-              "ref": 131
+              "ref": 136
             },
             "remove": {
-              "ref": 133
+              "ref": 138
             },
             "upsert": {
-              "ref": 135
+              "ref": 140
             },
             "rawCollection": {
-              "ref": 137
+              "ref": 142
             },
             "rawDatabase": {
-              "ref": 139
+              "ref": 144
             },
             "allow": {
-              "ref": 141
+              "ref": 146
             },
             "deny": {
-              "ref": 143
+              "ref": 148
             },
             "helpers": {
-              "ref": 145
+              "ref": 150
             },
             "attachSchema": {
-              "ref": 147
+              "ref": 152
             },
             "simpleSchema": {
-              "ref": 149
+              "ref": 154
             }
           }
         },
@@ -22695,46 +22733,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             }
@@ -24146,6 +24184,25 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "image": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -24172,10 +24229,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 37
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 37
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -24360,59 +24417,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 123
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 125
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 127
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 129
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 131
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 133
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 135
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 137
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 139
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 141
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 143
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 145
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 147
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 149
+                  "refID": 154
                 }
               }
             }
@@ -24559,46 +24616,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             },
@@ -24788,46 +24845,46 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 123
+              "ref": 128
             },
             "find": {
-              "ref": 125
+              "ref": 130
             },
             "findOne": {
-              "ref": 127
+              "ref": 132
             },
             "insert": {
-              "ref": 129
+              "ref": 134
             },
             "update": {
-              "ref": 131
+              "ref": 136
             },
             "remove": {
-              "ref": 133
+              "ref": 138
             },
             "upsert": {
-              "ref": 135
+              "ref": 140
             },
             "rawCollection": {
-              "ref": 137
+              "ref": 142
             },
             "rawDatabase": {
-              "ref": 139
+              "ref": 144
             },
             "allow": {
-              "ref": 141
+              "ref": 146
             },
             "deny": {
-              "ref": 143
+              "ref": 148
             },
             "helpers": {
-              "ref": 145
+              "ref": 150
             },
             "attachSchema": {
-              "ref": 147
+              "ref": 152
             },
             "simpleSchema": {
-              "ref": 149
+              "ref": 154
             }
           }
         },
@@ -24972,46 +25029,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             }
@@ -25279,6 +25336,25 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "image": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -25305,10 +25381,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 37
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 37
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -25493,59 +25569,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 123
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 125
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 127
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 129
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 131
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 133
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 135
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 137
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 139
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 141
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 143
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 145
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 147
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 149
+                  "refID": 154
                 }
               }
             }
@@ -25692,46 +25768,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             },
@@ -25921,46 +25997,46 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 123
+              "ref": 128
             },
             "find": {
-              "ref": 125
+              "ref": 130
             },
             "findOne": {
-              "ref": 127
+              "ref": 132
             },
             "insert": {
-              "ref": 129
+              "ref": 134
             },
             "update": {
-              "ref": 131
+              "ref": 136
             },
             "remove": {
-              "ref": 133
+              "ref": 138
             },
             "upsert": {
-              "ref": 135
+              "ref": 140
             },
             "rawCollection": {
-              "ref": 137
+              "ref": 142
             },
             "rawDatabase": {
-              "ref": 139
+              "ref": 144
             },
             "allow": {
-              "ref": 141
+              "ref": 146
             },
             "deny": {
-              "ref": 143
+              "ref": 148
             },
             "helpers": {
-              "ref": 145
+              "ref": 150
             },
             "attachSchema": {
-              "ref": 147
+              "ref": 152
             },
             "simpleSchema": {
-              "ref": 149
+              "ref": 154
             }
           }
         },
@@ -26105,46 +26181,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             }
@@ -26231,6 +26307,25 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "image": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -26257,10 +26352,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 37
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 37
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -26445,59 +26540,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 123
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 125
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 127
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 129
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 131
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 133
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 135
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 137
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 139
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 141
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 143
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 145
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 147
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 149
+                  "refID": 154
                 }
               }
             }
@@ -26644,46 +26739,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             },
@@ -26873,46 +26968,46 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 123
+              "ref": 128
             },
             "find": {
-              "ref": 125
+              "ref": 130
             },
             "findOne": {
-              "ref": 127
+              "ref": 132
             },
             "insert": {
-              "ref": 129
+              "ref": 134
             },
             "update": {
-              "ref": 131
+              "ref": 136
             },
             "remove": {
-              "ref": 133
+              "ref": 138
             },
             "upsert": {
-              "ref": 135
+              "ref": 140
             },
             "rawCollection": {
-              "ref": 137
+              "ref": 142
             },
             "rawDatabase": {
-              "ref": 139
+              "ref": 144
             },
             "allow": {
-              "ref": 141
+              "ref": 146
             },
             "deny": {
-              "ref": 143
+              "ref": 148
             },
             "helpers": {
-              "ref": 145
+              "ref": 150
             },
             "attachSchema": {
-              "ref": 147
+              "ref": 152
             },
             "simpleSchema": {
-              "ref": 149
+              "ref": 154
             }
           }
         },
@@ -27057,46 +27152,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             }
@@ -27183,6 +27278,25 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "image": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -27209,10 +27323,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 37
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 37
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -27397,59 +27511,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 123
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 125
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 127
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 129
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 131
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 133
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 135
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 137
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 139
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 141
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 143
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 145
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 147
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 149
+                  "refID": 154
                 }
               }
             }
@@ -27596,46 +27710,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             },
@@ -27825,46 +27939,46 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 123
+              "ref": 128
             },
             "find": {
-              "ref": 125
+              "ref": 130
             },
             "findOne": {
-              "ref": 127
+              "ref": 132
             },
             "insert": {
-              "ref": 129
+              "ref": 134
             },
             "update": {
-              "ref": 131
+              "ref": 136
             },
             "remove": {
-              "ref": 133
+              "ref": 138
             },
             "upsert": {
-              "ref": 135
+              "ref": 140
             },
             "rawCollection": {
-              "ref": 137
+              "ref": 142
             },
             "rawDatabase": {
-              "ref": 139
+              "ref": 144
             },
             "allow": {
-              "ref": 141
+              "ref": 146
             },
             "deny": {
-              "ref": 143
+              "ref": 148
             },
             "helpers": {
-              "ref": 145
+              "ref": 150
             },
             "attachSchema": {
-              "ref": 147
+              "ref": 152
             },
             "simpleSchema": {
-              "ref": 149
+              "ref": 154
             }
           }
         },
@@ -28009,46 +28123,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             }
@@ -28135,6 +28249,25 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "image": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -28161,10 +28294,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 37
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 37
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -28349,59 +28482,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 123
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 125
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 127
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 129
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 131
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 133
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 135
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 137
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 139
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 141
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 143
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 145
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 147
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 149
+                  "refID": 154
                 }
               }
             }
@@ -28548,46 +28681,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             },
@@ -28777,46 +28910,46 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 123
+              "ref": 128
             },
             "find": {
-              "ref": 125
+              "ref": 130
             },
             "findOne": {
-              "ref": 127
+              "ref": 132
             },
             "insert": {
-              "ref": 129
+              "ref": 134
             },
             "update": {
-              "ref": 131
+              "ref": 136
             },
             "remove": {
-              "ref": 133
+              "ref": 138
             },
             "upsert": {
-              "ref": 135
+              "ref": 140
             },
             "rawCollection": {
-              "ref": 137
+              "ref": 142
             },
             "rawDatabase": {
-              "ref": 139
+              "ref": 144
             },
             "allow": {
-              "ref": 141
+              "ref": 146
             },
             "deny": {
-              "ref": 143
+              "ref": 148
             },
             "helpers": {
-              "ref": 145
+              "ref": 150
             },
             "attachSchema": {
-              "ref": 147
+              "ref": 152
             },
             "simpleSchema": {
-              "ref": 149
+              "ref": 154
             }
           }
         },
@@ -28961,46 +29094,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             }
@@ -29100,6 +29233,25 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "image": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -29126,10 +29278,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 37
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 37
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -29314,59 +29466,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 123
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 125
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 127
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 129
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 131
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 133
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 135
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 137
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 139
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 141
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 143
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 145
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 147
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 149
+                  "refID": 154
                 }
               }
             }
@@ -29513,46 +29665,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             },
@@ -29742,46 +29894,46 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 123
+              "ref": 128
             },
             "find": {
-              "ref": 125
+              "ref": 130
             },
             "findOne": {
-              "ref": 127
+              "ref": 132
             },
             "insert": {
-              "ref": 129
+              "ref": 134
             },
             "update": {
-              "ref": 131
+              "ref": 136
             },
             "remove": {
-              "ref": 133
+              "ref": 138
             },
             "upsert": {
-              "ref": 135
+              "ref": 140
             },
             "rawCollection": {
-              "ref": 137
+              "ref": 142
             },
             "rawDatabase": {
-              "ref": 139
+              "ref": 144
             },
             "allow": {
-              "ref": 141
+              "ref": 146
             },
             "deny": {
-              "ref": 143
+              "ref": 148
             },
             "helpers": {
-              "ref": 145
+              "ref": 150
             },
             "attachSchema": {
-              "ref": 147
+              "ref": 152
             },
             "simpleSchema": {
-              "ref": 149
+              "ref": 154
             }
           }
         },
@@ -29926,46 +30078,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             }
@@ -30052,6 +30204,25 @@ var packageMetadata = {
                   "type": "function"
                 }
               }
+            },
+            "image": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUpload"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesImageUploadColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
             }
           }
         },
@@ -30078,10 +30249,10 @@ var packageMetadata = {
                 },
                 "validator": {
                   "type": "function",
-                  "refID": 37
+                  "refID": 42
                 },
                 "addValidator": {
-                  "ref": 37
+                  "ref": 42
                 },
                 "pick": {
                   "type": "function"
@@ -30266,59 +30437,59 @@ var packageMetadata = {
                 },
                 "attachRoles": {
                   "type": "function",
-                  "refID": 123
+                  "refID": 128
                 },
                 "find": {
                   "type": "function",
-                  "refID": 125
+                  "refID": 130
                 },
                 "findOne": {
                   "type": "function",
-                  "refID": 127
+                  "refID": 132
                 },
                 "insert": {
                   "type": "function",
-                  "refID": 129
+                  "refID": 134
                 },
                 "update": {
                   "type": "function",
-                  "refID": 131
+                  "refID": 136
                 },
                 "remove": {
                   "type": "function",
-                  "refID": 133
+                  "refID": 138
                 },
                 "upsert": {
                   "type": "function",
-                  "refID": 135
+                  "refID": 140
                 },
                 "rawCollection": {
                   "type": "function",
-                  "refID": 137
+                  "refID": 142
                 },
                 "rawDatabase": {
                   "type": "function",
-                  "refID": 139
+                  "refID": 144
                 },
                 "allow": {
                   "type": "function",
-                  "refID": 141
+                  "refID": 146
                 },
                 "deny": {
                   "type": "function",
-                  "refID": 143
+                  "refID": 148
                 },
                 "helpers": {
                   "type": "function",
-                  "refID": 145
+                  "refID": 150
                 },
                 "attachSchema": {
                   "type": "function",
-                  "refID": 147
+                  "refID": 152
                 },
                 "simpleSchema": {
                   "type": "function",
-                  "refID": 149
+                  "refID": 154
                 }
               }
             }
@@ -30465,46 +30636,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             },
@@ -30694,46 +30865,46 @@ var packageMetadata = {
               "type": "function"
             },
             "attachRoles": {
-              "ref": 123
+              "ref": 128
             },
             "find": {
-              "ref": 125
+              "ref": 130
             },
             "findOne": {
-              "ref": 127
+              "ref": 132
             },
             "insert": {
-              "ref": 129
+              "ref": 134
             },
             "update": {
-              "ref": 131
+              "ref": 136
             },
             "remove": {
-              "ref": 133
+              "ref": 138
             },
             "upsert": {
-              "ref": 135
+              "ref": 140
             },
             "rawCollection": {
-              "ref": 137
+              "ref": 142
             },
             "rawDatabase": {
-              "ref": 139
+              "ref": 144
             },
             "allow": {
-              "ref": 141
+              "ref": 146
             },
             "deny": {
-              "ref": 143
+              "ref": 148
             },
             "helpers": {
-              "ref": 145
+              "ref": 150
             },
             "attachSchema": {
-              "ref": 147
+              "ref": 152
             },
             "simpleSchema": {
-              "ref": 149
+              "ref": 154
             }
           }
         },
@@ -30878,46 +31049,46 @@ var packageMetadata = {
                   }
                 },
                 "attachRoles": {
-                  "ref": 123
+                  "ref": 128
                 },
                 "find": {
-                  "ref": 125
+                  "ref": 130
                 },
                 "findOne": {
-                  "ref": 127
+                  "ref": 132
                 },
                 "insert": {
-                  "ref": 129
+                  "ref": 134
                 },
                 "update": {
-                  "ref": 131
+                  "ref": 136
                 },
                 "remove": {
-                  "ref": 133
+                  "ref": 138
                 },
                 "upsert": {
-                  "ref": 135
+                  "ref": 140
                 },
                 "rawCollection": {
-                  "ref": 137
+                  "ref": 142
                 },
                 "rawDatabase": {
-                  "ref": 139
+                  "ref": 144
                 },
                 "allow": {
-                  "ref": 141
+                  "ref": 146
                 },
                 "deny": {
-                  "ref": 143
+                  "ref": 148
                 },
                 "helpers": {
-                  "ref": 145
+                  "ref": 150
                 },
                 "attachSchema": {
-                  "ref": 147
+                  "ref": 152
                 },
                 "simpleSchema": {
-                  "ref": 149
+                  "ref": 154
                 }
               }
             }
@@ -30928,6 +31099,11 @@ var packageMetadata = {
   },
   "summernote:standalone": {},
   "orionjs:summernote": {},
+  "orionjs:image-attribute": {
+    "Colibri": {
+      "type": "undefined"
+    }
+  },
   "service-configuration": {
     "ServiceConfiguration": {
       "type": "object",
