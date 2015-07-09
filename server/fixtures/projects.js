@@ -3,9 +3,12 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.projects = [
   {
-    client: 'Project X',
-    title: '',
+    client: 'Client Y',
+    title: 'Project X',
+    date: 'May 2015',
+    description: 'It started with a conversation. Business X needed customers. Fast..',
     logo: '/images/projects/logos/projectx.png',
+    image: '/images/projects/projectximage.png',
     roles: [
       {
         role: 'Product strategy'
@@ -19,14 +22,6 @@ Fixtures.projects = [
       {
         role: 'Development'
       }
-    ],
-    description: 'It started with a conversation. Business X needed customers. Fast..',
-    image: '/images/projects/projectximage.png',
-    date: 'May 2015',
-    meta: {
-        createdAt: 'test',
-        description: 'test',
-        keywords: 'test'
-    }
+    ]
   }
 ];
