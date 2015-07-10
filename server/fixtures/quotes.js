@@ -67,6 +67,10 @@ Fixtures.quotes = [
     quote: 'I do not fear computers. I fear the lack of them.'
   },
   {
+    author: 'Robert A. Heinlein',
+    quote: 'Everything is theoretically impossible, until it is done.'
+  },
+  {
     author: 'Leonardo da Vinci',
     quote: 'Simplicity is the ultimate sophistication.'
   },
