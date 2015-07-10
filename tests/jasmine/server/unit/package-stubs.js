@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "bfd4c0ef6dcb35cdda6812b1d50f8c092df88198"
+                  "value": "3fe755072fbe1d7e5cae908b114544a9612b6730"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 1
+              "value": 0
             },
             "timeout": {
               "type": "constant",
@@ -7870,7 +7870,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "11b1b9890fa7d8f33dc7bf0b797913de7e3d1a15"
+          "value": "4f5296d9e8a34e87c958b21ad8e43b9a01462f4d"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -31102,6 +31102,73 @@ var packageMetadata = {
   "orionjs:image-attribute": {
     "Colibri": {
       "type": "undefined"
+    }
+  },
+  "moonco:fixtures": {
+    "Fixtures": {
+      "type": "object",
+      "members": {
+        "ids": {
+          "type": "function"
+        },
+        "get": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "flush": {
+          "type": "function"
+        },
+        "count": {
+          "type": "function"
+        },
+        "create": {
+          "type": "function"
+        },
+        "benefits": {
+          "type": "array"
+        },
+        "clients": {
+          "type": "array"
+        },
+        "contacts": {
+          "type": "array"
+        },
+        "figures": {
+          "type": "array"
+        },
+        "members": {
+          "type": "array"
+        },
+        "posts": {
+          "type": "array"
+        },
+        "processes": {
+          "type": "array"
+        },
+        "projects": {
+          "type": "array"
+        },
+        "quotes": {
+          "type": "array"
+        },
+        "services": {
+          "type": "array"
+        },
+        "tools": {
+          "type": "array"
+        },
+        "values": {
+          "type": "array"
+        }
+      }
     }
   },
   "service-configuration": {
