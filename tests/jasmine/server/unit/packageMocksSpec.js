@@ -7086,7 +7086,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "3fe755072fbe1d7e5cae908b114544a9612b6730"
+                  "value": "930584255162ee650fcecc3f055a02d14d49ca82"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7871,7 +7871,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "4f5296d9e8a34e87c958b21ad8e43b9a01462f4d"
+          "value": "de7991fc24f82eea8e8b43e5507fcc9662303899"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -31103,73 +31103,6 @@ var packageMetadata = {
   "orionjs:image-attribute": {
     "Colibri": {
       "type": "undefined"
-    }
-  },
-  "moonco:fixtures": {
-    "Fixtures": {
-      "type": "object",
-      "members": {
-        "ids": {
-          "type": "function"
-        },
-        "get": {
-          "type": "function"
-        },
-        "insert": {
-          "type": "function"
-        },
-        "update": {
-          "type": "function"
-        },
-        "remove": {
-          "type": "function"
-        },
-        "flush": {
-          "type": "function"
-        },
-        "count": {
-          "type": "function"
-        },
-        "create": {
-          "type": "function"
-        },
-        "benefits": {
-          "type": "array"
-        },
-        "clients": {
-          "type": "array"
-        },
-        "contacts": {
-          "type": "array"
-        },
-        "figures": {
-          "type": "array"
-        },
-        "members": {
-          "type": "array"
-        },
-        "posts": {
-          "type": "array"
-        },
-        "processes": {
-          "type": "array"
-        },
-        "projects": {
-          "type": "array"
-        },
-        "quotes": {
-          "type": "array"
-        },
-        "services": {
-          "type": "array"
-        },
-        "tools": {
-          "type": "array"
-        },
-        "values": {
-          "type": "array"
-        }
-      }
     }
   },
   "service-configuration": {
