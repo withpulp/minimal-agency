@@ -81,5 +81,9 @@ Fixtures.quotes = [
   {
     author: 'Dr. Seuss',
     quote: 'Think left and think right and think low and think high. Oh, the thinks you can think up if only you try!'
+  },
+  {
+    author: 'Bruce Lee',
+    quote: 'A wise man can learn more from a foolish question than a fool can learn from a wise answer.'
   }
 ];
