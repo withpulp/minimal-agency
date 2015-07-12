@@ -38,9 +38,3 @@ Tools.attachSchema(new SimpleSchema({
   createdBy: orion.attribute('createdBy'),
   createdAt: orion.attribute('createdAt')
 }));
-
-Tools.helpers({
-  getCreator: function () {
-    return Meteor.users.findOne({ _id: this.createdBy });
-  }
-});
