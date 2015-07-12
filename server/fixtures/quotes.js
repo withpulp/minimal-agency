@@ -85,5 +85,9 @@ Fixtures.quotes = [
   {
     author: 'Bruce Lee',
     quote: 'A wise man can learn more from a foolish question than a fool can learn from a wise answer.'
+  },
+  {
+    author: 'Lao Tzu',
+    quote: 'The journey of a thousand miles begins with one step.'
   }
 ];
