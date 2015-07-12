@@ -7,6 +7,7 @@ Meteor.startup(function () {
   Posts._ensureIndex({'userId': 1});
   Projects._ensureIndex({'userId': 1});
   Quotes._ensureIndex({'userId': 1});
+  Routes._ensureIndex({'userId': 1});
   Tools._ensureIndex({'userId': 1});
   Services._ensureIndex({'userId': 1});
   Values._ensureIndex({'userId': 1});
