@@ -37,7 +37,7 @@ Template.header.rendered = function () {
 
     lastScrollTop = scroll;
   }
-}
+};
 
 Template['header'].events({
   'click .logo': function(e) {
@@ -45,4 +45,4 @@ Template['header'].events({
 
     Session.set('menuToggle', !Session.get('menuToggle'));
   }
-})
+});

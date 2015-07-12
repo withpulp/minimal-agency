@@ -3,3 +3,9 @@ Template['menu'].helpers({
 	  return Routes.find();
   }
 });
+
+Template['menu'].events({
+  'click .navigation .cell': function() {
+    Session.set('menuToggle', !Session.get('menuToggle'));
+  }
+});
