@@ -4,7 +4,9 @@
       {{#each limitedPosts}}
         <article class="post">
     	    <h4 class="title">
-            <a class="id link" href="{{pathFor 'blogPost'}}">{{title}}</a>
+            <a class="id link" href="{{pathFor 'blogPost'}}">
+              {{title}}
+            </a>
           </h4>
           <p class="excerpt">{{excerpt}}</p>
         </article>
@@ -14,8 +16,12 @@
       {{#each posts}}
         <article class="post">
           <h4 class="title">
-            <a class="id link" href="{{pathFor 'blogPost'}}">{{title}}</a>
-            <small class="id creator">by {{getCreator.profile.name}}</small>
+            <a class="id link" href="{{pathFor 'blogPost'}}">
+              {{title}}
+            </a>
+            <small class="id creator">
+              by {{getCreator.profile.name}}
+            </small>
           </h4>
           <p class="excerpt">{{excerpt}}</p>
         </article>
