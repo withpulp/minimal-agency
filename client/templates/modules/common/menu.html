@@ -1,16 +1,24 @@
 <template name="menu">
-  <nav class="navigation half gutter grid">
-	  <a class="cell route" href="{{pathFor 'about'}}">
-      <img class="fluid image" scr="http://placehold.it/200x400" />
-    </a>
-    <a class="cell route" href="{{pathFor 'work'}}">
-      <img class="fluid image" scr="http://placehold.it/200x400" />
-    </a>
-    <a class="cell route" href="{{pathFor 'tools'}}">
-      <img class="fluid image" scr="http://placehold.it/200x400" />
-    </a>
-    <a class="cell route" href="{{pathFor 'blog'}}">
-      <img class="fluid image" scr="http://placehold.it/200x400" />
-    </a>
+  <nav class="navigation top half gutter grid">
+	  <div class="cell">
+      <a class="route" href="{{pathFor 'about'}}">
+        <img class="fluid image" scr="http://placehold.it/200x400" />
+      </a>
+    </div>
+    <div class="cell">
+      <a class="route" href="{{pathFor 'work'}}">
+        <img class="fluid image" scr="http://placehold.it/200x400" />
+      </a>
+    </div>
+    <div class="cell">
+      <a class="route" href="{{pathFor 'products'}}">
+        <img class="fluid image" scr="http://placehold.it/200x400" />
+      </a>
+    </div>
+    <div class="cell">
+      <a class="route" href="{{pathFor 'blog'}}">
+        <img class="fluid image" scr="http://placehold.it/200x400" />
+      </a>
+    </div>
 	</nav>
 </template>

@@ -5,20 +5,23 @@
 .menu.module {
 	display: block;
 	position: fixed;
-	height: @full;
+	top: 0;
+	left: 0;
 	width: @full;
+	overflow-y: scroll;
+  overflow-x: hidden;
 	padding: @space-base;
 	z-index: 1;
 	background: @gray-darker;
 	color: @primary-color;
 
 	.navigation {
-		height: @full;
 
 		.route {
 			height: @fluid-half;
 
 			.image {
+				height: @fluid-half;
 			}
 		}
 	}
