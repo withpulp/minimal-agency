@@ -6,6 +6,7 @@
 	position: relative;
 	width: @full;
 	height: @full;
+	overflow: hidden;
 	background: @light;
 
 	.orion.sidebar {
@@ -39,11 +40,11 @@
 		position: relative;
 		left: 0;
 	  z-index: 1;
-	  height: auto;
+	  height: @fluid-full;
 		width: @full;
 		margin: 0;
 		padding: @space-base;
-		overflow: hidden;
+		overflow-y: auto;
 		background: @light;
 	  perspective: 1000px;
 	  transition: transform @slowest;
@@ -71,7 +72,6 @@
 		}
 
 		.orion.main {
-			height: @full;
 			transform: translate3d(@three-quarters, 0, 0);
 		}
 	}
