@@ -25,6 +25,8 @@
 			position: relative;
 			top: 0;
 			bottom: 0;
+			height: @full;
+			width: @full;
 			margin: 0;
 		  padding: @space-base;
 			overflow-x: hidden;
@@ -41,11 +43,12 @@
 		width: @full;
 		margin: 0;
 		padding: @space-base;
+		overflow: hidden;
 		background: @light;
 	  perspective: 1000px;
 	  transition: transform @slowest;
 
-		.orion.navigation.menu {
+		.orion.menu {
 			position: fixed;
 			top: 0;
 			left: 0;
@@ -53,7 +56,7 @@
 			padding: @space-tiny;
 			z-index: 2;
 
-			.orion.menu.toggle {
+			.orion.toggle {
 				cursor: pointer;
 				line-height: 0;
 			}
