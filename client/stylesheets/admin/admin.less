@@ -21,7 +21,7 @@
 	  background: @gray-darker;
 	  transition: all @slowest;
 
-		.orion.sidebar.navigation {
+		.orion.navigation {
 			position: relative;
 			top: 0;
 			bottom: 0;
@@ -37,10 +37,11 @@
 		position: relative;
 		left: 0;
 	  z-index: 1;
-	  height: @full;
+	  height: auto;
 		width: @full;
 		margin: 0;
 		padding: @space-base;
+		background: @light;
 	  perspective: 1000px;
 	  transition: transform @slowest;
 
@@ -67,6 +68,7 @@
 		}
 
 		.orion.main {
+			height: @full;
 			transform: translate3d(@three-quarters, 0, 0);
 		}
 	}
