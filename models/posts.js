@@ -32,7 +32,7 @@ Posts.attachSchema(new SimpleSchema({
     label: 'Excerpt',
     max: 500
   },
-  body: orion.attribute('summernote', {
+  body: orion.attribute('froala', {
     label: 'Body'
   }),
   createdBy: orion.attribute('createdBy'),

@@ -20,7 +20,5 @@ natestrauser:animate-css
 accounts-password
 nicolaslopezj:roles
 orionjs:core
-twbs:bootstrap
-orionjs:bootstrap
-orionjs:summernote
-orionjs:image-attribute
+orionjs:froala
+dvz:orion-unstyled

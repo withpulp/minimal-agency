@@ -113,7 +113,6 @@ Router.route('/about', function () {
   * [orionjs:core](https://github.com/orionjs/orion)
   * [orionjs:bootstrap](https://github.com/orionjs/orion/tree/master/packages/bootstrap)
   * [orionjs:summernote](https://github.com/orionjs/orion/tree/master/packages/summernote)
-  * [orionjs:image-attribute](https://github.com/orionjs/orion/tree/master/packages/image-attribute)
   * [twbs:bootstrap](https://github.com/twbs/bootstrap)
 * UI and UX
   * [fastclick](https://github.com/meteor/meteor/tree/devel/packages/fastclick)
