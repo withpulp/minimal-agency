@@ -1,0 +1,41 @@
+@import '../variables';
+
+// admin styles
+
+.orion.admin {
+	position: relative;
+	width: @full;
+	padding: @space-base;
+	background: @light;
+
+	.orion.sidebar {
+		padding: @space-base;
+
+		.orion.sidebar.navigation {
+			margin: 0;
+		  padding: 0;
+			list-style: none;
+		}
+	}
+
+	.orion.content {
+
+		.orion.navigation.menu {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: auto;
+			padding: @space-tiny;
+			z-index: 1;
+
+			.orion.menu.toggle {
+				cursor: pointer;
+				line-height: 0;
+			}
+		}
+	}
+
+	&.toggled {
+
+	}
+}
