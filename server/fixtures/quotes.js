@@ -89,5 +89,9 @@ Fixtures.quotes = [
   {
     author: 'Lao Tzu',
     quote: 'The journey of a thousand miles begins with one step.'
+  },
+  {
+    author: 'Arnold Schwarzenegger',
+    quote: 'Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.'
   }
 ];
