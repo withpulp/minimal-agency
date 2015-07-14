@@ -35,6 +35,10 @@ Fixtures.quotes = [
     quote: 'Dreams about the future are always filled with gadgets.'
   },
   {
+    author: 'Carl Sagan',
+    quote: 'If you wish to make an apple pie from scratch, you must first invent the universe.'
+  },
+  {
     author: 'Greg Egan',
     quote: 'Widespread caffeine use explains a lot about the twentieth century.'
   },
