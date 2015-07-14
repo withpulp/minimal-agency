@@ -5,20 +5,44 @@
 .orion.admin {
 	position: relative;
 	width: @full;
-	padding: @space-base;
+	height: @full;
 	background: @light;
 
 	.orion.sidebar {
-		padding: @space-base;
+		position: fixed;
+		top: 0;
+	  left: 0;
+		width: @three-quarters;
+	  height: @fluid-full;
+		margin: 0;
+		padding: 0;
+	  z-index: 1;
+	  visibility: hidden;
+	  background: @gray-darker;
+	  transition: all @slowest;
 
 		.orion.sidebar.navigation {
+			position: relative;
+			top: 0;
+			bottom: 0;
 			margin: 0;
-		  padding: 0;
+		  padding: @space-base;
+			overflow-x: hidden;
+			overflow-y: auto;
 			list-style: none;
 		}
 	}
 
-	.orion.content {
+	.orion.main {
+		position: relative;
+		left: 0;
+	  z-index: 1;
+	  height: @full;
+		width: @full;
+		margin: 0;
+		padding: @space-base;
+	  perspective: 1000px;
+	  transition: transform @slowest;
 
 		.orion.navigation.menu {
 			position: fixed;
@@ -26,7 +50,7 @@
 			left: 0;
 			width: auto;
 			padding: @space-tiny;
-			z-index: 1;
+			z-index: 2;
 
 			.orion.menu.toggle {
 				cursor: pointer;
@@ -37,5 +61,13 @@
 
 	&.toggled {
 
+		.orion.sidebar {
+			visibility: visible;
+			transition: transform @slowest;
+		}
+
+		.orion.main {
+			transform: translate3d(@three-quarters, 0, 0);
+		}
 	}
 }
