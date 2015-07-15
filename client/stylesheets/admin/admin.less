@@ -33,6 +33,27 @@
 			overflow-x: hidden;
 			overflow-y: auto;
 			list-style: none;
+
+			.orion.item {
+
+				.route.link {
+					color: @light;
+					font-family: @font-family-base;
+					text-decoration: none;
+
+					&:hover,
+					&:focus {
+						color: @primary-color;
+					}
+				}
+
+				&.active {
+
+					.route.link {
+						color: @primary-color;
+					}
+				}
+			}
 		}
 	}
 
@@ -48,6 +69,18 @@
 		background: @light;
 	  perspective: 1000px;
 	  transition: transform @slowest;
+
+		&::after {
+			position: absolute;
+			top: 0;
+		  right: 0;
+		  width: 0;
+		  height: 0;
+		  background: fade(@gray-darker, @half);
+		  content: '';
+		  opacity: 0;
+		  transition: opacity @slowest, width @fastest @slowest, height @fastest @slowest;
+		}
 
 		.orion.menu {
 			position: fixed;
@@ -73,6 +106,13 @@
 
 		.orion.main {
 			transform: translate3d(@three-quarters, 0, 0);
+
+			&::after {
+				width: @full;
+				height: @full;
+			  opacity: 1;
+			  transition: opacity @slowest;
+			}
 		}
 	}
 }
