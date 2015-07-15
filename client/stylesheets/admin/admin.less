@@ -39,12 +39,20 @@
 				.route.link {
 					color: @light;
 					font-family: @font-family-base;
+					font-size: @font-size-base + @font-size-mini;
 					text-decoration: none;
 
 					&:hover,
 					&:focus {
 						color: @primary-color;
 					}
+				}
+
+				&.brand {
+					margin: -@space-base -@space-base @space-base;
+					padding: @space-mini @space-base;
+					background: @background-color;
+					text-align: center;
 				}
 
 				&.active {
