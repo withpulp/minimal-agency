@@ -97,5 +97,9 @@ Fixtures.quotes = [
   {
     author: 'Arnold Schwarzenegger',
     quote: 'Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.'
+  },
+  {
+    author: 'Buddha',
+    quote: 'The mind is everything. What you think you become.'
   }
 ];
