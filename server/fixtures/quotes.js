@@ -101,5 +101,9 @@ Fixtures.quotes = [
   {
     author: 'Buddha',
     quote: 'The mind is everything. What you think you become.'
+  },
+  {
+    author: 'Mark Twain',
+    quote: 'The secret of getting ahead is getting started.'
   }
 ];
