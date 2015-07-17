@@ -105,5 +105,9 @@ Fixtures.quotes = [
   {
     author: 'Mark Twain',
     quote: 'The secret of getting ahead is getting started.'
+  },
+  {
+    author: 'Aristotle',
+    quotes: 'The roots of education are bitter, but the fruit is sweet.'
   }
 ];
