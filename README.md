@@ -33,7 +33,7 @@ A mobile-first website for an agency / startup built with Meteor.
 
 * Modules
 	* Admin account to insert/update/delete content
-	* Email capture
+	* Newsletter subscription
 	* Random quote on page load
 	* Twitter streaming
 	* Article excerpts
@@ -50,7 +50,7 @@ A mobile-first website for an agency / startup built with Meteor.
   * Menu
   * ~~Admin~~
 * Modules
-  * ~~Email capture~~
+  * ~~Newsletter subscription~~
   * ~~Random quote on page load~~
   * ~~Insert/Edit Post~~
 
