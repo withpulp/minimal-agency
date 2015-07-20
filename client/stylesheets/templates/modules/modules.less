@@ -269,11 +269,18 @@
 		}
 	}
   &.values {
-    .row {
-      padding-top: @space-base;
-    }
-    .rank p {
-      font-size: @font-size-large;
+
+    .grid {
+      margin-top: @space-base;
+
+      .rank {
+        font-size: @font-size-large;
+      }
+
+      .value {
+        width: @full;
+        margin: 0;
+      }
     }
   }
 }
