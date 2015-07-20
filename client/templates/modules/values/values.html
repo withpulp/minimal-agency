@@ -1,11 +1,11 @@
 <template name="values">
-  <div class="values">
+  <div class="values module">
     {{#each values}}
-      <div class="row grid module">
-        <div class="cell quarter center">
-          <h4>{{rank}}</h4>
+      <div class="row grid">
+        <div class="rank quarter cell center">
+          <p>{{rank}}</p>
         </div>
-        <div class="value cell">
+        <div class="value grid full cell">
           <h4>{{value}}</h4>
           <p>{{definition}}</p>
         </div>
