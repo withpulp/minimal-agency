@@ -28,13 +28,17 @@
 
     &.about {
       padding-top: 0;
+      background-color: @blueprint-blue;
+
+      p, h3, h4 {
+        color: @gray-lighter;
+      }
 
       .segment {
 
         &.header {
           height: @space-god;
           border-bottom: @space-micro solid @dark;
-          background-image: @about-header-bg;
           background-size: cover;
           background-position: @half @half;
           background-repeat: no-repeat;

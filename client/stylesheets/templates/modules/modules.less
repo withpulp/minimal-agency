@@ -276,16 +276,22 @@
       .rank {
         font-size: @font-size-huge;
         font-weight: bold;
-        color: @gray;
+        color: @gray-dark;
       }
 
       .value {
 
-
         h4 {
           width: @full;
           margin: 0;
-          font-size: @font-size-base + @font-size-mini;
+          font-size: @font-size-base + @font-size-tiny;
+          padding-bottom: @space-tiny;
+          color: @light;
+        }
+
+        p {
+          font-size: @font-size-base + @font-size-atomic;
+          color: @gray-lighter;
         }
       }
     }
