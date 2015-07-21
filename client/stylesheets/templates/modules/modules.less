@@ -270,10 +270,6 @@
 	}
   &.values {
 
-    h3 {
-      color: @light;
-    }
-
     .grid {
       margin-top: @space-base;
 
@@ -291,6 +287,10 @@
           font-size: @font-size-base + @font-size-tiny;
           padding-bottom: @space-tiny;
           color: @light;
+
+          small.title {
+            color: @light !important;
+          }
         }
 
         p {
