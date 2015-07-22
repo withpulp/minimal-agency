@@ -8,9 +8,7 @@ Fixtures.members = [
 		name: 'Husam Machlovi',
 		title: 'Design',
 		rank: 'Partner',
-		summary: 'Husam guides clients in their efforts to plan and build software products and services.\\
-							Prior to uTool, Husam was a Product Strategy & Design consultant for top Fortune 500 companies including Pfizer, Johnson & Johnson, Amgen and Thermo Fisher Scientifc.\\
-							Husam\'s work has helped these brands stand out from their competitors and provide meaningful experiences to their customers.',
+		summary: 'Husam guides clients in their efforts to plan and build software products and services.\n Prior to uTool, Husam was a Product Strategy & Design consultant for top Fortune 500 companies including Pfizer, Johnson & Johnson, Amgen and Thermo Fisher Scientifc.\n Husam\'s work has helped these brands stand out from their competitors and provide meaningful experiences to their customers.',
 		social: [
 			{
 				url: 'http://twitter.com/hmachlovi',
@@ -32,9 +30,7 @@ Fixtures.members = [
 		name: 'Damir Vazgird',
 		title: 'Development',
 		rank: 'Partner',
-		summary: 'Damir sits at the intersection of Design and Technology.\\
-						  He brings his deep mobile and technological expertise to new applications for multi-million dollar companies including the School of Visual Arts and AMC Networks.\\
-						  His work has helped companies streamline their processes and produce more effectively and efficiently.',
+		summary: 'Damir sits at the intersection of Design and Technology.\n He brings his deep mobile and technological expertise to new applications for multi-million dollar companies including the School of Visual Arts and AMC Networks.\n His work has helped companies streamline their processes and produce more effectively and efficiently.',
 		social: [
 			{
 				url: 'http://twitter.com/dvazgird',
