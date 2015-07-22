@@ -4,10 +4,21 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.members = [
 	{
 		image: '/images/team/husam.jpg',
+		thumb: 'http://placehold.it/280x200',
 		name: 'Husam Machlovi',
 		title: 'Design',
 		rank: 'Partner',
-		summary: 'Husam guides clients in their efforts to envision, plan, and roll out best-in-category experiences. Prior to uTool, Husam oversaw digital product strategy and design for Fortune 100 companies including Johnson & Johnson and Pfizer.’',
+		summary: [
+			{
+				paragraph1: ''
+			},
+			{
+				paragraph2: ''
+			},
+			{
+				paragraph3: ''
+			}
+		],
 		social: [
 			{
 				url: 'http://twitter.com/hmachlovi',
@@ -25,10 +36,21 @@ Fixtures.members = [
 	},
 	{
 		image: '/images/team/damir.jpg',
+		thumb: 'http://placehold.it/280x200',
 		name: 'Damir Vazgird',
 		title: 'Development',
 		rank: 'Partner',
-		summary: 'Damir sits at the intersection of Design and Technology, bringing his deep mobile and technological expertise to new applications for multi-million dollar companies including the School of Visual Arts and AMC Networks',
+		summary: [
+			{
+				paragraph1: ''
+			},
+			{
+				paragraph2: ''
+			},
+			{
+				paragraph3: ''
+			}
+		],
 		social: [
 			{
 				url: 'http://twitter.com/dvazgird',
