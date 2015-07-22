@@ -10,13 +10,13 @@ Fixtures.members = [
 		rank: 'Partner',
 		summary: [
 			{
-				paragraph1: ''
+				paragraph: 'Husam guides clients in their efforts to plan and build software products and services.'
 			},
 			{
-				paragraph2: ''
+				paragraph: 'Prior to uTool, Husam was a Product Strategy & Design consultant for top Fortune 500 companies including Pfizer, Johnson & Johnson, Amgen and Thermo Fisher Scientifc.'
 			},
 			{
-				paragraph3: ''
+				paragraph: 'Husam\'s work has helped these brands stand out from their competitors and provide meaningful experiences to their customers.'
 			}
 		],
 		social: [
@@ -42,13 +42,13 @@ Fixtures.members = [
 		rank: 'Partner',
 		summary: [
 			{
-				paragraph1: ''
+				paragraph: 'Damir sits at the intersection of Design and Technology.'
 			},
 			{
-				paragraph2: ''
+				paragraph: 'He brings his deep mobile and technological expertise to new applications for multi-million dollar companies including the School of Visual Arts and AMC Networks.'
 			},
 			{
-				paragraph3: ''
+				paragraph: 'His work has helped companies streamline their processes and produce more effectively and efficiently.'
 			}
 		],
 		social: [
