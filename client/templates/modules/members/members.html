@@ -8,7 +8,7 @@
 					  <h4 class="name">
 						  {{name}}
 						  <small class="title">
-							  {{title}}
+							  {{rank}}, {{title}}
 						  </small>
 					  </h4>
 					  <div class="social">
@@ -25,6 +25,15 @@
 				  </figcaption>
 				</figure>
 		  </div>
+			<!--leader template should appear only in the members section-->
+			<div class="member">
+				<img src="{{image}}" />
+				<h4>{{name}}
+				<small>{{rank}}, {{title}}</small>
+				</h4>
+				<p>{{summary}}</p>
+			</div>
+
 
 		{{/each}}
 	</div>
