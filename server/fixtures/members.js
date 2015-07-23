@@ -3,7 +3,7 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.members = [
 	{
-		image: '/images/team/husam.jpg',
+		image: 'http://placehold.it/615x462',
 		thumb: 'http://placehold.it/280x200',
 		name: 'Husam Machlovi',
 		title: 'Design',
