@@ -1,6 +1,7 @@
 <template name="members">
 	<div class="members module top gutter grid">
 	  {{#each members}}
+		<!--this template should only appear in /root-->
 		  <div class="member cell">
 				<figure class="card">
 			    <img class="fluid image" src="{{thumb}}" />
@@ -8,7 +9,7 @@
 					  <h4 class="name">
 						  {{name}}
 						  <small class="title">
-							  {{title}}
+							  {{rank}}, {{title}}
 						  </small>
 					  </h4>
 					  <div class="social">
@@ -25,6 +26,31 @@
 				  </figcaption>
 				</figure>
 		  </div>
+
+			<!--this template should only appear in /about-->
+			<div class="member">
+				<figure>
+					<img src="{{image}}" />
+					<figcaption class="caption">
+						<h4>{{name}}
+							<small>{{rank}}, {{title}}</small>
+						</h4>
+						<p>{{summary}}</p>
+						<div class="social">
+							<ul class="inline list">
+								{{#each social}}
+									<li class="item">
+										<a class="icon" href="{{url}}" target="_blank">
+											<i class="{{icon}}"></i>
+										</a>
+									</li>
+									{{/each}}
+							</ul>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+
 
 		{{/each}}
 	</div>

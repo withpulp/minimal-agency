@@ -28,6 +28,10 @@ Members.attachSchema(new SimpleSchema({
     type: String,
     label: 'Name'
   },
+  thumb: {
+    type: String,
+    label: 'Image'
+  },
   image: {
     type: String,
     label: 'Image'
@@ -40,9 +44,10 @@ Members.attachSchema(new SimpleSchema({
     type: String,
     label: 'Rank'
   },
-  summary: orion.attribute('froala', {
+  summary: {
+    type: String,
     label: 'Summary'
-  }),
+  },
   'social.$.url': {
     type: String,
     label: 'Social Media URL'
