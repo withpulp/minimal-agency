@@ -30,11 +30,11 @@
       padding-top: 0;
       background-color: @blue;
 
-        p, h3, h4 {
+      .segment {
+
+        .statement {
           color: @light;
         }
-
-      .segment {
 
         &.header {
           border-bottom: @space-micro solid @blue-light;
@@ -42,11 +42,8 @@
           .title {
             margin-bottom: 0;
             padding: @space-huge 0 0 @space-tiny;
+            color: @light;
           }
-        }
-
-        &.summary {
-
         }
       }
     }

@@ -44,10 +44,9 @@ Members.attachSchema(new SimpleSchema({
     type: String,
     label: 'Rank'
   },
-  summary: {
-    type: String,
+  summary: orion.attribute('froala', {
     label: 'Summary'
-  },
+  }),
   'social.$.url': {
     type: String,
     label: 'Social Media URL'
