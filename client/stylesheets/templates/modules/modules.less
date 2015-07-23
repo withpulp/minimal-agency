@@ -119,6 +119,8 @@
 
         &.about {
 
+          padding-bottom: @space-large;
+
           .image {
             margin: @space-base 0;
             max-width: @full;
@@ -130,14 +132,19 @@
             .name {
               margin: 0;
               color: @light;
+              font-size: @font-size-base + @font-size-mini;
 
               .title {
                 display: block;
                 color: @gray-lighter;
                 font-family: @font-family-base;
+                font-size: @font-size-base + @font-size-mini;
               }
             }
 
+            .summary {
+              padding-top: @space-base;
+            }
             .social {
               display: block;
               width: @full;

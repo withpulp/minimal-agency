@@ -25,7 +25,7 @@ Fixtures.members = [
 		]
 	},
 	{
-		image: '/images/team/damir.jpg',
+		image: 'http://placehold.it/615x462',
 		thumb: 'http://placehold.it/280x200',
 		name: 'Damir Vazgird',
 		title: 'Development',
