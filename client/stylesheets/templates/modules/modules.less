@@ -44,72 +44,120 @@
       .card {
         margin: 0;
         padding: 0;
-        transform: scale3d(1,1,1);
-        transition: transform @slowest;
 
-        .image {
-          position: relative;
-          display: block;
-          width: @full;
-          cursor: pointer;
-          transition: filter @slowest;
+        &.root {
+          transform: scale3d(1,1,1);
+          transition: transform @slowest;
 
-          @media (min-width: @tablet-width) {
-            width: @third + @eighth;
-          }
-
-          @media (min-width: @desktop-width) {
-            filter: grayscale(@three-quarters);
-          }
-        }
-
-        .caption {
-
-          .name {
-            margin: 0;
-            text-align: center;
-
-            .title {
-              display: block;
-              color: @gray;
-              font-family: @font-family-base;
-            }
-          }
-
-          .social {
-            display: none;
+          .image {
+            position: relative;
+            display: block;
             width: @full;
-            margin: @space-small auto @space-base;
-            text-align: center;
+            cursor: pointer;
+            transition: filter @slowest;
 
             @media (min-width: @tablet-width) {
-              display: block;
-              width: @half;
+              width: @third + @eighth;
             }
 
-            .list {
+            @media (min-width: @desktop-width) {
+              filter: grayscale(@three-quarters);
+            }
+          }
 
-              .item {
-                padding: 0 @space-small;
+          .caption {
 
-                .icon {
-                  text-decoration: none;
+            .name {
+              margin: 0;
+              text-align: center;
 
-                  .fa {
-                    display: inherit;
+              .title {
+                display: block;
+                color: @gray;
+                font-family: @font-family-base;
+              }
+            }
+
+            .social {
+              display: none;
+              width: @full;
+              margin: @space-small auto @space-base;
+              text-align: center;
+
+              @media (min-width: @tablet-width) {
+                display: block;
+                width: @half;
+              }
+
+              .list {
+
+                .item {
+                  padding: 0 @space-small;
+
+                  .icon {
+                    text-decoration: none;
+
+                    .fa {
+                      display: inherit;
+                    }
                   }
                 }
               }
             }
           }
+
+          &:hover,
+          &:focus {
+            transform: scale3d(1.1,1.1,1.1);
+
+            .image {
+              filter: grayscale(0);
+            }
+          }
         }
 
-        &:hover,
-        &:focus {
-          transform: scale3d(1.1,1.1,1.1);
+        &.about {
 
           .image {
-            filter: grayscale(0);
+            margin: @space-base 0;
+          }
+
+          .caption {
+            color: @light;
+
+            .name {
+              margin: 0;
+              color: @light;
+
+              .title {
+                display: block;
+                color: @gray-lighter;
+                font-family: @font-family-base;
+              }
+            }
+
+            .social {
+              display: block;
+              width: @full;
+              margin: @space-small auto @space-base;
+              text-align: left;
+
+              .list {
+
+                .item {
+                  padding: 0 @space-small;
+
+                  .icon {
+                    color: @light;
+                    text-decoration: none;
+
+                    .fa {
+                      display: inherit;
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -281,19 +329,15 @@
 
       .value {
 
-        h4 {
+        .value {
           width: @full;
           margin: 0;
           font-size: @font-size-base + @font-size-tiny;
           padding-bottom: @space-tiny;
           color: @light;
-
-          small.title {
-            color: @light !important;
-          }
         }
 
-        p {
+        .definition {
           font-size: @font-size-base + @font-size-atomic;
           color: @gray-lighter;
         }

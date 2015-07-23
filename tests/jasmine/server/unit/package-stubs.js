@@ -7085,7 +7085,11 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
+<<<<<<< HEAD
                   "value": "c8e9110e53fd9b7cddd7450e4afba9750d6b12c6"
+=======
+                  "value": "074faec2ee54727cdf97520ef7ed334e5eddcf40"
+>>>>>>> ab07fcb41bb81523d2d6a84b962c39f14e521df2
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7889,11 +7893,15 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
+<<<<<<< HEAD
           "value": "3c5b1becef83d686746f584de1e0dd842c916e38"
+=======
+          "value": "904e643636ac6d6447a31e69d00fd34de08dce39"
+>>>>>>> ab07fcb41bb81523d2d6a84b962c39f14e521df2
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "ae07ddf898f8842dbc8fbc5ab329ab92c785ff87"
+          "value": "10ff22c4cc3f1ade376ab1146543570735623d8a"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -8924,7 +8932,7 @@ var packageMetadata = {
             },
             "siteName": {
               "type": "constant",
-              "value": "localhost:3000"
+              "value": "localhost:3030"
             },
             "resetPassword": {
               "type": "object",
