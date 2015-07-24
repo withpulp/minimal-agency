@@ -5,3 +5,7 @@ Template.registerHelper('menuToggle', function() {
 Template.registerHelper('root', function() {
   return Session.get('root');
 });
+
+Template.registerHelper('about', function() {
+  return Session.get('about') ? 'about' : '';
+});
