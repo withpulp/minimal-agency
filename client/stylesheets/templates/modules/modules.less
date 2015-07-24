@@ -335,11 +335,13 @@
 	}
   &.values {
 
+    padding: @space-small 0 @space-small @space-small;
+
     .grid {
       margin-top: @space-base;
 
       .rank {
-        font-size: @font-size-huge;
+        font-size: @font-size-large + @font-size-mini;
         font-weight: bold;
         color: @gray-dark !important;
         padding: @space-base 0;
@@ -356,7 +358,7 @@
         }
 
         .definition {
-          font-size: @font-size-base + @font-size-atomic;
+          font-size: @font-size-base;
           color: @gray-lighter;
         }
       }
