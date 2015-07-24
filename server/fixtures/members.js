@@ -3,7 +3,7 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.members = [
 	{
-		image: 'http://placehold.it/615x462',
+		image: '/images/about/h.jpg',
 		thumb: 'http://placehold.it/280x200',
 		name: 'Husam Machlovi',
 		title: 'Design',
@@ -25,7 +25,7 @@ Fixtures.members = [
 		]
 	},
 	{
-		image: 'http://placehold.it/615x462',
+		image: '/images/about/d.jpg',
 		thumb: 'http://placehold.it/280x200',
 		name: 'Damir Vazgird',
 		title: 'Development',
