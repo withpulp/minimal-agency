@@ -5,26 +5,26 @@ Fixtures.values = [
 	{
 		rank: 'A',
 		value: 'Authenticity',
-		definition: 'To build positive relationships.'
+		definition: 'To be vulnerable and build real connections.'
 	},
 	{
 		rank: 'B',
 		value: 'Adaptability',
-		definition: 'To grow.'
+		definition: 'To respond to change quickly and continually grow.'
 	},
 	{
 		rank: 'C',
 		value: 'Simplicity',
-		definition: 'To distill to only what\'s meaningful'
+		definition: 'To eliminate clutter and keep only what\'s meaningful'
 	},
 	{
 		rank: 'D',
-		value: 'Self-awareness',
-		definition: 'To build on our strengths.'
+		value: 'Bravery',
+		definition: 'To take risks and embrace the consequences.'
 	},
 	{
 		rank: 'E',
-		value: 'Innovation',
-		definition: 'To empower the world.'
+		value: 'Self-awareness',
+		definition: 'To realize our strengths and collaborate effectively.'
 	}
 ]
