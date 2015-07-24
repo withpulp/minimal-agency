@@ -1,0 +1,22 @@
+@import '../../../variables';
+
+// article module styles
+
+.module.article {
+	padding: 0;
+
+	article {
+		margin-bottom: @space-base;
+
+		@media (min-width: @tablet-width) {
+			margin-bottom: @space-large;
+		}
+
+		.title {
+			margin-bottom: @space-small;
+		}
+
+		&.tool {
+		}
+	}
+}

@@ -1,0 +1,147 @@
+@import '../../../variables';
+
+// members module styles
+
+.module.members {
+
+	.member {
+
+		.card {
+			margin: 0;
+			padding: 0;
+
+			&.root {
+				transform: scale3d(1,1,1);
+				transition: transform @slowest;
+
+				.image {
+					position: relative;
+					display: block;
+					width: @full;
+					cursor: pointer;
+					transition: filter @slowest;
+					max-width: 100%;
+
+					@media (min-width: @tablet-width) {
+						width: @third + @eighth;
+					}
+
+					@media (min-width: @desktop-width) {
+						filter: grayscale(@three-quarters);
+					}
+				}
+
+				.caption {
+
+					.name {
+						margin: 0;
+						text-align: center;
+
+						.title {
+							display: block;
+							color: @gray;
+							font-family: @font-family-base;
+						}
+					}
+
+					.social {
+						display: none;
+						width: @full;
+						margin: @space-small auto @space-base;
+						text-align: center;
+
+						@media (min-width: @tablet-width) {
+							display: block;
+							width: @half;
+						}
+
+						.list {
+
+							.item {
+								padding: 0 @space-small;
+
+								.icon {
+									text-decoration: none;
+
+									.fa {
+										display: inherit;
+									}
+								}
+							}
+						}
+					}
+				}
+
+				&:hover,
+				&:focus {
+					transform: scale3d(1.1,1.1,1.1);
+
+					.image {
+						filter: grayscale(0);
+					}
+				}
+			}
+
+			&.about {
+
+				padding-bottom: @space-large;
+
+				.image {
+					margin: @space-base 0;
+					max-width: @full;
+				}
+
+				.caption {
+					color: @light;
+
+					.name {
+						margin: 0;
+						color: @light;
+						font-size: @font-size-medium;
+						text-align: center;
+						color: @gray-darker;
+
+						.title {
+							display: block;
+							font-size: @font-size-base + @font-size-mini;
+							color: @gray-darker;
+						}
+					}
+
+					.summary {
+						padding: @space-base 0;
+					}
+
+					.social {
+						display: block;
+						width: @full;
+						margin: @space-small auto @space-base;
+						text-align: center;
+						padding: 0 @space-base;
+
+						i {
+							font-size: @font-size-large;
+							padding: @space-base;
+						}
+
+						.list {
+
+							.item {
+								padding: 0 @space-small;
+
+								.icon {
+									color: @light;
+									text-decoration: none;
+
+									.fa {
+										display: inherit;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
