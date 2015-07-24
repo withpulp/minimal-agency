@@ -6,6 +6,6 @@ Template.registerHelper('root', function() {
   return Session.get('root');
 });
 
-Template.registerHelper('about', function() {
-  return Session.get('about') ? 'about' : '';
+Template.registerHelper('setClass', function() {
+  return Session.get('setClass');
 });
