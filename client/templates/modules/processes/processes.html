@@ -1,0 +1,15 @@
+<template name="processes">
+  <div class="processes module">
+    {{#each processes}}
+      <div class="rank grid">
+        <div class="quarter center cell">
+          <p class="rank">{{rank}}</p>
+        </div>
+        <div class="process cell">
+          <h4 class="process">{{process}}</h4>
+          <p class="definition">{{definition}}</p>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</template>
