@@ -1,0 +1,42 @@
+@import '../../../variables';
+
+// quotes module styles
+
+.module.quotes {
+	display: inline-block;
+	width: @full;
+	margin-bottom: @space-jumbo;
+	padding: @space-large;
+	font-style: italic;
+	font-family: @font-family-serif;
+	text-align: center;
+
+	@media (min-width: @tablet-width) {
+		padding: @space-jumbo;
+	}
+
+	@media (min-width: @desktop-width) {
+		padding: @space-giant;
+	}
+
+	.quote {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: @font-size-base;
+
+		@media (min-width: @tablet-width) {
+			font-size: @font-size-large + @font-size-mini;
+		}
+
+		.author {
+			margin-top: @space-small;
+			font-family: @font-family-serif;
+			text-align: center;
+		}
+	}
+
+  &.about {
+
+  }
+}

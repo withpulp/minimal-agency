@@ -1,0 +1,20 @@
+@import '../../../variables';
+
+// clients module styles
+
+.module.clients {
+
+	.client {
+		transform: scale3d(1,1,1);
+		transition: transform @slowest;
+
+		.image {
+			margin: 0;
+		}
+
+		&:hover,
+		&:focus {
+			transform: scale3d(1.15,1.15,1.15);
+		}
+	}
+}

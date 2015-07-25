@@ -1,0 +1,35 @@
+@import '../../../variables';
+
+// values module styles
+
+.module.values {
+
+	padding: @space-small 0 @space-small @space-small;
+
+	.grid {
+		margin-top: @space-base;
+
+		.rank {
+			font-size: @font-size-large + @font-size-mini;
+			font-weight: bold;
+			color: @gray-dark !important;
+			padding: @space-base 0;
+		}
+
+		.value {
+
+			.value {
+				width: @full;
+				margin: 0;
+				font-size: @font-size-base + @font-size-tiny;
+				padding-bottom: @space-tiny;
+				color: @light;
+			}
+
+			.definition {
+				font-size: @font-size-base;
+				color: @gray-lighter;
+			}
+		}
+	}
+}
