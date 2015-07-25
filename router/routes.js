@@ -66,6 +66,35 @@ Router.route('/about', {
   SEO.set({ title: Meteor.App.NAME });
 });
 
+Router.route('/process', {
+	name: 'process',
+	data: function() {
+		return [
+			Processes.find(),
+			Quotes.find(),
+			Routes.find(),
+			Contacts.find()
+		]
+  },
+  waitOn: function () {
+    return [
+			Meteor.subscribe('processes'),
+			Meteor.subscribe('quotes'),
+			Meteor.subscribe('routes'),
+			Meteor.subscribe('contacts')
+    ]
+  },
+  action: function () {
+    if (this.ready())
+      this.render('process');
+    else
+      this.render('loading');
+  }
+}, function () {
+  SEO.set({ title: Meteor.App.NAME });
+});
+
+
 Router.route('/work', {
 	name: 'work',
 	data: function() {
