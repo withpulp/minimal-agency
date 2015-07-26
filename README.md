@@ -29,6 +29,7 @@ A mobile-first website for an agency / startup built with Meteor.
 	* Blog
 	* Admin
   * About
+  * process
   * Menu
 
 * Modules
@@ -48,6 +49,7 @@ A mobile-first website for an agency / startup built with Meteor.
   * About
   * Blog
   * Menu
+  * Process
   * ~~Admin~~
 * Modules
   * ~~Newsletter subscription~~
