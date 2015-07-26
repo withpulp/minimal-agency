@@ -38,7 +38,7 @@ A mobile-first website for an agency / startup built with Meteor.
 	* Random quote on page load
 	* Twitter streaming
 	* Article excerpts
-  * Dynamic page transitions
+  * Dynamic "next-up" page links
 
 ### Views
 
