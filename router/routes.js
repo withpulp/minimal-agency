@@ -71,6 +71,7 @@ Router.route('/process', {
 	data: function() {
 		return [
 			Processes.find(),
+			Services.find(),
 			Quotes.find(),
 			Routes.find(),
 			Contacts.find()
@@ -79,6 +80,7 @@ Router.route('/process', {
   waitOn: function () {
     return [
 			Meteor.subscribe('processes'),
+			Meteor.subscribe('services'),
 			Meteor.subscribe('quotes'),
 			Meteor.subscribe('routes'),
 			Meteor.subscribe('contacts')
