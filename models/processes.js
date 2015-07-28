@@ -8,6 +8,10 @@ Processes = new orion.collection('processes', {
   tabular: {
     columns: [
       {
+        data: 'rank',
+        title: 'Rank'
+      },
+      {
         data: 'process',
         title: 'Process'
       },
@@ -20,6 +24,10 @@ Processes = new orion.collection('processes', {
 });
 
 Processes.attachSchema(new SimpleSchema({
+  rank: {
+    type: Number,
+    label: 'Rank'
+  },
   process: {
     type: String,
     label: 'Process'
