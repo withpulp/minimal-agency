@@ -43,6 +43,7 @@ Router.route('/about', {
 			Values.find(),
 			Services.find(),
 	    Members.find(),
+			Processes.find(),
 			Quotes.find(),
 			Routes.find(),
 			Contacts.find()
@@ -53,6 +54,7 @@ Router.route('/about', {
 			Meteor.subscribe('values'),
 			Meteor.subscribe('services'),
       Meteor.subscribe('members'),
+			Meteor.subscribe('processes'),
 			Meteor.subscribe('quotes'),
 			Meteor.subscribe('routes'),
 			Meteor.subscribe('contacts')
