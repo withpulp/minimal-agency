@@ -41,6 +41,7 @@ Router.route('/about', {
 	data: function() {
 		return [
 			Values.find(),
+			Services.find(),
 	    Members.find(),
 			Quotes.find(),
 			Routes.find(),
@@ -50,6 +51,7 @@ Router.route('/about', {
   waitOn: function () {
     return [
 			Meteor.subscribe('values'),
+			Meteor.subscribe('services'),
       Meteor.subscribe('members'),
 			Meteor.subscribe('quotes'),
 			Meteor.subscribe('routes'),
