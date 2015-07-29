@@ -70,6 +70,35 @@ Router.route('/about', {
   SEO.set({ title: Meteor.App.NAME });
 });
 
+Router.route('/manifesto', {
+	name: 'manifesto',
+	data: function() {
+		return [
+			Values.find(),
+			Quotes.find(),
+			Routes.find(),
+			Contacts.find()
+		]
+	},
+	waitOn: function () {
+		return [
+			Meteor.subscribe('values'),
+			Meteor.subscribe('quotes'),
+			Meteor.subscribe('routes'),
+			Meteor.subscribe('contacts')
+		]
+	},
+	action: function () {
+		if (this.ready())
+			this.render('manifesto');
+		else
+			this.render('loading');
+	}
+}, function () {
+  SEO.set({ title: Meteor.App.NAME });
+});
+
+
 Router.route('/process', {
 	name: 'process',
 	data: function() {
