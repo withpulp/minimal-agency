@@ -3,7 +3,6 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.processes = [
   // move this leading statement to dict
-  //header: 'We take an iterative approach to design and development that empowers minimal time to market.',
   {
     title: 'Understand, Build, Iterate',
     description: 'We strongly believe the only way to know if something works is to test it. This means prototypes are crucial for success. This frame forms our simple strategy for software development.',
