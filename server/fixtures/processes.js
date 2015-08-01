@@ -5,18 +5,18 @@ Fixtures.processes = [
   // move this leading statement to dict
   //header: 'We take an iterative approach to design and development that empowers minimal time to market.',
   {
-    rank: '1',
-    process: 'Learn',
-    description: 'Leveraging the best business requirements framework, we understand the business need.'
-  },
-  {
-    rank: '2',
-    process: 'Iterate',
-    description: 'We define our hypothesis and create a functional prototype to test it.'
-  },
-  {
-    rank: '3',
-    process: 'Launch',
-    description: 'We launch the prototype, gather feedback and re-visit step 2.'
+    title: 'Understand, Build, Iterate',
+    description: 'We strongly believe the only way to know if something works is to test it. This means prototypes are crucial for success. This frame forms our simple strategy for software development.',
+    processes: [
+      {
+        statement: 'Understand the need and surrounding environmental factors'
+      },
+      {
+        statement: 'Build a testable, minimally viable prototype that may best address need'
+      },
+      {
+        statement: 'Iterate over prototype until expected outcome is realized'
+      }
+    ]
   }
 ]
