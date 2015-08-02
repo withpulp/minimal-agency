@@ -28,9 +28,9 @@ Processes.attachSchema(new SimpleSchema({
     type: String,
     label: 'Description'
   },
-  'processes.$.statement': {
+  'stages.$.stage': {
     type: String,
-    label: 'Statement'
+    label: 'Stage'
   },
   createdBy: orion.attribute('createdBy'),
   createdAt: orion.attribute('createdAt')
