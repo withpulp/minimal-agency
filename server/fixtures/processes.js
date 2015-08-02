@@ -5,7 +5,7 @@ Fixtures.processes = [
   // move this leading statement to dict
   {
     title: 'Learn, Launch, Loop',
-    description: 'We believe the only way to know an idea is viable is through field-tested prototypes. This frame forms our simple strategy for software development.',
+    description: 'We believe the only way to know whether an idea is viable is through field-tested prototypes. This frame forms our strategy for software development.',
     stages: [
       {
         stage: 'Learn the need and surrounding environmental factors'
