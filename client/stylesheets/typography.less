@@ -178,15 +178,15 @@ html {
       font-size: @font-size-base;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-base + @font-size-micro;
-      }
-
-      @media (min-width: @desktop-width) {
         font-size: @font-size-base + @font-size-mini;
       }
 
-      @media (min-width: @large-desktop-width) {
+      @media (min-width: @desktop-width) {
         font-size: @font-size-base + @font-size-tiny;
+      }
+
+      @media (min-width: @large-desktop-width) {
+        font-size: @font-size-base + @font-size-small;
       }
 
       @media (min-width: @huge-desktop-width) {
