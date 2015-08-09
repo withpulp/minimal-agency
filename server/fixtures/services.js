@@ -4,11 +4,11 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.services = [
   {
     service: 'Digital Products and Services',
-    description: 'We don\'t ship integrated, efficacious tools that marketing-baloney with a side of agile-jibjab that deliver on your ROI-pancake. In fact, we don\'t even know what that means. We have resources that span Strategy, User Experience, Design and Technology to deliver digital products and services that help your business grow. That\'s it.'
+    description: 'We don\'t ship pretty-adjective nouns that marketing-verb your business to the next level. We deliver software products and services that help you work faster and produce better results. That\'s it.'
   },
   {
     service: 'Prototypes over Presentations',
-    description: 'No fancy shmancy PowerPoints or Keynotes. We take an iterative approach to design and development that embraces feedback throughout the entire process.'
+    description: 'No fancy shmancy PowerPoints. We take an iterative approach to design and development that embraces feedback throughout the entire process.'
   },
   {
     service: 'Team Game: Client + uTool',
