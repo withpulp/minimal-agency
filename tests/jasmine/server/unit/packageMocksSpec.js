@@ -7210,7 +7210,15 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
+<<<<<<< HEAD
               "value": 0
+=======
+<<<<<<< HEAD
+              "value": 0
+=======
+              "value": 2
+>>>>>>> 5ebea1733b4cfc6c06d76ca9ed263ab97da5fd05
+>>>>>>> master
             },
             "timeout": {
               "type": "constant",
