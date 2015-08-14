@@ -42,9 +42,9 @@ Meteor.startup(function () {
     loadFixture(Fixtures['processes'], Processes);
   }
 
-  if (Quotes.find().count() === 0) {
-    loadFixture(Fixtures['quotes'], Quotes);
-  }
+  //if (Quotes.find().count() === 0) {
+  //  loadFixture(Fixtures['quotes'], Quotes);
+  //}
 
   if (Routes.find().count() === 0) {
     loadFixture(Fixtures['routes'], Routes);
