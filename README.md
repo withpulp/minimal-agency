@@ -46,7 +46,7 @@ A mobile-first website for an agency / startup built with Meteor.
 ### MVP
 * Views
   * ~~Landing~~
-  * About
+  * ~~About~~
   * Blog
   * Menu
   * Process
