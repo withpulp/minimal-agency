@@ -7890,11 +7890,19 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
+<<<<<<< HEAD
           "value": "8a6261931e70334b1f01a426b802396ac6b3b97c"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
           "value": "7a301c602dbff41cda456ff39fe6bd2500e7652d"
+=======
+          "value": "9f780d8b87c438866a55565d3184689188c8c772"
+        },
+        "autoupdateVersionRefreshable": {
+          "type": "constant",
+          "value": "68696ff31d97967894ca3f46f808c9e7080cb1c0"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -8922,7 +8930,7 @@ var packageMetadata = {
             },
             "siteName": {
               "type": "constant",
-              "value": "localhost:3000"
+              "value": "localhost:4000"
             },
             "resetPassword": {
               "type": "object",
@@ -21457,7 +21465,11 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
+<<<<<<< HEAD
                               "value": "http://localhost:3000/"
+=======
+                              "value": "http://localhost:4000/"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -27992,7 +28004,11 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
+<<<<<<< HEAD
                               "value": "http://localhost:3000/"
+=======
+                              "value": "http://localhost:4000/"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -36545,7 +36561,11 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
+<<<<<<< HEAD
                               "value": "http://localhost:3000/"
+=======
+                              "value": "http://localhost:4000/"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -43079,7 +43099,11 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
+<<<<<<< HEAD
                               "value": "http://localhost:3000/"
+=======
+                              "value": "http://localhost:4000/"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -49613,7 +49637,11 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
+<<<<<<< HEAD
                               "value": "http://localhost:3000/"
+=======
+                              "value": "http://localhost:4000/"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -56147,7 +56175,11 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
+<<<<<<< HEAD
                               "value": "http://localhost:3000/"
+=======
+                              "value": "http://localhost:4000/"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -62681,7 +62713,11 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
+<<<<<<< HEAD
                               "value": "http://localhost:3000/"
+=======
+                              "value": "http://localhost:4000/"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -69216,7 +69252,11 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
+<<<<<<< HEAD
                               "value": "http://localhost:3000/"
+=======
+                              "value": "http://localhost:4000/"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -75753,7 +75793,11 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
+<<<<<<< HEAD
                               "value": "http://localhost:3000/"
+=======
+                              "value": "http://localhost:4000/"
+>>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
