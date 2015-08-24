@@ -11,8 +11,6 @@ fastclick
 manuelschoebel:ms-seo
 momentjs:moment
 msavin:mongol
-sanjo:jasmine
-velocity:html-reporter
 miro:mailchimp
 lauricio:less-autoprefixer
 fortawesome:fontawesome
@@ -22,3 +20,5 @@ nicolaslopezj:roles
 orionjs:core
 orionjs:froala
 dvz:orion-unstyled
+sanjo:jasmine
+velocity:html-reporter
