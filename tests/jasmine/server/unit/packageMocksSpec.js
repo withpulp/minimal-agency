@@ -7086,11 +7086,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-<<<<<<< HEAD
-                  "value": "eb9d15c52ffabb983c2521b3032b53ea838eb41f"
-=======
-                  "value": "342e244d2c7f4ddf8f276f3010b989301bdbde93"
->>>>>>> master
+                  "value": "ff018ebb3a43f22e3649ac39f1b15622450810f6"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7214,7 +7210,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 1
+              "value": 0
             },
             "timeout": {
               "type": "constant",
@@ -7894,27 +7890,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-<<<<<<< HEAD
-          "value": "f99f98ecdba4e84b4de24a50e9c1a8e972d36514"
+          "value": "3176c3ae68d671035fa508e2e08b80c3dcb6e22b"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "facd2472ff084879e3e9ec2d6ea606016f1edfb2"
-=======
-<<<<<<< HEAD
-          "value": "8a6261931e70334b1f01a426b802396ac6b3b97c"
-        },
-        "autoupdateVersionRefreshable": {
-          "type": "constant",
-          "value": "7a301c602dbff41cda456ff39fe6bd2500e7652d"
-=======
-          "value": "9f780d8b87c438866a55565d3184689188c8c772"
-        },
-        "autoupdateVersionRefreshable": {
-          "type": "constant",
-          "value": "68696ff31d97967894ca3f46f808c9e7080cb1c0"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
->>>>>>> master
+          "value": "5d81c4916c57416f4d163a255e78a8d74cabf38e"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -21477,11 +21457,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-<<<<<<< HEAD
-                              "value": "http://localhost:3000/"
-=======
                               "value": "http://localhost:4000/"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -28016,11 +27992,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-<<<<<<< HEAD
-                              "value": "http://localhost:3000/"
-=======
                               "value": "http://localhost:4000/"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -36573,11 +36545,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-<<<<<<< HEAD
-                              "value": "http://localhost:3000/"
-=======
                               "value": "http://localhost:4000/"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -43111,11 +43079,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-<<<<<<< HEAD
-                              "value": "http://localhost:3000/"
-=======
                               "value": "http://localhost:4000/"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -49649,11 +49613,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-<<<<<<< HEAD
-                              "value": "http://localhost:3000/"
-=======
                               "value": "http://localhost:4000/"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -56187,11 +56147,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-<<<<<<< HEAD
-                              "value": "http://localhost:3000/"
-=======
                               "value": "http://localhost:4000/"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -62725,11 +62681,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-<<<<<<< HEAD
-                              "value": "http://localhost:3000/"
-=======
                               "value": "http://localhost:4000/"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -69264,11 +69216,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-<<<<<<< HEAD
-                              "value": "http://localhost:3000/"
-=======
                               "value": "http://localhost:4000/"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
@@ -75805,11 +75753,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-<<<<<<< HEAD
-                              "value": "http://localhost:3000/"
-=======
                               "value": "http://localhost:4000/"
->>>>>>> a6f784588f0bd66863815fdb3c4bfde450cc35bf
                             }
                           }
                         }
