@@ -1,5 +1,23 @@
 <template name="blog">
   <div class="blog view">
-    {{> posts}}
+    <section class="header segment">
+      <h2 class="page-title">Blog</h2>
+      <div class="summary segment">
+        <p class="mission statement">
+          We like talking with you. You're pretty swell.
+        </p>
+        <p class="supporting statement">Here, we'll share
+          <span class="highlight">
+            some thoughts we've been having.
+          </span>
+        </p>
+      </div>
+    </section>
+    <section class="services segment">
+      <h3 class="leading statement">
+        Posts:
+        {{> blogItem}}
+      </h3>
+    </section>
   </div>
 </template>
