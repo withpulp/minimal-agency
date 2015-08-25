@@ -4,6 +4,6 @@ Template.root.rendered = function() {
 
   $(".typed").typed({
   strings: ["We maximize converions.", "We boost business.", "We build software."],
-  typeSpeed: 0
+  typeSpeed: 25
 });
 }
