@@ -3,7 +3,7 @@ Template.root.rendered = function() {
   Session.set('setClass', '');
 
   $(".typed").typed({
-  strings: ["We maximize converions.", "We boost business.", "We build software."],
+  strings: ["We maximize conversions.", "We boost business.", "We build software."],
   typeSpeed: 25
 });
 }
