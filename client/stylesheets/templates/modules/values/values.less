@@ -3,30 +3,22 @@
 // values module styles
 
 .module.values {
+  padding: @space-small @space-huge + @space-micro;
+  list-style-type: upper-latin;
 
-	padding: @space-small 0 @space-small @space-small;
+  .item {
+    font-size: @font-size-large + @font-size-mini;
+    font-weight: bold;
+    color: @gray !important;
 
-	.grid {
-		margin-top: @space-base;
+    .value {
+      width: @full;
+      margin: 0;
+      padding-bottom: @space-tiny;
+    }
 
-		.rank {
-			font-size: @font-size-large + @font-size-mini;
-			font-weight: bold;
-			color: @gray !important;
-			padding: @space-base 0;
-		}
-
-		.value {
-
-			.value {
-				width: @full;
-				margin: 0;
-				padding-bottom: @space-tiny;
-			}
-
-			.definition {
-				font-size: @font-size-base;
-			}
-		}
-	}
+    .definition {
+      font-size: @font-size-base;
+    }
+  }
 }

@@ -1,15 +1,10 @@
 <template name="values">
-  <div class="values module">
-    {{#each values}}
-      <div class="rank grid">
-        <div class="quarter center cell">
-          <p class="rank">{{rank}}</p>
-        </div>
-        <div class="value cell">
-          <h4>{{value}}</h4>
-          <p class="definition">{{definition}}</p>
-        </div>
-      </div>
-    {{/each}}
-  </div>
+  <ul class="ordered values list module">
+      {{#each values}}
+          <li class="item">
+              <h4 class="value">{{value}}</h4>
+              <p class="definition">{{definition}}</p>
+          </li>
+      {{/each}}
+  </ul>
 </template>
