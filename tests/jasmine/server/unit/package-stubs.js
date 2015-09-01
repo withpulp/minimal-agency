@@ -7085,7 +7085,11 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
+<<<<<<< HEAD
                   "value": "ff018ebb3a43f22e3649ac39f1b15622450810f6"
+=======
+                  "value": "a1dcb0b2a12ec65671629a973a974fefd39a98d1"
+>>>>>>> 9b04cd7a06cdce80171ed9943e831bec9edeb104
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7889,11 +7893,19 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
+<<<<<<< HEAD
           "value": "1181194f9ed16ce3df1ba81a0ea4f377f9975537"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
           "value": "e7aacbcce04b5d14a072f6be02bd7b1c051ba85b"
+=======
+          "value": "28b4d35a56d3aeb22047ee8a9ba85795998a8f24"
+        },
+        "autoupdateVersionRefreshable": {
+          "type": "constant",
+          "value": "00b11404ee2b65171679c0be7786986f9bade6f1"
+>>>>>>> 9b04cd7a06cdce80171ed9943e831bec9edeb104
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -84652,6 +84664,7 @@ var packageMetadata = {
   },
   "grigio:babel": {},
   "velocity:html-reporter": {},
+  "chrisbutler:typed.js": {},
   "service-configuration": {
     "ServiceConfiguration": {
       "type": "object",
