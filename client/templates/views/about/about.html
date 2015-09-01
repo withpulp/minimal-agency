@@ -17,19 +17,19 @@
         </section>
         <section class="services segment">
             <h3 class="leading statement">
-                Expertise:
-                {{> services}}
+                {{ dict 'about.servicesStatement' 'Expertise:' }}
             </h3>
+            {{> services}}
         </section>
         <section class="members segment">
             <h3 class="leading statement">
-                Leadership:
+                {{ dict 'about.membersStatement' 'Leadership:' }}
             </h3>
             {{> members}}
         </section>
         <section class="processes segment">
             <h3 class="leading statement">
-                Process:
+                {{ dict 'about.processesStatement' 'Process:' }}
             </h3>
             {{> processes}}
         </section>
