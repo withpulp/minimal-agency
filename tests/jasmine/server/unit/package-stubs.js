@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "1f8b1f7a24aab4e53528c8300e97ced614ffcfa5"
+                  "value": "4ccffe665a55c5de51c885cac854112722f8f80d"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7889,7 +7889,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "f8c0786adde677505d47ebbc9820edf3a3dfd6db"
+          "value": "3e788ceac09a47c81f8f29a0b8bacc0b49a05a2e"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -9886,6 +9886,9 @@ var packageMetadata = {
     "Roles": {
       "type": "object",
       "members": {
+        "availableRoles": {
+          "type": "function"
+        },
         "userHasRole": {
           "type": "function"
         },
@@ -9902,13 +9905,16 @@ var packageMetadata = {
               "type": "object",
               "members": {
                 "allow": {
-                  "type": "function"
+                  "type": "function",
+                  "refID": 11
                 },
                 "deny": {
-                  "type": "function"
+                  "type": "function",
+                  "refID": 13
                 },
                 "helper": {
-                  "type": "function"
+                  "type": "function",
+                  "refID": 15
                 }
               }
             }
@@ -9929,6 +9935,463 @@ var packageMetadata = {
         "checkPermission": {
           "type": "function"
         },
+        "adminRole": {
+          "type": "object",
+          "members": {
+            "name": {
+              "type": "constant",
+              "value": "admin"
+            },
+            "allowRules": {
+              "type": "object",
+              "members": {
+                "accounts.index": {
+                  "type": "array"
+                },
+                "accounts.update.roles": {
+                  "type": "array"
+                },
+                "accounts.update.password": {
+                  "type": "array"
+                },
+                "accounts.update.emails": {
+                  "type": "array"
+                },
+                "accounts.update.profile": {
+                  "type": "array"
+                },
+                "accounts.remove": {
+                  "type": "array"
+                },
+                "accounts.showCreate": {
+                  "type": "array"
+                },
+                "accounts.create": {
+                  "type": "array"
+                },
+                "accounts.invitations.insert": {
+                  "type": "array"
+                },
+                "accounts.invitations.update": {
+                  "type": "array"
+                },
+                "accounts.invitations.remove": {
+                  "type": "array"
+                },
+                "config.update": {
+                  "type": "array"
+                },
+                "dictionary.update": {
+                  "type": "array"
+                },
+                "collections.benefits.index": {
+                  "type": "array"
+                },
+                "collections.benefits.showCreate": {
+                  "type": "array"
+                },
+                "collections.benefits.showUpdate": {
+                  "type": "array"
+                },
+                "collections.benefits.showRemove": {
+                  "type": "array"
+                },
+                "collections.benefits.insert": {
+                  "type": "array"
+                },
+                "collections.benefits.update": {
+                  "type": "array"
+                },
+                "collections.benefits.remove": {
+                  "type": "array"
+                },
+                "collections.clients.index": {
+                  "type": "array"
+                },
+                "collections.clients.showCreate": {
+                  "type": "array"
+                },
+                "collections.clients.showUpdate": {
+                  "type": "array"
+                },
+                "collections.clients.showRemove": {
+                  "type": "array"
+                },
+                "collections.clients.insert": {
+                  "type": "array"
+                },
+                "collections.clients.update": {
+                  "type": "array"
+                },
+                "collections.clients.remove": {
+                  "type": "array"
+                },
+                "collections.contacts.index": {
+                  "type": "array"
+                },
+                "collections.contacts.showCreate": {
+                  "type": "array"
+                },
+                "collections.contacts.showUpdate": {
+                  "type": "array"
+                },
+                "collections.contacts.showRemove": {
+                  "type": "array"
+                },
+                "collections.contacts.insert": {
+                  "type": "array"
+                },
+                "collections.contacts.update": {
+                  "type": "array"
+                },
+                "collections.contacts.remove": {
+                  "type": "array"
+                },
+                "collections.figures.index": {
+                  "type": "array"
+                },
+                "collections.figures.showCreate": {
+                  "type": "array"
+                },
+                "collections.figures.showUpdate": {
+                  "type": "array"
+                },
+                "collections.figures.showRemove": {
+                  "type": "array"
+                },
+                "collections.figures.insert": {
+                  "type": "array"
+                },
+                "collections.figures.update": {
+                  "type": "array"
+                },
+                "collections.figures.remove": {
+                  "type": "array"
+                },
+                "collections.members.index": {
+                  "type": "array"
+                },
+                "collections.members.showCreate": {
+                  "type": "array"
+                },
+                "collections.members.showUpdate": {
+                  "type": "array"
+                },
+                "collections.members.showRemove": {
+                  "type": "array"
+                },
+                "collections.members.insert": {
+                  "type": "array"
+                },
+                "collections.members.update": {
+                  "type": "array"
+                },
+                "collections.members.remove": {
+                  "type": "array"
+                },
+                "collections.posts.index": {
+                  "type": "array"
+                },
+                "collections.posts.showCreate": {
+                  "type": "array"
+                },
+                "collections.posts.showUpdate": {
+                  "type": "array"
+                },
+                "collections.posts.showRemove": {
+                  "type": "array"
+                },
+                "collections.posts.insert": {
+                  "type": "array"
+                },
+                "collections.posts.update": {
+                  "type": "array"
+                },
+                "collections.posts.remove": {
+                  "type": "array"
+                },
+                "collections.processes.index": {
+                  "type": "array"
+                },
+                "collections.processes.showCreate": {
+                  "type": "array"
+                },
+                "collections.processes.showUpdate": {
+                  "type": "array"
+                },
+                "collections.processes.showRemove": {
+                  "type": "array"
+                },
+                "collections.processes.insert": {
+                  "type": "array"
+                },
+                "collections.processes.update": {
+                  "type": "array"
+                },
+                "collections.processes.remove": {
+                  "type": "array"
+                },
+                "collections.projects.index": {
+                  "type": "array"
+                },
+                "collections.projects.showCreate": {
+                  "type": "array"
+                },
+                "collections.projects.showUpdate": {
+                  "type": "array"
+                },
+                "collections.projects.showRemove": {
+                  "type": "array"
+                },
+                "collections.projects.insert": {
+                  "type": "array"
+                },
+                "collections.projects.update": {
+                  "type": "array"
+                },
+                "collections.projects.remove": {
+                  "type": "array"
+                },
+                "collections.quotes.index": {
+                  "type": "array"
+                },
+                "collections.quotes.showCreate": {
+                  "type": "array"
+                },
+                "collections.quotes.showUpdate": {
+                  "type": "array"
+                },
+                "collections.quotes.showRemove": {
+                  "type": "array"
+                },
+                "collections.quotes.insert": {
+                  "type": "array"
+                },
+                "collections.quotes.update": {
+                  "type": "array"
+                },
+                "collections.quotes.remove": {
+                  "type": "array"
+                },
+                "collections.routes.index": {
+                  "type": "array"
+                },
+                "collections.routes.showCreate": {
+                  "type": "array"
+                },
+                "collections.routes.showUpdate": {
+                  "type": "array"
+                },
+                "collections.routes.showRemove": {
+                  "type": "array"
+                },
+                "collections.routes.insert": {
+                  "type": "array"
+                },
+                "collections.routes.update": {
+                  "type": "array"
+                },
+                "collections.routes.remove": {
+                  "type": "array"
+                },
+                "collections.services.index": {
+                  "type": "array"
+                },
+                "collections.services.showCreate": {
+                  "type": "array"
+                },
+                "collections.services.showUpdate": {
+                  "type": "array"
+                },
+                "collections.services.showRemove": {
+                  "type": "array"
+                },
+                "collections.services.insert": {
+                  "type": "array"
+                },
+                "collections.services.update": {
+                  "type": "array"
+                },
+                "collections.services.remove": {
+                  "type": "array"
+                },
+                "collections.tools.index": {
+                  "type": "array"
+                },
+                "collections.tools.showCreate": {
+                  "type": "array"
+                },
+                "collections.tools.showUpdate": {
+                  "type": "array"
+                },
+                "collections.tools.showRemove": {
+                  "type": "array"
+                },
+                "collections.tools.insert": {
+                  "type": "array"
+                },
+                "collections.tools.update": {
+                  "type": "array"
+                },
+                "collections.tools.remove": {
+                  "type": "array"
+                },
+                "collections.values.index": {
+                  "type": "array"
+                },
+                "collections.values.showCreate": {
+                  "type": "array"
+                },
+                "collections.values.showUpdate": {
+                  "type": "array"
+                },
+                "collections.values.showRemove": {
+                  "type": "array"
+                },
+                "collections.values.insert": {
+                  "type": "array"
+                },
+                "collections.values.update": {
+                  "type": "array"
+                },
+                "collections.values.remove": {
+                  "type": "array"
+                }
+              }
+            },
+            "denyRules": {
+              "type": "object"
+            },
+            "helpers": {
+              "type": "object",
+              "members": {
+                "accounts.indexFilter": {
+                  "type": "function"
+                },
+                "accounts.allowedRoles": {
+                  "type": "function"
+                },
+                "dictionary.allowedCategories": {
+                  "type": "function"
+                },
+                "collections.benefits.indexFilter": {
+                  "type": "function"
+                },
+                "collections.benefits.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.clients.indexFilter": {
+                  "type": "function"
+                },
+                "collections.clients.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.contacts.indexFilter": {
+                  "type": "function"
+                },
+                "collections.contacts.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.figures.indexFilter": {
+                  "type": "function"
+                },
+                "collections.figures.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.members.indexFilter": {
+                  "type": "function"
+                },
+                "collections.members.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.posts.indexFilter": {
+                  "type": "function"
+                },
+                "collections.posts.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.processes.indexFilter": {
+                  "type": "function"
+                },
+                "collections.processes.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.projects.indexFilter": {
+                  "type": "function"
+                },
+                "collections.projects.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.quotes.indexFilter": {
+                  "type": "function"
+                },
+                "collections.quotes.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.routes.indexFilter": {
+                  "type": "function"
+                },
+                "collections.routes.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.services.indexFilter": {
+                  "type": "function"
+                },
+                "collections.services.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.tools.indexFilter": {
+                  "type": "function"
+                },
+                "collections.tools.hiddenFields": {
+                  "type": "function"
+                },
+                "collections.values.indexFilter": {
+                  "type": "function"
+                },
+                "collections.values.hiddenFields": {
+                  "type": "function"
+                }
+              }
+            },
+            "allow": {
+              "ref": 11
+            },
+            "deny": {
+              "ref": 13
+            },
+            "helper": {
+              "ref": 15
+            }
+          }
+        },
+        "defaultRole": {
+          "type": "object",
+          "members": {
+            "name": {
+              "type": "constant",
+              "value": "__default__"
+            },
+            "allowRules": {
+              "type": "object"
+            },
+            "denyRules": {
+              "type": "object"
+            },
+            "helpers": {
+              "type": "object"
+            },
+            "allow": {
+              "ref": 11
+            },
+            "deny": {
+              "ref": 13
+            },
+            "helper": {
+              "ref": 15
+            }
+          }
+        },
         "keys": {
           "type": "object",
           "members": {
@@ -9937,7 +10400,7 @@ var packageMetadata = {
               "members": {
                 "constructor": {
                   "type": "function",
-                  "refID": 27,
+                  "refID": 199,
                   "members": {
                     "Cursor": {
                       "type": "function",
@@ -9996,13 +10459,13 @@ var packageMetadata = {
                             },
                             "toHexString": {
                               "type": "function",
-                              "refID": 58
+                              "refID": 230
                             },
                             "toJSONValue": {
-                              "ref": 58
+                              "ref": 230
                             },
                             "valueOf": {
-                              "ref": 58
+                              "ref": 230
                             }
                           }
                         }
@@ -10018,109 +10481,109 @@ var packageMetadata = {
                       "type": "object",
                       "members": {
                         "constructor": {
-                          "ref": 27
+                          "ref": 199
                         },
                         "attachRoles": {
                           "type": "function",
-                          "refID": 65
+                          "refID": 237
                         },
                         "find": {
                           "type": "function",
-                          "refID": 67
+                          "refID": 239
                         },
                         "findOne": {
                           "type": "function",
-                          "refID": 69
+                          "refID": 241
                         },
                         "insert": {
                           "type": "function",
-                          "refID": 71
+                          "refID": 243
                         },
                         "update": {
                           "type": "function",
-                          "refID": 73
+                          "refID": 245
                         },
                         "remove": {
                           "type": "function",
-                          "refID": 75
+                          "refID": 247
                         },
                         "upsert": {
                           "type": "function",
-                          "refID": 77
+                          "refID": 249
                         },
                         "rawCollection": {
                           "type": "function",
-                          "refID": 79
+                          "refID": 251
                         },
                         "rawDatabase": {
                           "type": "function",
-                          "refID": 81
+                          "refID": 253
                         },
                         "allow": {
                           "type": "function",
-                          "refID": 83
+                          "refID": 255
                         },
                         "deny": {
                           "type": "function",
-                          "refID": 85
+                          "refID": 257
                         },
                         "helpers": {
                           "type": "function",
-                          "refID": 87
+                          "refID": 259
                         },
                         "attachSchema": {
                           "type": "function",
-                          "refID": 89
+                          "refID": 261
                         },
                         "simpleSchema": {
                           "type": "function",
-                          "refID": 91
+                          "refID": 263
                         }
                       }
                     }
                   }
                 },
                 "attachRoles": {
-                  "ref": 65
+                  "ref": 237
                 },
                 "find": {
-                  "ref": 67
+                  "ref": 239
                 },
                 "findOne": {
-                  "ref": 69
+                  "ref": 241
                 },
                 "insert": {
-                  "ref": 71
+                  "ref": 243
                 },
                 "update": {
-                  "ref": 73
+                  "ref": 245
                 },
                 "remove": {
-                  "ref": 75
+                  "ref": 247
                 },
                 "upsert": {
-                  "ref": 77
+                  "ref": 249
                 },
                 "rawCollection": {
-                  "ref": 79
+                  "ref": 251
                 },
                 "rawDatabase": {
-                  "ref": 81
+                  "ref": 253
                 },
                 "allow": {
-                  "ref": 83
+                  "ref": 255
                 },
                 "deny": {
-                  "ref": 85
+                  "ref": 257
                 },
                 "helpers": {
-                  "ref": 87
+                  "ref": 259
                 },
                 "attachSchema": {
-                  "ref": 89
+                  "ref": 261
                 },
                 "simpleSchema": {
-                  "ref": 91
+                  "ref": 263
                 }
               }
             },
@@ -16301,6 +16764,327 @@ var packageMetadata = {
                 }
               }
             },
+            "ko": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "추가"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "그리고"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "뒤로"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "비밀번호 변경"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "비밀번호 선택"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "클릭함으로써 위 약관을 동의합니다"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "설정"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "계정 생성"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "현재 비밀번호"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "계정이 없으세요?"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "이메일"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "이메일 주소"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "이메일 리셋 링크"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "비밀번호를 잊으셨나요?"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "이미 계정이 있으시면"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "새 비밀번호"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "새 비밀번호(확인)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "선택"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "혹은"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "비밀번호"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "비밀번호 (확인)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "개인정보보호정책"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "삭제"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "비밀번호 초기화"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "비밀번호 선택"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "로그인"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "로그인"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "로그인"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "로그아웃"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "회원가입"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "회원가입 코드"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "이메일로 가입하기"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "약관"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "비밀번호 업데이트"
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "아이디"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "아이디 혹은 이메일"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "와"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "이메일 발송"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "이메일 인증성공"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "비밀번호 변경됨"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "비밀번호 리셋"
+                },
+                "info.error.emailRequired": {
+                  "type": "constant",
+                  "value": "이메일이 필요합니다."
+                },
+                "info.error.minChar": {
+                  "type": "constant",
+                  "value": "비밀번호는 최소 7자 이상입니다."
+                },
+                "info.error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "비밀번호가 맞지않습니다"
+                },
+                "info.error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "비밀번호에 숫자 하나이상이 필요합니다."
+                },
+                "info.error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "비밀번호에 문자 하나이상이 필요합니다."
+                },
+                "info.error.signInRequired": {
+                  "type": "constant",
+                  "value": "로그인이 필요한 서비스입니다."
+                },
+                "info.error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "가입 코드가 맞지않습니다."
+                },
+                "info.error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "가입 코드가 필요합니다."
+                },
+                "info.error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "아이디와 이메일은 달라야합니다."
+                },
+                "info.error.usernameRequired": {
+                  "type": "constant",
+                  "value": "아이디가 필요합니다."
+                },
+                "info.error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "중복된 이메일입니다."
+                },
+                "info.error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "이메일이 요구조건에 맞지않습니다."
+                },
+                "info.error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "잘못된 로그인 토큰"
+                },
+                "info.error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "Login forbidden"
+                },
+                "info.error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "Service unknown"
+                },
+                "info.error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "Unrecognized options for login request"
+                },
+                "info.error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "인증 실패"
+                },
+                "info.error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "중복된 아이디입니다."
+                },
+                "info.error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "로그인 상태가 아닙니다."
+                },
+                "info.error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "서버에 의해 로그아웃되셨습니다 다시 로그인해주세요."
+                },
+                "info.error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "세션이 만료되었습니다 다시 로그인해주세요."
+                },
+                "info.error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "No matching login attempt found"
+                },
+                "info.error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "오래된 비밀번호 입니다 변경해주세요."
+                },
+                "info.error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "잘못된 비밀번호 입니다"
+                },
+                "info.error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "잘못된 이메일 입니다"
+                },
+                "info.error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "로그인이 필요합니다"
+                },
+                "info.error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "아이디나 이메일을 입력해주세요"
+                },
+                "info.error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "old password format"
+                },
+                "info.error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "비밀번호를 입력해주세요"
+                },
+                "info.error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "가입이 거부되었습니다"
+                },
+                "info.error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "Token expired"
+                },
+                "info.error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "Token has invalid email address"
+                },
+                "info.error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "User has no password set"
+                },
+                "info.error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "사용자를 찾을수 없습니다"
+                },
+                "info.error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "확인 코드가 만료됬습니다"
+                },
+                "info.error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "Verify email link is for unknown address"
+                },
+                "info.error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "매치되지 않습니다"
+                },
+                "info.error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "Unknown error"
+                }
+              }
+            },
             "pl": {
               "type": "object",
               "members": {
@@ -19865,7 +20649,7 @@ var packageMetadata = {
                 },
                 "configure": {
                   "type": "constant",
-                  "value": "Configureren"
+                  "value": "Configureer"
                 },
                 "createAccount": {
                   "type": "constant",
@@ -20810,15 +21594,15 @@ var packageMetadata = {
           "members": {
             "depend": {
               "type": "function",
-              "refID": 36
+              "refID": 37
             },
             "changed": {
               "type": "function",
-              "refID": 38
+              "refID": 39
             },
             "hasDependents": {
               "type": "function",
-              "refID": 40
+              "refID": 41
             }
           }
         },
@@ -20826,13 +21610,13 @@ var packageMetadata = {
           "type": "object",
           "members": {
             "depend": {
-              "ref": 36
+              "ref": 37
             },
             "changed": {
-              "ref": 38
+              "ref": 39
             },
             "hasDependents": {
-              "ref": 40
+              "ref": 41
             }
           }
         },
@@ -22374,6 +23158,15 @@ var packageMetadata = {
                           "type": "function"
                         }
                       }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
                     }
                   }
                 },
@@ -22390,7 +23183,7 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "selector": {
-                  "type": "undefined"
+                  "type": "function"
                 },
                 "options": {
                   "type": "object",
@@ -22814,7 +23607,7 @@ var packageMetadata = {
               "members": {
                 "benefits": {
                   "type": "object",
-                  "refID": 858,
+                  "refID": 866,
                   "members": {
                     "before": {
                       "type": "object",
@@ -22984,7 +23777,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 916
+                          "refID": 924
                         }
                       }
                     },
@@ -23008,7 +23801,7 @@ var packageMetadata = {
                           "value": "tabular_benefits"
                         },
                         "collection": {
-                          "ref": 858
+                          "ref": 866
                         },
                         "pub": {
                           "type": "constant",
@@ -23036,7 +23829,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 916
+                              "ref": 924
                             },
                             "language": {
                               "type": "object",
@@ -23137,7 +23930,7 @@ var packageMetadata = {
                 },
                 "clients": {
                   "type": "object",
-                  "refID": 931,
+                  "refID": 939,
                   "members": {
                     "before": {
                       "type": "object",
@@ -23307,7 +24100,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 989
+                          "refID": 997
                         }
                       }
                     },
@@ -23331,7 +24124,7 @@ var packageMetadata = {
                           "value": "tabular_clients"
                         },
                         "collection": {
-                          "ref": 931
+                          "ref": 939
                         },
                         "pub": {
                           "type": "constant",
@@ -23359,7 +24152,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 989
+                              "ref": 997
                             },
                             "language": {
                               "type": "object",
@@ -23460,7 +24253,7 @@ var packageMetadata = {
                 },
                 "contacts": {
                   "type": "object",
-                  "refID": 1004,
+                  "refID": 1012,
                   "members": {
                     "before": {
                       "type": "object",
@@ -23630,7 +24423,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1062
+                          "refID": 1070
                         }
                       }
                     },
@@ -23654,7 +24447,7 @@ var packageMetadata = {
                           "value": "tabular_contacts"
                         },
                         "collection": {
-                          "ref": 1004
+                          "ref": 1012
                         },
                         "pub": {
                           "type": "constant",
@@ -23682,7 +24475,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1062
+                              "ref": 1070
                             },
                             "language": {
                               "type": "object",
@@ -23783,7 +24576,7 @@ var packageMetadata = {
                 },
                 "figures": {
                   "type": "object",
-                  "refID": 1077,
+                  "refID": 1085,
                   "members": {
                     "before": {
                       "type": "object",
@@ -23953,7 +24746,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1135
+                          "refID": 1143
                         }
                       }
                     },
@@ -23977,7 +24770,7 @@ var packageMetadata = {
                           "value": "tabular_figures"
                         },
                         "collection": {
-                          "ref": 1077
+                          "ref": 1085
                         },
                         "pub": {
                           "type": "constant",
@@ -24005,7 +24798,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1135
+                              "ref": 1143
                             },
                             "language": {
                               "type": "object",
@@ -24106,7 +24899,7 @@ var packageMetadata = {
                 },
                 "members": {
                   "type": "object",
-                  "refID": 1150,
+                  "refID": 1158,
                   "members": {
                     "before": {
                       "type": "object",
@@ -24276,7 +25069,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1208
+                          "refID": 1216
                         }
                       }
                     },
@@ -24300,7 +25093,7 @@ var packageMetadata = {
                           "value": "tabular_members"
                         },
                         "collection": {
-                          "ref": 1150
+                          "ref": 1158
                         },
                         "pub": {
                           "type": "constant",
@@ -24328,7 +25121,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1208
+                              "ref": 1216
                             },
                             "language": {
                               "type": "object",
@@ -24429,7 +25222,7 @@ var packageMetadata = {
                 },
                 "posts": {
                   "type": "object",
-                  "refID": 1223,
+                  "refID": 1231,
                   "members": {
                     "before": {
                       "type": "object",
@@ -24599,7 +25392,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1281
+                          "refID": 1289
                         }
                       }
                     },
@@ -24623,7 +25416,7 @@ var packageMetadata = {
                           "value": "tabular_posts"
                         },
                         "collection": {
-                          "ref": 1223
+                          "ref": 1231
                         },
                         "pub": {
                           "type": "constant",
@@ -24651,7 +25444,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1281
+                              "ref": 1289
                             },
                             "language": {
                               "type": "object",
@@ -24752,7 +25545,7 @@ var packageMetadata = {
                 },
                 "processes": {
                   "type": "object",
-                  "refID": 1296,
+                  "refID": 1304,
                   "members": {
                     "before": {
                       "type": "object",
@@ -24922,7 +25715,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1354
+                          "refID": 1362
                         }
                       }
                     },
@@ -24946,7 +25739,7 @@ var packageMetadata = {
                           "value": "tabular_processes"
                         },
                         "collection": {
-                          "ref": 1296
+                          "ref": 1304
                         },
                         "pub": {
                           "type": "constant",
@@ -24974,7 +25767,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1354
+                              "ref": 1362
                             },
                             "language": {
                               "type": "object",
@@ -25075,7 +25868,7 @@ var packageMetadata = {
                 },
                 "projects": {
                   "type": "object",
-                  "refID": 1369,
+                  "refID": 1377,
                   "members": {
                     "before": {
                       "type": "object",
@@ -25245,7 +26038,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1427
+                          "refID": 1435
                         }
                       }
                     },
@@ -25269,7 +26062,7 @@ var packageMetadata = {
                           "value": "tabular_projects"
                         },
                         "collection": {
-                          "ref": 1369
+                          "ref": 1377
                         },
                         "pub": {
                           "type": "constant",
@@ -25297,7 +26090,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1427
+                              "ref": 1435
                             },
                             "language": {
                               "type": "object",
@@ -25398,7 +26191,7 @@ var packageMetadata = {
                 },
                 "quotes": {
                   "type": "object",
-                  "refID": 1442,
+                  "refID": 1450,
                   "members": {
                     "before": {
                       "type": "object",
@@ -25568,7 +26361,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1500
+                          "refID": 1508
                         }
                       }
                     },
@@ -25592,7 +26385,7 @@ var packageMetadata = {
                           "value": "tabular_quotes"
                         },
                         "collection": {
-                          "ref": 1442
+                          "ref": 1450
                         },
                         "pub": {
                           "type": "constant",
@@ -25620,7 +26413,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1500
+                              "ref": 1508
                             },
                             "language": {
                               "type": "object",
@@ -25721,7 +26514,7 @@ var packageMetadata = {
                 },
                 "routes": {
                   "type": "object",
-                  "refID": 1515,
+                  "refID": 1523,
                   "members": {
                     "before": {
                       "type": "object",
@@ -25891,7 +26684,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1573
+                          "refID": 1581
                         }
                       }
                     },
@@ -25915,7 +26708,7 @@ var packageMetadata = {
                           "value": "tabular_routes"
                         },
                         "collection": {
-                          "ref": 1515
+                          "ref": 1523
                         },
                         "pub": {
                           "type": "constant",
@@ -25943,7 +26736,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1573
+                              "ref": 1581
                             },
                             "language": {
                               "type": "object",
@@ -26044,7 +26837,7 @@ var packageMetadata = {
                 },
                 "services": {
                   "type": "object",
-                  "refID": 1588,
+                  "refID": 1596,
                   "members": {
                     "before": {
                       "type": "object",
@@ -26214,7 +27007,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1646
+                          "refID": 1654
                         }
                       }
                     },
@@ -26238,7 +27031,7 @@ var packageMetadata = {
                           "value": "tabular_services"
                         },
                         "collection": {
-                          "ref": 1588
+                          "ref": 1596
                         },
                         "pub": {
                           "type": "constant",
@@ -26266,7 +27059,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1646
+                              "ref": 1654
                             },
                             "language": {
                               "type": "object",
@@ -26367,7 +27160,7 @@ var packageMetadata = {
                 },
                 "tools": {
                   "type": "object",
-                  "refID": 1661,
+                  "refID": 1669,
                   "members": {
                     "before": {
                       "type": "object",
@@ -26537,7 +27330,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1719
+                          "refID": 1727
                         }
                       }
                     },
@@ -26561,7 +27354,7 @@ var packageMetadata = {
                           "value": "tabular_tools"
                         },
                         "collection": {
-                          "ref": 1661
+                          "ref": 1669
                         },
                         "pub": {
                           "type": "constant",
@@ -26589,7 +27382,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1719
+                              "ref": 1727
                             },
                             "language": {
                               "type": "object",
@@ -26690,7 +27483,7 @@ var packageMetadata = {
                 },
                 "values": {
                   "type": "object",
-                  "refID": 1734,
+                  "refID": 1742,
                   "members": {
                     "before": {
                       "type": "object",
@@ -26860,7 +27653,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1792
+                          "refID": 1800
                         }
                       }
                     },
@@ -26884,7 +27677,7 @@ var packageMetadata = {
                           "value": "tabular_values"
                         },
                         "collection": {
-                          "ref": 1734
+                          "ref": 1742
                         },
                         "pub": {
                           "type": "constant",
@@ -26912,7 +27705,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1792
+                              "ref": 1800
                             },
                             "language": {
                               "type": "object",
@@ -28909,6 +29702,15 @@ var packageMetadata = {
                           "type": "function"
                         }
                       }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
                     }
                   }
                 },
@@ -28925,7 +29727,7 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "selector": {
-                  "type": "undefined"
+                  "type": "function"
                 },
                 "options": {
                   "type": "object",
@@ -29349,7 +30151,7 @@ var packageMetadata = {
               "members": {
                 "benefits": {
                   "type": "object",
-                  "refID": 858,
+                  "refID": 866,
                   "members": {
                     "before": {
                       "type": "object",
@@ -29519,7 +30321,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 916
+                          "refID": 924
                         }
                       }
                     },
@@ -29543,7 +30345,7 @@ var packageMetadata = {
                           "value": "tabular_benefits"
                         },
                         "collection": {
-                          "ref": 858
+                          "ref": 866
                         },
                         "pub": {
                           "type": "constant",
@@ -29571,7 +30373,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 916
+                              "ref": 924
                             },
                             "language": {
                               "type": "object",
@@ -29672,7 +30474,7 @@ var packageMetadata = {
                 },
                 "clients": {
                   "type": "object",
-                  "refID": 931,
+                  "refID": 939,
                   "members": {
                     "before": {
                       "type": "object",
@@ -29842,7 +30644,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 989
+                          "refID": 997
                         }
                       }
                     },
@@ -29866,7 +30668,7 @@ var packageMetadata = {
                           "value": "tabular_clients"
                         },
                         "collection": {
-                          "ref": 931
+                          "ref": 939
                         },
                         "pub": {
                           "type": "constant",
@@ -29894,7 +30696,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 989
+                              "ref": 997
                             },
                             "language": {
                               "type": "object",
@@ -29995,7 +30797,7 @@ var packageMetadata = {
                 },
                 "contacts": {
                   "type": "object",
-                  "refID": 1004,
+                  "refID": 1012,
                   "members": {
                     "before": {
                       "type": "object",
@@ -30165,7 +30967,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1062
+                          "refID": 1070
                         }
                       }
                     },
@@ -30189,7 +30991,7 @@ var packageMetadata = {
                           "value": "tabular_contacts"
                         },
                         "collection": {
-                          "ref": 1004
+                          "ref": 1012
                         },
                         "pub": {
                           "type": "constant",
@@ -30217,7 +31019,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1062
+                              "ref": 1070
                             },
                             "language": {
                               "type": "object",
@@ -30318,7 +31120,7 @@ var packageMetadata = {
                 },
                 "figures": {
                   "type": "object",
-                  "refID": 1077,
+                  "refID": 1085,
                   "members": {
                     "before": {
                       "type": "object",
@@ -30488,7 +31290,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1135
+                          "refID": 1143
                         }
                       }
                     },
@@ -30512,7 +31314,7 @@ var packageMetadata = {
                           "value": "tabular_figures"
                         },
                         "collection": {
-                          "ref": 1077
+                          "ref": 1085
                         },
                         "pub": {
                           "type": "constant",
@@ -30540,7 +31342,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1135
+                              "ref": 1143
                             },
                             "language": {
                               "type": "object",
@@ -30641,7 +31443,7 @@ var packageMetadata = {
                 },
                 "members": {
                   "type": "object",
-                  "refID": 1150,
+                  "refID": 1158,
                   "members": {
                     "before": {
                       "type": "object",
@@ -30811,7 +31613,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1208
+                          "refID": 1216
                         }
                       }
                     },
@@ -30835,7 +31637,7 @@ var packageMetadata = {
                           "value": "tabular_members"
                         },
                         "collection": {
-                          "ref": 1150
+                          "ref": 1158
                         },
                         "pub": {
                           "type": "constant",
@@ -30863,7 +31665,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1208
+                              "ref": 1216
                             },
                             "language": {
                               "type": "object",
@@ -30964,7 +31766,7 @@ var packageMetadata = {
                 },
                 "posts": {
                   "type": "object",
-                  "refID": 1223,
+                  "refID": 1231,
                   "members": {
                     "before": {
                       "type": "object",
@@ -31134,7 +31936,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1281
+                          "refID": 1289
                         }
                       }
                     },
@@ -31158,7 +31960,7 @@ var packageMetadata = {
                           "value": "tabular_posts"
                         },
                         "collection": {
-                          "ref": 1223
+                          "ref": 1231
                         },
                         "pub": {
                           "type": "constant",
@@ -31186,7 +31988,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1281
+                              "ref": 1289
                             },
                             "language": {
                               "type": "object",
@@ -31287,7 +32089,7 @@ var packageMetadata = {
                 },
                 "processes": {
                   "type": "object",
-                  "refID": 1296,
+                  "refID": 1304,
                   "members": {
                     "before": {
                       "type": "object",
@@ -31457,7 +32259,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1354
+                          "refID": 1362
                         }
                       }
                     },
@@ -31481,7 +32283,7 @@ var packageMetadata = {
                           "value": "tabular_processes"
                         },
                         "collection": {
-                          "ref": 1296
+                          "ref": 1304
                         },
                         "pub": {
                           "type": "constant",
@@ -31509,7 +32311,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1354
+                              "ref": 1362
                             },
                             "language": {
                               "type": "object",
@@ -31610,7 +32412,7 @@ var packageMetadata = {
                 },
                 "projects": {
                   "type": "object",
-                  "refID": 1369,
+                  "refID": 1377,
                   "members": {
                     "before": {
                       "type": "object",
@@ -31780,7 +32582,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1427
+                          "refID": 1435
                         }
                       }
                     },
@@ -31804,7 +32606,7 @@ var packageMetadata = {
                           "value": "tabular_projects"
                         },
                         "collection": {
-                          "ref": 1369
+                          "ref": 1377
                         },
                         "pub": {
                           "type": "constant",
@@ -31832,7 +32634,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1427
+                              "ref": 1435
                             },
                             "language": {
                               "type": "object",
@@ -31933,7 +32735,7 @@ var packageMetadata = {
                 },
                 "quotes": {
                   "type": "object",
-                  "refID": 1442,
+                  "refID": 1450,
                   "members": {
                     "before": {
                       "type": "object",
@@ -32103,7 +32905,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1500
+                          "refID": 1508
                         }
                       }
                     },
@@ -32127,7 +32929,7 @@ var packageMetadata = {
                           "value": "tabular_quotes"
                         },
                         "collection": {
-                          "ref": 1442
+                          "ref": 1450
                         },
                         "pub": {
                           "type": "constant",
@@ -32155,7 +32957,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1500
+                              "ref": 1508
                             },
                             "language": {
                               "type": "object",
@@ -32256,7 +33058,7 @@ var packageMetadata = {
                 },
                 "routes": {
                   "type": "object",
-                  "refID": 1515,
+                  "refID": 1523,
                   "members": {
                     "before": {
                       "type": "object",
@@ -32426,7 +33228,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1573
+                          "refID": 1581
                         }
                       }
                     },
@@ -32450,7 +33252,7 @@ var packageMetadata = {
                           "value": "tabular_routes"
                         },
                         "collection": {
-                          "ref": 1515
+                          "ref": 1523
                         },
                         "pub": {
                           "type": "constant",
@@ -32478,7 +33280,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1573
+                              "ref": 1581
                             },
                             "language": {
                               "type": "object",
@@ -32579,7 +33381,7 @@ var packageMetadata = {
                 },
                 "services": {
                   "type": "object",
-                  "refID": 1588,
+                  "refID": 1596,
                   "members": {
                     "before": {
                       "type": "object",
@@ -32749,7 +33551,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1646
+                          "refID": 1654
                         }
                       }
                     },
@@ -32773,7 +33575,7 @@ var packageMetadata = {
                           "value": "tabular_services"
                         },
                         "collection": {
-                          "ref": 1588
+                          "ref": 1596
                         },
                         "pub": {
                           "type": "constant",
@@ -32801,7 +33603,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1646
+                              "ref": 1654
                             },
                             "language": {
                               "type": "object",
@@ -32902,7 +33704,7 @@ var packageMetadata = {
                 },
                 "tools": {
                   "type": "object",
-                  "refID": 1661,
+                  "refID": 1669,
                   "members": {
                     "before": {
                       "type": "object",
@@ -33072,7 +33874,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1719
+                          "refID": 1727
                         }
                       }
                     },
@@ -33096,7 +33898,7 @@ var packageMetadata = {
                           "value": "tabular_tools"
                         },
                         "collection": {
-                          "ref": 1661
+                          "ref": 1669
                         },
                         "pub": {
                           "type": "constant",
@@ -33124,7 +33926,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1719
+                              "ref": 1727
                             },
                             "language": {
                               "type": "object",
@@ -33225,7 +34027,7 @@ var packageMetadata = {
                 },
                 "values": {
                   "type": "object",
-                  "refID": 1734,
+                  "refID": 1742,
                   "members": {
                     "before": {
                       "type": "object",
@@ -33395,7 +34197,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1792
+                          "refID": 1800
                         }
                       }
                     },
@@ -33419,7 +34221,7 @@ var packageMetadata = {
                           "value": "tabular_values"
                         },
                         "collection": {
-                          "ref": 1734
+                          "ref": 1742
                         },
                         "pub": {
                           "type": "constant",
@@ -33447,7 +34249,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1792
+                              "ref": 1800
                             },
                             "language": {
                               "type": "object",
@@ -37462,6 +38264,15 @@ var packageMetadata = {
                           "type": "function"
                         }
                       }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
                     }
                   }
                 },
@@ -37478,7 +38289,7 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "selector": {
-                  "type": "undefined"
+                  "type": "function"
                 },
                 "options": {
                   "type": "object",
@@ -37902,7 +38713,7 @@ var packageMetadata = {
               "members": {
                 "benefits": {
                   "type": "object",
-                  "refID": 858,
+                  "refID": 866,
                   "members": {
                     "before": {
                       "type": "object",
@@ -38072,7 +38883,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 916
+                          "refID": 924
                         }
                       }
                     },
@@ -38096,7 +38907,7 @@ var packageMetadata = {
                           "value": "tabular_benefits"
                         },
                         "collection": {
-                          "ref": 858
+                          "ref": 866
                         },
                         "pub": {
                           "type": "constant",
@@ -38124,7 +38935,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 916
+                              "ref": 924
                             },
                             "language": {
                               "type": "object",
@@ -38225,7 +39036,7 @@ var packageMetadata = {
                 },
                 "clients": {
                   "type": "object",
-                  "refID": 931,
+                  "refID": 939,
                   "members": {
                     "before": {
                       "type": "object",
@@ -38395,7 +39206,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 989
+                          "refID": 997
                         }
                       }
                     },
@@ -38419,7 +39230,7 @@ var packageMetadata = {
                           "value": "tabular_clients"
                         },
                         "collection": {
-                          "ref": 931
+                          "ref": 939
                         },
                         "pub": {
                           "type": "constant",
@@ -38447,7 +39258,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 989
+                              "ref": 997
                             },
                             "language": {
                               "type": "object",
@@ -38548,7 +39359,7 @@ var packageMetadata = {
                 },
                 "contacts": {
                   "type": "object",
-                  "refID": 1004,
+                  "refID": 1012,
                   "members": {
                     "before": {
                       "type": "object",
@@ -38718,7 +39529,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1062
+                          "refID": 1070
                         }
                       }
                     },
@@ -38742,7 +39553,7 @@ var packageMetadata = {
                           "value": "tabular_contacts"
                         },
                         "collection": {
-                          "ref": 1004
+                          "ref": 1012
                         },
                         "pub": {
                           "type": "constant",
@@ -38770,7 +39581,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1062
+                              "ref": 1070
                             },
                             "language": {
                               "type": "object",
@@ -38871,7 +39682,7 @@ var packageMetadata = {
                 },
                 "figures": {
                   "type": "object",
-                  "refID": 1077,
+                  "refID": 1085,
                   "members": {
                     "before": {
                       "type": "object",
@@ -39041,7 +39852,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1135
+                          "refID": 1143
                         }
                       }
                     },
@@ -39065,7 +39876,7 @@ var packageMetadata = {
                           "value": "tabular_figures"
                         },
                         "collection": {
-                          "ref": 1077
+                          "ref": 1085
                         },
                         "pub": {
                           "type": "constant",
@@ -39093,7 +39904,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1135
+                              "ref": 1143
                             },
                             "language": {
                               "type": "object",
@@ -39194,7 +40005,7 @@ var packageMetadata = {
                 },
                 "members": {
                   "type": "object",
-                  "refID": 1150,
+                  "refID": 1158,
                   "members": {
                     "before": {
                       "type": "object",
@@ -39364,7 +40175,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1208
+                          "refID": 1216
                         }
                       }
                     },
@@ -39388,7 +40199,7 @@ var packageMetadata = {
                           "value": "tabular_members"
                         },
                         "collection": {
-                          "ref": 1150
+                          "ref": 1158
                         },
                         "pub": {
                           "type": "constant",
@@ -39416,7 +40227,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1208
+                              "ref": 1216
                             },
                             "language": {
                               "type": "object",
@@ -39517,7 +40328,7 @@ var packageMetadata = {
                 },
                 "posts": {
                   "type": "object",
-                  "refID": 1223,
+                  "refID": 1231,
                   "members": {
                     "before": {
                       "type": "object",
@@ -39687,7 +40498,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1281
+                          "refID": 1289
                         }
                       }
                     },
@@ -39711,7 +40522,7 @@ var packageMetadata = {
                           "value": "tabular_posts"
                         },
                         "collection": {
-                          "ref": 1223
+                          "ref": 1231
                         },
                         "pub": {
                           "type": "constant",
@@ -39739,7 +40550,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1281
+                              "ref": 1289
                             },
                             "language": {
                               "type": "object",
@@ -39840,7 +40651,7 @@ var packageMetadata = {
                 },
                 "processes": {
                   "type": "object",
-                  "refID": 1296,
+                  "refID": 1304,
                   "members": {
                     "before": {
                       "type": "object",
@@ -40010,7 +40821,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1354
+                          "refID": 1362
                         }
                       }
                     },
@@ -40034,7 +40845,7 @@ var packageMetadata = {
                           "value": "tabular_processes"
                         },
                         "collection": {
-                          "ref": 1296
+                          "ref": 1304
                         },
                         "pub": {
                           "type": "constant",
@@ -40062,7 +40873,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1354
+                              "ref": 1362
                             },
                             "language": {
                               "type": "object",
@@ -40163,7 +40974,7 @@ var packageMetadata = {
                 },
                 "projects": {
                   "type": "object",
-                  "refID": 1369,
+                  "refID": 1377,
                   "members": {
                     "before": {
                       "type": "object",
@@ -40333,7 +41144,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1427
+                          "refID": 1435
                         }
                       }
                     },
@@ -40357,7 +41168,7 @@ var packageMetadata = {
                           "value": "tabular_projects"
                         },
                         "collection": {
-                          "ref": 1369
+                          "ref": 1377
                         },
                         "pub": {
                           "type": "constant",
@@ -40385,7 +41196,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1427
+                              "ref": 1435
                             },
                             "language": {
                               "type": "object",
@@ -40486,7 +41297,7 @@ var packageMetadata = {
                 },
                 "quotes": {
                   "type": "object",
-                  "refID": 1442,
+                  "refID": 1450,
                   "members": {
                     "before": {
                       "type": "object",
@@ -40656,7 +41467,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1500
+                          "refID": 1508
                         }
                       }
                     },
@@ -40680,7 +41491,7 @@ var packageMetadata = {
                           "value": "tabular_quotes"
                         },
                         "collection": {
-                          "ref": 1442
+                          "ref": 1450
                         },
                         "pub": {
                           "type": "constant",
@@ -40708,7 +41519,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1500
+                              "ref": 1508
                             },
                             "language": {
                               "type": "object",
@@ -40809,7 +41620,7 @@ var packageMetadata = {
                 },
                 "routes": {
                   "type": "object",
-                  "refID": 1515,
+                  "refID": 1523,
                   "members": {
                     "before": {
                       "type": "object",
@@ -40979,7 +41790,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1573
+                          "refID": 1581
                         }
                       }
                     },
@@ -41003,7 +41814,7 @@ var packageMetadata = {
                           "value": "tabular_routes"
                         },
                         "collection": {
-                          "ref": 1515
+                          "ref": 1523
                         },
                         "pub": {
                           "type": "constant",
@@ -41031,7 +41842,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1573
+                              "ref": 1581
                             },
                             "language": {
                               "type": "object",
@@ -41132,7 +41943,7 @@ var packageMetadata = {
                 },
                 "services": {
                   "type": "object",
-                  "refID": 1588,
+                  "refID": 1596,
                   "members": {
                     "before": {
                       "type": "object",
@@ -41302,7 +42113,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1646
+                          "refID": 1654
                         }
                       }
                     },
@@ -41326,7 +42137,7 @@ var packageMetadata = {
                           "value": "tabular_services"
                         },
                         "collection": {
-                          "ref": 1588
+                          "ref": 1596
                         },
                         "pub": {
                           "type": "constant",
@@ -41354,7 +42165,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1646
+                              "ref": 1654
                             },
                             "language": {
                               "type": "object",
@@ -41455,7 +42266,7 @@ var packageMetadata = {
                 },
                 "tools": {
                   "type": "object",
-                  "refID": 1661,
+                  "refID": 1669,
                   "members": {
                     "before": {
                       "type": "object",
@@ -41625,7 +42436,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1719
+                          "refID": 1727
                         }
                       }
                     },
@@ -41649,7 +42460,7 @@ var packageMetadata = {
                           "value": "tabular_tools"
                         },
                         "collection": {
-                          "ref": 1661
+                          "ref": 1669
                         },
                         "pub": {
                           "type": "constant",
@@ -41677,7 +42488,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1719
+                              "ref": 1727
                             },
                             "language": {
                               "type": "object",
@@ -41778,7 +42589,7 @@ var packageMetadata = {
                 },
                 "values": {
                   "type": "object",
-                  "refID": 1734,
+                  "refID": 1742,
                   "members": {
                     "before": {
                       "type": "object",
@@ -41948,7 +42759,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1792
+                          "refID": 1800
                         }
                       }
                     },
@@ -41972,7 +42783,7 @@ var packageMetadata = {
                           "value": "tabular_values"
                         },
                         "collection": {
-                          "ref": 1734
+                          "ref": 1742
                         },
                         "pub": {
                           "type": "constant",
@@ -42000,7 +42811,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1792
+                              "ref": 1800
                             },
                             "language": {
                               "type": "object",
@@ -43996,6 +44807,15 @@ var packageMetadata = {
                           "type": "function"
                         }
                       }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
                     }
                   }
                 },
@@ -44012,7 +44832,7 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "selector": {
-                  "type": "undefined"
+                  "type": "function"
                 },
                 "options": {
                   "type": "object",
@@ -44436,7 +45256,7 @@ var packageMetadata = {
               "members": {
                 "benefits": {
                   "type": "object",
-                  "refID": 858,
+                  "refID": 866,
                   "members": {
                     "before": {
                       "type": "object",
@@ -44606,7 +45426,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 916
+                          "refID": 924
                         }
                       }
                     },
@@ -44630,7 +45450,7 @@ var packageMetadata = {
                           "value": "tabular_benefits"
                         },
                         "collection": {
-                          "ref": 858
+                          "ref": 866
                         },
                         "pub": {
                           "type": "constant",
@@ -44658,7 +45478,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 916
+                              "ref": 924
                             },
                             "language": {
                               "type": "object",
@@ -44759,7 +45579,7 @@ var packageMetadata = {
                 },
                 "clients": {
                   "type": "object",
-                  "refID": 931,
+                  "refID": 939,
                   "members": {
                     "before": {
                       "type": "object",
@@ -44929,7 +45749,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 989
+                          "refID": 997
                         }
                       }
                     },
@@ -44953,7 +45773,7 @@ var packageMetadata = {
                           "value": "tabular_clients"
                         },
                         "collection": {
-                          "ref": 931
+                          "ref": 939
                         },
                         "pub": {
                           "type": "constant",
@@ -44981,7 +45801,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 989
+                              "ref": 997
                             },
                             "language": {
                               "type": "object",
@@ -45082,7 +45902,7 @@ var packageMetadata = {
                 },
                 "contacts": {
                   "type": "object",
-                  "refID": 1004,
+                  "refID": 1012,
                   "members": {
                     "before": {
                       "type": "object",
@@ -45252,7 +46072,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1062
+                          "refID": 1070
                         }
                       }
                     },
@@ -45276,7 +46096,7 @@ var packageMetadata = {
                           "value": "tabular_contacts"
                         },
                         "collection": {
-                          "ref": 1004
+                          "ref": 1012
                         },
                         "pub": {
                           "type": "constant",
@@ -45304,7 +46124,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1062
+                              "ref": 1070
                             },
                             "language": {
                               "type": "object",
@@ -45405,7 +46225,7 @@ var packageMetadata = {
                 },
                 "figures": {
                   "type": "object",
-                  "refID": 1077,
+                  "refID": 1085,
                   "members": {
                     "before": {
                       "type": "object",
@@ -45575,7 +46395,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1135
+                          "refID": 1143
                         }
                       }
                     },
@@ -45599,7 +46419,7 @@ var packageMetadata = {
                           "value": "tabular_figures"
                         },
                         "collection": {
-                          "ref": 1077
+                          "ref": 1085
                         },
                         "pub": {
                           "type": "constant",
@@ -45627,7 +46447,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1135
+                              "ref": 1143
                             },
                             "language": {
                               "type": "object",
@@ -45728,7 +46548,7 @@ var packageMetadata = {
                 },
                 "members": {
                   "type": "object",
-                  "refID": 1150,
+                  "refID": 1158,
                   "members": {
                     "before": {
                       "type": "object",
@@ -45898,7 +46718,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1208
+                          "refID": 1216
                         }
                       }
                     },
@@ -45922,7 +46742,7 @@ var packageMetadata = {
                           "value": "tabular_members"
                         },
                         "collection": {
-                          "ref": 1150
+                          "ref": 1158
                         },
                         "pub": {
                           "type": "constant",
@@ -45950,7 +46770,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1208
+                              "ref": 1216
                             },
                             "language": {
                               "type": "object",
@@ -46051,7 +46871,7 @@ var packageMetadata = {
                 },
                 "posts": {
                   "type": "object",
-                  "refID": 1223,
+                  "refID": 1231,
                   "members": {
                     "before": {
                       "type": "object",
@@ -46221,7 +47041,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1281
+                          "refID": 1289
                         }
                       }
                     },
@@ -46245,7 +47065,7 @@ var packageMetadata = {
                           "value": "tabular_posts"
                         },
                         "collection": {
-                          "ref": 1223
+                          "ref": 1231
                         },
                         "pub": {
                           "type": "constant",
@@ -46273,7 +47093,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1281
+                              "ref": 1289
                             },
                             "language": {
                               "type": "object",
@@ -46374,7 +47194,7 @@ var packageMetadata = {
                 },
                 "processes": {
                   "type": "object",
-                  "refID": 1296,
+                  "refID": 1304,
                   "members": {
                     "before": {
                       "type": "object",
@@ -46544,7 +47364,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1354
+                          "refID": 1362
                         }
                       }
                     },
@@ -46568,7 +47388,7 @@ var packageMetadata = {
                           "value": "tabular_processes"
                         },
                         "collection": {
-                          "ref": 1296
+                          "ref": 1304
                         },
                         "pub": {
                           "type": "constant",
@@ -46596,7 +47416,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1354
+                              "ref": 1362
                             },
                             "language": {
                               "type": "object",
@@ -46697,7 +47517,7 @@ var packageMetadata = {
                 },
                 "projects": {
                   "type": "object",
-                  "refID": 1369,
+                  "refID": 1377,
                   "members": {
                     "before": {
                       "type": "object",
@@ -46867,7 +47687,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1427
+                          "refID": 1435
                         }
                       }
                     },
@@ -46891,7 +47711,7 @@ var packageMetadata = {
                           "value": "tabular_projects"
                         },
                         "collection": {
-                          "ref": 1369
+                          "ref": 1377
                         },
                         "pub": {
                           "type": "constant",
@@ -46919,7 +47739,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1427
+                              "ref": 1435
                             },
                             "language": {
                               "type": "object",
@@ -47020,7 +47840,7 @@ var packageMetadata = {
                 },
                 "quotes": {
                   "type": "object",
-                  "refID": 1442,
+                  "refID": 1450,
                   "members": {
                     "before": {
                       "type": "object",
@@ -47190,7 +48010,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1500
+                          "refID": 1508
                         }
                       }
                     },
@@ -47214,7 +48034,7 @@ var packageMetadata = {
                           "value": "tabular_quotes"
                         },
                         "collection": {
-                          "ref": 1442
+                          "ref": 1450
                         },
                         "pub": {
                           "type": "constant",
@@ -47242,7 +48062,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1500
+                              "ref": 1508
                             },
                             "language": {
                               "type": "object",
@@ -47343,7 +48163,7 @@ var packageMetadata = {
                 },
                 "routes": {
                   "type": "object",
-                  "refID": 1515,
+                  "refID": 1523,
                   "members": {
                     "before": {
                       "type": "object",
@@ -47513,7 +48333,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1573
+                          "refID": 1581
                         }
                       }
                     },
@@ -47537,7 +48357,7 @@ var packageMetadata = {
                           "value": "tabular_routes"
                         },
                         "collection": {
-                          "ref": 1515
+                          "ref": 1523
                         },
                         "pub": {
                           "type": "constant",
@@ -47565,7 +48385,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1573
+                              "ref": 1581
                             },
                             "language": {
                               "type": "object",
@@ -47666,7 +48486,7 @@ var packageMetadata = {
                 },
                 "services": {
                   "type": "object",
-                  "refID": 1588,
+                  "refID": 1596,
                   "members": {
                     "before": {
                       "type": "object",
@@ -47836,7 +48656,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1646
+                          "refID": 1654
                         }
                       }
                     },
@@ -47860,7 +48680,7 @@ var packageMetadata = {
                           "value": "tabular_services"
                         },
                         "collection": {
-                          "ref": 1588
+                          "ref": 1596
                         },
                         "pub": {
                           "type": "constant",
@@ -47888,7 +48708,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1646
+                              "ref": 1654
                             },
                             "language": {
                               "type": "object",
@@ -47989,7 +48809,7 @@ var packageMetadata = {
                 },
                 "tools": {
                   "type": "object",
-                  "refID": 1661,
+                  "refID": 1669,
                   "members": {
                     "before": {
                       "type": "object",
@@ -48159,7 +48979,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1719
+                          "refID": 1727
                         }
                       }
                     },
@@ -48183,7 +49003,7 @@ var packageMetadata = {
                           "value": "tabular_tools"
                         },
                         "collection": {
-                          "ref": 1661
+                          "ref": 1669
                         },
                         "pub": {
                           "type": "constant",
@@ -48211,7 +49031,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1719
+                              "ref": 1727
                             },
                             "language": {
                               "type": "object",
@@ -48312,7 +49132,7 @@ var packageMetadata = {
                 },
                 "values": {
                   "type": "object",
-                  "refID": 1734,
+                  "refID": 1742,
                   "members": {
                     "before": {
                       "type": "object",
@@ -48482,7 +49302,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1792
+                          "refID": 1800
                         }
                       }
                     },
@@ -48506,7 +49326,7 @@ var packageMetadata = {
                           "value": "tabular_values"
                         },
                         "collection": {
-                          "ref": 1734
+                          "ref": 1742
                         },
                         "pub": {
                           "type": "constant",
@@ -48534,7 +49354,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1792
+                              "ref": 1800
                             },
                             "language": {
                               "type": "object",
@@ -50530,6 +51350,15 @@ var packageMetadata = {
                           "type": "function"
                         }
                       }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
                     }
                   }
                 },
@@ -50546,7 +51375,7 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "selector": {
-                  "type": "undefined"
+                  "type": "function"
                 },
                 "options": {
                   "type": "object",
@@ -50970,7 +51799,7 @@ var packageMetadata = {
               "members": {
                 "benefits": {
                   "type": "object",
-                  "refID": 858,
+                  "refID": 866,
                   "members": {
                     "before": {
                       "type": "object",
@@ -51140,7 +51969,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 916
+                          "refID": 924
                         }
                       }
                     },
@@ -51164,7 +51993,7 @@ var packageMetadata = {
                           "value": "tabular_benefits"
                         },
                         "collection": {
-                          "ref": 858
+                          "ref": 866
                         },
                         "pub": {
                           "type": "constant",
@@ -51192,7 +52021,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 916
+                              "ref": 924
                             },
                             "language": {
                               "type": "object",
@@ -51293,7 +52122,7 @@ var packageMetadata = {
                 },
                 "clients": {
                   "type": "object",
-                  "refID": 931,
+                  "refID": 939,
                   "members": {
                     "before": {
                       "type": "object",
@@ -51463,7 +52292,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 989
+                          "refID": 997
                         }
                       }
                     },
@@ -51487,7 +52316,7 @@ var packageMetadata = {
                           "value": "tabular_clients"
                         },
                         "collection": {
-                          "ref": 931
+                          "ref": 939
                         },
                         "pub": {
                           "type": "constant",
@@ -51515,7 +52344,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 989
+                              "ref": 997
                             },
                             "language": {
                               "type": "object",
@@ -51616,7 +52445,7 @@ var packageMetadata = {
                 },
                 "contacts": {
                   "type": "object",
-                  "refID": 1004,
+                  "refID": 1012,
                   "members": {
                     "before": {
                       "type": "object",
@@ -51786,7 +52615,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1062
+                          "refID": 1070
                         }
                       }
                     },
@@ -51810,7 +52639,7 @@ var packageMetadata = {
                           "value": "tabular_contacts"
                         },
                         "collection": {
-                          "ref": 1004
+                          "ref": 1012
                         },
                         "pub": {
                           "type": "constant",
@@ -51838,7 +52667,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1062
+                              "ref": 1070
                             },
                             "language": {
                               "type": "object",
@@ -51939,7 +52768,7 @@ var packageMetadata = {
                 },
                 "figures": {
                   "type": "object",
-                  "refID": 1077,
+                  "refID": 1085,
                   "members": {
                     "before": {
                       "type": "object",
@@ -52109,7 +52938,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1135
+                          "refID": 1143
                         }
                       }
                     },
@@ -52133,7 +52962,7 @@ var packageMetadata = {
                           "value": "tabular_figures"
                         },
                         "collection": {
-                          "ref": 1077
+                          "ref": 1085
                         },
                         "pub": {
                           "type": "constant",
@@ -52161,7 +52990,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1135
+                              "ref": 1143
                             },
                             "language": {
                               "type": "object",
@@ -52262,7 +53091,7 @@ var packageMetadata = {
                 },
                 "members": {
                   "type": "object",
-                  "refID": 1150,
+                  "refID": 1158,
                   "members": {
                     "before": {
                       "type": "object",
@@ -52432,7 +53261,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1208
+                          "refID": 1216
                         }
                       }
                     },
@@ -52456,7 +53285,7 @@ var packageMetadata = {
                           "value": "tabular_members"
                         },
                         "collection": {
-                          "ref": 1150
+                          "ref": 1158
                         },
                         "pub": {
                           "type": "constant",
@@ -52484,7 +53313,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1208
+                              "ref": 1216
                             },
                             "language": {
                               "type": "object",
@@ -52585,7 +53414,7 @@ var packageMetadata = {
                 },
                 "posts": {
                   "type": "object",
-                  "refID": 1223,
+                  "refID": 1231,
                   "members": {
                     "before": {
                       "type": "object",
@@ -52755,7 +53584,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1281
+                          "refID": 1289
                         }
                       }
                     },
@@ -52779,7 +53608,7 @@ var packageMetadata = {
                           "value": "tabular_posts"
                         },
                         "collection": {
-                          "ref": 1223
+                          "ref": 1231
                         },
                         "pub": {
                           "type": "constant",
@@ -52807,7 +53636,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1281
+                              "ref": 1289
                             },
                             "language": {
                               "type": "object",
@@ -52908,7 +53737,7 @@ var packageMetadata = {
                 },
                 "processes": {
                   "type": "object",
-                  "refID": 1296,
+                  "refID": 1304,
                   "members": {
                     "before": {
                       "type": "object",
@@ -53078,7 +53907,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1354
+                          "refID": 1362
                         }
                       }
                     },
@@ -53102,7 +53931,7 @@ var packageMetadata = {
                           "value": "tabular_processes"
                         },
                         "collection": {
-                          "ref": 1296
+                          "ref": 1304
                         },
                         "pub": {
                           "type": "constant",
@@ -53130,7 +53959,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1354
+                              "ref": 1362
                             },
                             "language": {
                               "type": "object",
@@ -53231,7 +54060,7 @@ var packageMetadata = {
                 },
                 "projects": {
                   "type": "object",
-                  "refID": 1369,
+                  "refID": 1377,
                   "members": {
                     "before": {
                       "type": "object",
@@ -53401,7 +54230,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1427
+                          "refID": 1435
                         }
                       }
                     },
@@ -53425,7 +54254,7 @@ var packageMetadata = {
                           "value": "tabular_projects"
                         },
                         "collection": {
-                          "ref": 1369
+                          "ref": 1377
                         },
                         "pub": {
                           "type": "constant",
@@ -53453,7 +54282,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1427
+                              "ref": 1435
                             },
                             "language": {
                               "type": "object",
@@ -53554,7 +54383,7 @@ var packageMetadata = {
                 },
                 "quotes": {
                   "type": "object",
-                  "refID": 1442,
+                  "refID": 1450,
                   "members": {
                     "before": {
                       "type": "object",
@@ -53724,7 +54553,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1500
+                          "refID": 1508
                         }
                       }
                     },
@@ -53748,7 +54577,7 @@ var packageMetadata = {
                           "value": "tabular_quotes"
                         },
                         "collection": {
-                          "ref": 1442
+                          "ref": 1450
                         },
                         "pub": {
                           "type": "constant",
@@ -53776,7 +54605,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1500
+                              "ref": 1508
                             },
                             "language": {
                               "type": "object",
@@ -53877,7 +54706,7 @@ var packageMetadata = {
                 },
                 "routes": {
                   "type": "object",
-                  "refID": 1515,
+                  "refID": 1523,
                   "members": {
                     "before": {
                       "type": "object",
@@ -54047,7 +54876,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1573
+                          "refID": 1581
                         }
                       }
                     },
@@ -54071,7 +54900,7 @@ var packageMetadata = {
                           "value": "tabular_routes"
                         },
                         "collection": {
-                          "ref": 1515
+                          "ref": 1523
                         },
                         "pub": {
                           "type": "constant",
@@ -54099,7 +54928,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1573
+                              "ref": 1581
                             },
                             "language": {
                               "type": "object",
@@ -54200,7 +55029,7 @@ var packageMetadata = {
                 },
                 "services": {
                   "type": "object",
-                  "refID": 1588,
+                  "refID": 1596,
                   "members": {
                     "before": {
                       "type": "object",
@@ -54370,7 +55199,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1646
+                          "refID": 1654
                         }
                       }
                     },
@@ -54394,7 +55223,7 @@ var packageMetadata = {
                           "value": "tabular_services"
                         },
                         "collection": {
-                          "ref": 1588
+                          "ref": 1596
                         },
                         "pub": {
                           "type": "constant",
@@ -54422,7 +55251,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1646
+                              "ref": 1654
                             },
                             "language": {
                               "type": "object",
@@ -54523,7 +55352,7 @@ var packageMetadata = {
                 },
                 "tools": {
                   "type": "object",
-                  "refID": 1661,
+                  "refID": 1669,
                   "members": {
                     "before": {
                       "type": "object",
@@ -54693,7 +55522,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1719
+                          "refID": 1727
                         }
                       }
                     },
@@ -54717,7 +55546,7 @@ var packageMetadata = {
                           "value": "tabular_tools"
                         },
                         "collection": {
-                          "ref": 1661
+                          "ref": 1669
                         },
                         "pub": {
                           "type": "constant",
@@ -54745,7 +55574,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1719
+                              "ref": 1727
                             },
                             "language": {
                               "type": "object",
@@ -54846,7 +55675,7 @@ var packageMetadata = {
                 },
                 "values": {
                   "type": "object",
-                  "refID": 1734,
+                  "refID": 1742,
                   "members": {
                     "before": {
                       "type": "object",
@@ -55016,7 +55845,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1792
+                          "refID": 1800
                         }
                       }
                     },
@@ -55040,7 +55869,7 @@ var packageMetadata = {
                           "value": "tabular_values"
                         },
                         "collection": {
-                          "ref": 1734
+                          "ref": 1742
                         },
                         "pub": {
                           "type": "constant",
@@ -55068,7 +55897,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1792
+                              "ref": 1800
                             },
                             "language": {
                               "type": "object",
@@ -57064,6 +57893,15 @@ var packageMetadata = {
                           "type": "function"
                         }
                       }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
                     }
                   }
                 },
@@ -57080,7 +57918,7 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "selector": {
-                  "type": "undefined"
+                  "type": "function"
                 },
                 "options": {
                   "type": "object",
@@ -57504,7 +58342,7 @@ var packageMetadata = {
               "members": {
                 "benefits": {
                   "type": "object",
-                  "refID": 858,
+                  "refID": 866,
                   "members": {
                     "before": {
                       "type": "object",
@@ -57674,7 +58512,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 916
+                          "refID": 924
                         }
                       }
                     },
@@ -57698,7 +58536,7 @@ var packageMetadata = {
                           "value": "tabular_benefits"
                         },
                         "collection": {
-                          "ref": 858
+                          "ref": 866
                         },
                         "pub": {
                           "type": "constant",
@@ -57726,7 +58564,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 916
+                              "ref": 924
                             },
                             "language": {
                               "type": "object",
@@ -57827,7 +58665,7 @@ var packageMetadata = {
                 },
                 "clients": {
                   "type": "object",
-                  "refID": 931,
+                  "refID": 939,
                   "members": {
                     "before": {
                       "type": "object",
@@ -57997,7 +58835,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 989
+                          "refID": 997
                         }
                       }
                     },
@@ -58021,7 +58859,7 @@ var packageMetadata = {
                           "value": "tabular_clients"
                         },
                         "collection": {
-                          "ref": 931
+                          "ref": 939
                         },
                         "pub": {
                           "type": "constant",
@@ -58049,7 +58887,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 989
+                              "ref": 997
                             },
                             "language": {
                               "type": "object",
@@ -58150,7 +58988,7 @@ var packageMetadata = {
                 },
                 "contacts": {
                   "type": "object",
-                  "refID": 1004,
+                  "refID": 1012,
                   "members": {
                     "before": {
                       "type": "object",
@@ -58320,7 +59158,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1062
+                          "refID": 1070
                         }
                       }
                     },
@@ -58344,7 +59182,7 @@ var packageMetadata = {
                           "value": "tabular_contacts"
                         },
                         "collection": {
-                          "ref": 1004
+                          "ref": 1012
                         },
                         "pub": {
                           "type": "constant",
@@ -58372,7 +59210,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1062
+                              "ref": 1070
                             },
                             "language": {
                               "type": "object",
@@ -58473,7 +59311,7 @@ var packageMetadata = {
                 },
                 "figures": {
                   "type": "object",
-                  "refID": 1077,
+                  "refID": 1085,
                   "members": {
                     "before": {
                       "type": "object",
@@ -58643,7 +59481,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1135
+                          "refID": 1143
                         }
                       }
                     },
@@ -58667,7 +59505,7 @@ var packageMetadata = {
                           "value": "tabular_figures"
                         },
                         "collection": {
-                          "ref": 1077
+                          "ref": 1085
                         },
                         "pub": {
                           "type": "constant",
@@ -58695,7 +59533,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1135
+                              "ref": 1143
                             },
                             "language": {
                               "type": "object",
@@ -58796,7 +59634,7 @@ var packageMetadata = {
                 },
                 "members": {
                   "type": "object",
-                  "refID": 1150,
+                  "refID": 1158,
                   "members": {
                     "before": {
                       "type": "object",
@@ -58966,7 +59804,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1208
+                          "refID": 1216
                         }
                       }
                     },
@@ -58990,7 +59828,7 @@ var packageMetadata = {
                           "value": "tabular_members"
                         },
                         "collection": {
-                          "ref": 1150
+                          "ref": 1158
                         },
                         "pub": {
                           "type": "constant",
@@ -59018,7 +59856,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1208
+                              "ref": 1216
                             },
                             "language": {
                               "type": "object",
@@ -59119,7 +59957,7 @@ var packageMetadata = {
                 },
                 "posts": {
                   "type": "object",
-                  "refID": 1223,
+                  "refID": 1231,
                   "members": {
                     "before": {
                       "type": "object",
@@ -59289,7 +60127,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1281
+                          "refID": 1289
                         }
                       }
                     },
@@ -59313,7 +60151,7 @@ var packageMetadata = {
                           "value": "tabular_posts"
                         },
                         "collection": {
-                          "ref": 1223
+                          "ref": 1231
                         },
                         "pub": {
                           "type": "constant",
@@ -59341,7 +60179,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1281
+                              "ref": 1289
                             },
                             "language": {
                               "type": "object",
@@ -59442,7 +60280,7 @@ var packageMetadata = {
                 },
                 "processes": {
                   "type": "object",
-                  "refID": 1296,
+                  "refID": 1304,
                   "members": {
                     "before": {
                       "type": "object",
@@ -59612,7 +60450,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1354
+                          "refID": 1362
                         }
                       }
                     },
@@ -59636,7 +60474,7 @@ var packageMetadata = {
                           "value": "tabular_processes"
                         },
                         "collection": {
-                          "ref": 1296
+                          "ref": 1304
                         },
                         "pub": {
                           "type": "constant",
@@ -59664,7 +60502,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1354
+                              "ref": 1362
                             },
                             "language": {
                               "type": "object",
@@ -59765,7 +60603,7 @@ var packageMetadata = {
                 },
                 "projects": {
                   "type": "object",
-                  "refID": 1369,
+                  "refID": 1377,
                   "members": {
                     "before": {
                       "type": "object",
@@ -59935,7 +60773,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1427
+                          "refID": 1435
                         }
                       }
                     },
@@ -59959,7 +60797,7 @@ var packageMetadata = {
                           "value": "tabular_projects"
                         },
                         "collection": {
-                          "ref": 1369
+                          "ref": 1377
                         },
                         "pub": {
                           "type": "constant",
@@ -59987,7 +60825,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1427
+                              "ref": 1435
                             },
                             "language": {
                               "type": "object",
@@ -60088,7 +60926,7 @@ var packageMetadata = {
                 },
                 "quotes": {
                   "type": "object",
-                  "refID": 1442,
+                  "refID": 1450,
                   "members": {
                     "before": {
                       "type": "object",
@@ -60258,7 +61096,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1500
+                          "refID": 1508
                         }
                       }
                     },
@@ -60282,7 +61120,7 @@ var packageMetadata = {
                           "value": "tabular_quotes"
                         },
                         "collection": {
-                          "ref": 1442
+                          "ref": 1450
                         },
                         "pub": {
                           "type": "constant",
@@ -60310,7 +61148,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1500
+                              "ref": 1508
                             },
                             "language": {
                               "type": "object",
@@ -60411,7 +61249,7 @@ var packageMetadata = {
                 },
                 "routes": {
                   "type": "object",
-                  "refID": 1515,
+                  "refID": 1523,
                   "members": {
                     "before": {
                       "type": "object",
@@ -60581,7 +61419,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1573
+                          "refID": 1581
                         }
                       }
                     },
@@ -60605,7 +61443,7 @@ var packageMetadata = {
                           "value": "tabular_routes"
                         },
                         "collection": {
-                          "ref": 1515
+                          "ref": 1523
                         },
                         "pub": {
                           "type": "constant",
@@ -60633,7 +61471,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1573
+                              "ref": 1581
                             },
                             "language": {
                               "type": "object",
@@ -60734,7 +61572,7 @@ var packageMetadata = {
                 },
                 "services": {
                   "type": "object",
-                  "refID": 1588,
+                  "refID": 1596,
                   "members": {
                     "before": {
                       "type": "object",
@@ -60904,7 +61742,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1646
+                          "refID": 1654
                         }
                       }
                     },
@@ -60928,7 +61766,7 @@ var packageMetadata = {
                           "value": "tabular_services"
                         },
                         "collection": {
-                          "ref": 1588
+                          "ref": 1596
                         },
                         "pub": {
                           "type": "constant",
@@ -60956,7 +61794,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1646
+                              "ref": 1654
                             },
                             "language": {
                               "type": "object",
@@ -61057,7 +61895,7 @@ var packageMetadata = {
                 },
                 "tools": {
                   "type": "object",
-                  "refID": 1661,
+                  "refID": 1669,
                   "members": {
                     "before": {
                       "type": "object",
@@ -61227,7 +62065,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1719
+                          "refID": 1727
                         }
                       }
                     },
@@ -61251,7 +62089,7 @@ var packageMetadata = {
                           "value": "tabular_tools"
                         },
                         "collection": {
-                          "ref": 1661
+                          "ref": 1669
                         },
                         "pub": {
                           "type": "constant",
@@ -61279,7 +62117,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1719
+                              "ref": 1727
                             },
                             "language": {
                               "type": "object",
@@ -61380,7 +62218,7 @@ var packageMetadata = {
                 },
                 "values": {
                   "type": "object",
-                  "refID": 1734,
+                  "refID": 1742,
                   "members": {
                     "before": {
                       "type": "object",
@@ -61550,7 +62388,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1792
+                          "refID": 1800
                         }
                       }
                     },
@@ -61574,7 +62412,7 @@ var packageMetadata = {
                           "value": "tabular_values"
                         },
                         "collection": {
-                          "ref": 1734
+                          "ref": 1742
                         },
                         "pub": {
                           "type": "constant",
@@ -61602,7 +62440,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1792
+                              "ref": 1800
                             },
                             "language": {
                               "type": "object",
@@ -63598,6 +64436,15 @@ var packageMetadata = {
                           "type": "function"
                         }
                       }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
                     }
                   }
                 },
@@ -63614,7 +64461,7 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "selector": {
-                  "type": "undefined"
+                  "type": "function"
                 },
                 "options": {
                   "type": "object",
@@ -64038,7 +64885,7 @@ var packageMetadata = {
               "members": {
                 "benefits": {
                   "type": "object",
-                  "refID": 858,
+                  "refID": 866,
                   "members": {
                     "before": {
                       "type": "object",
@@ -64208,7 +65055,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 916
+                          "refID": 924
                         }
                       }
                     },
@@ -64232,7 +65079,7 @@ var packageMetadata = {
                           "value": "tabular_benefits"
                         },
                         "collection": {
-                          "ref": 858
+                          "ref": 866
                         },
                         "pub": {
                           "type": "constant",
@@ -64260,7 +65107,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 916
+                              "ref": 924
                             },
                             "language": {
                               "type": "object",
@@ -64361,7 +65208,7 @@ var packageMetadata = {
                 },
                 "clients": {
                   "type": "object",
-                  "refID": 931,
+                  "refID": 939,
                   "members": {
                     "before": {
                       "type": "object",
@@ -64531,7 +65378,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 989
+                          "refID": 997
                         }
                       }
                     },
@@ -64555,7 +65402,7 @@ var packageMetadata = {
                           "value": "tabular_clients"
                         },
                         "collection": {
-                          "ref": 931
+                          "ref": 939
                         },
                         "pub": {
                           "type": "constant",
@@ -64583,7 +65430,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 989
+                              "ref": 997
                             },
                             "language": {
                               "type": "object",
@@ -64684,7 +65531,7 @@ var packageMetadata = {
                 },
                 "contacts": {
                   "type": "object",
-                  "refID": 1004,
+                  "refID": 1012,
                   "members": {
                     "before": {
                       "type": "object",
@@ -64854,7 +65701,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1062
+                          "refID": 1070
                         }
                       }
                     },
@@ -64878,7 +65725,7 @@ var packageMetadata = {
                           "value": "tabular_contacts"
                         },
                         "collection": {
-                          "ref": 1004
+                          "ref": 1012
                         },
                         "pub": {
                           "type": "constant",
@@ -64906,7 +65753,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1062
+                              "ref": 1070
                             },
                             "language": {
                               "type": "object",
@@ -65007,7 +65854,7 @@ var packageMetadata = {
                 },
                 "figures": {
                   "type": "object",
-                  "refID": 1077,
+                  "refID": 1085,
                   "members": {
                     "before": {
                       "type": "object",
@@ -65177,7 +66024,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1135
+                          "refID": 1143
                         }
                       }
                     },
@@ -65201,7 +66048,7 @@ var packageMetadata = {
                           "value": "tabular_figures"
                         },
                         "collection": {
-                          "ref": 1077
+                          "ref": 1085
                         },
                         "pub": {
                           "type": "constant",
@@ -65229,7 +66076,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1135
+                              "ref": 1143
                             },
                             "language": {
                               "type": "object",
@@ -65330,7 +66177,7 @@ var packageMetadata = {
                 },
                 "members": {
                   "type": "object",
-                  "refID": 1150,
+                  "refID": 1158,
                   "members": {
                     "before": {
                       "type": "object",
@@ -65500,7 +66347,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1208
+                          "refID": 1216
                         }
                       }
                     },
@@ -65524,7 +66371,7 @@ var packageMetadata = {
                           "value": "tabular_members"
                         },
                         "collection": {
-                          "ref": 1150
+                          "ref": 1158
                         },
                         "pub": {
                           "type": "constant",
@@ -65552,7 +66399,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1208
+                              "ref": 1216
                             },
                             "language": {
                               "type": "object",
@@ -65653,7 +66500,7 @@ var packageMetadata = {
                 },
                 "posts": {
                   "type": "object",
-                  "refID": 1223,
+                  "refID": 1231,
                   "members": {
                     "before": {
                       "type": "object",
@@ -65823,7 +66670,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1281
+                          "refID": 1289
                         }
                       }
                     },
@@ -65847,7 +66694,7 @@ var packageMetadata = {
                           "value": "tabular_posts"
                         },
                         "collection": {
-                          "ref": 1223
+                          "ref": 1231
                         },
                         "pub": {
                           "type": "constant",
@@ -65875,7 +66722,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1281
+                              "ref": 1289
                             },
                             "language": {
                               "type": "object",
@@ -65976,7 +66823,7 @@ var packageMetadata = {
                 },
                 "processes": {
                   "type": "object",
-                  "refID": 1296,
+                  "refID": 1304,
                   "members": {
                     "before": {
                       "type": "object",
@@ -66146,7 +66993,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1354
+                          "refID": 1362
                         }
                       }
                     },
@@ -66170,7 +67017,7 @@ var packageMetadata = {
                           "value": "tabular_processes"
                         },
                         "collection": {
-                          "ref": 1296
+                          "ref": 1304
                         },
                         "pub": {
                           "type": "constant",
@@ -66198,7 +67045,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1354
+                              "ref": 1362
                             },
                             "language": {
                               "type": "object",
@@ -66299,7 +67146,7 @@ var packageMetadata = {
                 },
                 "projects": {
                   "type": "object",
-                  "refID": 1369,
+                  "refID": 1377,
                   "members": {
                     "before": {
                       "type": "object",
@@ -66469,7 +67316,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1427
+                          "refID": 1435
                         }
                       }
                     },
@@ -66493,7 +67340,7 @@ var packageMetadata = {
                           "value": "tabular_projects"
                         },
                         "collection": {
-                          "ref": 1369
+                          "ref": 1377
                         },
                         "pub": {
                           "type": "constant",
@@ -66521,7 +67368,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1427
+                              "ref": 1435
                             },
                             "language": {
                               "type": "object",
@@ -66622,7 +67469,7 @@ var packageMetadata = {
                 },
                 "quotes": {
                   "type": "object",
-                  "refID": 1442,
+                  "refID": 1450,
                   "members": {
                     "before": {
                       "type": "object",
@@ -66792,7 +67639,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1500
+                          "refID": 1508
                         }
                       }
                     },
@@ -66816,7 +67663,7 @@ var packageMetadata = {
                           "value": "tabular_quotes"
                         },
                         "collection": {
-                          "ref": 1442
+                          "ref": 1450
                         },
                         "pub": {
                           "type": "constant",
@@ -66844,7 +67691,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1500
+                              "ref": 1508
                             },
                             "language": {
                               "type": "object",
@@ -66945,7 +67792,7 @@ var packageMetadata = {
                 },
                 "routes": {
                   "type": "object",
-                  "refID": 1515,
+                  "refID": 1523,
                   "members": {
                     "before": {
                       "type": "object",
@@ -67115,7 +67962,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1573
+                          "refID": 1581
                         }
                       }
                     },
@@ -67139,7 +67986,7 @@ var packageMetadata = {
                           "value": "tabular_routes"
                         },
                         "collection": {
-                          "ref": 1515
+                          "ref": 1523
                         },
                         "pub": {
                           "type": "constant",
@@ -67167,7 +68014,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1573
+                              "ref": 1581
                             },
                             "language": {
                               "type": "object",
@@ -67268,7 +68115,7 @@ var packageMetadata = {
                 },
                 "services": {
                   "type": "object",
-                  "refID": 1588,
+                  "refID": 1596,
                   "members": {
                     "before": {
                       "type": "object",
@@ -67438,7 +68285,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1646
+                          "refID": 1654
                         }
                       }
                     },
@@ -67462,7 +68309,7 @@ var packageMetadata = {
                           "value": "tabular_services"
                         },
                         "collection": {
-                          "ref": 1588
+                          "ref": 1596
                         },
                         "pub": {
                           "type": "constant",
@@ -67490,7 +68337,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1646
+                              "ref": 1654
                             },
                             "language": {
                               "type": "object",
@@ -67591,7 +68438,7 @@ var packageMetadata = {
                 },
                 "tools": {
                   "type": "object",
-                  "refID": 1661,
+                  "refID": 1669,
                   "members": {
                     "before": {
                       "type": "object",
@@ -67761,7 +68608,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1719
+                          "refID": 1727
                         }
                       }
                     },
@@ -67785,7 +68632,7 @@ var packageMetadata = {
                           "value": "tabular_tools"
                         },
                         "collection": {
-                          "ref": 1661
+                          "ref": 1669
                         },
                         "pub": {
                           "type": "constant",
@@ -67813,7 +68660,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1719
+                              "ref": 1727
                             },
                             "language": {
                               "type": "object",
@@ -67914,7 +68761,7 @@ var packageMetadata = {
                 },
                 "values": {
                   "type": "object",
-                  "refID": 1734,
+                  "refID": 1742,
                   "members": {
                     "before": {
                       "type": "object",
@@ -68084,7 +68931,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1792
+                          "refID": 1800
                         }
                       }
                     },
@@ -68108,7 +68955,7 @@ var packageMetadata = {
                           "value": "tabular_values"
                         },
                         "collection": {
-                          "ref": 1734
+                          "ref": 1742
                         },
                         "pub": {
                           "type": "constant",
@@ -68136,7 +68983,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1792
+                              "ref": 1800
                             },
                             "language": {
                               "type": "object",
@@ -70133,6 +70980,15 @@ var packageMetadata = {
                           "type": "function"
                         }
                       }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
                     }
                   }
                 },
@@ -70149,7 +71005,7 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "selector": {
-                  "type": "undefined"
+                  "type": "function"
                 },
                 "options": {
                   "type": "object",
@@ -70573,7 +71429,7 @@ var packageMetadata = {
               "members": {
                 "benefits": {
                   "type": "object",
-                  "refID": 858,
+                  "refID": 866,
                   "members": {
                     "before": {
                       "type": "object",
@@ -70743,7 +71599,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 916
+                          "refID": 924
                         }
                       }
                     },
@@ -70767,7 +71623,7 @@ var packageMetadata = {
                           "value": "tabular_benefits"
                         },
                         "collection": {
-                          "ref": 858
+                          "ref": 866
                         },
                         "pub": {
                           "type": "constant",
@@ -70795,7 +71651,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 916
+                              "ref": 924
                             },
                             "language": {
                               "type": "object",
@@ -70896,7 +71752,7 @@ var packageMetadata = {
                 },
                 "clients": {
                   "type": "object",
-                  "refID": 931,
+                  "refID": 939,
                   "members": {
                     "before": {
                       "type": "object",
@@ -71066,7 +71922,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 989
+                          "refID": 997
                         }
                       }
                     },
@@ -71090,7 +71946,7 @@ var packageMetadata = {
                           "value": "tabular_clients"
                         },
                         "collection": {
-                          "ref": 931
+                          "ref": 939
                         },
                         "pub": {
                           "type": "constant",
@@ -71118,7 +71974,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 989
+                              "ref": 997
                             },
                             "language": {
                               "type": "object",
@@ -71219,7 +72075,7 @@ var packageMetadata = {
                 },
                 "contacts": {
                   "type": "object",
-                  "refID": 1004,
+                  "refID": 1012,
                   "members": {
                     "before": {
                       "type": "object",
@@ -71389,7 +72245,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1062
+                          "refID": 1070
                         }
                       }
                     },
@@ -71413,7 +72269,7 @@ var packageMetadata = {
                           "value": "tabular_contacts"
                         },
                         "collection": {
-                          "ref": 1004
+                          "ref": 1012
                         },
                         "pub": {
                           "type": "constant",
@@ -71441,7 +72297,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1062
+                              "ref": 1070
                             },
                             "language": {
                               "type": "object",
@@ -71542,7 +72398,7 @@ var packageMetadata = {
                 },
                 "figures": {
                   "type": "object",
-                  "refID": 1077,
+                  "refID": 1085,
                   "members": {
                     "before": {
                       "type": "object",
@@ -71712,7 +72568,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1135
+                          "refID": 1143
                         }
                       }
                     },
@@ -71736,7 +72592,7 @@ var packageMetadata = {
                           "value": "tabular_figures"
                         },
                         "collection": {
-                          "ref": 1077
+                          "ref": 1085
                         },
                         "pub": {
                           "type": "constant",
@@ -71764,7 +72620,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1135
+                              "ref": 1143
                             },
                             "language": {
                               "type": "object",
@@ -71865,7 +72721,7 @@ var packageMetadata = {
                 },
                 "members": {
                   "type": "object",
-                  "refID": 1150,
+                  "refID": 1158,
                   "members": {
                     "before": {
                       "type": "object",
@@ -72035,7 +72891,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1208
+                          "refID": 1216
                         }
                       }
                     },
@@ -72059,7 +72915,7 @@ var packageMetadata = {
                           "value": "tabular_members"
                         },
                         "collection": {
-                          "ref": 1150
+                          "ref": 1158
                         },
                         "pub": {
                           "type": "constant",
@@ -72087,7 +72943,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1208
+                              "ref": 1216
                             },
                             "language": {
                               "type": "object",
@@ -72188,7 +73044,7 @@ var packageMetadata = {
                 },
                 "posts": {
                   "type": "object",
-                  "refID": 1223,
+                  "refID": 1231,
                   "members": {
                     "before": {
                       "type": "object",
@@ -72358,7 +73214,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1281
+                          "refID": 1289
                         }
                       }
                     },
@@ -72382,7 +73238,7 @@ var packageMetadata = {
                           "value": "tabular_posts"
                         },
                         "collection": {
-                          "ref": 1223
+                          "ref": 1231
                         },
                         "pub": {
                           "type": "constant",
@@ -72410,7 +73266,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1281
+                              "ref": 1289
                             },
                             "language": {
                               "type": "object",
@@ -72511,7 +73367,7 @@ var packageMetadata = {
                 },
                 "processes": {
                   "type": "object",
-                  "refID": 1296,
+                  "refID": 1304,
                   "members": {
                     "before": {
                       "type": "object",
@@ -72681,7 +73537,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1354
+                          "refID": 1362
                         }
                       }
                     },
@@ -72705,7 +73561,7 @@ var packageMetadata = {
                           "value": "tabular_processes"
                         },
                         "collection": {
-                          "ref": 1296
+                          "ref": 1304
                         },
                         "pub": {
                           "type": "constant",
@@ -72733,7 +73589,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1354
+                              "ref": 1362
                             },
                             "language": {
                               "type": "object",
@@ -72834,7 +73690,7 @@ var packageMetadata = {
                 },
                 "projects": {
                   "type": "object",
-                  "refID": 1369,
+                  "refID": 1377,
                   "members": {
                     "before": {
                       "type": "object",
@@ -73004,7 +73860,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1427
+                          "refID": 1435
                         }
                       }
                     },
@@ -73028,7 +73884,7 @@ var packageMetadata = {
                           "value": "tabular_projects"
                         },
                         "collection": {
-                          "ref": 1369
+                          "ref": 1377
                         },
                         "pub": {
                           "type": "constant",
@@ -73056,7 +73912,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1427
+                              "ref": 1435
                             },
                             "language": {
                               "type": "object",
@@ -73157,7 +74013,7 @@ var packageMetadata = {
                 },
                 "quotes": {
                   "type": "object",
-                  "refID": 1442,
+                  "refID": 1450,
                   "members": {
                     "before": {
                       "type": "object",
@@ -73327,7 +74183,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1500
+                          "refID": 1508
                         }
                       }
                     },
@@ -73351,7 +74207,7 @@ var packageMetadata = {
                           "value": "tabular_quotes"
                         },
                         "collection": {
-                          "ref": 1442
+                          "ref": 1450
                         },
                         "pub": {
                           "type": "constant",
@@ -73379,7 +74235,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1500
+                              "ref": 1508
                             },
                             "language": {
                               "type": "object",
@@ -73480,7 +74336,7 @@ var packageMetadata = {
                 },
                 "routes": {
                   "type": "object",
-                  "refID": 1515,
+                  "refID": 1523,
                   "members": {
                     "before": {
                       "type": "object",
@@ -73650,7 +74506,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1573
+                          "refID": 1581
                         }
                       }
                     },
@@ -73674,7 +74530,7 @@ var packageMetadata = {
                           "value": "tabular_routes"
                         },
                         "collection": {
-                          "ref": 1515
+                          "ref": 1523
                         },
                         "pub": {
                           "type": "constant",
@@ -73702,7 +74558,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1573
+                              "ref": 1581
                             },
                             "language": {
                               "type": "object",
@@ -73803,7 +74659,7 @@ var packageMetadata = {
                 },
                 "services": {
                   "type": "object",
-                  "refID": 1588,
+                  "refID": 1596,
                   "members": {
                     "before": {
                       "type": "object",
@@ -73973,7 +74829,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1646
+                          "refID": 1654
                         }
                       }
                     },
@@ -73997,7 +74853,7 @@ var packageMetadata = {
                           "value": "tabular_services"
                         },
                         "collection": {
-                          "ref": 1588
+                          "ref": 1596
                         },
                         "pub": {
                           "type": "constant",
@@ -74025,7 +74881,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1646
+                              "ref": 1654
                             },
                             "language": {
                               "type": "object",
@@ -74126,7 +74982,7 @@ var packageMetadata = {
                 },
                 "tools": {
                   "type": "object",
-                  "refID": 1661,
+                  "refID": 1669,
                   "members": {
                     "before": {
                       "type": "object",
@@ -74296,7 +75152,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1719
+                          "refID": 1727
                         }
                       }
                     },
@@ -74320,7 +75176,7 @@ var packageMetadata = {
                           "value": "tabular_tools"
                         },
                         "collection": {
-                          "ref": 1661
+                          "ref": 1669
                         },
                         "pub": {
                           "type": "constant",
@@ -74348,7 +75204,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1719
+                              "ref": 1727
                             },
                             "language": {
                               "type": "object",
@@ -74449,7 +75305,7 @@ var packageMetadata = {
                 },
                 "values": {
                   "type": "object",
-                  "refID": 1734,
+                  "refID": 1742,
                   "members": {
                     "before": {
                       "type": "object",
@@ -74619,7 +75475,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1792
+                          "refID": 1800
                         }
                       }
                     },
@@ -74643,7 +75499,7 @@ var packageMetadata = {
                           "value": "tabular_values"
                         },
                         "collection": {
-                          "ref": 1734
+                          "ref": 1742
                         },
                         "pub": {
                           "type": "constant",
@@ -74671,7 +75527,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1792
+                              "ref": 1800
                             },
                             "language": {
                               "type": "object",
@@ -76670,6 +77526,15 @@ var packageMetadata = {
                           "type": "function"
                         }
                       }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
                     }
                   }
                 },
@@ -76686,7 +77551,7 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "selector": {
-                  "type": "undefined"
+                  "type": "function"
                 },
                 "options": {
                   "type": "object",
@@ -77110,7 +77975,7 @@ var packageMetadata = {
               "members": {
                 "benefits": {
                   "type": "object",
-                  "refID": 858,
+                  "refID": 866,
                   "members": {
                     "before": {
                       "type": "object",
@@ -77280,7 +78145,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 916
+                          "refID": 924
                         }
                       }
                     },
@@ -77304,7 +78169,7 @@ var packageMetadata = {
                           "value": "tabular_benefits"
                         },
                         "collection": {
-                          "ref": 858
+                          "ref": 866
                         },
                         "pub": {
                           "type": "constant",
@@ -77332,7 +78197,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 916
+                              "ref": 924
                             },
                             "language": {
                               "type": "object",
@@ -77433,7 +78298,7 @@ var packageMetadata = {
                 },
                 "clients": {
                   "type": "object",
-                  "refID": 931,
+                  "refID": 939,
                   "members": {
                     "before": {
                       "type": "object",
@@ -77603,7 +78468,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 989
+                          "refID": 997
                         }
                       }
                     },
@@ -77627,7 +78492,7 @@ var packageMetadata = {
                           "value": "tabular_clients"
                         },
                         "collection": {
-                          "ref": 931
+                          "ref": 939
                         },
                         "pub": {
                           "type": "constant",
@@ -77655,7 +78520,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 989
+                              "ref": 997
                             },
                             "language": {
                               "type": "object",
@@ -77756,7 +78621,7 @@ var packageMetadata = {
                 },
                 "contacts": {
                   "type": "object",
-                  "refID": 1004,
+                  "refID": 1012,
                   "members": {
                     "before": {
                       "type": "object",
@@ -77926,7 +78791,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1062
+                          "refID": 1070
                         }
                       }
                     },
@@ -77950,7 +78815,7 @@ var packageMetadata = {
                           "value": "tabular_contacts"
                         },
                         "collection": {
-                          "ref": 1004
+                          "ref": 1012
                         },
                         "pub": {
                           "type": "constant",
@@ -77978,7 +78843,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1062
+                              "ref": 1070
                             },
                             "language": {
                               "type": "object",
@@ -78079,7 +78944,7 @@ var packageMetadata = {
                 },
                 "figures": {
                   "type": "object",
-                  "refID": 1077,
+                  "refID": 1085,
                   "members": {
                     "before": {
                       "type": "object",
@@ -78249,7 +79114,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1135
+                          "refID": 1143
                         }
                       }
                     },
@@ -78273,7 +79138,7 @@ var packageMetadata = {
                           "value": "tabular_figures"
                         },
                         "collection": {
-                          "ref": 1077
+                          "ref": 1085
                         },
                         "pub": {
                           "type": "constant",
@@ -78301,7 +79166,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1135
+                              "ref": 1143
                             },
                             "language": {
                               "type": "object",
@@ -78402,7 +79267,7 @@ var packageMetadata = {
                 },
                 "members": {
                   "type": "object",
-                  "refID": 1150,
+                  "refID": 1158,
                   "members": {
                     "before": {
                       "type": "object",
@@ -78572,7 +79437,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1208
+                          "refID": 1216
                         }
                       }
                     },
@@ -78596,7 +79461,7 @@ var packageMetadata = {
                           "value": "tabular_members"
                         },
                         "collection": {
-                          "ref": 1150
+                          "ref": 1158
                         },
                         "pub": {
                           "type": "constant",
@@ -78624,7 +79489,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1208
+                              "ref": 1216
                             },
                             "language": {
                               "type": "object",
@@ -78725,7 +79590,7 @@ var packageMetadata = {
                 },
                 "posts": {
                   "type": "object",
-                  "refID": 1223,
+                  "refID": 1231,
                   "members": {
                     "before": {
                       "type": "object",
@@ -78895,7 +79760,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1281
+                          "refID": 1289
                         }
                       }
                     },
@@ -78919,7 +79784,7 @@ var packageMetadata = {
                           "value": "tabular_posts"
                         },
                         "collection": {
-                          "ref": 1223
+                          "ref": 1231
                         },
                         "pub": {
                           "type": "constant",
@@ -78947,7 +79812,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1281
+                              "ref": 1289
                             },
                             "language": {
                               "type": "object",
@@ -79048,7 +79913,7 @@ var packageMetadata = {
                 },
                 "processes": {
                   "type": "object",
-                  "refID": 1296,
+                  "refID": 1304,
                   "members": {
                     "before": {
                       "type": "object",
@@ -79218,7 +80083,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1354
+                          "refID": 1362
                         }
                       }
                     },
@@ -79242,7 +80107,7 @@ var packageMetadata = {
                           "value": "tabular_processes"
                         },
                         "collection": {
-                          "ref": 1296
+                          "ref": 1304
                         },
                         "pub": {
                           "type": "constant",
@@ -79270,7 +80135,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1354
+                              "ref": 1362
                             },
                             "language": {
                               "type": "object",
@@ -79371,7 +80236,7 @@ var packageMetadata = {
                 },
                 "projects": {
                   "type": "object",
-                  "refID": 1369,
+                  "refID": 1377,
                   "members": {
                     "before": {
                       "type": "object",
@@ -79541,7 +80406,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1427
+                          "refID": 1435
                         }
                       }
                     },
@@ -79565,7 +80430,7 @@ var packageMetadata = {
                           "value": "tabular_projects"
                         },
                         "collection": {
-                          "ref": 1369
+                          "ref": 1377
                         },
                         "pub": {
                           "type": "constant",
@@ -79593,7 +80458,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1427
+                              "ref": 1435
                             },
                             "language": {
                               "type": "object",
@@ -79694,7 +80559,7 @@ var packageMetadata = {
                 },
                 "quotes": {
                   "type": "object",
-                  "refID": 1442,
+                  "refID": 1450,
                   "members": {
                     "before": {
                       "type": "object",
@@ -79864,7 +80729,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1500
+                          "refID": 1508
                         }
                       }
                     },
@@ -79888,7 +80753,7 @@ var packageMetadata = {
                           "value": "tabular_quotes"
                         },
                         "collection": {
-                          "ref": 1442
+                          "ref": 1450
                         },
                         "pub": {
                           "type": "constant",
@@ -79916,7 +80781,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1500
+                              "ref": 1508
                             },
                             "language": {
                               "type": "object",
@@ -80017,7 +80882,7 @@ var packageMetadata = {
                 },
                 "routes": {
                   "type": "object",
-                  "refID": 1515,
+                  "refID": 1523,
                   "members": {
                     "before": {
                       "type": "object",
@@ -80187,7 +81052,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1573
+                          "refID": 1581
                         }
                       }
                     },
@@ -80211,7 +81076,7 @@ var packageMetadata = {
                           "value": "tabular_routes"
                         },
                         "collection": {
-                          "ref": 1515
+                          "ref": 1523
                         },
                         "pub": {
                           "type": "constant",
@@ -80239,7 +81104,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1573
+                              "ref": 1581
                             },
                             "language": {
                               "type": "object",
@@ -80340,7 +81205,7 @@ var packageMetadata = {
                 },
                 "services": {
                   "type": "object",
-                  "refID": 1588,
+                  "refID": 1596,
                   "members": {
                     "before": {
                       "type": "object",
@@ -80510,7 +81375,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1646
+                          "refID": 1654
                         }
                       }
                     },
@@ -80534,7 +81399,7 @@ var packageMetadata = {
                           "value": "tabular_services"
                         },
                         "collection": {
-                          "ref": 1588
+                          "ref": 1596
                         },
                         "pub": {
                           "type": "constant",
@@ -80562,7 +81427,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1646
+                              "ref": 1654
                             },
                             "language": {
                               "type": "object",
@@ -80663,7 +81528,7 @@ var packageMetadata = {
                 },
                 "tools": {
                   "type": "object",
-                  "refID": 1661,
+                  "refID": 1669,
                   "members": {
                     "before": {
                       "type": "object",
@@ -80833,7 +81698,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1719
+                          "refID": 1727
                         }
                       }
                     },
@@ -80857,7 +81722,7 @@ var packageMetadata = {
                           "value": "tabular_tools"
                         },
                         "collection": {
-                          "ref": 1661
+                          "ref": 1669
                         },
                         "pub": {
                           "type": "constant",
@@ -80885,7 +81750,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1719
+                              "ref": 1727
                             },
                             "language": {
                               "type": "object",
@@ -80986,7 +81851,7 @@ var packageMetadata = {
                 },
                 "values": {
                   "type": "object",
-                  "refID": 1734,
+                  "refID": 1742,
                   "members": {
                     "before": {
                       "type": "object",
@@ -81156,7 +82021,7 @@ var packageMetadata = {
                       "members": {
                         "columns": {
                           "type": "array",
-                          "refID": 1792
+                          "refID": 1800
                         }
                       }
                     },
@@ -81180,7 +82045,7 @@ var packageMetadata = {
                           "value": "tabular_values"
                         },
                         "collection": {
-                          "ref": 1734
+                          "ref": 1742
                         },
                         "pub": {
                           "type": "constant",
@@ -81208,7 +82073,7 @@ var packageMetadata = {
                           "type": "object",
                           "members": {
                             "columns": {
-                              "ref": 1792
+                              "ref": 1800
                             },
                             "language": {
                               "type": "object",
@@ -84601,6 +85466,9 @@ var packageMetadata = {
         },
         "setConfig": {
           "type": "function"
+        },
+        "getConfigPath": {
+          "type": "function"
         }
       }
     },
@@ -84653,6 +85521,21 @@ var packageMetadata = {
   "grigio:babel": {},
   "velocity:html-reporter": {},
   "chrisbutler:typed.js": {},
+  "meteorhacks:npm": {},
+  "npm-container": {},
+  "meteorhacks:async": {
+    "Async": {
+      "type": "object",
+      "members": {
+        "runSync": {
+          "type": "function"
+        },
+        "wrap": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "service-configuration": {
     "ServiceConfiguration": {
       "type": "object",
