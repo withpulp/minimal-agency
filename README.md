@@ -128,6 +128,7 @@ Router.route('/about', function () {
   * [lauricio:less-autoprefixer](https://github.com/Lauricio/less-autoprefixer)
   * [momentjs:moment](https://github.com/moment/moment/)
   * [msavin:mongol](https://github.com/msavin/Mongol)
+  * [meteorhacks:npm](https://github.com/meteorhacks/npm)
 
 The "insecure" and "autopublish" packages are removed by default (they make your app vulnerable).
 
