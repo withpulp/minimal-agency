@@ -3,11 +3,11 @@
     {{#each processes}}
       <div class="process grid">
         <div class="cell">
-          <h4>{{title}}</h4>
+          <h4 class="title">{{title}}</h4>
           <p class="description">{{description}}</p>
-          <ol>
+          <ol class="ordered stages list">
             {{#each stages}}
-              <li class="item">{{stage}}</li>
+              <li class="stage item">{{stage}}</li>
             {{/each}}
           </ol>
         </div>

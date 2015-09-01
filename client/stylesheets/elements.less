@@ -5,24 +5,24 @@
 // buttons
 
 .button {
-	padding: @space-base @space-large;
-	background-color: @gray;
-	color: @light;
-	text-align: center;
-	text-decoration: none;
+  padding: @space-base @space-large;
+  background-color: @gray;
+  color: @light;
+  text-align: center;
+  text-decoration: none;
   cursor: pointer;
-	-moz-transition: all @faster;
-	-webkit-transition: all @faster;
-	transition: all @faster;
+  -moz-transition: all @faster;
+  -webkit-transition: all @faster;
+  transition: all @faster;
 
-	@media (min-width: @tablet-width) {
-		padding: @space-large @space-huge;
-	}
+  @media (min-width: @tablet-width) {
+    padding: @space-large @space-huge;
+  }
 
   &:hover,
   &:focus {
     background-color: @primary-color;
-		color: @gray;
+    color: @gray;
   }
 
   &.primary {
@@ -32,7 +32,7 @@
     &:hover,
     &:focus {
       background-color: @gray;
-			color: @light;
+      color: @light;
     }
   }
 
@@ -43,41 +43,41 @@
     &:hover,
     &:focus {
       background-color: @primary-color;
-			color: @gray;
+      color: @gray;
     }
   }
 
-	&.cta {
-		font-size: @font-size-base;
-		font-weight: bold;
-		text-align: center;
-		padding: @space-base 0;
+  &.cta {
+    font-size: @font-size-base;
+    font-weight: bold;
+    text-align: center;
+    padding: @space-base 0;
 
-		@media (min-width: @tablet-width) {
-			font-size: @font-size-base + @font-size-small;
-		}
+    @media (min-width: @tablet-width) {
+      font-size: @font-size-base + @font-size-small;
+    }
 
-		.supporting {
-			display: block;
-			margin-top: @space-small;
-			font-weight: normal;
-			font-size: @font-size-base;
-			text-decoration: underline;
+    .supporting {
+      display: block;
+      margin-top: @space-small;
+      font-weight: normal;
+      font-size: @font-size-base;
+      text-decoration: underline;
 
-			@media (min-width: @tablet-width) {
-				font-size: @font-size-base + @font-size-small;
-			}
-		}
+      @media (min-width: @tablet-width) {
+        font-size: @font-size-base + @font-size-small;
+      }
+    }
 
-		&:hover,
-		&:focus {
-			text-decoration: none;
+    &:hover,
+    &:focus {
+      text-decoration: none;
 
-			.supporting {
-				color: @primary-color;
-			}
-		}
-	}
+      .supporting {
+        color: @primary-color;
+      }
+    }
+  }
 
   &.fluid {
     display: block;
@@ -94,25 +94,30 @@
 // lists
 
 .list {
-	list-style-type: square;
-
-  &.unstyled {
-    padding: 0;
-	  list-style-type: none;
-  }
-
-	&.inline {
-		display: inline;
-		padding: 0;
-		list-style-type: none;
-
-		.item {
-			display: inline;
-		}
-	}
+  list-style-type: square;
 
   @media (min-width: @desktop-width) {
     text-indent: @space-large;
+  }
+
+  &.unstyled {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &.ordered {
+    list-style-type: upper-hexadecimal;
+    text-indent: initial;
+  }
+
+  &.inline {
+    display: inline;
+    padding: 0;
+    list-style-type: none;
+
+    .item {
+      display: inline;
+    }
   }
 }
 
@@ -126,33 +131,33 @@
     width: @full;
   }
 
-	&.background {
-		position: absolute;
-		margin: 0;
-		z-index: -1;
+  &.background {
+    position: absolute;
+    margin: 0;
+    z-index: -1;
 
-		&.top {
-			top: 0;
-		}
+    &.top {
+      top: 0;
+    }
 
-		&.right {
-			right: 0;
-		}
+    &.right {
+      right: 0;
+    }
 
-		&.bottom {
-			bottom: 0;
-		}
+    &.bottom {
+      bottom: 0;
+    }
 
-		&.left {
-			left: 0;
-		}
-	}
+    &.left {
+      left: 0;
+    }
+  }
 }
 
 // other
 
 hr {
-	margin: 0;
-	border: 0;
-	border-bottom: @space-atomic solid @secondary-color;
+  margin: 0;
+  border: 0;
+  border-bottom: @space-atomic solid @secondary-color;
 }
