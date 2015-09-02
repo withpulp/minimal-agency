@@ -113,5 +113,9 @@ Fixtures.quotes = [
   {
     author: 'Maria Popova',
     quotes: 'Life is a continual process of arrival into who we are.'
+  },
+  {
+    author: 'Terrel Bell',
+    quotes: 'There are three things to remember about education. The first is motivation. The second one is motivation. The third one is motivation.'
   }
 ];
