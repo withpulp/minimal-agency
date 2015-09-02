@@ -3,22 +3,26 @@
 // statements styles
 
 .statement {
-	color: @gray-dark;
+  color: @gray-dark;
 
-	@media (min-width: @tablet-width) {
-		padding-bottom: @space-small;
-	}
+  @media (min-width: @tablet-width) {
+    padding-bottom: @space-small;
+  }
 
-	&.mission {
-		margin: @space-base auto;
-		color: @dark;
-	}
+  &.mission {
+    margin: @space-base auto;
+    color: @dark;
 
-	&.supporting {
+    &.typed {
+      display: inline-block;
+    }
+  }
 
-		&.mission {
-			text-indent: @space-large;
-			letter-spacing: @space-atomic;
-		}
-	}
+  &.supporting {
+
+    &.mission {
+      text-indent: @space-large;
+      letter-spacing: @space-atomic;
+    }
+  }
 }
