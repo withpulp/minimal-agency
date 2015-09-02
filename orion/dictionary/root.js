@@ -1,6 +1,16 @@
-orion.dictionary.addDefinition('introMission', 'root', {
+orion.dictionary.addDefinition('introTypedA', 'root', {
   type: String,
-  label: 'Intro Mission Statement'
+  label: 'Intro First Typed Statement'
+});
+
+orion.dictionary.addDefinition('introTypedB', 'root', {
+  type: String,
+  label: 'Intro Second Typed Statement'
+});
+
+orion.dictionary.addDefinition('introTypedC', 'root', {
+  type: String,
+  label: 'Intro Third Typed Statement'
 });
 
 orion.dictionary.addDefinition('introSupportingMissionBold', 'root', {
