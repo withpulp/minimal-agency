@@ -1,66 +1,67 @@
 <template name="root">
-  <div class="root view">
+    <div class="root view">
 
-    <section class="intro segment">
-      <h1 class="typed mission statement">
-        {{typed}}
-      </h1>
-      <p class="supporting mission statement">
-        <strong class="strong">{{ dict 'root.introSupportingMissionBold' 'µTool' }}</strong>
-        <em class="emphasis">{{ dict 'root.introSupportingMissionBold' '(/mu:tool/)' }}</em>
-        {{ dict 'root.introSupportingMissionVerb' 'creates' }}
-        <span class="highlight">{{ dict 'root.introSupportingMissionHighlight' 'data-driven' }}</span>
-        {{ dict 'root.introSupportingMission' 'digital products and services that give brands a competitive edge.' }}
-      </p>
-    </section>
+        <section class="intro segment">
+            <h1 class="mission statement">
+                <span class="typed">{{typed}}</span>
+            </h1>
 
-    <section class="benefits segment">
-      <h3 class="leading statement">
-        {{ dict 'root.benefitsStatement' 'Attract customers with more' }}
-      </h3>
-      {{> benefits}}
-    </section>
+            <p class="supporting mission statement">
+                <strong class="strong">{{ dict 'root.introSupportingMissionBold' 'µTool' }}</strong>
+                <em class="emphasis">{{ dict 'root.introSupportingMissionBold' '(/mu:tool/)' }}</em>
+                {{ dict 'root.introSupportingMissionVerb' 'creates' }}
+                <span class="highlight">{{ dict 'root.introSupportingMissionHighlight' 'data-driven' }}</span>
+                {{ dict 'root.introSupportingMission' 'digital products and services that give brands a competitive edge.' }}
+            </p>
+        </section>
 
-    <section class="figures segment">
-      <h3 class="leading statement">
-        {{ dict 'root.figuresStatement' 'Recent track record' }}
-      </h3>
-      {{> figures}}
-    </section>
+        <section class="benefits segment">
+            <h3 class="leading statement">
+                {{ dict 'root.benefitsStatement' 'Attract customers with more' }}
+            </h3>
+            {{> benefits}}
+        </section>
 
-    <section class="clients segment">
-      <h3 class="leading statement">
-        {{ dict 'root.clientsStatement' 'Trusted by' }}
-      </h3>
-      {{> clients}}
-    </section>
+        <section class="figures segment">
+            <h3 class="leading statement">
+                {{ dict 'root.figuresStatement' 'Recent track record' }}
+            </h3>
+            {{> figures}}
+        </section>
 
-    <section class="fluid cta segment">
-      <a class="fluid primary cta button" href="#">
-        {{ dict 'root.ctaStatement' 'Get Similar Results' }}
-    		<span class="supporting">
-          {{ dict 'root.ctaSupportingStatement' 'Reserve a free consultation' }}
-        </span>
-    	</a>
-    </section>
+        <section class="clients segment">
+            <h3 class="leading statement">
+                {{ dict 'root.clientsStatement' 'Trusted by' }}
+            </h3>
+            {{> clients}}
+        </section>
 
-    <section class="leadership segment">
-      {{> members}}
-    </section>
+        <section class="fluid cta segment">
+            <a class="fluid primary cta button" href="#">
+                {{ dict 'root.ctaStatement' 'Get Similar Results' }}
+                <span class="supporting">
+                    {{ dict 'root.ctaSupportingStatement' 'Reserve a free consultation' }}
+                </span>
+            </a>
+        </section>
 
-    <section class="tools segment">
-      <h3 class="leading statement">
-        {{ dict 'root.toolsStatement' 'Latest Tools' }}
-      </h3>
-      {{> tools}}
-    </section>
+        <section class="leadership segment">
+            {{> members}}
+        </section>
 
-    <section class="posts segment">
-      <h3 class="leading statement">
-        {{ dict 'root.postsStatement' 'From the Blog' }}
-      </h3>
-      {{> posts}}
-    </section>
+        <section class="tools segment">
+            <h3 class="leading statement">
+                {{ dict 'root.toolsStatement' 'Latest Tools' }}
+            </h3>
+            {{> tools}}
+        </section>
 
-  </div>
+        <section class="posts segment">
+            <h3 class="leading statement">
+                {{ dict 'root.postsStatement' 'From the Blog' }}
+            </h3>
+            {{> posts}}
+        </section>
+
+    </div>
 </template>
