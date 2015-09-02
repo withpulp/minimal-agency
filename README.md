@@ -122,6 +122,7 @@ Router.route('/about', function () {
   * [miro:mailchimp](https://github.com/MiroHibler/meteor-mailchimp)
   * [fortawesome:fontawesome](https://github.com/MeteorPackaging/Font-Awesome)
   * [natestrauser:animate-css](https://github.com/nate-strauser/meteor-animate-css)
+  * [chrisbutler:typed.js](https://github.com/chrisbutler/meteor-typed.js/tree/master)
 * SEO
   * [manuelschoebel:ms-seo](https://github.com/DerMambo/ms-seo)
 * Development
