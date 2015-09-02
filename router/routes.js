@@ -135,7 +135,7 @@ Router.route('/work', {
     data: function () {
         return [
             Projects.find(),
-            Tools.find(),
+            Clients.find(),
             Quotes.find(),
             Routes.find(),
             Contacts.find()
@@ -144,7 +144,7 @@ Router.route('/work', {
     waitOn: function () {
         return [
             Meteor.subscribe('projects'),
-            Meteor.subscribe('tools'),
+            Meteor.subscribe('clients'),
             Meteor.subscribe('quotes'),
             Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
@@ -153,6 +153,34 @@ Router.route('/work', {
     action: function () {
         if (this.ready())
             this.render('work');
+        else
+            this.render('loading');
+    }
+}, function () {
+    SEO.set({title: Meteor.App.NAME});
+});
+
+Router.route('/work/:_id', {
+    name: 'product',
+    data: function () {
+        return [
+            Projects.findOne(this.params._id),
+            Quotes.find(),
+            Routes.find(),
+            Contacts.find()
+        ]
+    },
+    waitOn: function () {
+        return [
+            Meteor.subscribe('project', this.params._id),
+            Meteor.subscribe('quotes'),
+            Meteor.subscribe('routes'),
+            Meteor.subscribe('contacts')
+        ]
+    },
+    action: function () {
+        if (this.ready())
+            this.render('study');
         else
             this.render('loading');
     }

@@ -13,7 +13,7 @@ orion.dictionary.addDefinition('highlight', 'work', {
     label: 'Highlight'
 });
 
-orion.dictionary.addDefinition('casesStatement', 'work', {
+orion.dictionary.addDefinition('projectsStatement', 'work', {
     type: String,
     label: 'Case Studies Leading Statement'
 });
