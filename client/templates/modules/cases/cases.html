@@ -1,0 +1,14 @@
+<template name="cases">
+    <div class="cases article module">
+        {{#each limitedCases}}
+            <article class="case">
+                <h4 class="title">
+                    <a class="id link" href="{{pathFor 'study'}}">
+                        {{title}}
+                    </a>
+                </h4>
+                <p class="excerpt">{{excerpt}}</p>
+            </article>
+        {{/each}}
+    </div>
+</template>

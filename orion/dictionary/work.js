@@ -17,3 +17,8 @@ orion.dictionary.addDefinition('casesStatement', 'work', {
     type: String,
     label: 'Case Studies Leading Statement'
 });
+
+orion.dictionary.addDefinition('clientsStatement', 'work', {
+    type: String,
+    label: 'Clients Leading Statement'
+});
