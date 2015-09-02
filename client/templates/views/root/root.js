@@ -8,6 +8,7 @@ Template.root.rendered = function () {
 
     $('.typed').typed({
         strings: [introTypedA, introTypedB, introTypedC],
-        typeSpeed: 25
+        typeSpeed: 25,
+        backSpeed: 25
     });
 }

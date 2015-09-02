@@ -1,0 +1,43 @@
+@import '../../../variables';
+
+// typed styles
+
+.typed-cursor {
+  font-size: @font-size-large + @font-size-micro;
+  opacity: 1;
+  animation: blink 0.7s infinite;
+
+  @media (min-width: @tablet-width) {
+    font-size: @font-size-large + @font-size-mini;
+  }
+
+  @media (min-width: @desktop-width) {
+    font-size: @font-size-large + @font-size-tiny;
+  }
+
+  @media (min-width: @large-desktop-width) {
+    font-size: @font-size-large + @font-size-small;
+  }
+
+  @media (min-width: @huge-desktop-width) {
+    font-size: @font-size-huge;
+  }
+
+  @media (min-width: @jumbo-desktop-width) {
+    font-size: @font-size-huge + @font-size-mini;
+  }
+
+  @media (min-width: @giant-desktop-width) {
+    font-size: @font-size-huge + @font-size-tiny;
+  }
+
+  @media (min-width: @massive-desktop-width) {
+    font-size: @font-size-huge + @font-size-small;
+  }
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
