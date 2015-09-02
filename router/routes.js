@@ -161,7 +161,7 @@ Router.route('/work', {
 });
 
 Router.route('/work/:_id', {
-    name: 'product',
+    name: 'study',
     data: function () {
         return [
             Projects.findOne(this.params._id),
