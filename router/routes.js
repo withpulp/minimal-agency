@@ -273,7 +273,7 @@ Router.route('/blog/', {
 });
 
 Router.route('/blog/:_id', {
-    name: 'blogPost',
+    name: 'article',
     data: function () {
         return [
             Posts.findOne(this.params._id),
@@ -292,7 +292,7 @@ Router.route('/blog/:_id', {
     },
     action: function () {
         if (this.ready())
-            this.render('blogPost');
+            this.render('article');
         else
             this.render('loading');
     }

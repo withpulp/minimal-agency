@@ -15,15 +15,14 @@
     {{else}}
       {{#each posts}}
         <article class="post">
-          <p>{{createdAt}}</p>
-          <h4 class="title">
+          <h2 class="title">
             <a class="id link" href="{{pathFor 'blogPost'}}">
               {{title}}
             </a>
             <small class="id creator">
-              by {{getCreator.profile.name}}
+              posted by {{getCreator.profile.name}}
             </small>
-          </h4>
+          </h2>
         </article>
       {{/each}}
     {{/if}}
