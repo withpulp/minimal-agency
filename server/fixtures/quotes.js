@@ -117,5 +117,9 @@ Fixtures.quotes = [
   {
     author: 'Terrel Bell',
     quotes: 'There are three things to remember about education. The first is motivation. The second one is motivation. The third one is motivation.'
+  },
+  {
+    author: 'William James',
+    quotes: 'A great many people think they are thinking when they are merely rearranging their prejudices.'
   }
 ];

@@ -146,7 +146,7 @@ html {
       font-size: @font-size-base + @font-size-mini;
 
       @media (min-width: @tablet-width) {
-        font-size: @font-size-base + @font-size-tiny;
+        font-size: @font-size-base + @font-size-tiny + @font-size-atomic;
       }
 
       @media (min-width: @desktop-width) {
@@ -175,7 +175,7 @@ html {
     }
 
     h4 {
-      font-size: @font-size-base;
+      font-size: @font-size-base + @font-size-atomic;
       letter-spacing: @space-quantum;
 
       @media (min-width: @tablet-width) {
