@@ -2,7 +2,7 @@
     <div class="posts article module">
         {{#if root}}
             {{#each limitedPosts}}
-                <article class="post">
+                <article class="root post">
                     <h4 class="title">
                         <a class="id link" href="{{pathFor 'article'}}">
                             {{title}}
@@ -15,11 +15,11 @@
             <a class="route link" href="{{pathFor 'blog'}}">View our blog</a>
         {{else}}
             {{#each posts}}
-                <article class="post">
+                <article class="blog post">
                     <a class="id link" href="{{pathFor 'article'}}">
-                        <span class="date">{{formatDate createdAt}}</span>
+                        <span class="meta date">{{formatDate createdAt}}</span>
                         <h2 class="title">{{title}}</h2>
-                        <span class="creator">posted by {{getCreator.profile.name}}</span>
+                        <span class="meta creator">posted by {{getCreator.profile.name}}</span>
                     </a>
                 </article>
             {{/each}}
