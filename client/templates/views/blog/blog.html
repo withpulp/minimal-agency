@@ -1,23 +1,27 @@
 <template name="blog">
-  <div class="blog view">
-    <section class="header segment">
-      <h2 class="page-title">Blog</h2>
-      <div class="summary segment">
-        <p class="mission statement">
-          We like talking with you. You're pretty swell.
-        </p>
-        <p class="supporting statement">Here, we'll share
-          <span class="highlight">
-            some thoughts we've been having.
-          </span>
-        </p>
-      </div>
-    </section>
-    <section class="services segment">
-      <h3 class="leading statement">
-        Posts:
-        {{> posts}}
-      </h3>
-    </section>
-  </div>
+    <div class="blog view">
+        <section class="header segment">
+            <h2 class="page-title">{{ dict 'blog.title' 'Blog' }}</h2>
+
+            <div class="summary segment">
+                <p class="mission statement">
+                    {{ dict 'blog.mission' 'We like talking to you. You\'re pretty swell.' }}
+                </p>
+
+                <p class="supporting statement">
+                    {{ dict 'blog.supporting' 'Here are some of our' }}
+                    <span class="highlight">
+                        {{ dict 'blog.highlight' 'thoughts on product design and development.' }}
+                    </span>
+                </p>
+            </div>
+        </section>
+        <section class="posts segment">
+            <h3 class="leading statement">
+                Posts:
+                {{ dict 'blog.postsStatement' 'Work' }}
+                {{> posts}}
+            </h3>
+        </section>
+    </div>
 </template>
