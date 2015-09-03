@@ -3,20 +3,48 @@
 // article module styles
 
 .module.article {
-	padding: 0;
+  padding: 0;
 
-	article {
-		margin-bottom: @space-base;
+  article {
+    margin-bottom: @space-base;
 
-		@media (min-width: @tablet-width) {
-			margin-bottom: @space-large;
-		}
+    @media (min-width: @tablet-width) {
+      margin-bottom: @space-large;
+    }
 
-		.title {
-			margin-bottom: @space-small;
-		}
+    .title {
+      margin-bottom: @space-small;
+    }
 
-		&.tool {
-		}
-	}
+    &.tool {
+
+    }
+
+    &.post {
+
+      &.blog {
+        margin: @space-large auto;
+        border-bottom: @space-micro solid @gray-lighter;
+
+        .id.link {
+          display: inline-block;
+          width: @full;
+          margin-bottom: @space-large;
+          text-decoration: none;
+
+          .meta {
+            display: block;
+            color: @gray-lighter;
+          }
+
+          .title {
+            padding: 0;
+            margin: @space-tiny 0;
+            text-decoration: underline;
+            line-height: @line-height-base;
+          }
+        }
+      }
+    }
+  }
 }
