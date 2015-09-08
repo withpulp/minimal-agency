@@ -13,7 +13,10 @@
         <section class="author segment">
             <!-- @TODO: global author module -->
             <div class="author module">
-                {{post.getCreator.profile.name}}
+                <h2 class="title">Author</h2>
+                <img class="image" src="http://placehold.it/100x100" />
+                <p class="name">{{post.getCreator.profile.name}}, <span class="meta rank">Partner</span></p>
+                <span class="meta date">{{formatDate post.createdAt}}</span>
             </div>
         </section>
     </article>
