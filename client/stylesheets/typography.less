@@ -78,7 +78,7 @@ html {
     }
 
     h1 {
-      font-size: @font-size-large + @font-size-micro;
+      font-size: @font-size-medium;
 
       @media (min-width: @tablet-width) {
         font-size: @font-size-large + @font-size-mini;
@@ -143,7 +143,7 @@ html {
     }
 
     h3 {
-      font-size: @font-size-base + @font-size-mini;
+      font-size: @font-size-base + @font-size-quantum;
 
       @media (min-width: @tablet-width) {
         font-size: @font-size-base + @font-size-tiny + @font-size-atomic;
@@ -175,8 +175,8 @@ html {
     }
 
     h4 {
-      font-size: @font-size-base + @font-size-atomic;
-      letter-spacing: @space-quantum;
+      font-size: @font-size-base;
+      font-family: @font-family-sans-serif;
 
       @media (min-width: @tablet-width) {
         font-size: @font-size-base + @font-size-mini;
