@@ -23,9 +23,13 @@
   }
 
   &.fluid {
-    margin: 0 -@sixteenth + -1%;
+    margin: 0 -@sixteenth + -2%;
 
     @media (min-width: @tablet-width) {
+      margin : 0 -@eighth;
+    }
+
+    @media (min-width: @desktop-width) {
       margin: 0 -@quarter - -4%;
     }
 
