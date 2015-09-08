@@ -7085,11 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-<<<<<<< HEAD
-                  "value": "d2a3f73d8fb4da596dc0a86dea222a6994675c5d"
-=======
                   "value": "c015d878842b7c111518075bd2b35b30f834d333"
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7213,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 1
+              "value": 0
             },
             "timeout": {
               "type": "constant",
@@ -7893,19 +7889,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-<<<<<<< HEAD
-          "value": "adb85ca72e9fcea500176e12d291ee4afaa2ae17"
+          "value": "69e2bd5ca7731d482c2d985ddfba6b3591e0a79e"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "c3934a1b667fb2c6fda4e3b4ebe817036553e153"
-=======
-          "value": "ff8d54ce113e4634c940ea8ac2fa88eb83734579"
-        },
-        "autoupdateVersionRefreshable": {
-          "type": "constant",
-          "value": "b15da3e6d2e966c1eee5f21eb01badb8e5fbfbc6"
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
+          "value": "ac849c2c837e917f694938786f0a6a852092ed31"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -20881,637 +20869,1525 @@ var packageMetadata = {
     }
   },
   "orionjs:lang-en": {},
-  "orionjs:base": {},
-  "aldeed:autoform": {},
-  "orionjs:attributes": {},
-  "url": {
-    "URL": {
-      "type": "object"
-    }
-  },
-  "http": {
-    "HTTP": {
+  "orionjs:base": {
+    "orion": {
       "type": "object",
       "members": {
-        "get": {
-          "type": "function"
-        },
-        "post": {
-          "type": "function"
-        },
-        "put": {
-          "type": "function"
-        },
-        "del": {
-          "type": "function"
-        },
-        "call": {
-          "type": "function"
-        }
-      }
-    },
-    "HTTPInternals": {
-      "type": "object",
-      "members": {
-        "NpmModules": {
+        "helpers": {
           "type": "object",
           "members": {
-            "request": {
+            "searchObjectWithDots": {
+              "type": "function"
+            },
+            "deepExtend": {
+              "type": "function"
+            },
+            "getTranslation": {
+              "type": "function"
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "members": {
+            "registerAttribute": {
+              "type": "function"
+            },
+            "createdBy": {
               "type": "object",
               "members": {
-                "version": {
+                "previewTemplate": {
                   "type": "constant",
-                  "value": "2.53.0"
+                  "value": "createdByPreview"
                 },
-                "module": {
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "updatedAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "updatedAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "createdAt": {
+              "type": "object",
+              "members": {
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "createdAtPreview"
+                },
+                "getSchema": {
+                  "type": "function"
+                }
+              }
+            },
+            "froala": {
+              "type": "object",
+              "members": {
+                "template": {
+                  "type": "constant",
+                  "value": "orionAttributesFroala"
+                },
+                "previewTemplate": {
+                  "type": "constant",
+                  "value": "orionAttributesFroalaColumn"
+                },
+                "getSchema": {
+                  "type": "function"
+                },
+                "valueOut": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "attribute": {
+          "type": "function"
+        },
+        "attributeColumn": {
+          "type": "function"
+        },
+        "arrayOfAttribute": {
+          "type": "function"
+        },
+        "accounts": {
+          "type": "object",
+          "members": {
+            "profileSchema": {
+              "type": "object",
+              "members": {
+                "condition": {
+                  "type": "function"
+                },
+                "namedContext": {
+                  "type": "function"
+                },
+                "validator": {
                   "type": "function",
+                  "refID": 37
+                },
+                "addValidator": {
+                  "ref": 37
+                },
+                "pick": {
+                  "type": "function"
+                },
+                "clean": {
+                  "type": "function"
+                },
+                "schema": {
+                  "type": "function"
+                },
+                "getDefinition": {
+                  "type": "function"
+                },
+                "keyIsInBlackBox": {
+                  "type": "function"
+                },
+                "labels": {
+                  "type": "function"
+                },
+                "label": {
+                  "type": "function"
+                },
+                "messages": {
+                  "type": "function"
+                },
+                "messageForError": {
+                  "type": "function"
+                },
+                "allowsKey": {
+                  "type": "function"
+                },
+                "newContext": {
+                  "type": "function"
+                },
+                "objectKeys": {
+                  "type": "function"
+                }
+              }
+            },
+            "addProtectedRoute": {
+              "type": "function"
+            },
+            "addAdminUsersButton": {
+              "type": "function"
+            },
+            "indexTabularTable": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "AccountsIndex"
+                },
+                "collection": {
+                  "type": "object",
+                  "refID": 68,
                   "members": {
-                    "get": {
-                      "type": "function"
-                    },
-                    "head": {
-                      "type": "function"
-                    },
-                    "post": {
-                      "type": "function"
-                    },
-                    "put": {
-                      "type": "function"
-                    },
-                    "patch": {
-                      "type": "function"
-                    },
-                    "del": {
-                      "type": "function"
-                    },
-                    "jar": {
-                      "type": "function"
-                    },
-                    "cookie": {
-                      "type": "function"
-                    },
-                    "defaults": {
-                      "type": "function"
-                    },
-                    "forever": {
-                      "type": "function"
-                    },
-                    "Request": {
-                      "type": "function",
+                    "before": {
+                      "type": "object",
                       "members": {
-                        "super_": {
-                          "type": "function",
-                          "refID": 25,
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "hookOptions": {
+                      "type": "object",
+                      "members": {
+                        "before": {
+                          "type": "object",
                           "members": {
-                            "super_": {
-                              "type": "function",
-                              "members": {
-                                "listenerCount": {
-                                  "type": "function"
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "setMaxListeners": {
-                                      "type": "function",
-                                      "refID": 30
-                                    },
-                                    "emit": {
-                                      "type": "function",
-                                      "refID": 32
-                                    },
-                                    "addListener": {
-                                      "type": "function",
-                                      "refID": 34
-                                    },
-                                    "on": {
-                                      "ref": 34
-                                    },
-                                    "once": {
-                                      "type": "function",
-                                      "refID": 36
-                                    },
-                                    "removeListener": {
-                                      "type": "function",
-                                      "refID": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "type": "function",
-                                      "refID": 40
-                                    },
-                                    "listeners": {
-                                      "type": "function",
-                                      "refID": 42
-                                    }
-                                  }
-                                }
-                              }
+                            "insert": {
+                              "type": "object"
                             },
-                            "Readable": {
-                              "type": "function",
-                              "refID": 44,
-                              "members": {
-                                "ReadableState": {
-                                  "type": "function"
-                                },
-                                "super_": {
-                                  "ref": 25
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "push": {
-                                      "type": "function",
-                                      "refID": 48
-                                    },
-                                    "unshift": {
-                                      "type": "function",
-                                      "refID": 50
-                                    },
-                                    "setEncoding": {
-                                      "type": "function",
-                                      "refID": 52
-                                    },
-                                    "read": {
-                                      "type": "function",
-                                      "refID": 54
-                                    },
-                                    "pipe": {
-                                      "type": "function",
-                                      "refID": 56
-                                    },
-                                    "unpipe": {
-                                      "type": "function",
-                                      "refID": 58
-                                    },
-                                    "on": {
-                                      "type": "function",
-                                      "refID": 60
-                                    },
-                                    "addListener": {
-                                      "ref": 60
-                                    },
-                                    "resume": {
-                                      "type": "function",
-                                      "refID": 62
-                                    },
-                                    "pause": {
-                                      "type": "function",
-                                      "refID": 64
-                                    },
-                                    "wrap": {
-                                      "type": "function",
-                                      "refID": 66
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
+                            "update": {
+                              "type": "object"
                             },
-                            "Writable": {
-                              "type": "function",
-                              "members": {
-                                "WritableState": {
-                                  "type": "function"
-                                },
-                                "super_": {
-                                  "ref": 25
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "pipe": {
-                                      "type": "function"
-                                    },
-                                    "write": {
-                                      "type": "function",
-                                      "refID": 74
-                                    },
-                                    "end": {
-                                      "type": "function",
-                                      "refID": 76
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "addListener": {
-                                      "ref": 34
-                                    },
-                                    "on": {
-                                      "ref": 34
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
+                            "remove": {
+                              "type": "object"
                             },
-                            "Duplex": {
-                              "type": "function",
-                              "refID": 78,
-                              "members": {
-                                "super_": {
-                                  "ref": 44
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "write": {
-                                      "ref": 74
-                                    },
-                                    "end": {
-                                      "ref": 76
-                                    },
-                                    "push": {
-                                      "ref": 48
-                                    },
-                                    "unshift": {
-                                      "ref": 50
-                                    },
-                                    "setEncoding": {
-                                      "ref": 52
-                                    },
-                                    "read": {
-                                      "ref": 54
-                                    },
-                                    "pipe": {
-                                      "ref": 56
-                                    },
-                                    "unpipe": {
-                                      "ref": 58
-                                    },
-                                    "on": {
-                                      "ref": 60
-                                    },
-                                    "addListener": {
-                                      "ref": 60
-                                    },
-                                    "resume": {
-                                      "ref": 62
-                                    },
-                                    "pause": {
-                                      "ref": 64
-                                    },
-                                    "wrap": {
-                                      "ref": 66
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
+                            "find": {
+                              "type": "object"
                             },
-                            "Transform": {
-                              "type": "function",
-                              "refID": 80,
-                              "members": {
-                                "super_": {
-                                  "ref": 78
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "push": {
-                                      "type": "function",
-                                      "refID": 82
-                                    },
-                                    "write": {
-                                      "ref": 74
-                                    },
-                                    "end": {
-                                      "ref": 76
-                                    },
-                                    "unshift": {
-                                      "ref": 50
-                                    },
-                                    "setEncoding": {
-                                      "ref": 52
-                                    },
-                                    "read": {
-                                      "ref": 54
-                                    },
-                                    "pipe": {
-                                      "ref": 56
-                                    },
-                                    "unpipe": {
-                                      "ref": 58
-                                    },
-                                    "on": {
-                                      "ref": 60
-                                    },
-                                    "addListener": {
-                                      "ref": 60
-                                    },
-                                    "resume": {
-                                      "ref": 62
-                                    },
-                                    "pause": {
-                                      "ref": 64
-                                    },
-                                    "wrap": {
-                                      "ref": 66
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
+                            "findOne": {
+                              "type": "object"
                             },
-                            "PassThrough": {
-                              "type": "function",
-                              "members": {
-                                "super_": {
-                                  "ref": 80
-                                },
-                                "prototype": {
-                                  "type": "object",
-                                  "members": {
-                                    "push": {
-                                      "ref": 82
-                                    },
-                                    "write": {
-                                      "ref": 74
-                                    },
-                                    "end": {
-                                      "ref": 76
-                                    },
-                                    "unshift": {
-                                      "ref": 50
-                                    },
-                                    "setEncoding": {
-                                      "ref": 52
-                                    },
-                                    "read": {
-                                      "ref": 54
-                                    },
-                                    "pipe": {
-                                      "ref": 56
-                                    },
-                                    "unpipe": {
-                                      "ref": 58
-                                    },
-                                    "on": {
-                                      "ref": 60
-                                    },
-                                    "addListener": {
-                                      "ref": 60
-                                    },
-                                    "resume": {
-                                      "ref": 62
-                                    },
-                                    "pause": {
-                                      "ref": 64
-                                    },
-                                    "wrap": {
-                                      "ref": 66
-                                    },
-                                    "setMaxListeners": {
-                                      "ref": 30
-                                    },
-                                    "emit": {
-                                      "ref": 32
-                                    },
-                                    "once": {
-                                      "ref": 36
-                                    },
-                                    "removeListener": {
-                                      "ref": 38
-                                    },
-                                    "removeAllListeners": {
-                                      "ref": 40
-                                    },
-                                    "listeners": {
-                                      "ref": 42
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "Stream": {
-                              "ref": 25
-                            },
-                            "prototype": {
-                              "type": "object",
-                              "members": {
-                                "pipe": {
-                                  "type": "function"
-                                },
-                                "setMaxListeners": {
-                                  "ref": 30
-                                },
-                                "emit": {
-                                  "ref": 32
-                                },
-                                "addListener": {
-                                  "ref": 34
-                                },
-                                "on": {
-                                  "ref": 34
-                                },
-                                "once": {
-                                  "ref": 36
-                                },
-                                "removeListener": {
-                                  "ref": 38
-                                },
-                                "removeAllListeners": {
-                                  "ref": 40
-                                },
-                                "listeners": {
-                                  "ref": 42
-                                }
-                              }
+                            "all": {
+                              "type": "object"
                             }
                           }
                         },
-                        "debug": {
-                          "type": "undefined"
-                        },
-                        "defaultProxyHeaderWhiteList": {
-                          "type": "array"
-                        },
-                        "defaultProxyHeaderExclusiveList": {
-                          "type": "array"
-                        },
-                        "prototype": {
+                        "after": {
                           "type": "object",
                           "members": {
-                            "setupTunnel": {
-                              "type": "function"
+                            "insert": {
+                              "type": "object"
                             },
-                            "init": {
-                              "type": "function"
+                            "update": {
+                              "type": "object"
                             },
-                            "getNewAgent": {
-                              "type": "function"
+                            "remove": {
+                              "type": "object"
                             },
-                            "start": {
-                              "type": "function"
+                            "find": {
+                              "type": "object"
                             },
-                            "onRequestError": {
-                              "type": "function"
+                            "findOne": {
+                              "type": "object"
                             },
-                            "onRequestResponse": {
-                              "type": "function"
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "all": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
                             },
-                            "abort": {
-                              "type": "function"
+                            "update": {
+                              "type": "object"
                             },
-                            "pipeDest": {
-                              "type": "function"
+                            "remove": {
+                              "type": "object"
                             },
-                            "qs": {
-                              "type": "function"
+                            "find": {
+                              "type": "object"
                             },
-                            "form": {
-                              "type": "function"
+                            "findOne": {
+                              "type": "object"
                             },
-                            "multipart": {
-                              "type": "function"
-                            },
-                            "json": {
-                              "type": "function"
-                            },
-                            "getHeader": {
-                              "type": "function"
-                            },
-                            "auth": {
-                              "type": "function"
-                            },
-                            "aws": {
-                              "type": "function"
-                            },
-                            "httpSignature": {
-                              "type": "function"
-                            },
-                            "hawk": {
-                              "type": "function"
-                            },
-                            "oauth": {
-                              "type": "function"
-                            },
-                            "jar": {
-                              "type": "function"
-                            },
-                            "pipe": {
-                              "type": "function"
-                            },
-                            "write": {
-                              "type": "function"
-                            },
-                            "end": {
-                              "type": "function"
-                            },
-                            "pause": {
-                              "type": "function"
-                            },
-                            "resume": {
-                              "type": "function"
-                            },
-                            "destroy": {
-                              "type": "function"
-                            },
-                            "toJSON": {
-                              "type": "function"
-                            },
-                            "setMaxListeners": {
-                              "ref": 30
-                            },
-                            "emit": {
-                              "ref": 32
-                            },
-                            "addListener": {
-                              "ref": 34
-                            },
-                            "on": {
-                              "ref": 34
-                            },
-                            "once": {
-                              "ref": 36
-                            },
-                            "removeListener": {
-                              "ref": 38
-                            },
-                            "removeAllListeners": {
-                              "ref": 40
-                            },
-                            "listeners": {
-                              "ref": 42
+                            "all": {
+                              "type": "object"
                             }
                           }
                         }
                       }
                     },
-                    "initParams": {
-                      "type": "function"
+                    "direct": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
+                        }
+                      }
                     },
-                    "debug": {
-                      "type": "undefined"
+                    "constructor": {
+                      "type": "function",
+                      "refID": 124,
+                      "members": {
+                        "Cursor": {
+                          "type": "function",
+                          "refID": 125,
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "rewind": {
+                                  "type": "function"
+                                },
+                                "forEach": {
+                                  "type": "function"
+                                },
+                                "getTransform": {
+                                  "type": "function"
+                                },
+                                "map": {
+                                  "type": "function"
+                                },
+                                "fetch": {
+                                  "type": "function"
+                                },
+                                "count": {
+                                  "type": "function"
+                                },
+                                "observe": {
+                                  "type": "function"
+                                },
+                                "observeChanges": {
+                                  "type": "function"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ObjectID": {
+                          "type": "function",
+                          "refID": 143,
+                          "members": {
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "toString": {
+                                  "type": "function"
+                                },
+                                "equals": {
+                                  "type": "function"
+                                },
+                                "clone": {
+                                  "type": "function"
+                                },
+                                "typeName": {
+                                  "type": "function"
+                                },
+                                "getTimestamp": {
+                                  "type": "function"
+                                },
+                                "toHexString": {
+                                  "type": "function",
+                                  "refID": 155
+                                },
+                                "toJSONValue": {
+                                  "ref": 155
+                                },
+                                "valueOf": {
+                                  "ref": 155
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "get": {
+                          "type": "function",
+                          "refID": 157
+                        },
+                        "getAll": {
+                          "type": "function",
+                          "refID": 159
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 124
+                            },
+                            "attachRoles": {
+                              "type": "function",
+                              "refID": 162
+                            },
+                            "find": {
+                              "type": "function",
+                              "refID": 164
+                            },
+                            "findOne": {
+                              "type": "function",
+                              "refID": 166
+                            },
+                            "insert": {
+                              "type": "function",
+                              "refID": 168
+                            },
+                            "update": {
+                              "type": "function",
+                              "refID": 170
+                            },
+                            "remove": {
+                              "type": "function",
+                              "refID": 172
+                            },
+                            "upsert": {
+                              "type": "function",
+                              "refID": 174
+                            },
+                            "rawCollection": {
+                              "type": "function",
+                              "refID": 176
+                            },
+                            "rawDatabase": {
+                              "type": "function",
+                              "refID": 178
+                            },
+                            "allow": {
+                              "type": "function",
+                              "refID": 180
+                            },
+                            "deny": {
+                              "type": "function",
+                              "refID": 182
+                            },
+                            "helpers": {
+                              "type": "function",
+                              "refID": 184
+                            },
+                            "attachSchema": {
+                              "type": "function",
+                              "refID": 186
+                            },
+                            "simpleSchema": {
+                              "type": "function",
+                              "refID": 188
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "attachRoles": {
+                      "ref": 162
+                    },
+                    "find": {
+                      "ref": 164
+                    },
+                    "findOne": {
+                      "ref": 166
+                    },
+                    "insert": {
+                      "ref": 168
+                    },
+                    "update": {
+                      "ref": 170
+                    },
+                    "remove": {
+                      "ref": 172
+                    },
+                    "upsert": {
+                      "ref": 174
+                    },
+                    "rawCollection": {
+                      "ref": 176
+                    },
+                    "rawDatabase": {
+                      "ref": 178
+                    },
+                    "allow": {
+                      "ref": 180
+                    },
+                    "deny": {
+                      "ref": 182
+                    },
+                    "helpers": {
+                      "ref": 184
+                    },
+                    "attachSchema": {
+                      "ref": 186
+                    },
+                    "simpleSchema": {
+                      "ref": 188
                     }
                   }
-<<<<<<< HEAD
+                },
+                "pub": {
+                  "type": "constant",
+                  "value": "adminAccountsIndexTabular"
+                },
+                "sub": {
+                  "type": "object",
+                  "refID": 190,
+                  "members": {
+                    "settings": {
+                      "type": "object"
+                    },
+                    "release": {
+                      "type": "constant",
+                      "value": "METEOR@1.1.0.3"
+                    },
+                    "wrapAsync": {
+                      "type": "function"
+                    },
+                    "setTimeout": {
+                      "type": "function"
+                    },
+                    "setInterval": {
+                      "type": "function"
+                    },
+                    "clearInterval": {
+                      "type": "function"
+                    },
+                    "clearTimeout": {
+                      "type": "function"
+                    },
+                    "defer": {
+                      "type": "function"
+                    },
+                    "makeErrorType": {
+                      "type": "function"
+                    },
+                    "Error": {
+                      "type": "function",
+                      "refID": 206,
+                      "members": {
+                        "captureStackTrace": {
+                          "type": "function"
+                        },
+                        "stackTraceLimit": {
+                          "type": "constant",
+                          "value": 10
+                        },
+                        "prepareStackTrace": {
+                          "type": "function"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "constructor": {
+                              "ref": 206
+                            },
+                            "clone": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "startup": {
+                      "type": "function"
+                    },
+                    "EnvironmentVariable": {
+                      "type": "function",
+                      "members": {
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "get": {
+                              "type": "function"
+                            },
+                            "getOrNullIfOutsideFiber": {
+                              "type": "function"
+                            },
+                            "withValue": {
+                              "type": "function"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindEnvironment": {
+                      "type": "function"
+                    },
+                    "absoluteUrl": {
+                      "type": "function",
+                      "members": {
+                        "defaultOptions": {
+                          "type": "object",
+                          "members": {
+                            "rootUrl": {
+                              "type": "constant",
+                              "value": "http://localhost:3000/"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "flush": {
+                      "type": "function"
+                    },
+                    "autorun": {
+                      "type": "function",
+                      "refID": 231
+                    },
+                    "autosubscribe": {
+                      "ref": 231
+                    },
+                    "uuid": {
+                      "type": "function"
+                    },
+                    "server": {
+                      "type": "object",
+                      "refID": 235,
+                      "members": {
+                        "options": {
+                          "type": "object",
+                          "members": {
+                            "heartbeatInterval": {
+                              "type": "constant",
+                              "value": 30000
+                            },
+                            "heartbeatTimeout": {
+                              "type": "constant",
+                              "value": 15000
+                            }
+                          }
+                        },
+                        "onConnectionHook": {
+                          "type": "object",
+                          "members": {
+                            "nextCallbackId": {
+                              "type": "constant",
+                              "value": 1
+                            },
+                            "callbacks": {
+                              "type": "object",
+                              "members": {
+                                "0": {
+                                  "type": "function"
+                                }
+                              }
+                            },
+                            "exceptionHandler": {
+                              "type": "constant",
+                              "value": "onConnection callback"
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "each": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "publish_handlers": {
+                          "type": "object",
+                          "members": {
+                            "meteor_autoupdate_clientVersions": {
+                              "type": "function"
+                            },
+                            "seoByRouteName": {
+                              "type": "function"
+                            },
+                            "meteor.loginServiceConfiguration": {
+                              "type": "function"
+                            },
+                            "MeteorToys": {
+                              "type": "function"
+                            },
+                            "nicolaslopezj_roles": {
+                              "type": "function"
+                            },
+                            "userProfileForCreatedByAttributeColumn": {
+                              "type": "function"
+                            },
+                            "tabular_genericPub": {
+                              "type": "function"
+                            },
+                            "tabular_getInfo": {
+                              "type": "function"
+                            },
+                            "enrolledUsers": {
+                              "type": "function"
+                            },
+                            "adminAccountsIndexTabular": {
+                              "type": "function"
+                            },
+                            "adminAccountsUpdateRoles": {
+                              "type": "function"
+                            },
+                            "invitation": {
+                              "type": "function"
+                            },
+                            "orion_config": {
+                              "type": "function"
+                            },
+                            "orion_dictionary": {
+                              "type": "function"
+                            },
+                            "VelocityTestFiles": {
+                              "type": "function"
+                            },
+                            "VelocityFixtureFiles": {
+                              "type": "function"
+                            },
+                            "VelocityTestReports": {
+                              "type": "function"
+                            },
+                            "VelocityAggregateReports": {
+                              "type": "function"
+                            },
+                            "VelocityLogs": {
+                              "type": "function"
+                            },
+                            "VelocityMirrors": {
+                              "type": "function"
+                            },
+                            "VelocityOptions": {
+                              "type": "function"
+                            },
+                            "adminGetOne.benefits": {
+                              "type": "function"
+                            },
+                            "adminGetOne.clients": {
+                              "type": "function"
+                            },
+                            "adminGetOne.contacts": {
+                              "type": "function"
+                            },
+                            "adminGetOne.figures": {
+                              "type": "function"
+                            },
+                            "adminGetOne.members": {
+                              "type": "function"
+                            },
+                            "adminGetOne.posts": {
+                              "type": "function"
+                            },
+                            "adminGetOne.processes": {
+                              "type": "function"
+                            },
+                            "adminGetOne.projects": {
+                              "type": "function"
+                            },
+                            "adminGetOne.quotes": {
+                              "type": "function"
+                            },
+                            "adminGetOne.routes": {
+                              "type": "function"
+                            },
+                            "adminGetOne.services": {
+                              "type": "function"
+                            },
+                            "adminGetOne.tools": {
+                              "type": "function"
+                            },
+                            "adminGetOne.values": {
+                              "type": "function"
+                            },
+                            "benefits": {
+                              "type": "function"
+                            },
+                            "clients": {
+                              "type": "function"
+                            },
+                            "contacts": {
+                              "type": "function"
+                            },
+                            "figures": {
+                              "type": "function"
+                            },
+                            "members": {
+                              "type": "function"
+                            },
+                            "posts": {
+                              "type": "function"
+                            },
+                            "post": {
+                              "type": "function"
+                            },
+                            "processes": {
+                              "type": "function"
+                            },
+                            "projects": {
+                              "type": "function"
+                            },
+                            "project": {
+                              "type": "function"
+                            },
+                            "quotes": {
+                              "type": "function"
+                            },
+                            "routes": {
+                              "type": "function"
+                            },
+                            "services": {
+                              "type": "function"
+                            },
+                            "tools": {
+                              "type": "function"
+                            },
+                            "tool": {
+                              "type": "function"
+                            },
+                            "values": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "universal_publish_handlers": {
+                          "type": "array"
+                        },
+                        "method_handlers": {
+                          "type": "object",
+                          "members": {
+                            "/seo/insert": {
+                              "type": "function"
+                            },
+                            "/seo/update": {
+                              "type": "function"
+                            },
+                            "/seo/remove": {
+                              "type": "function"
+                            },
+                            "/users/insert": {
+                              "type": "function"
+                            },
+                            "/users/update": {
+                              "type": "function"
+                            },
+                            "/users/remove": {
+                              "type": "function"
+                            },
+                            "login": {
+                              "type": "function"
+                            },
+                            "logout": {
+                              "type": "function"
+                            },
+                            "logoutOtherClients": {
+                              "type": "function"
+                            },
+                            "getNewToken": {
+                              "type": "function"
+                            },
+                            "removeOtherTokens": {
+                              "type": "function"
+                            },
+                            "configureLoginService": {
+                              "type": "function"
+                            },
+                            "update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Impersonate/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_JetSetter/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_Mongol/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_AutoPub/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_AutoPub/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToys_AutoPub/remove": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/insert": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/update": {
+                              "type": "function"
+                            },
+                            "/MeteorToysCredentials/remove": {
+                              "type": "function"
+                            },
+                            "Mongol_update": {
+                              "type": "function"
+                            },
+                            "Mongol_remove": {
+                              "type": "function"
+                            },
+                            "Mongol_duplicate": {
+                              "type": "function"
+                            },
+                            "Mongol_insert": {
+                              "type": "function"
+                            },
+                            "MailChimp": {
+                              "type": "function"
+                            },
+                            "changePassword": {
+                              "type": "function"
+                            },
+                            "forgotPassword": {
+                              "type": "function"
+                            },
+                            "resetPassword": {
+                              "type": "function"
+                            },
+                            "verifyEmail": {
+                              "type": "function"
+                            },
+                            "createUser": {
+                              "type": "function"
+                            },
+                            "/roles/insert": {
+                              "type": "function"
+                            },
+                            "/roles/update": {
+                              "type": "function"
+                            },
+                            "/roles/remove": {
+                              "type": "function"
+                            },
+                            "/nicolaslopezj_roles_keys/insert": {
+                              "type": "function"
+                            },
+                            "/nicolaslopezj_roles_keys/update": {
+                              "type": "function"
+                            },
+                            "/nicolaslopezj_roles_keys/remove": {
+                              "type": "function"
+                            },
+                            "ATRemoveService": {
+                              "type": "function"
+                            },
+                            "ATCreateUserServer": {
+                              "type": "function"
+                            },
+                            "ATResendVerificationEmail": {
+                              "type": "function"
+                            },
+                            "/invitations/insert": {
+                              "type": "function"
+                            },
+                            "/invitations/update": {
+                              "type": "function"
+                            },
+                            "/invitations/remove": {
+                              "type": "function"
+                            },
+                            "updateRoles": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdatePassword": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateEmails": {
+                              "type": "function"
+                            },
+                            "orionAccountsUpdateProfile": {
+                              "type": "function"
+                            },
+                            "removeUser": {
+                              "type": "function"
+                            },
+                            "registerWithInvitation": {
+                              "type": "function"
+                            },
+                            "accountsCreateUser": {
+                              "type": "function"
+                            },
+                            "/orion_config/insert": {
+                              "type": "function"
+                            },
+                            "/orion_config/update": {
+                              "type": "function"
+                            },
+                            "/orion_config/remove": {
+                              "type": "function"
+                            },
+                            "/dictionary/insert": {
+                              "type": "function"
+                            },
+                            "/dictionary/update": {
+                              "type": "function"
+                            },
+                            "/dictionary/remove": {
+                              "type": "function"
+                            },
+                            "/orionFiles/insert": {
+                              "type": "function"
+                            },
+                            "/orionFiles/update": {
+                              "type": "function"
+                            },
+                            "/orionFiles/remove": {
+                              "type": "function"
+                            },
+                            "getFileDataToEarse": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/insert": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/update": {
+                              "type": "function"
+                            },
+                            "/velocityFixtureFiles/remove": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityTestReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/insert": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/update": {
+                              "type": "function"
+                            },
+                            "/velocityAggregateReports/remove": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/insert": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/update": {
+                              "type": "function"
+                            },
+                            "/velocityLogs/remove": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/insert": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/update": {
+                              "type": "function"
+                            },
+                            "/velocityMirrors/remove": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/insert": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/update": {
+                              "type": "function"
+                            },
+                            "/velocityOptions/remove": {
+                              "type": "function"
+                            },
+                            "velocity/register/framework": {
+                              "type": "function"
+                            },
+                            "velocity/reset": {
+                              "type": "function"
+                            },
+                            "velocity/reports/submit": {
+                              "type": "function"
+                            },
+                            "velocity/reports/completed": {
+                              "type": "function"
+                            },
+                            "velocity/reports/reset": {
+                              "type": "function"
+                            },
+                            "velocity/logs/submit": {
+                              "type": "function"
+                            },
+                            "velocity/logs/reset": {
+                              "type": "function"
+                            },
+                            "velocity/copySampleTests": {
+                              "type": "function"
+                            },
+                            "velocity/returnTODOTestAndMarkItAsDOING": {
+                              "type": "function"
+                            },
+                            "velocity/featureTestDone": {
+                              "type": "function"
+                            },
+                            "velocity/featureTestFailed": {
+                              "type": "function"
+                            },
+                            "velocity/setOption": {
+                              "type": "function"
+                            },
+                            "velocity/setOptions": {
+                              "type": "function"
+                            },
+                            "velocity/getOption": {
+                              "type": "function"
+                            },
+                            "velocity/isEnabled": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/request": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/init": {
+                              "type": "function"
+                            },
+                            "velocity/mirrors/register": {
+                              "type": "function"
+                            },
+                            "velocity/isMirror": {
+                              "type": "function"
+                            },
+                            "velocity/parentHandshake": {
+                              "type": "function"
+                            },
+                            "jasmine/showOnTestDeprecationInfo": {
+                              "type": "function"
+                            },
+                            "jasmine/environmentInfo": {
+                              "type": "function"
+                            },
+                            "/benefits/insert": {
+                              "type": "function"
+                            },
+                            "/benefits/update": {
+                              "type": "function"
+                            },
+                            "/benefits/remove": {
+                              "type": "function"
+                            },
+                            "/clients/insert": {
+                              "type": "function"
+                            },
+                            "/clients/update": {
+                              "type": "function"
+                            },
+                            "/clients/remove": {
+                              "type": "function"
+                            },
+                            "/contacts/insert": {
+                              "type": "function"
+                            },
+                            "/contacts/update": {
+                              "type": "function"
+                            },
+                            "/contacts/remove": {
+                              "type": "function"
+                            },
+                            "/figures/insert": {
+                              "type": "function"
+                            },
+                            "/figures/update": {
+                              "type": "function"
+                            },
+                            "/figures/remove": {
+                              "type": "function"
+                            },
+                            "/members/insert": {
+                              "type": "function"
+                            },
+                            "/members/update": {
+                              "type": "function"
+                            },
+                            "/members/remove": {
+                              "type": "function"
+                            },
+                            "/posts/insert": {
+                              "type": "function"
+                            },
+                            "/posts/update": {
+                              "type": "function"
+                            },
+                            "/posts/remove": {
+                              "type": "function"
+                            },
+                            "/processes/insert": {
+                              "type": "function"
+                            },
+                            "/processes/update": {
+                              "type": "function"
+                            },
+                            "/processes/remove": {
+                              "type": "function"
+                            },
+                            "/projects/insert": {
+                              "type": "function"
+                            },
+                            "/projects/update": {
+                              "type": "function"
+                            },
+                            "/projects/remove": {
+                              "type": "function"
+                            },
+                            "/quotes/insert": {
+                              "type": "function"
+                            },
+                            "/quotes/update": {
+                              "type": "function"
+                            },
+                            "/quotes/remove": {
+                              "type": "function"
+                            },
+                            "/routes/insert": {
+                              "type": "function"
+                            },
+                            "/routes/update": {
+                              "type": "function"
+                            },
+                            "/routes/remove": {
+                              "type": "function"
+                            },
+                            "/services/insert": {
+                              "type": "function"
+                            },
+                            "/services/update": {
+                              "type": "function"
+                            },
+                            "/services/remove": {
+                              "type": "function"
+                            },
+                            "/tools/insert": {
+                              "type": "function"
+                            },
+                            "/tools/update": {
+                              "type": "function"
+                            },
+                            "/tools/remove": {
+                              "type": "function"
+                            },
+                            "/values/insert": {
+                              "type": "function"
+                            },
+                            "/values/update": {
+                              "type": "function"
+                            },
+                            "/values/remove": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/insert": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/update": {
+                              "type": "function"
+                            },
+                            "/meteor_accounts_loginServiceConfiguration/remove": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "sessions": {
+                          "type": "object"
+                        },
+                        "stream_server": {
+                          "type": "object",
+                          "members": {
+                            "registration_callbacks": {
+                              "type": "array"
+                            },
+                            "open_sockets": {
+                              "type": "array"
+                            },
+                            "prefix": {
+                              "type": "constant",
+                              "value": "/sockjs"
+                            },
+                            "server": {
+                              "type": "object",
+                              "members": {
+                                "options": {
+                                  "type": "object",
+                                  "members": {
+                                    "prefix": {
+                                      "type": "constant",
+                                      "value": "/sockjs"
+                                    },
+                                    "response_limit": {
+                                      "type": "constant",
+                                      "value": 131072
+                                    },
+                                    "heartbeat_delay": {
+                                      "type": "constant",
+                                      "value": 45000
+                                    },
+                                    "disconnect_delay": {
+                                      "type": "constant",
+                                      "value": 60000
+                                    },
+                                    "log": {
+                                      "type": "function"
+                                    },
+                                    "sockjs_url": {
+                                      "type": "constant",
+                                      "value": "https://cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"
+                                    }
+                                  }
+                                },
+                                "constructor": {
+                                  "type": "function",
+                                  "refID": 660,
+                                  "members": {
+                                    "listenerCount": {
+                                      "type": "function"
+                                    },
+                                    "prototype": {
+                                      "type": "object",
+                                      "members": {
+                                        "constructor": {
+                                          "ref": 660
+                                        },
+                                        "listener": {
+                                          "type": "function",
+                                          "refID": 664
+                                        },
+                                        "installHandlers": {
+                                          "type": "function",
+                                          "refID": 666
+                                        },
+                                        "middleware": {
+                                          "type": "function",
+                                          "refID": 668
+                                        },
+                                        "setMaxListeners": {
+                                          "type": "function",
+                                          "refID": 670
+                                        },
+                                        "emit": {
+                                          "type": "function",
+                                          "refID": 672
+                                        },
+                                        "addListener": {
+                                          "type": "function",
+                                          "refID": 674
+                                        },
+                                        "on": {
+                                          "ref": 674
+                                        },
+                                        "once": {
+                                          "type": "function",
+                                          "refID": 676
+                                        },
+                                        "removeListener": {
+                                          "type": "function",
+                                          "refID": 678
+                                        },
+                                        "removeAllListeners": {
+                                          "type": "function",
+                                          "refID": 680
+                                        },
+                                        "listeners": {
+                                          "type": "function",
+                                          "refID": 682
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "listener": {
+                                  "ref": 664
+                                },
+                                "installHandlers": {
+                                  "ref": 666
+                                },
+                                "middleware": {
+                                  "ref": 668
+                                },
+                                "setMaxListeners": {
+                                  "ref": 670
+                                },
+                                "emit": {
+                                  "ref": 672
+                                },
+                                "addListener": {
+                                  "ref": 674
+                                },
+                                "on": {
+                                  "ref": 674
+                                },
+                                "once": {
+                                  "ref": 676
+                                },
+                                "removeListener": {
+                                  "ref": 678
+                                },
+                                "removeAllListeners": {
+                                  "ref": 680
+                                },
+                                "listeners": {
+                                  "ref": 682
+                                }
+                              }
+                            },
+                            "register": {
+                              "type": "function"
+                            },
+                            "all_sockets": {
+                              "type": "function"
+                            }
+                          }
+                        },
+                        "onConnection": {
+                          "type": "function"
+                        },
+                        "publish": {
+                          "type": "function"
+                        },
+                        "methods": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        },
+                        "apply": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "refresh": {
+                      "type": "function"
+                    },
+                    "publish": {
+                      "type": "function"
+                    },
+                    "methods": {
+                      "type": "function"
+                    },
+                    "call": {
+                      "type": "function"
+                    },
+                    "apply": {
+                      "type": "function"
+                    },
+                    "onConnection": {
+                      "type": "function"
+                    },
+                    "default_server": {
+                      "ref": 235
+                    },
+                    "Collection": {
+                      "type": "function",
+                      "members": {
+                        "Cursor": {
+                          "ref": 125
+                        },
+                        "ObjectID": {
+                          "ref": 143
+                        },
+                        "get": {
+                          "ref": 157
+                        },
+                        "getAll": {
+                          "ref": 159
+                        }
+                      }
+                    },
+                    "users": {
+                      "ref": 68
+                    },
+                    "userId": {
+                      "type": "function"
+                    },
+                    "user": {
+                      "type": "function"
+                    },
+                    "addCollectionExtension": {
+                      "type": "function"
+                    },
+                    "addCollectionPrototype": {
+                      "type": "function"
+                    },
+                    "http": {
+                      "type": "object",
+                      "members": {
+                        "get": {
+                          "type": "function"
+                        },
+                        "post": {
+                          "type": "function"
+                        },
+                        "put": {
+                          "type": "function"
+                        },
+                        "del": {
+                          "type": "function"
+                        },
+                        "call": {
+                          "type": "function"
+                        }
+                      }
+                    },
+                    "npmRequire": {
+                      "type": "function"
+                    },
+                    "require": {
+                      "type": "function"
+                    },
+                    "sync": {
+                      "type": "function"
+                    }
+                  }
                 },
                 "onUnload": {
                   "type": "undefined"
@@ -21529,208 +22405,425 @@ var packageMetadata = {
                   "type": "undefined"
                 },
                 "options": {
-=======
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "useraccounts:core": {
-    "AccountsTemplates": {
-      "type": "object",
-      "members": {
-        "options": {
-          "type": "object",
-          "members": {
-            "defaultState": {
-              "type": "constant",
-              "value": "signIn"
-            },
-            "socialLoginStyle": {
-              "type": "constant",
-              "value": "popup"
-            },
-            "privacyUrl": {
-              "type": "undefined"
-            },
-            "termsUrl": {
-              "type": "undefined"
-            },
-            "onSubmitHook": {
-              "type": "undefined"
-            }
-          }
-        },
-        "CONFIG_PAT": {
-          "type": "object",
-          "members": {
-            "confirmPassword": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "type": "function",
-                  "refID": 4
-                }
-              }
-            },
-            "defaultState": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "type": "function",
-                  "refID": 6
-                }
-              }
-            },
-            "enablePasswordChange": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "enforceEmailVerification": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "focusFirstInput": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "forbidClientAccountCreation": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "lowercaseUsername": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "overrideLoginErrors": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "sendVerificationEmail": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "socialLoginStyle": {
-              "type": "object",
-              "members": {
-                "pattern": {
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                   "type": "object",
                   "members": {
-                    "choices": {
+                    "columns": {
                       "type": "array"
                     }
                   }
                 }
               }
             },
-            "defaultLayout": {
+            "invitations": {
               "type": "object",
               "members": {
-                "pattern": {
-                  "ref": 6
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "constructor": {
+                  "ref": 124
+                },
+                "attachRoles": {
+                  "ref": 162
+                },
+                "find": {
+                  "ref": 164
+                },
+                "findOne": {
+                  "ref": 166
+                },
+                "insert": {
+                  "ref": 168
+                },
+                "update": {
+                  "ref": 170
+                },
+                "remove": {
+                  "ref": 172
+                },
+                "upsert": {
+                  "ref": 174
+                },
+                "rawCollection": {
+                  "ref": 176
+                },
+                "rawDatabase": {
+                  "ref": 178
+                },
+                "allow": {
+                  "ref": 180
+                },
+                "deny": {
+                  "ref": 182
+                },
+                "helpers": {
+                  "ref": 184
+                },
+                "attachSchema": {
+                  "ref": 186
+                },
+                "simpleSchema": {
+                  "ref": 188
+                }
+              }
+            }
+          }
+        },
+        "config": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "constructor": {
+                  "ref": 124
+                },
+                "attachRoles": {
+                  "ref": 162
+                },
+                "find": {
+                  "ref": 164
+                },
+                "findOne": {
+                  "ref": 166
+                },
+                "insert": {
+                  "ref": 168
+                },
+                "update": {
+                  "ref": 170
+                },
+                "remove": {
+                  "ref": 172
+                },
+                "upsert": {
+                  "ref": 174
+                },
+                "rawCollection": {
+                  "ref": 176
+                },
+                "rawDatabase": {
+                  "ref": 178
+                },
+                "allow": {
+                  "ref": 180
+                },
+                "deny": {
+                  "ref": 182
+                },
+                "helpers": {
+                  "ref": 184
+                },
+                "attachSchema": {
+                  "ref": 186
+                },
+                "simpleSchema": {
+                  "ref": 188
                 }
               }
             },
-            "hideSignInLink": {
+            "object": {
+              "type": "object"
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "add": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "getPublicFields": {
+              "type": "function"
+            },
+            "getPrivateFields": {
+              "type": "function"
+            }
+          }
+        },
+        "collections": {
+          "type": "object",
+          "members": {
+            "hooks": {
               "type": "object",
               "members": {
-                "pattern": {
-                  "ref": 4
+                "onCreated": {
+                  "type": "array"
                 }
               }
             },
-            "hideSignUpLink": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
+            "onCreated": {
+              "type": "function"
             },
-            "showAddRemoveServices": {
+            "list": {
               "type": "object",
               "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "showForgotPasswordLink": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "showResendVerificationEmailLink": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "showLabels": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "showPlaceholders": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "continuousValidation": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "negativeFeedback": {
-              "type": "object",
-              "members": {
-<<<<<<< HEAD
                 "benefits": {
                   "type": "object",
                   "refID": 866,
@@ -78410,177 +79503,91 @@ var packageMetadata = {
                     },
                     "after": {
                       "type": "object",
-=======
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "negativeValidation": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "positiveFeedback": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "positiveValidation": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "showValidating": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
-            },
-            "privacyUrl": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 6
-                }
-              }
-            },
-            "termsUrl": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 6
-                }
-              }
-            },
-            "homeRoutePath": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 6
-                }
-              }
-            },
-            "redirectTimeout": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "type": "function"
-                }
-              }
-            },
-            "onLogoutHook": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "type": "function",
-                  "refID": 37,
-                  "members": {
-                    "prototype": {
-                      "type": "function",
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                       "members": {
-                        "future": {
+                        "insert": {
                           "type": "function"
                         },
-                        "deprecate": {
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
                           "type": "function"
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            "onSubmitHook": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 37
-                }
-              }
-            },
-            "preSignUpHook": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 37
-                }
-              }
-            },
-            "texts": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "type": "object",
-                  "members": {
-                    "button": {
+                    },
+                    "hookOptions": {
                       "type": "object",
                       "members": {
-                        "pattern": {
+                        "before": {
                           "type": "object",
-                          "refID": 48,
                           "members": {
-                            "changePwd": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "insert": {
+                              "type": "object"
                             },
-                            "enrollAccount": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "update": {
+                              "type": "object"
                             },
-                            "forgotPwd": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "remove": {
+                              "type": "object"
                             },
-                            "resetPwd": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "find": {
+                              "type": "object"
                             },
-                            "signIn": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "findOne": {
+                              "type": "object"
                             },
-                            "signUp": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
                             },
-<<<<<<< HEAD
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "all": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
                             "all": {
                               "type": "object"
                             }
@@ -78695,21 +79702,50 @@ var packageMetadata = {
                           "members": {
                             "columns": {
                               "ref": 1435
-=======
-                            "verifyEmail": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                             },
-                            "resendVerificationEmail": {
+                            "language": {
                               "type": "object",
                               "members": {
-                                "pattern": {
-                                  "ref": 6
+                                "search": {
+                                  "type": "constant",
+                                  "value": "Search:"
+                                },
+                                "info": {
+                                  "type": "constant",
+                                  "value": "Showing _START_ to _END_ of _TOTAL_ entries"
+                                },
+                                "infoEmpty": {
+                                  "type": "constant",
+                                  "value": "Showing 0 to 0 of 0 entries"
+                                },
+                                "lengthMenu": {
+                                  "type": "constant",
+                                  "value": "Show _MENU_ entries"
+                                },
+                                "emptyTable": {
+                                  "type": "constant",
+                                  "value": "No data available in table"
+                                },
+                                "paginate": {
+                                  "type": "object",
+                                  "members": {
+                                    "first": {
+                                      "type": "constant",
+                                      "value": "First"
+                                    },
+                                    "previous": {
+                                      "type": "constant",
+                                      "value": "Previous"
+                                    },
+                                    "next": {
+                                      "type": "constant",
+                                      "value": "Next"
+                                    },
+                                    "last": {
+                                      "type": "constant",
+                                      "value": "Last"
+                                    }
+                                  }
                                 }
                               }
                             }
@@ -78717,7 +79753,6 @@ var packageMetadata = {
                         }
                       }
                     },
-<<<<<<< HEAD
                     "constructor": {
                       "ref": 124
                     },
@@ -78810,63 +79845,72 @@ var packageMetadata = {
                       }
                     },
                     "hookOptions": {
-=======
-                    "errors": {
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                       "type": "object",
                       "members": {
-                        "pattern": {
+                        "before": {
                           "type": "object",
                           "members": {
-                            "accountsCreationDisabled": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "insert": {
+                              "type": "object"
                             },
-                            "cannotRemoveService": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "update": {
+                              "type": "object"
                             },
-                            "captchaVerification": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "remove": {
+                              "type": "object"
                             },
-                            "loginForbidden": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "find": {
+                              "type": "object"
                             },
-                            "mustBeLoggedIn": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "findOne": {
+                              "type": "object"
                             },
-                            "pwdMismatch": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
                             },
-<<<<<<< HEAD
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "all": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
                             "all": {
                               "type": "object"
                             }
@@ -78981,21 +80025,50 @@ var packageMetadata = {
                           "members": {
                             "columns": {
                               "ref": 1508
-=======
-                            "validationErrors": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                             },
-                            "verifyEmailFirst": {
+                            "language": {
                               "type": "object",
                               "members": {
-                                "pattern": {
-                                  "ref": 6
+                                "search": {
+                                  "type": "constant",
+                                  "value": "Search:"
+                                },
+                                "info": {
+                                  "type": "constant",
+                                  "value": "Showing _START_ to _END_ of _TOTAL_ entries"
+                                },
+                                "infoEmpty": {
+                                  "type": "constant",
+                                  "value": "Showing 0 to 0 of 0 entries"
+                                },
+                                "lengthMenu": {
+                                  "type": "constant",
+                                  "value": "Show _MENU_ entries"
+                                },
+                                "emptyTable": {
+                                  "type": "constant",
+                                  "value": "No data available in table"
+                                },
+                                "paginate": {
+                                  "type": "object",
+                                  "members": {
+                                    "first": {
+                                      "type": "constant",
+                                      "value": "First"
+                                    },
+                                    "previous": {
+                                      "type": "constant",
+                                      "value": "Previous"
+                                    },
+                                    "next": {
+                                      "type": "constant",
+                                      "value": "Next"
+                                    },
+                                    "last": {
+                                      "type": "constant",
+                                      "value": "Last"
+                                    }
+                                  }
                                 }
                               }
                             }
@@ -79003,7 +80076,6 @@ var packageMetadata = {
                         }
                       }
                     },
-<<<<<<< HEAD
                     "constructor": {
                       "ref": 124
                     },
@@ -79096,75 +80168,79 @@ var packageMetadata = {
                       }
                     },
                     "hookOptions": {
-=======
-                    "info": {
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                       "type": "object",
                       "members": {
-                        "pattern": {
+                        "before": {
                           "type": "object",
                           "members": {
-                            "emailSent": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "insert": {
+                              "type": "object"
                             },
-                            "emailVerified": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "update": {
+                              "type": "object"
                             },
-                            "pwdChanged": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "remove": {
+                              "type": "object"
                             },
-                            "pwdReset": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "find": {
+                              "type": "object"
                             },
-                            "pwdSet": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "findOne": {
+                              "type": "object"
                             },
-                            "signUpVerifyEmail": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
                             },
-                            "verificationEmailSent": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "all": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
                             }
                           }
                         }
                       }
                     },
-<<<<<<< HEAD
                     "direct": {
                       "type": "object",
                       "members": {
@@ -79272,35 +80348,50 @@ var packageMetadata = {
                           "members": {
                             "columns": {
                               "ref": 1581
-=======
-                    "inputIcons": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "type": "object",
-                          "members": {
-                            "hasError": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                             },
-                            "hasSuccess": {
+                            "language": {
                               "type": "object",
                               "members": {
-                                "pattern": {
-                                  "ref": 6
-                                }
-                              }
-                            },
-                            "isValidating": {
-                              "type": "object",
-                              "members": {
-                                "pattern": {
-                                  "ref": 6
+                                "search": {
+                                  "type": "constant",
+                                  "value": "Search:"
+                                },
+                                "info": {
+                                  "type": "constant",
+                                  "value": "Showing _START_ to _END_ of _TOTAL_ entries"
+                                },
+                                "infoEmpty": {
+                                  "type": "constant",
+                                  "value": "Showing 0 to 0 of 0 entries"
+                                },
+                                "lengthMenu": {
+                                  "type": "constant",
+                                  "value": "Show _MENU_ entries"
+                                },
+                                "emptyTable": {
+                                  "type": "constant",
+                                  "value": "No data available in table"
+                                },
+                                "paginate": {
+                                  "type": "object",
+                                  "members": {
+                                    "first": {
+                                      "type": "constant",
+                                      "value": "First"
+                                    },
+                                    "previous": {
+                                      "type": "constant",
+                                      "value": "Previous"
+                                    },
+                                    "next": {
+                                      "type": "constant",
+                                      "value": "Next"
+                                    },
+                                    "last": {
+                                      "type": "constant",
+                                      "value": "Last"
+                                    }
+                                  }
                                 }
                               }
                             }
@@ -79308,7 +80399,6 @@ var packageMetadata = {
                         }
                       }
                     },
-<<<<<<< HEAD
                     "constructor": {
                       "ref": 124
                     },
@@ -79361,66 +80451,192 @@ var packageMetadata = {
                   "refID": 1596,
                   "members": {
                     "before": {
-=======
-                    "maxAllowedLength": {
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
                         }
                       }
                     },
-                    "minRequiredLength": {
+                    "after": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
                         }
                       }
                     },
-                    "navSignIn": {
+                    "hookOptions": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "all": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
                         }
                       }
                     },
-                    "navSignOut": {
+                    "direct": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
                         }
                       }
                     },
-                    "optionalField": {
+                    "name": {
+                      "type": "constant",
+                      "value": "services"
+                    },
+                    "routePath": {
+                      "type": "constant",
+                      "value": "services"
+                    },
+                    "pluralName": {
+                      "type": "constant",
+                      "value": "services"
+                    },
+                    "singularName": {
+                      "type": "constant",
+                      "value": "service"
+                    },
+                    "title": {
+                      "type": "constant",
+                      "value": "Services"
+                    },
+                    "link": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "title": {
+                          "type": "constant",
+                          "value": "Services"
                         }
                       }
                     },
-                    "pwdLink_link": {
+                    "tabular": {
                       "type": "object",
                       "members": {
-<<<<<<< HEAD
                         "columns": {
                           "type": "array",
                           "refID": 1654
-=======
-                        "pattern": {
-                          "ref": 6
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                         }
                       }
                     },
-                    "pwdLink_pre": {
+                    "indexPath": {
+                      "type": "function"
+                    },
+                    "createPath": {
+                      "type": "function"
+                    },
+                    "updatePath": {
+                      "type": "function"
+                    },
+                    "deletePath": {
+                      "type": "function"
+                    },
+                    "tabularTable": {
                       "type": "object",
                       "members": {
-<<<<<<< HEAD
                         "name": {
                           "type": "constant",
                           "value": "tabular_services"
@@ -79558,71 +80774,192 @@ var packageMetadata = {
                   "refID": 1669,
                   "members": {
                     "before": {
-=======
-                        "pattern": {
-                          "ref": 6
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
                         }
                       }
                     },
-                    "pwdLink_suff": {
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
+                    "after": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
                         }
                       }
                     },
-                    "requiredField": {
+                    "hookOptions": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "before": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "all": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
                         }
                       }
                     },
-                    "resendVerificationEmailLink_pre": {
+                    "direct": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
                         }
                       }
                     },
-                    "resendVerificationEmailLink_link": {
+                    "name": {
+                      "type": "constant",
+                      "value": "tools"
+                    },
+                    "routePath": {
+                      "type": "constant",
+                      "value": "tools"
+                    },
+                    "pluralName": {
+                      "type": "constant",
+                      "value": "tools"
+                    },
+                    "singularName": {
+                      "type": "constant",
+                      "value": "tool"
+                    },
+                    "title": {
+                      "type": "constant",
+                      "value": "Tools"
+                    },
+                    "link": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "title": {
+                          "type": "constant",
+                          "value": "Tools"
                         }
                       }
                     },
-                    "resendVerificationEmailLink_suff": {
+                    "tabular": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
-                    },
-                    "sep": {
-                      "type": "object",
-                      "members": {
-<<<<<<< HEAD
                         "columns": {
                           "type": "array",
                           "refID": 1727
-=======
-                        "pattern": {
-                          "ref": 6
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                         }
                       }
                     },
-                    "signInLink_link": {
+                    "indexPath": {
+                      "type": "function"
+                    },
+                    "createPath": {
+                      "type": "function"
+                    },
+                    "updatePath": {
+                      "type": "function"
+                    },
+                    "deletePath": {
+                      "type": "function"
+                    },
+                    "tabularTable": {
                       "type": "object",
                       "members": {
-<<<<<<< HEAD
                         "name": {
                           "type": "constant",
                           "value": "tabular_tools"
@@ -79705,54 +81042,51 @@ var packageMetadata = {
                               }
                             }
                           }
-=======
-                        "pattern": {
-                          "ref": 6
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                         }
                       }
                     },
-                    "signInLink_pre": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "constructor": {
+                      "ref": 124
                     },
-                    "signInLink_suff": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "attachRoles": {
+                      "ref": 162
                     },
-                    "signUpLink_link": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "find": {
+                      "ref": 164
                     },
-                    "signUpLink_pre": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "findOne": {
+                      "ref": 166
                     },
-                    "signUpLink_suff": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "insert": {
+                      "ref": 168
                     },
-<<<<<<< HEAD
+                    "update": {
+                      "ref": 170
+                    },
+                    "remove": {
+                      "ref": 172
+                    },
+                    "upsert": {
+                      "ref": 174
+                    },
+                    "rawCollection": {
+                      "ref": 176
+                    },
+                    "rawDatabase": {
+                      "ref": 178
+                    },
+                    "allow": {
+                      "ref": 180
+                    },
+                    "deny": {
+                      "ref": 182
+                    },
+                    "helpers": {
+                      "ref": 184
+                    },
+                    "attachSchema": {
+                      "ref": 186
+                    },
                     "simpleSchema": {
                       "ref": 188
                     }
@@ -79763,111 +81097,192 @@ var packageMetadata = {
                   "refID": 1742,
                   "members": {
                     "before": {
-=======
-                    "socialAdd": {
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
                         }
                       }
                     },
-                    "socialConfigure": {
+                    "after": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
                         }
                       }
                     },
-                    "socialIcons": {
+                    "hookOptions": {
                       "type": "object",
                       "members": {
-                        "pattern": {
+                        "before": {
                           "type": "object",
                           "members": {
-                            "condition": {
-                              "type": "function"
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "after": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
+                            }
+                          }
+                        },
+                        "all": {
+                          "type": "object",
+                          "members": {
+                            "insert": {
+                              "type": "object"
+                            },
+                            "update": {
+                              "type": "object"
+                            },
+                            "remove": {
+                              "type": "object"
+                            },
+                            "find": {
+                              "type": "object"
+                            },
+                            "findOne": {
+                              "type": "object"
+                            },
+                            "all": {
+                              "type": "object"
                             }
                           }
                         }
                       }
                     },
-                    "socialRemove": {
+                    "direct": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "insert": {
+                          "type": "function"
+                        },
+                        "update": {
+                          "type": "function"
+                        },
+                        "remove": {
+                          "type": "function"
+                        },
+                        "find": {
+                          "type": "function"
+                        },
+                        "findOne": {
+                          "type": "function"
                         }
                       }
                     },
-                    "socialSignIn": {
+                    "name": {
+                      "type": "constant",
+                      "value": "values"
+                    },
+                    "routePath": {
+                      "type": "constant",
+                      "value": "values"
+                    },
+                    "pluralName": {
+                      "type": "constant",
+                      "value": "values"
+                    },
+                    "singularName": {
+                      "type": "constant",
+                      "value": "value"
+                    },
+                    "title": {
+                      "type": "constant",
+                      "value": "Values"
+                    },
+                    "link": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
+                        "title": {
+                          "type": "constant",
+                          "value": "Values"
                         }
                       }
                     },
-                    "socialSignUp": {
+                    "tabular": {
                       "type": "object",
                       "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
-                    },
-                    "socialWith": {
-                      "type": "object",
-                      "members": {
-<<<<<<< HEAD
                         "columns": {
                           "type": "array",
                           "refID": 1800
-=======
-                        "pattern": {
-                          "ref": 6
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                         }
                       }
                     },
-                    "termsAnd": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "indexPath": {
+                      "type": "function"
                     },
-                    "termsPreamble": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "createPath": {
+                      "type": "function"
                     },
-                    "termsPrivacy": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "updatePath": {
+                      "type": "function"
                     },
-                    "termsTerms": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "deletePath": {
+                      "type": "function"
                     },
-                    "title": {
+                    "tabularTable": {
                       "type": "object",
                       "members": {
-<<<<<<< HEAD
                         "name": {
                           "type": "constant",
                           "value": "tabular_values"
@@ -79948,438 +81363,85 @@ var packageMetadata = {
                                   }
                                 }
                               }
-=======
-                        "pattern": {
-                          "ref": 48
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "reCaptcha": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "type": "object",
-                  "members": {
-                    "data_type": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "type": "object",
-                          "members": {
-                            "choices": {
-                              "type": "array"
->>>>>>> 3a64974f86acee8ac23bf8238b1e22d0ed8abdc3
                             }
                           }
                         }
                       }
                     },
-                    "secretKey": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "constructor": {
+                      "ref": 124
                     },
-                    "siteKey": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "ref": 6
-                        }
-                      }
+                    "attachRoles": {
+                      "ref": 162
                     },
-                    "theme": {
-                      "type": "object",
-                      "members": {
-                        "pattern": {
-                          "type": "object",
-                          "members": {
-                            "choices": {
-                              "type": "array"
-                            }
-                          }
-                        }
-                      }
+                    "find": {
+                      "ref": 164
+                    },
+                    "findOne": {
+                      "ref": 166
+                    },
+                    "insert": {
+                      "ref": 168
+                    },
+                    "update": {
+                      "ref": 170
+                    },
+                    "remove": {
+                      "ref": 172
+                    },
+                    "upsert": {
+                      "ref": 174
+                    },
+                    "rawCollection": {
+                      "ref": 176
+                    },
+                    "rawDatabase": {
+                      "ref": 178
+                    },
+                    "allow": {
+                      "ref": 180
+                    },
+                    "deny": {
+                      "ref": 182
+                    },
+                    "helpers": {
+                      "ref": 184
+                    },
+                    "attachSchema": {
+                      "ref": 186
+                    },
+                    "simpleSchema": {
+                      "ref": 188
                     }
                   }
                 }
               }
-            },
-            "showReCaptcha": {
-              "type": "object",
-              "members": {
-                "pattern": {
-                  "ref": 4
-                }
-              }
             }
           }
         },
-        "INPUT_TYPES": {
-          "type": "array"
-        },
-        "texts": {
-          "type": "object",
-          "members": {
-            "button": {
-              "type": "object",
-              "members": {
-                "changePwd": {
-                  "type": "constant",
-                  "value": "updateYourPassword"
-                },
-                "enrollAccount": {
-                  "type": "constant",
-                  "value": "signUp"
-                },
-                "forgotPwd": {
-                  "type": "constant",
-                  "value": "emailResetLink"
-                },
-                "resetPwd": {
-                  "type": "constant",
-                  "value": "setPassword"
-                },
-                "signIn": {
-                  "type": "constant",
-                  "value": "signIn"
-                },
-                "signUp": {
-                  "type": "constant",
-                  "value": "signUp"
-                },
-                "resendVerificationEmail": {
-                  "type": "constant",
-                  "value": "Send email again"
-                }
-              }
-            },
-            "errors": {
-              "type": "object",
-              "members": {
-                "accountsCreationDisabled": {
-                  "type": "constant",
-                  "value": "Client side accounts creation is disabled!!!"
-                },
-                "cannotRemoveService": {
-                  "type": "constant",
-                  "value": "Cannot remove the only active service!"
-                },
-                "captchaVerification": {
-                  "type": "constant",
-                  "value": "Captcha verification failed!"
-                },
-                "loginForbidden": {
-                  "type": "constant",
-                  "value": "error.accounts.Login forbidden"
-                },
-                "mustBeLoggedIn": {
-                  "type": "constant",
-                  "value": "error.accounts.Must be logged in"
-                },
-                "pwdMismatch": {
-                  "type": "constant",
-                  "value": "error.pwdsDontMatch"
-                },
-                "validationErrors": {
-                  "type": "constant",
-                  "value": "Validation Errors"
-                },
-                "verifyEmailFirst": {
-                  "type": "constant",
-                  "value": "Please verify your email first. Check the email and follow the link!"
-                }
-              }
-            },
-            "navSignIn": {
-              "type": "constant",
-              "value": "signIn"
-            },
-            "navSignOut": {
-              "type": "constant",
-              "value": "signOut"
-            },
-            "info": {
-              "type": "object",
-              "members": {
-                "emailSent": {
-                  "type": "constant",
-                  "value": "info.emailSent"
-                },
-                "emailVerified": {
-                  "type": "constant",
-                  "value": "info.emailVerified"
-                },
-                "pwdChanged": {
-                  "type": "constant",
-                  "value": "info.passwordChanged"
-                },
-                "pwdReset": {
-                  "type": "constant",
-                  "value": "info.passwordReset"
-                },
-                "pwdSet": {
-                  "type": "constant",
-                  "value": "Password Set"
-                },
-                "signUpVerifyEmail": {
-                  "type": "constant",
-                  "value": "Successful Registration! Please check your email and follow the instructions."
-                },
-                "verificationEmailSent": {
-                  "type": "constant",
-                  "value": "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder."
-                }
-              }
-            },
-            "inputIcons": {
-              "type": "object",
-              "members": {
-                "isValidating": {
-                  "type": "constant",
-                  "value": "fa fa-spinner fa-spin"
-                },
-                "hasSuccess": {
-                  "type": "constant",
-                  "value": "fa fa-check"
-                },
-                "hasError": {
-                  "type": "constant",
-                  "value": "fa fa-times"
-                }
-              }
-            },
-            "maxAllowedLength": {
-              "type": "constant",
-              "value": "Maximum allowed length"
-            },
-            "minRequiredLength": {
-              "type": "constant",
-              "value": "Minimum required length"
-            },
-            "optionalField": {
-              "type": "constant",
-              "value": "optional"
-            },
-            "pwdLink_pre": {
-              "type": "constant",
-              "value": ""
-            },
-            "pwdLink_link": {
-              "type": "constant",
-              "value": "forgotPassword"
-            },
-            "pwdLink_suff": {
-              "type": "constant",
-              "value": ""
-            },
-            "requiredField": {
-              "type": "constant",
-              "value": "Required Field"
-            },
-            "resendVerificationEmailLink_pre": {
-              "type": "constant",
-              "value": "Verification email lost?"
-            },
-            "resendVerificationEmailLink_link": {
-              "type": "constant",
-              "value": "Send again"
-            },
-            "resendVerificationEmailLink_suff": {
-              "type": "constant",
-              "value": ""
-            },
-            "sep": {
-              "type": "constant",
-              "value": "OR"
-            },
-            "signInLink_pre": {
-              "type": "constant",
-              "value": "ifYouAlreadyHaveAnAccount"
-            },
-            "signInLink_link": {
-              "type": "constant",
-              "value": "signin"
-            },
-            "signInLink_suff": {
-              "type": "constant",
-              "value": ""
-            },
-            "signUpLink_pre": {
-              "type": "constant",
-              "value": "dontHaveAnAccount"
-            },
-            "signUpLink_link": {
-              "type": "constant",
-              "value": "signUp"
-            },
-            "signUpLink_suff": {
-              "type": "constant",
-              "value": ""
-            },
-            "socialAdd": {
-              "type": "constant",
-              "value": "add"
-            },
-            "socialConfigure": {
-              "type": "constant",
-              "value": "configure"
-            },
-            "socialIcons": {
-              "type": "object",
-              "members": {
-                "meteor-developer": {
-                  "type": "constant",
-                  "value": "fa fa-rocket"
-                }
-              }
-            },
-            "socialRemove": {
-              "type": "constant",
-              "value": "remove"
-            },
-            "socialSignIn": {
-              "type": "constant",
-              "value": "signIn"
-            },
-            "socialSignUp": {
-              "type": "constant",
-              "value": "signUp"
-            },
-            "socialWith": {
-              "type": "constant",
-              "value": "with"
-            },
-            "termsPreamble": {
-              "type": "constant",
-              "value": "clickAgree"
-            },
-            "termsPrivacy": {
-              "type": "constant",
-              "value": "privacyPolicy"
-            },
-            "termsAnd": {
-              "type": "constant",
-              "value": "and"
-            },
-            "termsTerms": {
-              "type": "constant",
-              "value": "terms"
-            },
-            "title": {
-              "type": "object",
-              "members": {
-                "changePwd": {
-                  "type": "constant",
-                  "value": "changePassword"
-                },
-                "enrollAccount": {
-                  "type": "constant",
-                  "value": "createAccount"
-                },
-                "forgotPwd": {
-                  "type": "constant",
-                  "value": "resetYourPassword"
-                },
-                "resetPwd": {
-                  "type": "constant",
-                  "value": "resetYourPassword"
-                },
-                "signIn": {
-                  "type": "constant",
-                  "value": "signIn"
-                },
-                "signUp": {
-                  "type": "constant",
-                  "value": "createAccount"
-                },
-                "verifyEmail": {
-                  "type": "constant",
-                  "value": ""
-                },
-                "resendVerificationEmail": {
-                  "type": "constant",
-                  "value": "Send the verification email again"
-                }
-              }
-            }
-          }
-        },
-        "SPECIAL_FIELDS": {
-          "type": "array"
-        },
-        "addField": {
+        "collection": {
           "type": "function"
         },
-        "addFields": {
-          "type": "function"
-        },
-        "configure": {
-          "type": "function"
-        },
-        "configureRoute": {
-          "type": "function"
-        },
-        "hasField": {
-          "type": "function"
-        },
-        "getField": {
-          "type": "function"
-        },
-        "getFields": {
-          "type": "function"
-        },
-        "getFieldIds": {
-          "type": "function"
-        },
-        "getRoutePath": {
-          "type": "function"
-        },
-        "oauthServices": {
-          "type": "function"
-        },
-        "removeField": {
-          "type": "function"
-        },
-        "init": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "matb33:collection-hooks": {
-    "CollectionHooks": {
-      "type": "object",
-      "members": {
-        "defaults": {
+        "dictionary": {
           "type": "object",
           "members": {
             "before": {
               "type": "object",
               "members": {
                 "insert": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "update": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "remove": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "find": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "findOne": {
-                  "type": "object"
-                },
-                "all": {
-                  "type": "object"
+                  "type": "function"
                 }
               }
             },
@@ -80387,163 +81449,364 @@ var packageMetadata = {
               "type": "object",
               "members": {
                 "insert": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "update": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "remove": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "find": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "findOne": {
-                  "type": "object"
-                },
-                "all": {
-                  "type": "object"
+                  "type": "function"
                 }
               }
             },
-            "all": {
+            "hookOptions": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "all": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "object"
+                    },
+                    "update": {
+                      "type": "object"
+                    },
+                    "remove": {
+                      "type": "object"
+                    },
+                    "find": {
+                      "type": "object"
+                    },
+                    "findOne": {
+                      "type": "object"
+                    },
+                    "all": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            },
+            "direct": {
               "type": "object",
               "members": {
                 "insert": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "update": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "remove": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "find": {
-                  "type": "object"
+                  "type": "function"
                 },
                 "findOne": {
-                  "type": "object"
+                  "type": "function"
+                }
+              }
+            },
+            "isActive": {
+              "type": "function"
+            },
+            "addDefinition": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "constructor": {
+              "ref": 124
+            },
+            "attachRoles": {
+              "ref": 162
+            },
+            "find": {
+              "ref": 164
+            },
+            "findOne": {
+              "ref": 166
+            },
+            "insert": {
+              "ref": 168
+            },
+            "update": {
+              "ref": 170
+            },
+            "remove": {
+              "ref": 172
+            },
+            "upsert": {
+              "ref": 174
+            },
+            "rawCollection": {
+              "ref": 176
+            },
+            "rawDatabase": {
+              "ref": 178
+            },
+            "allow": {
+              "ref": 180
+            },
+            "deny": {
+              "ref": 182
+            },
+            "helpers": {
+              "ref": 184
+            },
+            "attachSchema": {
+              "ref": 186
+            },
+            "simpleSchema": {
+              "ref": 188
+            }
+          }
+        },
+        "filesystem": {
+          "type": "object",
+          "members": {
+            "collection": {
+              "type": "object",
+              "members": {
+                "before": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
                 },
-                "all": {
-                  "type": "object"
+                "after": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "hookOptions": {
+                  "type": "object",
+                  "members": {
+                    "before": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "after": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "all": {
+                      "type": "object",
+                      "members": {
+                        "insert": {
+                          "type": "object"
+                        },
+                        "update": {
+                          "type": "object"
+                        },
+                        "remove": {
+                          "type": "object"
+                        },
+                        "find": {
+                          "type": "object"
+                        },
+                        "findOne": {
+                          "type": "object"
+                        },
+                        "all": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                },
+                "direct": {
+                  "type": "object",
+                  "members": {
+                    "insert": {
+                      "type": "function"
+                    },
+                    "update": {
+                      "type": "function"
+                    },
+                    "remove": {
+                      "type": "function"
+                    },
+                    "find": {
+                      "type": "function"
+                    },
+                    "findOne": {
+                      "type": "function"
+                    }
+                  }
+                },
+                "constructor": {
+                  "ref": 124
+                },
+                "attachRoles": {
+                  "ref": 162
+                },
+                "find": {
+                  "ref": 164
+                },
+                "findOne": {
+                  "ref": 166
+                },
+                "insert": {
+                  "ref": 168
+                },
+                "update": {
+                  "ref": 170
+                },
+                "remove": {
+                  "ref": 172
+                },
+                "upsert": {
+                  "ref": 174
+                },
+                "rawCollection": {
+                  "ref": 176
+                },
+                "rawDatabase": {
+                  "ref": 178
+                },
+                "allow": {
+                  "ref": 180
+                },
+                "deny": {
+                  "ref": 182
+                },
+                "helpers": {
+                  "ref": 184
+                },
+                "attachSchema": {
+                  "ref": 186
+                },
+                "simpleSchema": {
+                  "ref": 188
                 }
               }
             }
           }
-        },
-        "getUserId": {
-          "type": "function"
-        },
-        "extendCollectionInstance": {
-          "type": "function"
-        },
-        "defineAdvice": {
-          "type": "function"
-        },
-        "initOptions": {
-          "type": "function"
-        },
-        "extendOptions": {
-          "type": "function"
-        },
-        "getDocs": {
-          "type": "function"
-        },
-        "reassignPrototype": {
-          "type": "function"
-        },
-        "wrapCollection": {
-          "type": "function"
-        },
-        "isWithinPublish": {
-          "type": "function"
         }
       }
     }
   },
-  "meteorhacks:inject-initial": {
-    "Inject": {
-      "type": "object",
-      "members": {
-        "obj": {
-          "type": "function"
-        },
-        "objList": {
-          "type": "object",
-          "members": {
-            "adminExists": {
-              "type": "object"
-            },
-            "orion.config": {
-              "type": "object"
-            }
-          }
-        },
-        "meta": {
-          "type": "function"
-        },
-        "metaList": {
-          "type": "object"
-        },
-        "rawHead": {
-          "type": "function"
-        },
-        "rawHeads": {
-          "type": "object"
-        },
-        "rawBody": {
-          "type": "function"
-        },
-        "rawBodies": {
-          "type": "object"
-        },
-        "rawModHtml": {
-          "type": "function"
-        },
-        "rawModHtmlFuncs": {
-          "type": "object",
-          "members": {
-            "injectHeads": {
-              "type": "function"
-            },
-            "injectMeta": {
-              "type": "function"
-            },
-            "injectBodies": {
-              "type": "function"
-            },
-            "injectObjects": {
-              "type": "function"
-            }
-          }
-        },
-        "appUrl": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "aldeed:tabular": {
-    "Tabular": {
-      "type": "object",
-      "members": {
-        "Table": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "orionjs:accounts": {},
-  "orionjs:config": {},
-  "orionjs:collections": {},
-  "orionjs:dictionary": {},
-  "orionjs:core": {},
-  "less": {},
-  "orionjs:filesystem": {},
-  "froala:editor": {},
-  "orionjs:froala": {},
-  "useraccounts:unstyled": {},
-  "dvz:orion-unstyled": {},
   "practicalmeteor:loglevel": {
     "loglevel": {
       "type": "object",

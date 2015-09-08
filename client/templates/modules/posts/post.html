@@ -1,9 +1,20 @@
 <template name="post">
-  <div class="post module">
-		<h1 class="title">
-			{{post.title}}
-			<small>by {{post.getCreator.profile.name}}</small>
-		</h1>
-		<article class="body">{{{post.body}}}</article>
-	</div>
+    <article class="post article module">
+        <section class="header segment">
+            <h1 class="title">
+                {{post.title}}
+                <small class="meta date">{{formatDate post.createdAt}}</small>
+            </h1>
+        </section>
+        <section class="basic fluid segment">
+            <img class="fluid image" src="http://placehold.it/800x200"/>
+        </section>
+        <section class="post body segment">{{{post.body}}}</section>
+        <section class="author segment">
+            <!-- @TODO: global author module -->
+            <div class="author module">
+                {{post.getCreator.profile.name}}
+            </div>
+        </section>
+    </article>
 </template>
