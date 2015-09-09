@@ -16,6 +16,10 @@ Projects = new orion.collection('projects', {
                 title: 'Title'
             },
             {
+                data: 'subtitle',
+                title: 'Sub Title'
+            },
+            {
                 data: 'date',
                 title: 'Date'
             }
@@ -32,6 +36,11 @@ Projects.attachSchema(new SimpleSchema({
         type: String,
         label: 'Title',
         max: 100
+    },
+    subtitle: {
+        type: String,
+        label: 'Sub Title',
+        max: 350
     },
     date: {
         type: String,

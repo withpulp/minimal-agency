@@ -1,9 +1,11 @@
 <template name="project">
-    <div class="project module">
-        <section class="header segment">
+    <div class="project article module">
+        <section class="fluid header segment">
             <h1 class="title">
                 {{project.title}}
-                <small class="meta date">{{formatDate post.createdAt}}</small>
+                <small class="sub title">
+                    {{project.subtitle}}
+                </small>
             </h1>
         </section>
         <section class="project body segment">{{{project.body}}}</section>

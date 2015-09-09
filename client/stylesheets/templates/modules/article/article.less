@@ -85,9 +85,31 @@
       }
     }
   }
+
   &.projects {
+
     .project {
       padding-bottom: @space-large;
+    }
+  }
+
+  &.project {
+
+    .header {
+      background-color: @blue;
+
+      .title {
+        margin: 0;
+        padding: 0 !important;
+        color: @light;
+        text-align: center;
+
+        .sub.title {
+          display: block;
+          margin-top: @space-base;
+          font-size: @half + 15%;
+        }
+      }
     }
   }
 }
