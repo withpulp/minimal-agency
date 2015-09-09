@@ -12,6 +12,7 @@
 
   .title {
     margin-bottom: @space-small;
+    padding-top: @space-base !important;
   }
 
   &.tool {
@@ -29,7 +30,7 @@
         position: absolute;
         top: @space-base + @space-tiny;
         right: 0;
-        color: darken(@gray-lighter, 5%);
+        color: @gray;
         font-size: @half;
         font-weight: normal;
       }
@@ -40,6 +41,10 @@
     margin: @space-large auto;
     border-bottom: @space-micro solid @gray-lighter;
 
+    @media (min-width: @tablet-width) {
+      text-align: center;
+    }
+
     .id.link {
       display: inline-block;
       width: @full;
@@ -48,7 +53,7 @@
 
       .meta {
         display: block;
-        color:  darken(@gray-lighter, 5%);
+        color:  darken(@gray-lighter, @quarter);
         font-weight: normal;
       }
 
@@ -57,6 +62,10 @@
         margin: @space-tiny 0;
         text-decoration: underline;
         line-height: @line-height-base;
+      }
+
+      .creator {
+        padding-top: @space-base;
       }
     }
 
@@ -74,6 +83,11 @@
       .id.link {
         margin-top: @space-large;
       }
+    }
+  }
+  &.projects {
+    .project {
+      padding-bottom: @space-large;
     }
   }
 }
