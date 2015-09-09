@@ -13,14 +13,23 @@
     padding: @space-huge 0;
   }
 
+  &.basic {
+    margin: 0;
+    padding: 0;
+  }
+
   &.summary {
     padding: 2rem 0 0 0;
   }
 
   &.fluid {
-    margin: 0 -@sixteenth + -1%;
+    margin: 0 -@sixteenth + -2%;
 
     @media (min-width: @tablet-width) {
+      margin : 0 -@eighth;
+    }
+
+    @media (min-width: @desktop-width) {
       margin: 0 -@quarter - -4%;
     }
 

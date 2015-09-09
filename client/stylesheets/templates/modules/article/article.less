@@ -4,46 +4,75 @@
 
 .module.article {
   padding: 0;
+  margin-bottom: @space-base;
 
-  article {
-    margin-bottom: @space-base;
+  @media (min-width: @tablet-width) {
+    margin-bottom: @space-large;
+  }
 
-    @media (min-width: @tablet-width) {
-      margin-bottom: @space-large;
-    }
+  .title {
+    margin-bottom: @space-small;
+  }
+
+  &.tool {
+
+  }
+
+  &.post {
 
     .title {
-      margin-bottom: @space-small;
+      display: block;
+      position: relative;
+      text-align: center;
+
+      .meta {
+        position: absolute;
+        top: @space-base + @space-tiny;
+        right: 0;
+        color: darken(@gray-lighter, 5%);
+        font-size: @half;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .blog.post {
+    margin: @space-large auto;
+    border-bottom: @space-micro solid @gray-lighter;
+
+    .id.link {
+      display: inline-block;
+      width: @full;
+      margin-bottom: @space-large;
+      text-decoration: none;
+
+      .meta {
+        display: block;
+        color:  darken(@gray-lighter, 5%);
+        font-weight: normal;
+      }
+
+      .title {
+        padding: 0;
+        margin: @space-tiny 0;
+        text-decoration: underline;
+        line-height: @line-height-base;
+      }
     }
 
-    &.tool {
+    &.next {
+      margin: 0;
+      padding: @space-base + @space-mini;
+      border-top: @space-micro solid @gray-lighter;
 
-    }
+      .title {
+        padding-top: @space-large;
+        margin: 0;
+        text-align: left;
+      }
 
-    &.post {
-
-      &.blog {
-        margin: @space-large auto;
-        border-bottom: @space-micro solid @gray-lighter;
-
-        .id.link {
-          display: inline-block;
-          width: @full;
-          margin-bottom: @space-large;
-          text-decoration: none;
-
-          .meta {
-            display: block;
-            color: @gray-lighter;
-          }
-
-          .title {
-            padding: 0;
-            margin: @space-tiny 0;
-            text-decoration: underline;
-            line-height: @line-height-base;
-          }
-        }
+      .id.link {
+        margin-top: @space-large;
       }
     }
   }
