@@ -30,7 +30,7 @@
         position: absolute;
         top: @space-base + @space-tiny;
         right: 0;
-        color: darken(@gray-lighter, 5%);
+        color: @gray !important;
         font-size: @half;
         font-weight: normal;
       }
@@ -49,7 +49,7 @@
 
       .meta {
         display: block;
-        color:  darken(@gray-lighter, 5%);
+        color:  darken(@gray-lighter, @quarter);
         font-weight: normal;
       }
 
@@ -58,6 +58,10 @@
         margin: @space-tiny 0;
         text-decoration: underline;
         line-height: @line-height-base;
+      }
+
+      .creator {
+        padding-top: @space-base;
       }
     }
 
