@@ -8,6 +8,7 @@ Fixtures.projects = [
     {
         client: 'Client Y',
         title: 'Project X',
+        subtitle: 'Subtitle X',
         date: 'May 2015',
         excerpt: 'Given the acceleration of software engineering and the growing popularity of social coding platforms like GitHub, we\'re seeing the dawn of the age of self-sustainability.',
         body: 'Given the acceleration of software engineering and the growing popularity of social coding platforms like GitHub, we\'re seeing the dawn of the age of self-sustainability.',
@@ -17,6 +18,7 @@ Fixtures.projects = [
     {
         client: 'Client Y',
         title: 'Project X',
+        subtitle: 'subtitle X',
         date: 'May 2015',
         excerpt: 'Given the acceleration of software engineering and the growing popularity of social coding platforms like GitHub, we\'re seeing the dawn of the age of self-sustainability.',
         body: 'Given the acceleration of software engineering and the growing popularity of social coding platforms like GitHub, we\'re seeing the dawn of the age of self-sustainability.',
