@@ -14,20 +14,24 @@
             <!-- @TODO: global author module -->
             <div class="author module">
                 <h3 class="title">Author</h3>
-                <img class="image" src="http://placehold.it/100x100" />
+                <img class="image" src="http://placehold.it/100x100"/>
+
                 <p class="name">{{post.getCreator.profile.name}}, <span class="meta rank">Partner</span></p>
                 <span class="meta date">{{formatDate post.createdAt}}</span>
             </div>
         </section>
         <section class="fluid segment">
-            <div class="next blog post">
-                <h3 class="title">Next Post</h3>
-                <a class="id link" href="{{pathFor 'article'}}">
-                    <span class="meta date">{{formatDate createdAt}}</span>
-                    <h2 class="title">Test {{title}}</h2>
-                    <span class="meta creator">posted by {{getCreator.profile.name}}</span>
-                </a>
-            </div>
+            {{#with next}}
+                <div class="next blog post">
+                    <h3 class="title">Next Post</h3>
+                    <a class="id link" href="{{pathFor 'article'}}">
+                        <span class="meta date">{{formatDate createdAt}}</span>
+
+                        <h2 class="title">Test {{title}}</h2>
+                        <span class="meta creator">posted by {{getCreator.profile.name}}</span>
+                    </a>
+                </div>
+            {{/with}}
         </section>
     </article>
 </template>
