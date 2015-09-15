@@ -108,22 +108,22 @@ Fixtures.quotes = [
   },
   {
     author: 'Aristotle',
-    quotes: 'The roots of education are bitter, but the fruit is sweet.'
+    quote: 'The roots of education are bitter, but the fruit is sweet.'
   },
   {
     author: 'Maria Popova',
-    quotes: 'Life is a continual process of arrival into who we are.'
+    quote: 'Life is a continual process of arrival into who we are.'
   },
   {
     author: 'Terrel Bell',
-    quotes: 'There are three things to remember about education. The first is motivation. The second one is motivation. The third one is motivation.'
+    quote: 'There are three things to remember about education. The first is motivation. The second one is motivation. The third one is motivation.'
   },
   {
     author: 'William James',
-    quotes: 'A great many people think they are thinking when they are merely rearranging their prejudices.'
+    quote: 'A great many people think they are thinking when they are merely rearranging their prejudices.'
   },
   {
     author: 'Anonymous',
-    quotes: 'The thought manifests as the word. The word manifests as the deed. The deed develops into habit. Habit hardens into character. Character gives birth to destiny. So watch your thoughts with care and let them spring from love born out of respect for all beings.'
+    quote: 'The thought manifests as the word. The word manifests as the deed. The deed develops into habit. Habit hardens into character. Character gives birth to destiny. So watch your thoughts with care and let them spring from love born out of respect for all beings.'
   }
 ];
