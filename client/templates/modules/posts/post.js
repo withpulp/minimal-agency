@@ -3,6 +3,7 @@ Template.post.helpers({
 		return Posts.findOne(Router.current().params._id);
 	},
 	next: function() {
+		//return Posts.findOne(Router.current().params._id);
 		var postId = Router.current().params._id,
 			posts = Posts.find().fetch();
 
@@ -13,16 +14,17 @@ Template.post.helpers({
 
 				index++;
 
+				var nextPost = Posts.findOne(posts[index]._id);
 
-				if (index === posts.length) {
-					e.preventDefault();
-				} else {
-					var nextPostId = posts[index]._id;
-					return Posts.findOne(nextPostId);
-				}
+				//if (index === posts.length) {
+				//	e.preventDefault();
+				//} else {
+				//	var nextPost = Posts.findOne(posts[index]._id);
+				//}
 			} else {
 				e.preventDefault();
 			}
 		}
+		return nextPost;
 	}
 });
