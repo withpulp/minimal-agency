@@ -25,10 +25,10 @@
                 <div class="next blog post">
                     <h3 class="title">Next Post</h3>
                     <a class="id link" href="{{pathFor 'article'}}">
-                        <span class="meta date">{{formatDate createdAt}}</span>
+                        <span class="meta date">{{formatDate next.createdAt}}</span>
 
-                        <h2 class="title">Test {{title}}</h2>
-                        <span class="meta creator">posted by {{getCreator.profile.name}}</span>
+                        <h2 class="title">{{next.title}}</h2>
+                        <span class="meta creator">posted by {{next.getCreator.profile.name}}</span>
                     </a>
                 </div>
             {{/with}}
