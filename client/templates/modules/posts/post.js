@@ -29,8 +29,8 @@ Template.post.helpers({
     next: function () {
         var current = Router.current().params._id;
         console.log(current);
-
-        return Posts.find({createdAt: {$gt: current.createdAt}}, {sort: {createdAt: 1}, limit:1});
-
+        var next = Posts.findOne({createdAt: {$gt: current.createdAt}}, {sort: {createdAt: 1}, limit:1});
+        console.log(next);
+        return next;
     }
 });
