@@ -22,6 +22,10 @@
 //	}
 //}
 
+Template.post.onRendered(function() {
+   Meteor.subscribe('posts');
+});
+
 Template.post.helpers({
     post: function () {
         return Posts.findOne(Router.current().params._id);
