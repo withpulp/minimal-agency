@@ -38,7 +38,7 @@ Template.post.helpers({
         //return next;
 
         var postId = Router.current().params._id,
-            posts = Posts.find().fetch();
+            posts = Posts.find({}, {sort: {createdAt: -1}}).fetch();
 
         console.log(postId);
 
@@ -49,14 +49,15 @@ Template.post.helpers({
 
                 index++;
 
-                var nextPost = Posts.findOne(posts[index]._id);
-                return nextPost;
+                //var nextPost = Posts.findOne(posts[index]._id);
+                //return nextPost;
 
-                //if (index === posts.length) {
-                //	e.preventDefault();
-                //} else {
-                //	var nextPost = Posts.findOne(posts[index]._id);
-                //}
+                if (index === posts.length) {
+                	e.preventDefault();
+                } else {
+                	var nextPost = Posts.findOne(posts[index]._id);
+                    return nextPost;
+                }
             } else {
                 e.preventDefault();
             }
