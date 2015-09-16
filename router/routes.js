@@ -277,6 +277,7 @@ Router.route('/blog/:_id', {
     data: function () {
         return [
             Posts.findOne(this.params._id),
+            Posts.find(),
             Quotes.find(),
             Routes.find(),
             Contacts.find()
@@ -285,6 +286,7 @@ Router.route('/blog/:_id', {
     waitOn: function () {
         return [
             Meteor.subscribe('post', this.params._id),
+            Meteor.subscribe('posts'),
             Meteor.subscribe('quotes'),
             Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
