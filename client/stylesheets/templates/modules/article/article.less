@@ -75,6 +75,10 @@
       padding: @space-base + @space-mini;
       border-top: @space-micro solid @gray-lighter;
 
+      @media (min-width: @tablet-width) {
+        padding: @space-base + @space-mini @sixteenth + 4%;
+      }
+
       .title {
         padding-top: @space-large;
         margin: 0;
@@ -83,6 +87,7 @@
 
       .id.link {
         margin-top: @space-large;
+        text-align: left;
       }
     }
   }
