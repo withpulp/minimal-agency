@@ -1,5 +1,4 @@
 var _deps = new Deps.Dependency;
-var quote = {};
 
 Template['quotes'].helpers({
   'quotes': function() {
