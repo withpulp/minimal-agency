@@ -1,5 +1,9 @@
+var _deps = new Deps.Dependency;
+var quote = {};
+
 Template['quotes'].helpers({
   'quotes': function() {
+    _deps.depend();
     var randomQuote = _.flatten(_.sample(Quotes.find().fetch(), 1));
     return randomQuote;
   }
@@ -7,6 +11,6 @@ Template['quotes'].helpers({
 
 Template['quotes'].events({
   'click .refresh.quote': function() {
-    console.log('refresh quote');
+    _deps.changed();
   }
 });
