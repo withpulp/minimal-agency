@@ -28,15 +28,6 @@
       font-size: @font-size-medium;
     }
 
-    i {
-      color: darken(@gray-lighter, @quarter);
-      font-size: @font-size-base + @font-size-mini;
-
-      @media (min-width: @tablet-width) {
-        font-size: @font-size-medium + @font-size-mini;
-      }
-    }
-
     .author {
       margin-top: @space-small;
       text-align: center;
@@ -49,6 +40,12 @@
 
     .refresh.quote {
       cursor: pointer;
+      color: darken(@gray-lighter, @quarter);
+      font-size: @font-size-base + @font-size-mini;
+
+      @media (min-width: @tablet-width) {
+        font-size: @font-size-medium + @font-size-mini;
+      }
     }
   }
 
