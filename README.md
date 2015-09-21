@@ -108,6 +108,7 @@ Router.route('/about', function () {
   * [iron:router](https://github.com/EventedMind/iron-router)
 * Collections
  * [dburles:collection-helpers](https://github.com/dburles/meteor-collection-helpers/)
+ * [reywood:publish-composite](https://github.com/englue/meteor-publish-composite)
 * Accounts
   * [accounts-password](https://github.com/meteor/meteor/tree/devel/packages/accounts-password)
   * [useraccounts:unstyled](https://github.com/meteor-useraccounts/unstyled/)

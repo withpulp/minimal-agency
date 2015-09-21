@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "feb5d78a51ffdce7a586611eddf54a61cfd29c26"
+                  "value": "709332dd00aa4ad754339ce6dc3a413dff61faf1"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7874,7 +7874,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "6d2ae65a6318bec491570b16444ae90223c8f563"
+          "value": "fca1951061dad27a09787bffaf21065c241af779"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -26630,6 +26630,7 @@ var packageMetadata = {
   "chrisbutler:typed.js": {},
   "meteorhacks:npm": {},
   "npm-container": {},
+  "reywood:publish-composite": {},
   "meteorhacks:async": {
     "Async": {
       "type": "object",
