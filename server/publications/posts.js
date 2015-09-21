@@ -1,8 +1,23 @@
-Meteor.publish('posts', function() {
-  return Posts.find();
+Meteor.publishComposite('posts', {
+  find: function() {
+    return Posts.find();
+  },
+  children: [{
+    find: function(post) {
+      return Meteor.users.find({ _id: post.createdBy }, { fields: { profile: 1 } });
+    }
+  }]
 });
-
-Meteor.publish('post', function(id) {
-  check(id, String)
-  return Posts.find(id);
+Meteor.publishComposite('post', function(id) {
+  check(id, String);
+  return {
+    find: function() {
+      return Posts.find({ _id: id });
+    },
+    children: [{
+      find: function(post) {
+        return Meteor.users.find({ _id: post.createdBy }, { fields: { profile: 1 } });
+      }
+    }]
+  }
 });
