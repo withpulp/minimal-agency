@@ -150,7 +150,7 @@ client/             # Client folder
      elements/            # Re-usable components
 orion/              # Orion CMS files
   dictionary/         # Orion dictionary definitions
-models/             # Model files, for each Meteor.Collection
+  collections/             # Collection files, for each Meteor.Collection
 private/            # Private files
 public/             # Public files
 router/             # All routes
