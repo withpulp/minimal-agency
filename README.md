@@ -24,21 +24,24 @@ A mobile-first website for an agency / startup built with Meteor.
 ### Features
 * Views
 	* Landing
-	* Portfolio view
-	* Case study view
+	* Portfolio
+	* Case study
 	* Blog
 	* Admin
-  * About
-  * process
-  * Menu
+  	* About
+  	* Menu
+  	* Values
 
 * Modules
-	* Admin account to insert/update/delete content
+	* Content Management System
 	* Newsletter subscription
 	* Random quote on page load
-	* Twitter streaming
 	* Article excerpts
-  * Dynamic "next-up" page links
+	* Author
+	* Twitter streaming
+	* Instagram Feed
+  	* Next-page module
+  	* Next-post module
 
 ### Views
 
@@ -48,13 +51,15 @@ A mobile-first website for an agency / startup built with Meteor.
   * ~~Landing~~
   * ~~About~~
   * Blog
+  * Case study
+  * Portfolio
   * Menu
-  * Process
   * ~~Admin~~
 * Modules
   * ~~Newsletter subscription~~
   * ~~Random quote on page load~~
   * ~~Insert/Edit Post~~
+  * ~~Next post module~~
 
 
 ## How to use
