@@ -20,9 +20,9 @@
                 <span class="meta date">{{formatDate post.createdAt}}</span>
             </div>
         </section>
-        <section class="fluid divider segment"></section>
-        <section class="next post segment">
-            {{#with next}}
+        {{#with next}}
+            <section class="fluid divider segment"></section>
+            <section class="next post segment">
                 <div class="next blog post">
                     <h3 class="title">Next Post</h3>
                     <a class="id link" href="{{pathFor 'article'}}">
@@ -32,8 +32,8 @@
                         <span class="meta creator">posted by {{next.getCreator.profile.name}}</span>
                     </a>
                 </div>
-            {{/with}}
-        </section>
-        <section class="fluid divider segment"></section>
+            </section>
+            <section class="fluid divider segment"></section>
+        {{/with}}
     </article>
 </template>
