@@ -3,13 +3,16 @@
 // statements styles
 
 .statement {
+  position: relative;
 
   @media (min-width: @tablet-width) {
     padding-bottom: @space-small;
   }
 
   &.mission {
-    margin: @space-base auto;
+    margin: auto;
+    padding: @space-base 0;
+    height: @space-huge + @space-tiny;
   }
 
   &.supporting {

@@ -7,7 +7,7 @@
             </h1>
         </section>
         <section class="basic fluid segment">
-            <img class="fluid image" src="http://placehold.it/800x200"/>
+            <img class="fluid image" src="{{post.image}}"/>
         </section>
         <section class="post body segment">{{{post.body}}}</section>
         <section class="author segment">
@@ -15,14 +15,13 @@
             <div class="author module">
                 <h3 class="title">Author</h3>
                 <img class="image" src="http://placehold.it/100x100"/>
-
                 <p class="name">{{post.getCreator.profile.name}}, <span class="meta rank">Partner</span></p>
                 <span class="meta date">{{formatDate post.createdAt}}</span>
             </div>
         </section>
-        <section class="fluid divider segment"></section>
-        <section class="next post segment">
-            {{#with next}}
+        {{#with next}}
+            <section class="fluid divider segment"></section>
+            <section class="next post segment">
                 <div class="next blog post">
                     <h3 class="title">Next Post</h3>
                     <a class="id link" href="{{pathFor 'article'}}">
@@ -32,8 +31,8 @@
                         <span class="meta creator">posted by {{next.getCreator.profile.name}}</span>
                     </a>
                 </div>
-            {{/with}}
-        </section>
-        <section class="fluid divider segment"></section>
+            </section>
+            <section class="fluid divider segment"></section>
+        {{/with}}
     </article>
 </template>

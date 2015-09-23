@@ -3,124 +3,152 @@
 // admin styles
 
 .orion.admin {
-	position: relative;
-	width: @full;
-	height: @full;
-	overflow: hidden;
-	background: @light;
+  position: relative;
+  width: @full;
+  height: @full;
+  background: @light;
 
-	.orion.sidebar {
-		position: fixed;
-		top: 0;
-	  left: 0;
-		width: @three-quarters;
-	  height: @fluid-full;
-		margin: 0;
-		padding: 0;
-	  z-index: 1;
-	  visibility: hidden;
-	  background: @gray-darker;
-	  transition: all @slowest;
+  .orion.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: @three-quarters;
+    height: @fluid-full;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    visibility: hidden;
+    background: @gray-darker;
+    transition: all @slowest;
 
-		.orion.navigation {
-			position: relative;
-			top: 0;
-			bottom: 0;
-			height: @full;
-			width: @full;
-			margin: 0;
-		  padding: @space-base;
-			overflow-x: hidden;
-			overflow-y: auto;
-			list-style: none;
+    .orion.navigation {
+      position: relative;
+      top: 0;
+      bottom: 0;
+      height: @full;
+      width: @full;
+      margin: 0;
+      padding: @space-base;
+      overflow-x: hidden;
+      overflow-y: auto;
+      list-style: none;
 
-			.orion.item {
+      .orion.item {
 
-				.route.link {
-					color: @light;
-					font-family: @font-family-base;
-					font-size: @font-size-base + @font-size-mini;
-					text-decoration: none;
+        .route.link {
+          color: @light;
+          font-family: @font-family-base;
+          font-size: @font-size-base + @font-size-mini;
+          text-decoration: none;
 
-					&:hover,
-					&:focus {
-						color: @primary-color;
-					}
-				}
+          &:hover,
+          &:focus {
+            color: @primary-color;
+          }
+        }
 
-				&.brand {
-					margin: -@space-base -@space-base @space-base;
-					padding: @space-mini @space-base;
-					background: @background-color;
-					text-align: center;
-				}
+        &.brand {
+          margin: -@space-base -@space-base @space-base;
+          padding: @space-mini @space-base;
+          background: @background-color;
+          text-align: center;
+        }
 
-				&.active {
+        &.active {
 
-					.route.link {
-						color: @primary-color;
-					}
-				}
-			}
-		}
-	}
+          .route.link {
+            color: @primary-color;
+          }
+        }
+      }
+    }
+  }
 
-	.orion.main {
-		position: relative;
-		left: 0;
-	  z-index: 1;
-	  height: @fluid-full;
-		width: @full;
-		margin: 0;
-		padding: @space-base;
-		overflow-y: auto;
-		background: @light;
-	  perspective: 1000px;
-	  transition: transform @slowest;
+  .orion.main {
+    position: relative;
+    left: 0;
+    z-index: 1;
+    height: @fluid-full;
+    width: @full;
+    margin: 0;
+    padding: @space-base;
+    background: @light;
+    perspective: 1000px;
+    transition: transform @slowest;
 
-		&::after {
-			position: absolute;
-			top: 0;
-		  right: 0;
-		  width: 0;
-		  height: 0;
-		  background: fade(@gray-darker, @half);
-		  content: '';
-		  opacity: 0;
-		  transition: opacity @slowest, width @fastest @slowest, height @fastest @slowest;
-		}
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      background: fade(@gray-darker, @half);
+      content: '';
+      opacity: 0;
+      transition: opacity @slowest, width @fastest @slowest, height @fastest @slowest;
+    }
 
-		.orion.menu {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: auto;
-			padding: @space-tiny;
-			z-index: 2;
+    .orion.menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: @full;
+      padding: @space-tiny @space-base;
+      z-index: 2;
 
-			.orion.toggle {
-				cursor: pointer;
-				line-height: 0;
-			}
-		}
-	}
+      .orion.toggle {
+        cursor: pointer;
+        line-height: 0;
+      }
 
-	&.toggled {
+      .orion.dropdown {
+        position: relative;
+        width: @space-god;
+        float: right;
+        text-align: right;
 
-		.orion.sidebar {
-			visibility: visible;
-			transition: transform @slowest;
-		}
+        .dropdown.toggle {
+          z-index: 1;
+        }
 
-		.orion.main {
-			transform: translate3d(@three-quarters, 0, 0);
+        .orion.dropdown.menu {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: auto;
+          margin: @space-large 0;
+          padding: @space-small;
+          background-color: @light;
+          list-style-type: none;
+          visibility: hidden;
+          transform: translate3d(0, -150%, 0);
+          transition: all @faster;
 
-			&::after {
-				width: @full;
-				height: @full;
-			  opacity: 1;
-			  transition: opacity @slowest;
-			}
-		}
-	}
+          &.open {
+            visibility: visible;
+            transform: translate3d(0, 0, 0);
+          }
+        }
+      }
+    }
+  }
+
+  &.toggled {
+
+    .orion.sidebar {
+      visibility: visible;
+      transition: transform @slowest;
+    }
+
+    .orion.main {
+      transform: translate3d(@three-quarters, 0, 0);
+
+      &::after {
+        width: @full;
+        height: @full;
+        opacity: 1;
+        transition: opacity @slowest;
+      }
+    }
+  }
 }

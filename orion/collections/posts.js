@@ -32,6 +32,11 @@ Posts.attachSchema(new SimpleSchema({
     label: 'Excerpt',
     max: 500
   },
+  image: {
+    type: String,
+    label: 'Image',
+    optional: true
+  },
   body: orion.attribute('froala', {
     label: 'Body'
   }),
