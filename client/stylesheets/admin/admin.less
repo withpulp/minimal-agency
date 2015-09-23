@@ -103,9 +103,13 @@
 
       .orion.dropdown {
         position: relative;
-        width: @space-god + @space-massive;
+        width: @space-god;
         float: right;
         text-align: right;
+
+        .dropdown.toggle {
+          z-index: 1;
+        }
 
         .orion.dropdown.menu {
           position: absolute;
@@ -116,6 +120,14 @@
           padding: @space-small;
           background-color: @light;
           list-style-type: none;
+          visibility: hidden;
+          transform: translate3d(0, -150%, 0);
+          transition: all @faster;
+
+          &.open {
+            visibility: visible;
+            transform: translate3d(0, 0, 0);
+          }
         }
       }
     }
