@@ -34,7 +34,8 @@ Posts.attachSchema(new SimpleSchema({
   },
   image: {
     type: String,
-    label: 'Image'
+    label: 'Image',
+    optional: true
   },
   body: orion.attribute('froala', {
     label: 'Body'
