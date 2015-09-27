@@ -33,6 +33,17 @@
       .title {
         padding-top: @space-base;
       }
+      .mission {
+        @media (min-width: @tablet-width) {
+          padding-bottom: @space-huge;
+        }
+        @media (min-width: @desktop-width) {
+          padding-bottom: @space-massive;
+        }
+        @media (min-width: @huge-desktop-width) {
+          padding-bottom: @space-collosal;
+        }
+      }
     }
 
     &.study {
