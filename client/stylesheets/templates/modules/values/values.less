@@ -3,23 +3,27 @@
 // values module styles
 
 .module.values {
-  padding: @space-small @space-huge + @space-micro;
+  padding: @space-small 0 0 @space-huge;
   list-style-type: upper-latin;
 
   .item {
-    font-size: @font-size-large + @font-size-mini;
+    font-size: @font-size-large;
     font-weight: bold;
     color: @gray;
+    padding: @space-base;
 
     .value {
       width: @full;
       margin: 0;
       padding-bottom: @space-tiny;
+      font-size: @font-size-large;
+      color: @gray;
     }
 
     .definition {
-      color: @font-color;
-      font-size: @font-size-base;
+      font-weight: 600;
+      color: @gray;
+      font-size: @font-size-base + @font-size-atomic;
     }
   }
 }
