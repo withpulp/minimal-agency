@@ -1,14 +1,15 @@
 <template name="projects">
     <div class="projects article module">
         {{#each limitedProjects}}
-            <article class="project">
-              <a href="{{pathFor 'study'}}">
+          <a href="{{pathFor 'study'}}">
+              <article class="project">
                 <h4 class="title">
-                      {{title}}
+                    {{title}}
                 </h4>
                 <p class="excerpt">{{excerpt}}</p>
-              </a>
-            </article>
+                <a class="route link" href="{{pathFor 'study'}}">Read the case study</a>
+              </article>
+            </a>
         {{/each}}
     </div>
 </template>

@@ -93,14 +93,16 @@
   }
 
   &.projects {
-
+    a {
+      text-decoration: none;
+    }
     .project {
       border: @space-atomic solid @gray-lighter;
       padding: @space-base;
 
-      a {
-        text-decoration: none;
-      }
+    }
+    .project:hover {
+      box-shadow: 1px 2px 4px #A1A1A1;
     }
   }
 
