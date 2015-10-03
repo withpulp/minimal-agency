@@ -4,7 +4,6 @@
 
 .module.article {
   padding: 0;
-  margin-bottom: @space-base;
 
   @media (min-width: @tablet-width) {
     margin-bottom: @space-large;
@@ -96,7 +95,12 @@
   &.projects {
 
     .project {
-      padding-bottom: @space-large;
+      border: @space-atomic solid @gray-lighter;
+      padding: @space-base;
+
+      a {
+        text-decoration: none;
+      }
     }
   }
 

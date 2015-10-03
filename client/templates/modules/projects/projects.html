@@ -2,13 +2,12 @@
     <div class="projects article module">
         {{#each limitedProjects}}
             <article class="project">
+              <a href="{{pathFor 'study'}}">
                 <h4 class="title">
-                    <a class="id link" href="{{pathFor 'study'}}">
-                        {{title}}
-                    </a>
+                      {{title}}
                 </h4>
                 <p class="excerpt">{{excerpt}}</p>
-                <a class="route link" href="{{pathFor 'study'}}">Read the case study</a>
+              </a>
             </article>
         {{/each}}
     </div>
