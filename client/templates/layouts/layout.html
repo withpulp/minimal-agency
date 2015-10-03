@@ -1,21 +1,21 @@
 <template name="layout">
-	<header class="header module">
-		{{> header}}
-	</header>
-	<main class="layout {{menuToggle}}">
-		<aside class="menu module">
-			{{> menu}}
-		</aside>
-		<aside class="content pusher">
-		  <section class="view frame {{setClass}}">
-			  {{> yield}}
-		  </section>
-			<section class="mobile-menu">
-				{{> mobileMenu}}
-			</section>
-		  <footer class="footer module {{setClass}}">
-			  {{> footer}}
-		  </footer>
-	  </aside>
-	</main>
+    <header class="header module">
+        {{> header}}
+    </header>
+    <main class="layout {{menuToggle}}">
+        <aside class="test module">
+            {{> mobileMenu}}
+        </aside>
+        <aside class="menu module">
+            {{> menu}}
+        </aside>
+        <aside class="content pusher">
+            <section class="view frame {{setClass}}">
+                {{> yield}}
+            </section>
+            <footer class="footer module {{setClass}}">
+                {{> footer}}
+            </footer>
+        </aside>
+    </main>
 </template>
