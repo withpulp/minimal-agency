@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   width: auto;
-  z-index: 2;
+  z-index: 3;
   background: transparent;
   transition: top @fastest ease-in-out;
 
@@ -61,6 +61,23 @@
         left: @space-base;
         transform: rotateX(0) rotateY(90deg);
       }
+    }
+  }
+
+  .toggle.menu.button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: @space-tiny;
+    padding: @space-tiny @space-small;
+    border: @space-micro solid @gray-darker;
+    color: @gray-darker;
+    z-index: 3;
+
+    &:hover,
+    &:focus {
+      color: @primary-color;
+      background-color: @gray-darker;
     }
   }
 

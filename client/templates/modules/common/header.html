@@ -1,11 +1,12 @@
 <template name="header">
-  <a class="logo" href="{{pathFor 'root'}}">
-    <div class="cube">
-      <div class="face front">&#956;</div>
-      <div class="face left">&#956;</div>
-    </div>
-  </a>
-  {{#if currentUser}}
-    {{> toolbar}}
-  {{/if}}
+    <a class="logo" href="{{pathFor 'root'}}">
+        <div class="cube">
+            <div class="face front">&#956;</div>
+            <div class="face left">&#956;</div>
+        </div>
+    </a>
+    <button type="button" class="toggle menu primary button"><i class="fa fa-bars"></i></button>
+    {{#if currentUser}}
+        {{> toolbar}}
+    {{/if}}
 </template>

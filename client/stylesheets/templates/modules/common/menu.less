@@ -3,29 +3,28 @@
 // menu styles
 
 .menu.module {
-	display: block;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	height: @full;
-	width: @full;
-	overflow-y: auto;
-  	overflow-x: hidden;
-	padding: @space-base;
-	z-index: 1;
-	background: @gray-darker;
-	color: @primary-color;
-	background-image: url('/images/modules/space.jpg');
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: @fluid-half;
+  width: @three-quarters;
+  margin: @space-tiny;
+  padding: @space-base;
+  border: @space-micro solid @gray-darker;
+  background: @primary-color;
+  color: @gray-darker;
+  z-index: 2;
 
-	.navigation {
+  .navigation {
 
-		.route {
-			height: @fluid-half;
+    .route {
+      height: @fluid-half;
 
-			.image {
-				height: @fluid-half;
-				padding-top: @space-base;
-			}
-		}
-	}
+      .image {
+        height: @fluid-half;
+        padding-top: @space-base;
+      }
+    }
+  }
 }

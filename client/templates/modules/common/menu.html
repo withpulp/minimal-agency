@@ -1,11 +1,7 @@
 <template name="menu">
-    <nav class="navigation bottom half gutter grid">
+    <nav class="navigation">
         {{#each routes}}
-            <div class="cell">
-                <a class="route" href="{{route}}">
-                    <img class="fluid image" scr="{{image}}"/>
-                </a>
-            </div>
+            <a class="route" href="{{route}}"></a>
         {{/each}}
     </nav>
 </template>
