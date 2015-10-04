@@ -75,6 +75,10 @@
     color: @gray-darker;
     z-index: 4;
 
+    @media(min-width: @tablet-width) {
+      display: none;
+    }
+
     &:hover {
       color: @primary-color;
       background-color: @gray-darker;

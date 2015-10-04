@@ -36,14 +36,20 @@
 .navigator {
 
   .menu.module {
-    height: @space-god + @space-god - @space-base;
-    width: @space-titanic;
+    height: @space-god + @space-god;
+    width: @space-god;
     opacity: 1;
     background: @primary-color;
 
     .navigation {
       opacity: 1;
       transition: opacity @fast @fast;
+      a {
+        font-size: @font-size-base + @font-size-mini;
+        text-decoration: none;
+        font-style: inherit;
+        line-height: @space-medium;
+      }
     }
   }
 }
