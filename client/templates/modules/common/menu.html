@@ -1,11 +1,11 @@
 <template name="menu">
-  <nav class="navigation top half gutter grid">
-    {{#each routes}}
-	    <div class="cell">
-        <a class="route" href="{{route}}">
-          <img class="fluid image" scr="{{image}}" />
-        </a>
-      </div>
-    {{/each}}
-	</nav>
+    <nav class="navigation bottom half gutter grid">
+        {{#each routes}}
+            <div class="cell">
+                <a class="route" href="{{route}}">
+                    <img class="fluid image" scr="{{image}}"/>
+                </a>
+            </div>
+        {{/each}}
+    </nav>
 </template>

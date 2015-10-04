@@ -3,19 +3,16 @@
         {{> header}}
     </header>
     <main class="layout {{menuToggle}}">
-        <aside class="mobile-menu test module">
-            {{> mobileMenu}}
-        </aside>
         <aside class="menu module">
             {{> menu}}
         </aside>
-        <aside class="content pusher">
+        <div class="content">
             <section class="view frame {{setClass}}">
                 {{> yield}}
             </section>
             <footer class="footer module {{setClass}}">
                 {{> footer}}
             </footer>
-        </aside>
+        </div>
     </main>
 </template>

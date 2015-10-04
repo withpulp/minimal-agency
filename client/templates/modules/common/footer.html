@@ -1,11 +1,12 @@
 <template name="footer">
-  {{> MailChimpListSubscribe}}
-  {{> quotes}}
-  {{> contacts}}
-  <p class="copyright">
-    {{ dict 'footer.copyright' '©2015' }},
-    <a class="creator" href="{{pathFor 'root'}}">
-      {{ dict 'footer.creator' 'µTool' }}
-    </a>
-  </p>
+    {{> MailChimpListSubscribe}}
+    {{> quotes}}
+    {{> contacts}}
+    <p class="copyright">
+        {{ dict 'footer.copyright' '©2015' }},
+        <a class="creator" href="{{pathFor 'root'}}">
+            {{ dict 'footer.creator' 'µTool' }}
+        </a>
+    </p>
+    <button type="button" class="toggle menu button"><i class="fa fa-bars"></i></button>
 </template>
