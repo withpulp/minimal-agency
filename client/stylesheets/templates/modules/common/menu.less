@@ -7,8 +7,8 @@
   position: fixed;
   right: 0;
   bottom: 0;
-  height: @fluid-half;
-  width: @three-quarters;
+  height: auto;
+  width: @half;
   margin: @space-tiny;
   padding: @space-base;
   border: @space-micro solid @gray-darker;
@@ -17,14 +17,14 @@
   z-index: 2;
 
   .navigation {
+    position: relative;
+    float: right;
+    margin-bottom: @space-base;
 
     .route {
-      height: @fluid-half;
-
-      .image {
-        height: @fluid-half;
-        padding-top: @space-base;
-      }
+      display: block;
+      color: @gray-darker;
+      text-align: right;
     }
   }
 }

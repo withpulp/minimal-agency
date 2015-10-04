@@ -5,7 +5,7 @@ Template['menu'].helpers({
 });
 
 Template['menu'].events({
-  'click .navigation .cell': function() {
+  'click .navigation .route': function() {
     Session.set('menuToggle', !Session.get('menuToggle'));
   }
 });

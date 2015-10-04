@@ -1,7 +1,9 @@
 <template name="menu">
     <nav class="navigation">
-        {{#each routes}}
-            <a class="route" href="{{route}}"></a>
-        {{/each}}
+        <a class="route" href="{{pathFor 'root'}}">Home</a>
+        <a class="route" href="">About</a>
+        <a class="route" href="">Work</a>
+        <a class="route" href="">Tools</a>
+        <a class="route" href="">Blog</a>
     </nav>
 </template>
