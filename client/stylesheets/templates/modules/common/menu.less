@@ -7,24 +7,43 @@
   position: fixed;
   right: 0;
   bottom: 0;
-  height: auto;
-  width: @half;
-  margin: @space-tiny;
+  height: 0;
+  width: 0;
+  margin: @space-small;
   padding: @space-base;
   border: @space-micro solid @gray-darker;
-  background: @primary-color;
+  background: @gray-darker;
   color: @gray-darker;
   z-index: 2;
+  opacity: 0;
+  transform-origin: 0% @full;
+  transition: width @fast, height @faster;
 
   .navigation {
     position: relative;
     float: right;
     margin-bottom: @space-base;
+    opacity: 0;
 
     .route {
       display: block;
       color: @gray-darker;
       text-align: right;
+    }
+  }
+}
+
+.navigator {
+
+  .menu.module {
+    height: @space-god + @space-jumbo;
+    width: @space-titanic;
+    opacity: 1;
+    background: @primary-color;
+
+    .navigation {
+      opacity: 1;
+      transition: opacity @fast @fast;
     }
   }
 }

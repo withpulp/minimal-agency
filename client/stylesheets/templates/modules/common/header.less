@@ -68,14 +68,14 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    margin: @space-tiny;
+    margin: @space-small;
     padding: @space-tiny @space-small;
     border: @space-micro solid @gray-darker;
+    background: fade(@primary-color, @three-quarters);
     color: @gray-darker;
-    z-index: 3;
+    z-index: 4;
 
-    &:hover,
-    &:focus {
+    &:hover {
       color: @primary-color;
       background-color: @gray-darker;
     }
@@ -110,6 +110,20 @@
       color: @light;
       font-family: @font-family-base;
       font-size: @font-size-small;
+    }
+  }
+
+  &.navigator {
+
+    .toggle.menu.button {
+      border: 0;
+      border-right: @space-micro solid @gray-darker;
+      border-bottom: @space-micro solid @gray-darker;
+
+      &:hover {
+        background-color: @primary-color;
+        color: @gray-darker;
+      }
     }
   }
 }
