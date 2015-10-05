@@ -22,12 +22,16 @@
     width: @full;
     position: relative;
     float: right;
-    margin-bottom: @space-base;
     opacity: 0;
 
     .route {
       display: block;
-      color: @gray-darker;
+      margin: 0;
+      padding: @space-tiny @space-tiny @space-micro;
+      border-bottom: @space-atomic solid fadeout(@gray, 90%);
+      font-size: @font-size-medium - @font-size-atomic;
+      text-decoration: none;
+      font-style: inherit;
       text-align: right;
     }
   }
@@ -36,7 +40,7 @@
 .navigator {
 
   .menu.module {
-    height: @space-god + @space-god + @space-jumbo;
+    height: @space-god + @space-god;
     width: @space-god + @space-large;
     opacity: 1;
     background: @primary-color;
@@ -44,14 +48,6 @@
     .navigation {
       opacity: 1;
       transition: opacity @fast @fast;
-      padding-top: @space-tiny;
-      a {
-        font-size: @font-size-medium - @font-size-atomic;
-        text-decoration: none;
-        font-style: inherit;
-        padding: @space-micro @space-base;
-        border-bottom: @space-atomic solid fadeout(@gray, 90%);
-      }
     }
   }
 }
