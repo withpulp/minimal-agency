@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "aa882e1ad623b1c441442ed2d5b5c58f3d08fbda"
+                  "value": "b3e9c62e4ea44b67e831d5ddaa3bdc8b8dcca637"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,11 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-<<<<<<< HEAD
               "value": 0
-=======
-              "value": 1
->>>>>>> 0f1e5b78a154694b71e42aafe3162f9fb8f26f18
             },
             "timeout": {
               "type": "constant",
@@ -7878,19 +7874,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-<<<<<<< HEAD
-          "value": "c67f5fe52cf09212911b8a5551634943b1aad371"
+          "value": "25c536dd6d681835bfe4b44151b07cf3b82634d8"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "e1f32e555f044020df778085882d9c3314450a8a"
-=======
-          "value": "1adb0ff5b5decf011fb81f4372191800241ace2e"
-        },
-        "autoupdateVersionRefreshable": {
-          "type": "constant",
-          "value": "064745f571811395154b853d242a8bf7d22e121a"
->>>>>>> 0f1e5b78a154694b71e42aafe3162f9fb8f26f18
+          "value": "184101571714a2ae4da4ac311f4c9418c673c687"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -8918,7 +8906,7 @@ var packageMetadata = {
             },
             "siteName": {
               "type": "constant",
-              "value": "localhost:4000"
+              "value": "localhost:3000"
             },
             "resetPassword": {
               "type": "object",
