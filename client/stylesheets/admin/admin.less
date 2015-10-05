@@ -34,8 +34,13 @@
       list-style: none;
 
       .orion.item {
+        margin: 0;
+        padding: 0;
 
         .route.link {
+          display: block;
+          margin: 0;
+          padding: @space-tiny 0;
           color: @light;
           font-family: @font-family-base;
           font-size: @font-size-base + @font-size-mini;
@@ -48,8 +53,7 @@
         }
 
         &.brand {
-          margin: -@space-base -@space-base @space-base;
-          padding: @space-mini @space-base;
+          margin: -@space-base -@space-base @space-tiny;
           background: @background-color;
           text-align: center;
         }
@@ -118,11 +122,21 @@
           width: auto;
           margin: @space-large 0;
           padding: @space-small;
-          background-color: @light;
+          border: @space-micro solid @gray-darker;
+          background-color: @primary-color;
           list-style-type: none;
           visibility: hidden;
-          transform: translate3d(0, -150%, 0);
+          transform: translate3d(0, -(@full + @half), 0);
           transition: all @faster;
+
+          .item {
+            margin-bottom: @space-small;
+            color: @gray-darker;
+
+            &:last-child {
+              margin: 0;
+            }
+          }
 
           &.open {
             visibility: visible;
