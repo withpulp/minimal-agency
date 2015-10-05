@@ -3,12 +3,17 @@
 // admin elements styles
 
 .orion {
-  display: block;
 
   // buttons
 
   .orion.button {
     padding: @space-tiny @space-base;
+
+    &.small.icon {
+      float: right;
+      margin-bottom: 0;
+      padding: @space-micro @space-mini 0;
+    }
   }
 
   &.actions {
@@ -20,11 +25,29 @@
   }
 
   &.tabs {
+    display: block;
     margin-bottom: @space-medium;
 
     .orion.button {
       display: inline-block;
       margin-bottom: @space-mini;
+    }
+  }
+
+  .form-group {
+    margin-bottom: @space-base;
+
+    .control-label {
+      display: block;
+      margin-bottom: @space-tiny;
+    }
+
+    .form-control {
+      flex: 1;
+      width: @full;
+      padding: @space-tiny;
+      outline: 0;
+      font-size: @font-size-base;
     }
   }
 }
