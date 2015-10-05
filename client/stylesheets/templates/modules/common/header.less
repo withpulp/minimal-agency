@@ -89,7 +89,7 @@
     display: inline-block;
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 0;
     margin: @space-mini;
     padding: @space-micro @space-mini;
     border-radius: @space-tiny;
@@ -99,14 +99,13 @@
 
     &:before {
       content: '';
-      display: block;
       position: absolute;
-      right: -@space-tiny;
-      bottom: -@space-mini;
-      width: @space-small;
-      height: @space-small;
-      border-left: @space-mini solid @background-color;
-      border-bottom-left-radius: @full;
+      width: 0;
+      height: 0;
+      left: -@space-mini;
+      top: 0;
+      border: @space-tiny solid;
+      border-color: @background-color @background-color transparent transparent;
       z-index: -1;
     }
 
