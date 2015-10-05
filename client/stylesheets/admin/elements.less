@@ -3,12 +3,28 @@
 // admin elements styles
 
 .orion {
+  display: block;
 
-	&.actions {
-		width: @full;
+  // buttons
 
-		.orion.button {
-			display: block;
-		}
-	}
+  .orion.button {
+    padding: @space-tiny @space-base;
+  }
+
+  &.actions {
+    width: @full;
+
+    .orion.button {
+      display: block;
+    }
+  }
+
+  &.tabs {
+    margin-bottom: @space-medium;
+
+    .orion.button {
+      display: inline-block;
+      margin-bottom: @space-mini;
+    }
+  }
 }
