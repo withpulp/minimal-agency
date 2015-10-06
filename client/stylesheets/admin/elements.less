@@ -109,7 +109,23 @@
   // tables
 
   .table {
-    width: @full;
+    width: @full !important;
     margin: @space-base auto !important;
+  }
+
+  // dataTables
+
+  .dataTables_wrapper {
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+
+      .col-xs-6 {
+        flex: 1;
+      }
+    }
   }
 }
