@@ -111,6 +111,44 @@
   .table {
     width: @full !important;
     margin: @space-base auto !important;
+    border: @space-atomic solid @gray-darker;
+    border-collapse: collapse;
+
+    thead {
+
+      tr {
+        border-top: @space-mini solid @gray-darker;
+        border-bottom: @space-atomic solid @gray-darker;
+
+        th {
+          padding: @space-tiny;
+          text-align: left;
+        }
+      }
+    }
+
+    tbody {
+
+      tr {
+        cursor: pointer;
+
+        &.odd {
+          background: @gray-lighter;
+        }
+
+        &.even {
+          background: darken(@gray-lighter, @sixteenth);
+        }
+
+        &:hover {
+          background: @primary-color;
+        }
+
+        td {
+          padding: @space-tiny;
+        }
+      }
+    }
   }
 
   // dataTables
@@ -123,8 +161,72 @@
       margin: 0;
       padding: 0;
 
+      .col-xs-12 {
+        flex: 0 0 @full;
+      }
+
       .col-xs-6 {
         flex: 1;
+      }
+    }
+
+    .dataTables_length {
+      font-size: @font-size-small;
+
+      .form-control {
+        width: auto;
+      }
+    }
+
+    .dataTables_filter {
+      font-size: @font-size-small;
+
+      label {
+        display: flex;
+
+        .form-control {
+          flex: 1;
+          width: @half;
+        }
+      }
+    }
+
+    .dataTables_info {
+      font-size: @font-size-small;
+    }
+
+    .dataTables_paginate {
+      width: @full;
+
+      .pagination {
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        .paginate_button {
+          display: inline-block;
+          margin: 0 0 @space-mini @space-mini;
+          padding: @space-mini @space-tiny;
+          background-color: @gray;
+
+          a {
+            color: @light;
+            font-size: @font-size-small;
+            text-decoration: none;
+          }
+
+          &:hover,
+          &:focus {
+            background-color: @primary-color;
+
+            a {
+              color: @gray;
+            }
+          }
+        }
       }
     }
   }
