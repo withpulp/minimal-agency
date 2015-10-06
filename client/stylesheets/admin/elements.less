@@ -62,7 +62,45 @@
     }
   }
 
-  // accounts update
+  .at-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: @space-base;
+
+    input {
+      flex: 1;
+      padding: @space-tiny;
+      font-size: @font-size-base;
+    }
+
+    span {
+      padding: @space-tiny;
+      border: @space-micro solid @negative-color;
+      background-color: @negative-color;
+      color: @light;
+      font-size: @font-size-base;
+    }
+  }
+
+  .at-btn {
+    padding: @space-tiny @space-base;
+    border: 0;
+    background-color: @gray;
+    color: @light;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all @faster;
+
+    &:hover,
+    &:focus {
+      background-color: @primary-color;
+      color: @gray;
+    }
+  }
+
+    // accounts update
 
   #accountsUpdateEmailsForm {
     padding: @space-large 0;
