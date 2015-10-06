@@ -1,5 +1,5 @@
 Template.tool.helpers({
-	tool: function() {
-		return Tools.findOne(Router.current().params._id);
-	}
+    tool: function () {
+        return Tools.findOne(Router.current().params._id);
+    }
 });

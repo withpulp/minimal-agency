@@ -1,3 +1,3 @@
-Meteor.publish('benefits', function() {
-  return Benefits.find();
+Meteor.publish('benefits', function () {
+    return Benefits.find();
 });

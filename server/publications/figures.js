@@ -1,3 +1,3 @@
-Meteor.publish('figures', function() {
-  return Figures.find();
+Meteor.publish('figures', function () {
+    return Figures.find();
 });

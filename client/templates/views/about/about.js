@@ -1,4 +1,4 @@
-Template.about.rendered = function() {
-  Session.set('root', false);
-  Session.set('setClass', 'about');
+Template.about.rendered = function () {
+    Session.set('root', false);
+    Session.set('setClass', 'about');
 }

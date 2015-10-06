@@ -1,5 +1,5 @@
 Template['members'].helpers({
-  'members': function() {
-	  return Members.find();
-  }
+    'members': function () {
+        return Members.find();
+    }
 });

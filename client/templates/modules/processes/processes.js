@@ -1,5 +1,5 @@
 Template['processes'].helpers({
-  'processes': function() {
-	  return Processes.find();
-  }
+    'processes': function () {
+        return Processes.find();
+    }
 });

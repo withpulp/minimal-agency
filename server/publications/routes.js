@@ -1,3 +1,3 @@
-Meteor.publish('routes', function() {
-  return Routes.find();
+Meteor.publish('routes', function () {
+    return Routes.find();
 });

@@ -1,5 +1,5 @@
 Template['projects'].helpers({
-    'limitedProjects': function() {
+    'limitedProjects': function () {
         return Projects.find({}, {limit: 2, sort: {createdAt: -1}});
     }
 });

@@ -1,3 +1,3 @@
-Meteor.publish('quotes', function() {
-  return Quotes.find();
+Meteor.publish('quotes', function () {
+    return Quotes.find();
 });

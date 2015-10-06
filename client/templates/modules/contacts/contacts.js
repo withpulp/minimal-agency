@@ -1,5 +1,5 @@
 Template['contacts'].helpers({
-  'contacts': function() {
-	  return Contacts.find();
-  }
+    'contacts': function () {
+        return Contacts.find();
+    }
 });

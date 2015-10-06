@@ -1,3 +1,3 @@
-Meteor.publish('processes', function() {
-  return Processes.find();
+Meteor.publish('processes', function () {
+    return Processes.find();
 });

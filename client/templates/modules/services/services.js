@@ -1,5 +1,5 @@
 Template['services'].helpers({
-  'services': function() {
-	  return Services.find();
-  }
+    'services': function () {
+        return Services.find();
+    }
 });

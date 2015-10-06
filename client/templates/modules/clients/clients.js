@@ -1,5 +1,5 @@
 Template['clients'].helpers({
-  'clients': function() {
-	  return Clients.find();
-  }
+    'clients': function () {
+        return Clients.find();
+    }
 });

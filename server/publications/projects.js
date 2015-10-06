@@ -1,8 +1,8 @@
-Meteor.publish('projects', function() {
-  return Projects.find();
+Meteor.publish('projects', function () {
+    return Projects.find();
 });
 
-Meteor.publish('project', function(id) {
-  check(id, String)
-  return Projects.find(id);
+Meteor.publish('project', function (id) {
+    check(id, String)
+    return Projects.find(id);
 });

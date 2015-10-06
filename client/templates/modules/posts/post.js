@@ -16,7 +16,7 @@ Template.post.helpers({
                 if (index === posts.length) {
                     // condition to return no posts message
                 } else {
-                	var nextPost = Posts.findOne(posts[index]._id);
+                    var nextPost = Posts.findOne(posts[index]._id);
                     return nextPost;
                 }
             }

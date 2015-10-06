@@ -1,4 +1,4 @@
-Template.study.rendered = function() {
+Template.study.rendered = function () {
     Session.set('root', false);
     Session.set('setClass', 'study');
 }

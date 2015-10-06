@@ -1,5 +1,5 @@
 Template['benefits'].helpers({
-  'benefits': function() {
-	  return Benefits.find();
-  }
+    'benefits': function () {
+        return Benefits.find();
+    }
 });

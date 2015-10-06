@@ -1,28 +1,30 @@
 <template name="tools">
-  <div class="tools article module">
-    {{#if root}}
-      {{#each limitedTools}}
-	      <article class="tool">
-		      <h4 class="title">
-			      <a class="id link" href="{{pathFor 'product'}}">
-              {{title}}
-            </a>
-		      </h4>
-		      <p class="excerpt">{{excerpt}}</p>
-	      </article>
-	    {{/each}}
-	    <a class="route link" href="{{pathFor 'products'}}">View All</a>
-    {{else}}
-      {{#each tools}}
-        <article class="tool">
-          <h4 class="title">
-            <a class="id link" href="{{pathFor 'product'}}">
-              {{title}}
-            </a>
-          </h4>
-          <p class="excerpt">{{excerpt}}</p>
-        </article>
-      {{/each}}
-    {{/if}}
-  </div>
+    <div class="tools article module">
+        {{#if root}}
+            {{#each limitedTools}}
+                <article class="tool">
+                    <h4 class="title">
+                        <a class="id link" href="{{pathFor 'product'}}">
+                            {{title}}
+                        </a>
+                    </h4>
+
+                    <p class="excerpt">{{excerpt}}</p>
+                </article>
+            {{/each}}
+            <a class="route link" href="{{pathFor 'products'}}">View All</a>
+        {{else}}
+            {{#each tools}}
+                <article class="tool">
+                    <h4 class="title">
+                        <a class="id link" href="{{pathFor 'product'}}">
+                            {{title}}
+                        </a>
+                    </h4>
+
+                    <p class="excerpt">{{excerpt}}</p>
+                </article>
+            {{/each}}
+        {{/if}}
+    </div>
 </template>

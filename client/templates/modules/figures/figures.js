@@ -1,5 +1,5 @@
 Template['figures'].helpers({
-  'figures': function() {
-	  return Figures.find();
-  }
+    'figures': function () {
+        return Figures.find();
+    }
 });

@@ -1,6 +1,6 @@
 SEO.config({
-  title: Meteor.App.NAME,
-  meta: {
-    'description': Meteor.App.DESCRIPTION
-  }
+    title: Meteor.App.NAME,
+    meta: {
+        'description': Meteor.App.DESCRIPTION
+    }
 });

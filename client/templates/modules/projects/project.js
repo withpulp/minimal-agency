@@ -1,5 +1,5 @@
 Template.project.helpers({
-    project: function() {
+    project: function () {
         return Projects.findOne(Router.current().params._id);
     }
 });

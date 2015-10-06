@@ -3,34 +3,34 @@
 // loading styles
 
 .loading.module {
-	overflow: hidden;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: @full;
-	height: @fluid-full;
-	padding: 0;
-	background: @light;
-	text-align: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: @full;
+  height: @fluid-full;
+  padding: 0;
+  background: @light;
+  text-align: center;
 
   .loader {
-		display: inline-block;
-		width: @space-large;
-	  height: @space-large;
-	  position: relative;
-		background-color: @gray-darker;
-	  border: @space-micro solid @gray-darker;
-	  top: 45vh;
-	  animation: loader 1.5s infinite ease;
+    display: inline-block;
+    width: @space-large;
+    height: @space-large;
+    position: relative;
+    background-color: @gray-darker;
+    border: @space-micro solid @gray-darker;
+    top: 45vh;
+    animation: loader 1.5s infinite ease;
 
-		.fill {
-			vertical-align: top;
-			display: inline-block;
-			width: @full;
-			background-color: @primary-color;
-			animation: fill 1.5s infinite ease-in;
-		}
-	}
+    .fill {
+      vertical-align: top;
+      display: inline-block;
+      width: @full;
+      background-color: @primary-color;
+      animation: fill 1.5s infinite ease-in;
+    }
+  }
 }
 
 @keyframes loader {

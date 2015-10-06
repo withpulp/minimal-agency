@@ -1,5 +1,5 @@
 Template['values'].helpers({
-  'values': function() {
-	  return Values.find();
-  }
+    'values': function () {
+        return Values.find();
+    }
 });

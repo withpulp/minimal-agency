@@ -1,13 +1,13 @@
 <template name="contacts">
-	<div class="contacts module {{setClass}}">
-    <ul class="inline list">
-			{{#each contacts}}
-        <li class="item">
-          <a class="info" href="mailto:{{email}}">
-					  {{email}}
-				  </a>
-        </li>
-			{{/each}}
-    </ul>
-  </div>
+    <div class="contacts module {{setClass}}">
+        <ul class="inline list">
+            {{#each contacts}}
+                <li class="item">
+                    <a class="info" href="mailto:{{email}}">
+                        {{email}}
+                    </a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
 </template>

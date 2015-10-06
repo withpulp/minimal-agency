@@ -2,7 +2,7 @@ Template.registerHelper('menuToggle', function () {
     return Session.get('menuToggle') ? 'navigator' : '';
 });
 
-Template.registerHelper('menuIcon', function() {
+Template.registerHelper('menuIcon', function () {
     return Session.get('menuToggle') ? 'fa fa-times' : 'fa fa-bars';
 });
 
