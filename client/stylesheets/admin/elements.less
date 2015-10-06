@@ -62,6 +62,67 @@
     }
   }
 
+  // accounts update
+
+  #accountsUpdateEmailsForm {
+    padding: @space-large 0;
+
+    .panel {
+
+      .panel-heading {
+        color: @gray-darker;
+        font-family: @font-family-monospace;
+        font-size: @font-size-base + @font-size-mini + @font-size-micro;
+        font-weight: bold;
+
+        @media (min-width: @tablet-width) {
+          font-size: @font-size-large;
+        }
+
+        @media (min-width: @desktop-width) {
+          font-size: @font-size-large + @font-size-mini;
+        }
+
+        @media (min-width: @large-desktop-width) {
+          font-size: @font-size-large + @font-size-tiny;
+        }
+
+        @media (min-width: @huge-desktop-width) {
+          font-size: @font-size-large + @font-size-small;
+        }
+
+        @media (min-width: @jumbo-desktop-width) {
+          font-size: @font-size-huge;
+        }
+
+        @media (min-width: @giant-desktop-width) {
+          font-size: @font-size-huge + @font-size-mini;
+        }
+
+        @media (min-width: @massive-desktop-width) {
+          font-size: @font-size-huge + @font-size-tiny;
+        }
+      }
+    }
+  }
+
+  // roles form
+
+  .roles.form {
+
+    .orion.checkbox {
+      margin: @space-base 0 @space-medium;
+
+      .orion.label {
+
+        code {
+          padding: @space-mini @space-tiny;
+          margin-left: @space-tiny;
+        }
+      }
+    }
+  }
+
   // autoform
 
   .autoform-remove-item-wrap {
