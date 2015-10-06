@@ -19,8 +19,17 @@
   &.actions {
     width: @full;
 
+    @media (min-width: @phone-width) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     .orion.button {
       display: block;
+
+      @media (min-width: @phone-width) {
+        margin-right: @space-tiny;
+      }
     }
   }
 
@@ -146,6 +155,10 @@
 
         td {
           padding: @space-tiny;
+
+          a {
+            font-size: @font-size-base;
+          }
         }
       }
     }
