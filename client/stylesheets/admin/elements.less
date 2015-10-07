@@ -58,6 +58,7 @@
       width: @full;
       padding: @space-tiny;
       outline: 0;
+      border: @space-micro solid @gray-lighter;
       font-size: @font-size-base;
     }
   }
@@ -71,14 +72,16 @@
     input {
       flex: 1;
       padding: @space-tiny;
+      outline: 0;
+      border: @space-micro solid @gray-lighter;
       font-size: @font-size-base;
     }
 
     span {
       padding: @space-tiny;
-      border: @space-micro solid @negative-color;
-      background-color: @negative-color;
-      color: @light;
+      border: @space-micro + @space-quantum solid @gray-lighter;
+      background-color: @gray-lighter;
+      color: @gray-darker;
       font-size: @font-size-base;
     }
   }
