@@ -98,6 +98,7 @@
     background-color: @negative-color;
     color: @light;
     font-size: @font-size-small;
+    transition: all @fast;
 
     &:before {
       content: '';
@@ -109,6 +110,7 @@
       border: @space-tiny solid;
       border-color: @negative-color @negative-color transparent transparent;
       z-index: -1;
+      transition: all @fast;
     }
 
     .route.link {
@@ -116,6 +118,15 @@
       font-family: @font-family-base;
       font-size: @font-size-small;
       font-style: normal;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: @secondary-color;
+
+      &:before {
+        border-color: @secondary-color @secondary-color transparent transparent;
+      }
     }
   }
 
