@@ -6,7 +6,10 @@ Meteor.startup(function () {
             password: 'admin',
             email: 'admin@utool.com',
             profile: {
-                name: 'Admin'
+                name: 'Admin Man',
+                thumb: 'http://placehold.it/200x200',
+                title: 'Master Admin',
+                rank: 'Superadmin'
             }
         });
     }

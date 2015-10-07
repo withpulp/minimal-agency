@@ -7086,11 +7086,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-<<<<<<< HEAD
-                  "value": "7aef3a5e35c484055be93c4f89885bdd1cc18cba"
-=======
-                  "value": "aadfdd733bd434b09e22eb7aed154f6aee855e2a"
->>>>>>> 143d535e5fcebfb59972a1fb5433b10af638ac17
+                  "value": "84e62ae58f18222cd2184d32d7f1e22294c2a823"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7879,15 +7875,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "caa3737b39abe4a57ea2bdf641bfb02d298af968"
+          "value": "087b5047f566460d2cff6d9589ca79e0bd11df8f"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-<<<<<<< HEAD
-          "value": "6b8a5d15223a1b5505067bffb5e35fe0d0a07449"
-=======
-          "value": "ace893886a0ffec6f6402d2c9055c94fafb76cd4"
->>>>>>> 143d535e5fcebfb59972a1fb5433b10af638ac17
+          "value": "c4e56146a2004e156d4ba69dc53d4f18b000e5e9"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -8915,7 +8907,7 @@ var packageMetadata = {
             },
             "siteName": {
               "type": "constant",
-              "value": "localhost:4000"
+              "value": "localhost:3000"
             },
             "resetPassword": {
               "type": "object",
@@ -22234,7 +22226,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:4000/"
+                              "value": "http://localhost:3000/"
                             }
                           }
                         }
@@ -28789,7 +28781,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:4000/"
+                              "value": "http://localhost:3000/"
                             }
                           }
                         }
@@ -37362,7 +37354,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:4000/"
+                              "value": "http://localhost:3000/"
                             }
                           }
                         }
@@ -43916,7 +43908,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:4000/"
+                              "value": "http://localhost:3000/"
                             }
                           }
                         }
@@ -50470,7 +50462,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:4000/"
+                              "value": "http://localhost:3000/"
                             }
                           }
                         }
@@ -57024,7 +57016,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:4000/"
+                              "value": "http://localhost:3000/"
                             }
                           }
                         }
@@ -63578,7 +63570,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:4000/"
+                              "value": "http://localhost:3000/"
                             }
                           }
                         }
@@ -70133,7 +70125,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:4000/"
+                              "value": "http://localhost:3000/"
                             }
                           }
                         }
@@ -76690,7 +76682,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:4000/"
+                              "value": "http://localhost:3000/"
                             }
                           }
                         }

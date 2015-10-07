@@ -278,6 +278,7 @@ Router.route('/blog/:_id', {
         return [
             Posts.findOne(this.params._id),
             Posts.find(),
+            Members.find(),
             Quotes.find(),
             Routes.find(),
             Contacts.find()
@@ -287,6 +288,7 @@ Router.route('/blog/:_id', {
         return [
             Meteor.subscribe('post', this.params._id),
             Meteor.subscribe('posts'),
+            Meteor.subscribe('members'),
             Meteor.subscribe('quotes'),
             Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')

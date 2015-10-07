@@ -16,7 +16,10 @@ Meteor.publishComposite('post', function (id) {
         },
         children: [{
             find: function (post) {
-                return Meteor.users.find({_id: post.createdBy}, {fields: {profile: 1}});
+                return [
+                    Meteor.users.find({_id: post.createdBy}, {fields: {profile: 1}}),
+                    Members.find({}, {fields: {thumb: 1, name: 1, title: 1, rank: 1}})
+                ];
             }
         }]
     }
