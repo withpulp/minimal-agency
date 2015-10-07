@@ -11,12 +11,14 @@
         </section>
         <section class="post body segment">{{{post.body}}}</section>
         <section class="author segment">
-            <!-- @TODO: global author module -->
             <div class="author module">
                 <h3 class="title">Author</h3>
                 <img class="image" src="{{post.getCreator.profile.thumb}}"/>
 
-                <p class="name">{{post.getCreator.profile.name}}, <span class="meta rank">{{post.getCreator.profile.rank}}</span></p>
+                <p class="name">
+                    {{post.getCreator.profile.name}},
+                    <span class="meta rank">{{post.getCreator.profile.rank}}</span>
+                </p>
                 <span class="meta date">{{formatDate post.createdAt}}</span>
             </div>
         </section>
