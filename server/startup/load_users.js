@@ -6,11 +6,38 @@ Meteor.startup(function () {
             password: 'admin',
             email: 'admin@utool.com',
             profile: {
-                name: 'Admin Man',
-                thumb: 'http://placehold.it/200x200',
-                title: 'Master Admin',
-                rank: 'Superadmin'
+                name: 'Admin'
             }
         });
+
+        Roles.addUserToRoles(Meteor.users.find({username: 'admin'}).fetch()[0]._id, 'admin');
+
+        Accounts.createUser({
+            username: 'damir',
+            password: 'damir123',
+            email: 'damir@utool.com',
+            profile: {
+                name: 'Damir Vazgird',
+                thumb: '/images/team/damir.jpg',
+                title: 'Development',
+                rank: 'Partner'
+            }
+        });
+
+        Roles.addUserToRoles(Meteor.users.find({username: 'damir'}).fetch()[0]._id, 'admin');
+
+        Accounts.createUser({
+            username: 'husam',
+            password: 'husam123',
+            email: 'husam@utool.com',
+            profile: {
+                name: 'Husam Machlovi',
+                thumb: '/images/team/husam.jpg',
+                title: 'Design',
+                rank: 'Partner'
+            }
+        });
+
+        Roles.addUserToRoles(Meteor.users.find({username: 'husam'}).fetch()[0]._id, 'admin');
     }
 });
