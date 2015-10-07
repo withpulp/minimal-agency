@@ -145,6 +145,10 @@
         }
       }
     }
+
+    .orion.container {
+      margin: 0;
+    }
   }
 
   &.toggled {
@@ -164,5 +168,24 @@
         transition: opacity @slowest;
       }
     }
+  }
+}
+
+.orion.container {
+  margin: @space-large @space-base;
+
+  @media (min-width: @phone-width) {
+    width: @three-quarters;
+    margin: @space-jumbo auto;
+  }
+
+  @media (min-width: @tablet-width) {
+    width: @half;
+    margin: @space-giant auto;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: @quarter;
+    margin: @space-titanic auto;
   }
 }

@@ -87,14 +87,20 @@
   }
 
   .at-btn {
-    padding: @space-tiny @space-base;
+    width: @full;
+    padding: @space-small;
     border: 0;
     background-color: @gray;
     color: @light;
+    font-size: @font-size-base;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     transition: all @faster;
+
+    @media (min-width: @phone-width) {
+      width: auto;
+    }
 
     &:hover,
     &:focus {
