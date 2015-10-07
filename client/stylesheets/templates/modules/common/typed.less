@@ -7,7 +7,9 @@
   top: @space-mini;
   font-size: @font-size-large + @font-size-micro;
   opacity: 1;
-  animation: blink 0.7s infinite;
+  -webkit-animation: blink 1.2s infinite;
+  -moz-animation: blink 1.2s infinite;
+  animation: blink 1.2s infinite;
 
   @media (min-width: @tablet-width) {
     font-size: @font-size-large + @font-size-mini;
@@ -48,4 +50,26 @@
   100% {
     opacity: 1;
   }
+}
+@-webkit-keyframes blink {
+    0% {
+      opacity: 1;
+     }
+    50% {
+      opacity: 0;
+     }
+    100% {
+      opacity: 1;
+     }
+}
+@-moz-keyframes blink {
+    0% {
+      opacity: 1;
+     }
+    50% {
+      opacity: 0;
+     }
+    100% {
+      opacity: 1;
+     }
 }
