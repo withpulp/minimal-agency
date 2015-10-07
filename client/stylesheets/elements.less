@@ -19,8 +19,6 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  -moz-transition: all @faster;
-  -webkit-transition: all @faster;
   transition: all @faster;
 
   @media (min-width: @tablet-width) {
@@ -84,6 +82,16 @@
       .supporting {
         color: @primary-color;
       }
+    }
+  }
+
+  &.negative {
+    background-color: @negative-color;
+    color: @light;
+
+    &:hover,
+    &:focus {
+      background-color: @secondary-color;
     }
   }
 

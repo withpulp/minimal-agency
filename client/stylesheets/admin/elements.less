@@ -19,8 +19,17 @@
   &.actions {
     width: @full;
 
+    @media (min-width: @phone-width) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     .orion.button {
       display: block;
+
+      @media (min-width: @phone-width) {
+        margin-right: @space-tiny;
+      }
     }
   }
 
@@ -50,6 +59,105 @@
       padding: @space-tiny;
       outline: 0;
       font-size: @font-size-base;
+    }
+  }
+
+  .at-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: @space-base;
+
+    input {
+      flex: 1;
+      padding: @space-tiny;
+      font-size: @font-size-base;
+    }
+
+    span {
+      padding: @space-tiny;
+      border: @space-micro solid @negative-color;
+      background-color: @negative-color;
+      color: @light;
+      font-size: @font-size-base;
+    }
+  }
+
+  .at-btn {
+    padding: @space-tiny @space-base;
+    border: 0;
+    background-color: @gray;
+    color: @light;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all @faster;
+
+    &:hover,
+    &:focus {
+      background-color: @primary-color;
+      color: @gray;
+    }
+  }
+
+    // accounts update
+
+  #accountsUpdateEmailsForm {
+    padding: @space-large 0;
+
+    .panel {
+
+      .panel-heading {
+        color: @gray-darker;
+        font-family: @font-family-monospace;
+        font-size: @font-size-base + @font-size-mini + @font-size-micro;
+        font-weight: bold;
+
+        @media (min-width: @tablet-width) {
+          font-size: @font-size-large;
+        }
+
+        @media (min-width: @desktop-width) {
+          font-size: @font-size-large + @font-size-mini;
+        }
+
+        @media (min-width: @large-desktop-width) {
+          font-size: @font-size-large + @font-size-tiny;
+        }
+
+        @media (min-width: @huge-desktop-width) {
+          font-size: @font-size-large + @font-size-small;
+        }
+
+        @media (min-width: @jumbo-desktop-width) {
+          font-size: @font-size-huge;
+        }
+
+        @media (min-width: @giant-desktop-width) {
+          font-size: @font-size-huge + @font-size-mini;
+        }
+
+        @media (min-width: @massive-desktop-width) {
+          font-size: @font-size-huge + @font-size-tiny;
+        }
+      }
+    }
+  }
+
+  // roles form
+
+  .roles.form {
+
+    .orion.checkbox {
+      margin: @space-base 0 @space-medium;
+
+      .orion.label {
+
+        code {
+          padding: @space-mini @space-tiny;
+          margin-left: @space-tiny;
+        }
+      }
     }
   }
 
@@ -109,7 +217,129 @@
   // tables
 
   .table {
-    width: @full;
+    width: @full !important;
     margin: @space-base auto !important;
+    border: @space-atomic solid @gray-darker;
+    border-collapse: collapse;
+
+    thead {
+
+      tr {
+        border-top: @space-mini solid @gray-darker;
+        border-bottom: @space-atomic solid @gray-darker;
+
+        th {
+          padding: @space-tiny;
+          text-align: left;
+        }
+      }
+    }
+
+    tbody {
+
+      tr {
+        cursor: pointer;
+
+        &.odd {
+          background: @gray-lighter;
+        }
+
+        &.even {
+          background: darken(@gray-lighter, @sixteenth);
+        }
+
+        &:hover {
+          background: @primary-color;
+        }
+
+        td {
+          padding: @space-tiny;
+
+          a {
+            font-size: @font-size-base;
+          }
+        }
+      }
+    }
+  }
+
+  // dataTables
+
+  .dataTables_wrapper {
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+
+      .col-xs-12 {
+        flex: 0 0 @full;
+      }
+
+      .col-xs-6 {
+        flex: 1;
+      }
+    }
+
+    .dataTables_length {
+      font-size: @font-size-small;
+
+      .form-control {
+        width: auto;
+      }
+    }
+
+    .dataTables_filter {
+      font-size: @font-size-small;
+
+      label {
+        display: flex;
+
+        .form-control {
+          flex: 1;
+          width: @half;
+        }
+      }
+    }
+
+    .dataTables_info {
+      font-size: @font-size-small;
+    }
+
+    .dataTables_paginate {
+      width: @full;
+
+      .pagination {
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        .paginate_button {
+          display: inline-block;
+          margin: 0 0 @space-mini @space-mini;
+          padding: @space-mini @space-tiny;
+          background-color: @gray;
+
+          a {
+            color: @light;
+            font-size: @font-size-small;
+            text-decoration: none;
+          }
+
+          &:hover,
+          &:focus {
+            background-color: @primary-color;
+
+            a {
+              color: @gray;
+            }
+          }
+        }
+      }
+    }
   }
 }
