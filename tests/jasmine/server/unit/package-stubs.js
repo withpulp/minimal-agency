@@ -7874,11 +7874,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "fa746b52b4fc1bae67738f7a5a8e00f829d87ab0"
+          "value": "25f55cc70d1ba7025f0cb8e6308848e00b65a1e2"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "673702a57c8597f17f0d3b00bae09d8a44fa59da"
+          "value": "681039d6a494dae2fa723a62789cd391ceae9272"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -8906,7 +8906,7 @@ var packageMetadata = {
             },
             "siteName": {
               "type": "constant",
-              "value": "localhost:3000"
+              "value": "localhost:4000"
             },
             "resetPassword": {
               "type": "object",
@@ -22225,7 +22225,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:3000/"
+                              "value": "http://localhost:4000/"
                             }
                           }
                         }
@@ -28780,7 +28780,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:3000/"
+                              "value": "http://localhost:4000/"
                             }
                           }
                         }
@@ -37353,7 +37353,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:3000/"
+                              "value": "http://localhost:4000/"
                             }
                           }
                         }
@@ -43907,7 +43907,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:3000/"
+                              "value": "http://localhost:4000/"
                             }
                           }
                         }
@@ -50461,7 +50461,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:3000/"
+                              "value": "http://localhost:4000/"
                             }
                           }
                         }
@@ -57015,7 +57015,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:3000/"
+                              "value": "http://localhost:4000/"
                             }
                           }
                         }
@@ -63569,7 +63569,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:3000/"
+                              "value": "http://localhost:4000/"
                             }
                           }
                         }
@@ -70124,7 +70124,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:3000/"
+                              "value": "http://localhost:4000/"
                             }
                           }
                         }
@@ -76681,7 +76681,7 @@ var packageMetadata = {
                           "members": {
                             "rootUrl": {
                               "type": "constant",
-                              "value": "http://localhost:3000/"
+                              "value": "http://localhost:4000/"
                             }
                           }
                         }
