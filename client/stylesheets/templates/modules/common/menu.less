@@ -34,6 +34,12 @@
       font-style: inherit;
       text-align: right;
 
+      &:hover,
+      &:focus {
+          background-color: @gray;
+          color: @light;
+      }
+
       @media(min-width: @tablet-width) {
         font-size: @font-size-medium + @font-size-tiny;
       }
