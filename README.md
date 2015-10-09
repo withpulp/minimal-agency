@@ -111,6 +111,7 @@ Router.route('/about', function () {
   * [meteor-platform](https://github.com/meteor/meteor/tree/devel/packages/meteor-platform)
 * Routing
   * [iron:router](https://github.com/EventedMind/iron-router)
+  * [reywood:iron-router-ga](https://github.com/reywood/meteor-iron-router-ga)
 * Collections
  * [dburles:collection-helpers](https://github.com/dburles/meteor-collection-helpers/)
  * [reywood:publish-composite](https://github.com/englue/meteor-publish-composite)
