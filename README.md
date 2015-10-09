@@ -132,7 +132,7 @@ Router.route('/about', function () {
 * SEO
   * [manuelschoebel:ms-seo](https://github.com/DerMambo/ms-seo)
 * Development
-  * [lauricio:less-autoprefixer](https://github.com/Lauricio/less-autoprefixer)
+  * [flemay:less-autoprefixer](https://github.com/flemay/less-autoprefixer)
   * [momentjs:moment](https://github.com/moment/moment/)
   * [msavin:mongol](https://github.com/msavin/Mongol)
   * [meteorhacks:npm](https://github.com/meteorhacks/npm)
