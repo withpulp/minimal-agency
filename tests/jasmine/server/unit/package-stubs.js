@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "c15f4cab71030ac41d1c55b2ec80dc9f5fd4be5b"
+                  "value": "c0473591e8e9d4bc76fcc9695a1d04b4b8321f1b"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7209,7 +7209,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 2
+              "value": 7
             },
             "timeout": {
               "type": "constant",
@@ -7874,7 +7874,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "a96e84d6f6732472518d713ffa11d33fc377e526"
+          "value": "5f5656ba6db8460d06aa0ae715b7aba0e90299c7"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -10158,27 +10158,6 @@ var packageMetadata = {
                 "collections.quotes.remove": {
                   "type": "array"
                 },
-                "collections.routes.index": {
-                  "type": "array"
-                },
-                "collections.routes.showCreate": {
-                  "type": "array"
-                },
-                "collections.routes.showUpdate": {
-                  "type": "array"
-                },
-                "collections.routes.showRemove": {
-                  "type": "array"
-                },
-                "collections.routes.insert": {
-                  "type": "array"
-                },
-                "collections.routes.update": {
-                  "type": "array"
-                },
-                "collections.routes.remove": {
-                  "type": "array"
-                },
                 "collections.services.index": {
                   "type": "array"
                 },
@@ -10313,12 +10292,6 @@ var packageMetadata = {
                 "collections.quotes.hiddenFields": {
                   "type": "function"
                 },
-                "collections.routes.indexFilter": {
-                  "type": "function"
-                },
-                "collections.routes.hiddenFields": {
-                  "type": "function"
-                },
                 "collections.services.indexFilter": {
                   "type": "function"
                 },
@@ -10385,7 +10358,7 @@ var packageMetadata = {
               "members": {
                 "constructor": {
                   "type": "function",
-                  "refID": 199,
+                  "refID": 188,
                   "members": {
                     "Cursor": {
                       "type": "function",
@@ -10444,13 +10417,13 @@ var packageMetadata = {
                             },
                             "toHexString": {
                               "type": "function",
-                              "refID": 230
+                              "refID": 219
                             },
                             "toJSONValue": {
-                              "ref": 230
+                              "ref": 219
                             },
                             "valueOf": {
-                              "ref": 230
+                              "ref": 219
                             }
                           }
                         }
@@ -10466,109 +10439,109 @@ var packageMetadata = {
                       "type": "object",
                       "members": {
                         "constructor": {
-                          "ref": 199
+                          "ref": 188
                         },
                         "attachRoles": {
                           "type": "function",
-                          "refID": 237
+                          "refID": 226
                         },
                         "find": {
                           "type": "function",
-                          "refID": 239
+                          "refID": 228
                         },
                         "findOne": {
                           "type": "function",
-                          "refID": 241
+                          "refID": 230
                         },
                         "insert": {
                           "type": "function",
-                          "refID": 243
+                          "refID": 232
                         },
                         "update": {
                           "type": "function",
-                          "refID": 245
+                          "refID": 234
                         },
                         "remove": {
                           "type": "function",
-                          "refID": 247
+                          "refID": 236
                         },
                         "upsert": {
                           "type": "function",
-                          "refID": 249
+                          "refID": 238
                         },
                         "rawCollection": {
                           "type": "function",
-                          "refID": 251
+                          "refID": 240
                         },
                         "rawDatabase": {
                           "type": "function",
-                          "refID": 253
+                          "refID": 242
                         },
                         "allow": {
                           "type": "function",
-                          "refID": 255
+                          "refID": 244
                         },
                         "deny": {
                           "type": "function",
-                          "refID": 257
+                          "refID": 246
                         },
                         "helpers": {
                           "type": "function",
-                          "refID": 259
+                          "refID": 248
                         },
                         "attachSchema": {
                           "type": "function",
-                          "refID": 261
+                          "refID": 250
                         },
                         "simpleSchema": {
                           "type": "function",
-                          "refID": 263
+                          "refID": 252
                         }
                       }
                     }
                   }
                 },
                 "attachRoles": {
-                  "ref": 237
+                  "ref": 226
                 },
                 "find": {
-                  "ref": 239
+                  "ref": 228
                 },
                 "findOne": {
-                  "ref": 241
+                  "ref": 230
                 },
                 "insert": {
-                  "ref": 243
+                  "ref": 232
                 },
                 "update": {
-                  "ref": 245
+                  "ref": 234
                 },
                 "remove": {
-                  "ref": 247
+                  "ref": 236
                 },
                 "upsert": {
-                  "ref": 249
+                  "ref": 238
                 },
                 "rawCollection": {
-                  "ref": 251
+                  "ref": 240
                 },
                 "rawDatabase": {
-                  "ref": 253
+                  "ref": 242
                 },
                 "allow": {
-                  "ref": 255
+                  "ref": 244
                 },
                 "deny": {
-                  "ref": 257
+                  "ref": 246
                 },
                 "helpers": {
-                  "ref": 259
+                  "ref": 248
                 },
                 "attachSchema": {
-                  "ref": 261
+                  "ref": 250
                 },
                 "simpleSchema": {
-                  "ref": 263
+                  "ref": 252
                 }
               }
             },

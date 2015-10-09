@@ -3,8 +3,8 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.members = [
 	{
-		image: '/images/about/h.jpg',
-		thumb: 'http://placehold.it/280x200',
+		image: '/images/members/husam/image.jpg',
+		thumb: '/images/members/husam/thumb.jpg',
 		name: 'Husam Machlovi',
 		title: 'Design',
 		rank: 'Partner',
@@ -25,8 +25,8 @@ Fixtures.members = [
 		]
 	},
 	{
-		image: '/images/about/d.jpg',
-		thumb: 'http://placehold.it/280x200',
+		image: '/images/members/damir/image.jpg',
+		thumb: '/images/members/damir/thumb.jpg',
 		name: 'Damir Vazgird',
 		title: 'Development',
 		rank: 'Partner',

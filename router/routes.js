@@ -9,7 +9,6 @@ Router.route('/', {
             Tools.find(),
             Posts.find(),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -22,7 +21,6 @@ Router.route('/', {
             Meteor.subscribe('tools'),
             Meteor.subscribe('posts'),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
@@ -45,7 +43,6 @@ Router.route('/about', {
             Members.find(),
             Processes.find(),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -56,7 +53,6 @@ Router.route('/about', {
             Meteor.subscribe('members'),
             Meteor.subscribe('processes'),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
@@ -76,7 +72,6 @@ Router.route('/manifesto', {
         return [
             Values.find(),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -84,7 +79,6 @@ Router.route('/manifesto', {
         return [
             Meteor.subscribe('values'),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
@@ -106,7 +100,6 @@ Router.route('/process', {
             Processes.find(),
             Services.find(),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -115,7 +108,6 @@ Router.route('/process', {
             Meteor.subscribe('processes'),
             Meteor.subscribe('services'),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
@@ -137,7 +129,6 @@ Router.route('/work', {
             Projects.find(),
             Clients.find(),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -146,7 +137,6 @@ Router.route('/work', {
             Meteor.subscribe('projects'),
             Meteor.subscribe('clients'),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
@@ -166,7 +156,6 @@ Router.route('/work/:_id', {
         return [
             Projects.findOne(this.params._id),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -174,7 +163,6 @@ Router.route('/work/:_id', {
         return [
             Meteor.subscribe('project', this.params._id),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
@@ -194,7 +182,6 @@ Router.route('/tools', {
         return [
             Tools.find(),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -202,7 +189,6 @@ Router.route('/tools', {
         return [
             Meteor.subscribe('tools'),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
@@ -222,7 +208,6 @@ Router.route('/tools/:_id', {
         return [
             Tools.findOne(this.params._id),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -230,7 +215,6 @@ Router.route('/tools/:_id', {
         return [
             Meteor.subscribe('tool', this.params._id),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
@@ -250,7 +234,6 @@ Router.route('/blog/', {
         return [
             Posts.find(),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -258,7 +241,6 @@ Router.route('/blog/', {
         return [
             Meteor.subscribe('posts'),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
@@ -280,7 +262,6 @@ Router.route('/blog/:_id', {
             Posts.find(),
             Members.find(),
             Quotes.find(),
-            Routes.find(),
             Contacts.find()
         ]
     },
@@ -290,7 +271,6 @@ Router.route('/blog/:_id', {
             Meteor.subscribe('posts'),
             Meteor.subscribe('members'),
             Meteor.subscribe('quotes'),
-            Meteor.subscribe('routes'),
             Meteor.subscribe('contacts')
         ]
     },
