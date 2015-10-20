@@ -3,7 +3,7 @@ accounts-password@1.1.3
 aldeed:autoform@5.6.1
 aldeed:collection2@2.5.0
 aldeed:simple-schema@1.3.3
-aldeed:tabular@1.4.1
+aldeed:tabular@1.4.2
 amplify@1.0.0
 anti:i18n@0.4.3
 autoupdate@1.2.3
@@ -77,7 +77,7 @@ mongo-id@1.0.1
 natestrauser:animate-css@3.4.0
 nicolaslopezj:options@1.0.1
 nicolaslopezj:reactive-templates@1.2.1
-nicolaslopezj:roles@1.5.2
+nicolaslopezj:roles@1.5.3
 nicolaslopezj:router-layer@0.0.11
 npm-bcrypt@0.7.8_2
 npm-container@1.2.0
@@ -126,13 +126,13 @@ tracker@1.0.9
 ui@1.0.8
 underscore@1.0.4
 url@1.0.5
-useraccounts:core@1.12.3
-useraccounts:unstyled@1.12.3
+useraccounts:core@1.12.4
+useraccounts:unstyled@1.12.4
 velocity:chokidar@1.2.0_1
-velocity:core@0.10.4
+velocity:core@0.10.5
 velocity:html-reporter@0.9.0
 velocity:meteor-internals@1.1.0_7
-velocity:meteor-stubs@1.1.0
+velocity:meteor-stubs@1.1.1
 velocity:shim@0.1.0
 velocity:source-map-support@0.3.2_1
 webapp@1.2.2

@@ -21,6 +21,14 @@
     background: @gray-darker;
     transition: all @slowest;
 
+    @media (min-width: @tablet-width) {
+      width: @half;
+    }
+
+    @media (min-width: @desktop-width) {
+      width: @quarter;
+    }
+
     .orion.navigation {
       position: relative;
       top: 0;
@@ -161,6 +169,14 @@
     .orion.main {
       transform: translate3d(@three-quarters, 0, 0);
 
+      @media (min-width: @tablet-width) {
+        transform: translate3d(@half, 0, 0);
+      }
+
+      @media (min-width: @desktop-width) {
+        transform: translate3d(@quarter, 0, 0);
+      }
+
       &::after {
         width: @full;
         height: @full;
@@ -168,24 +184,5 @@
         transition: opacity @slowest;
       }
     }
-  }
-}
-
-.orion.container {
-  margin: @space-large @space-base;
-
-  @media (min-width: @phone-width) {
-    width: @three-quarters;
-    margin: @space-jumbo auto;
-  }
-
-  @media (min-width: @tablet-width) {
-    width: @half;
-    margin: @space-giant auto;
-  }
-
-  @media (min-width: @desktop-width) {
-    width: @quarter;
-    margin: @space-titanic auto;
   }
 }
