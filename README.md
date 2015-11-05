@@ -2,6 +2,8 @@
 
 A mobile-first website for an agency / startup built with Meteor.
 
+> Latest version is live, [check it out here](http://utool.io).
+
 <!-- toc -->
 
 * [Roadmap](#roadmap)
